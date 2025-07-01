@@ -34,8 +34,6 @@ chapters:
     - file: corpus_analysis/corpus-analysis_resumee
     - file: corpus_analysis/corpus-analysis_assessment
   - file: reflection/reflection_reflection
-    sections:
-    - file: reflection/reflection_LLM-post-correction 
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
