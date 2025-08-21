@@ -1,147 +1,216 @@
-# yaml-language-server: $schema=quadriga-schema.json
-schema-version: 1.1-beta2
-book-version: 0.51.0
-title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-  Resources: Template'
-description:
-  introduction: Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte
-    für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung
-    eigener OERs auf Basis der QUADRIGA-Empfehlungen.
-  table-of-contents: '- Präambel
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
+schema-version: 1.0.0-alpha
+book-version: 0.0.1-beta
+title: Ecocriticism – Case Study
+identifier: https://doi.org/10.5281/zenodo.TODOTODO
+authors:
+- given-names: Daniil
+  family-names: Skorinkin
+  orcid: https://orcid.org/0000-0002-1845-9974
+  affiliation: Universität Potsdam
+- given-names: Henny
+  family-names: Sluyter-Gäthje
+  orcid: https://orcid.org/0000-0003-2969-3237
+  affiliation: Universität Potsdam
+- given-names: Peer
+  family-names: Trilcke
+  orcid: https://orcid.org/0000-0002-1421-4320
+  affiliation: Universität Potsdam
+contributors:
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
+table-of-contents: '- Präambel
 
-    - Struktur und didaktisches Konzept
+  - Fragestellung und Operationalisierung. Einführung in die Fallstudie
 
-    - Technologie
+  - Korpusaufbau. Auswählen, sammeln, dokumentieren
 
-    - Formatierungs- und Darstellungsmöglichkeiten
+  - Korpusverarbeitung. Von Strings zu Token
 
-    - Lernstandskontrolle (Assessment)
+  - Korpusanalyse. Von Häufigkeiten zu Diagrammen
 
-    - Reflexion und Resümee
+  - Reflexion
 
-    - Epilog'
+  - Epilog'
+description: TODO
 discipline:
 - übergreifend
-duration: 10h
-type-of-research-object:
+research-object-type:
 - übergreifend
-identifier: https://doi.org
-url: https://quadriga-dk.github.io/Book_Template/
-git: https://github.com/quadriga-dk/Book_Template
-license:
-  code: https://opensource.org/licenses/AGPL-3.0
-  content:
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-    name: CC BY-SA 4.0
-date-of-last-change: '2025-04-16'
-publication-date: 2024-05-06
+chapters:
+- title: Präambel
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html
+  description: TODO
+  learning-goal: TODO
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: TODO
+- title: Fragestellung und Operationalisierung. Einführung in die Fallstudie
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html
+  description: TODO
+  learning-goal: Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit
+    Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der
+    “Operationalisierung”.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Sie kennen Ansätze zur Operationalisierung von Forschungsfragen
+      für quantitaive Methoden-Settings.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpora als epistemische Objekte
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html
+  description: TODO
+  learning-goal: Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit
+    der Erstellung basaler Metadaten vertraut.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche
+      Forschungsobjekte und kennen Typen von Korpora.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie sind mit der Idee von Metadaten vertraut und kennen basale
+      Metadatenschemata für Korpora und Korpus-Elemente.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Texte als digitale Objekte. Einführung in HTML
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html
+  description: TODO
+  learning-goal: Abgrenzung von unterschiedlichen Formate zur Textspeicherung und
+    benennen der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von
+    ausgewählte HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML
+    aufzählen.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Sie kennen unterschiedliche Realisierungsweisen und Formate
+      von Text im Digitalen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können die Semantik der textangebenden html-Tags beschreiben
+      und Tags zur Textextraktion auswählen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Scraping als Methode zum Korpusaufbau
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html
+  description: TODO
+  learning-goal: Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche
+    Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und
+    Nachteile benennen.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Sie können die Komponenten aufzählen, die an einem HTTP-Request
+      beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und
+      einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500
+      interpretieren.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können verschiedene Methoden der Website-Abfrage aufzählen
+      und Unterschiede identifizieren.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können Vor- und Nachteile der Methoden erklären und ermitteln,
+      in welchen Szenarien welche Methode geeignet ist.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpusaufbau
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
+  description: TODO
+  learning-goal: Die Lernenden können den Quellcode einer Website untersuchen, geeignete
+    HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode
+    für die Extraktion verwendet werden muss.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code
+      zur Extraktion des Website-Texts ausführen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpusanalyse. Textkomplexität
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html
+  description: TODO
+  learning-goal: Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität
+    erklären und die Ergebnisse interpretieren.
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur
+      Berechnung der Textkomplexität dienen, aufzählen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität
+      und können die Vor- und Nachteile der Methoden aufzeigen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können das Konzept eines Liniendiagramms erklären.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können die Konzeption der Analyse beschreiben und andere
+      Möglichkeiten des Korpus-Splitting entwerfen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Sie können das Konzept eines Balkendiagramms erklären und
+      das erstellte Diagramm interpretieren sowie die Gründe für Ihre Interpretation
+      nennen.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Reflexion
+  url: https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html
+  description: TODO
+  learning-goal: TODO
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
+      können benannt werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
 target-group:
 - Forschende (PostDoc)
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-authors:
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-  credit:
-  - Writing
-  - Software
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  affiliation: Universität Potsdam
-  credit:
-  - Writing
-- given-names: Lamia
-  family-names: Islam
-  affiliation: Universität Potsdam
-  credit:
-  - Software
-chapters:
-- description: TODO
-  learning-goal: TODO
-  duration: 1h
-  learning-objectives:
-  - learning-objective: Nach durcharbeiten der OER erkennen Sie die Technologie der
-      QUADRIGA OERs, können diese in groben Zügen wiedergeben und können bei der Arbeit
-      mit der OER auftretende Fehler den jeweiligen Komponenten zuordnen.
-    competency: 1 Basiskompetenz
-    data-flow: Grundlagen
-    focus: Wissen
-    blooms-category: 1 Erinnern
-  - learning-objective: Nach durcharbeiten der OER können Sie selbst Inhalte in einer
-      QUADRIGA OER anpassen und diese erweitern.
-    competency: 1 Basiskompetenz
-    focus: Fähigkeit
-    data-flow: Grundlagen
-    blooms-category: 3 Anwenden
-  - learning-objective:
-      de: Nach durcharbeiten der OER können Sie ausgehend von diesem OER-Template
-        selbst vollkommen neue OERs im Stil der QUADRIGA OERs erstellen.
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 6 Erschaffen
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Präambel
-  url: TODO
-- description: TODO
-  learning-goal: TODO
-  learning-objectives:
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Struktur und didaktisches Konzept
-  url: TODO
-- description: TODO
-  learning-goal: TODO
-  learning-objectives:
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Technologie
-  url: TODO
-- description: TODO
-  learning-goal: TODO
-  learning-objectives:
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Formatierung
-  url: TODO
-- description: TODO
-  learning-goal: TODO
-  learning-objectives:
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Lernstandskontrolle (Assessment)
-  url: TODO
-- description: TODO
-  learning-goal: TODO
-  learning-objectives:
-  - learning-objective: test
-    competency: 1 Basiskompetenz
-    focus: Wissen
-    data-flow: Grundlagen
-    blooms-category: 1 Erinnern
-  title: Reflexion und Resümee
-  url: TODO
+duration: 10h
+date-published: '2024-06-17'
+date-modified: '2025-06-20'
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
-  Förderkennzeichen: 16DKZ1034'
+  Förderkennzeichen: 16DKZ2034'
+url: https://quadriga-dk.github.io/Text-Fallstudie-2/
+git: https://github.com/quadriga-dk/Text-Fallstudie-2
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
