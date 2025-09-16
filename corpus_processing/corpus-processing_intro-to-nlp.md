@@ -22,24 +22,37 @@ NLP ist ein interdisziplinäres Feld, das sich zwischen der Linguistik und der I
 
 (corpus-processing-intro-2)=
 ## Verwendete NLP-Methoden
-Ein Phänomen, wie die Spanische Grippe, kann in einem Textkorpus untersucht werden, indem das Phänomen durch eine Sammlung an Worten im Sinne eines semantischen Felds umrissen wird. Für diese Worte kann dann die Häufigkeit errechnet und über die Zeit analysiert werden. Dafür muss das Korpus zuerst mittels **Tokenisierung** in Worte sogenannte Token aufgeteilt werden. Verschiedene Wortformen (z.B. Krankenhäuser, Krankenghauses) sollen bei der Analyse mittels **Lemmatisierung** auf dasselbe Wort (hier: Krankenhaus) zurückgeführt werden, sodass die errechneten Häufigkeiten besser zu interpretieren sind. 
+Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind. Für die Untersuchung des semantischen Felds sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
+1. Es sollen **nur** die Wörter des semantischen Felds gefunden werden. Wenn wir nach "Luft" suchen, wollen wir nicht auch "Luftfahrt" finden. 
+2. Unterschiedliche Wortformen sollen auf **eine Wortform** abgebildet werden. Wenn wir nach "Dunst" suchen, wollen wir auch "Dünste" finden.
+
+Um diese Analysen durchführen zu können, müssen mehrere Vorverarbeitungsschritte durchgeführt werden:
+Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschieden Wortformen auf Grundform, ihr Lemma, abzubilden, wird das Korpus **lemmatisiert** werden.
+
+```{admonition} Zum Begriff des Token
+:class: hinweis, dropdown
+In der Linguistik wird zwischen einem Wort (Type) und der Verwendung eines Wortes (Token) unterschieden. Der Satz "Die Luft ist gut, die Luft ist rein" hat neun Token (das Komma wird auch als Token gezählt) und 6 Types: "die", "Luft", "ist", "gut", ",", "rein".
+```
+
+Um die Adjektive zu extrahieren, muss jedem Wort die Wortart zugewiesen werden. Dies kann automatisch mittels **POS-Tagging** durchgeführt werden. Im Part-of-speech (POS)-Tagging werden Tagsets verwendet, in denen jeder Wortart eine Abkürzung zugewiesen wird. Die Tagsets können unterschiedlich granular sein, so finden sich im <a href="https://homepage.ruhr-uni-bochum.de/stephen.berman/Korpuslinguistik/Tagsets-STTS.html" class="external-link" target="_blank">Stuttgart-Tübingen-Tagset (STTS)</a> 54 Tags, in denen z.B. das Tempus und der Modus von Verben unterschieden wird. Das <a href="https://universaldependencies.org/u/pos/" class="external-link" target="_blank"> Universal POS Tagset</a> hingegen besteht nur aus 17 Tags, die keinerlei morphologische Informationen liefern. Für die Extraktion der Adjektive ist das Universal POS Tagset ausreichend. 
 
 `````{admonition} Beispiel
 :class: hinweis
-Ursprünglicher Satz: "Die Grippe wütet weiter." \
+Ursprünglicher Satz: "Die Luft ist gut." \
 In tokenisierter und lemmatisierter Form:
 
 ```{table}
-:name: Tokenisierung und Lemmatisierung
-| Token   | Lemma| 
-|--------|-------|
-| Die    | die   |
-| Grippe | Grippe|
-| wütet  | wüten |
-| weiter | weiter  |
-| .      | .     |
+:name: Tokenisierung, Lemmatisierung und POS-Tagging (Universal Tags)
+| Token   | Lemma| POS-Tag | 
+|--------|-------|---------|
+| Die    | die   | DET     |
+| Luft   | Luft  | NOUN
+| ist  | sein | VERB |
+| gut | gut  | ADJ | 
+| .      | .     | PUNCT | 
 ```
 `````
+Sobald die Wortformen und Wortarten erzeugt wurden, kann die Häufigkeit errechnet und diachron analysiert werden. 
 
 ## NLP mit Python 
 
@@ -65,14 +78,9 @@ Die zur Verfügung gestellte Modelle unterscheiden sich in der Geschwindigkeit u
 
 `````{admonition} Leistung von spaCy auf unserem Korpus 
 :class: caution
-Die Modelle in spaCy sind auf zeitgenössische Zeitungs- und Medientexte ausgelegt, die eine hohe Qualität haben. Historische Sprachverwendung sowie und vor allem eine geringe Datenqualität führen zu einer weit geringeren Annotationsleistung.  
+Die Modelle in spaCy sind auf zeitgenössische Zeitungs- und Medientexte ausgelegt. Historische Sprachverwendung führt zu einer geringeren Annotationsleistung.  
 
 `````
 
 ## Zusammenfassung und nächste Schritte
 Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte, die als txt-Dateien vorliegen, mittels spaCy annotiert und die Annotationen werden in Tabellen (csv-Dateien) gespeichert. 
-
-## Mögliche Fragen fürs Assessment
-* Welche der folgenden Methoden wird benutzt, um einen Text in Wörter aufzuteilen: Lemmatisierung, Tokenisierung, PoS-Tagging?
-* Ist die Anwendung von NLP-Methoden notwendig, um aus einem Bild einen Text zu extrahieren? 
-* Was ist die lemmatisierte Form von "ärmer"? 
