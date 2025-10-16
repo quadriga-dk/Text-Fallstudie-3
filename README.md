@@ -1,9 +1,9 @@
-# Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
+# Wie diskursivieren deutschsprachige literarische Texte die abnehmende Luftqualität im 19. Jahrhundert? Eine Fallstudie
 ## QUADRIGA OER
 
 [![DOI](https://zenodo.org/badge/814615182.svg)](https://doi.org/10.5281/zenodo.15682652)
 
-Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 1. Fallstudie des Datentyps Text entstanden.
+Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 3. Fallstudie des Datentyps Text entstanden.
 
 ## Datenkompetenzzentrum QUADRIGA
 
