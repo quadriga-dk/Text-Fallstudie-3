@@ -23,14 +23,14 @@ Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduc
 - ein entsprechendes **Korpus** ausgewählt und angereichert wird,
 - um schließlich quantitative **Analysen** auf diesem Korpus durchzuführen.
 
-Anhand einer Auswahl an deutschsprachigen literarischen Texten aus dem *Corpus of German-Language Fiction* {cite}`Fischer2017` wird dabei eine Frage aus dem Feld der Digitalen Literaturwissenschaft nachgegangen: **Wie diskursivieren literarische Texte die abnehmende Luftqualität im 19. Jahrhundert?**
+Anhand einer Auswahl an deutschsprachigen literarischen Texten aus dem *Corpus of German-Language Fiction* {cite}`Fischer2017` wird dabei eine Frage aus dem Feld der Digitalen Literaturwissenschaft nachgegangen: **Wie diskursivieren deutschsprachige literarische Texte die abnehmende Luftqualität im 19. Jahrhundert?**
 
 ### Zielgruppe
 Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humnanites sind nicht erforderlich, wohl aber eine prinzipiell Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
 
  
 ### Struktur der Fallstudie
-Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 6 Schritte: 
+Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 4 Schritte: 
 
 ```{figure} ../assets/images/flow-chart.gif
 ---
