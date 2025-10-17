@@ -22,9 +22,13 @@ NLP ist ein interdisziplinäres Feld, das sich zwischen der Linguistik und der I
 
 (corpus-processing-intro-2)=
 ## Verwendete NLP-Methoden
-Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind. Für die Untersuchung des semantischen Felds sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
+Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind, um die Veränderungen in den Eingenschaften, die Luft zugeschrieben werden, untersuchen zu können.
+
+Für die Untersuchung des semantischen Felds sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
 1. Es sollen **nur** die Wörter des semantischen Felds gefunden werden. Wenn wir nach "Luft" suchen, wollen wir nicht auch "Luftfahrt" finden. 
 2. Unterschiedliche Wortformen sollen auf **eine Wortform** abgebildet werden. Wenn wir nach "Dunst" suchen, wollen wir auch "Dünste" finden.
+
+Für die Untersuchung der Adjektiv-Nomen-Paare sollen alle Adjektive extrahiert werden, die den häufigsten Nomen des semantischen Felds "Luft" Eigenschaften zuschreiben. Dafür müssen wir zum einen wissen, welche Wörter Adjektive und Nomen sind und zum anderen welche Adjektive in Beziehung zu welchen Nomen stehen.
 
 Um diese Analysen durchführen zu können, müssen mehrere Vorverarbeitungsschritte durchgeführt werden:
 Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschieden Wortformen auf Grundform, ihr Lemma, abzubilden, wird das Korpus **lemmatisiert** werden.
@@ -36,23 +40,59 @@ In der Linguistik wird zwischen einem Wort (Type) und der Verwendung eines Worte
 
 Um die Adjektive zu extrahieren, muss jedem Wort die Wortart zugewiesen werden. Dies kann automatisch mittels **POS-Tagging** durchgeführt werden. Im Part-of-speech (POS)-Tagging werden Tagsets verwendet, in denen jeder Wortart eine Abkürzung zugewiesen wird. Die Tagsets können unterschiedlich granular sein, so finden sich im <a href="https://homepage.ruhr-uni-bochum.de/stephen.berman/Korpuslinguistik/Tagsets-STTS.html" class="external-link" target="_blank">Stuttgart-Tübingen-Tagset (STTS)</a> 54 Tags, in denen z.B. das Tempus und der Modus von Verben unterschieden wird. Das <a href="https://universaldependencies.org/u/pos/" class="external-link" target="_blank"> Universal POS Tagset</a> hingegen besteht nur aus 17 Tags, die keinerlei morphologische Informationen liefern. Für die Extraktion der Adjektive ist das Universal POS Tagset ausreichend. 
 
+Die einfachste Methode, um die Beziehung von Adjektive zu Nomen zu extrahieren, ist die Adjektiv-Nomen-Paare zu extrahieren, die den geringsten Abstand voneinander haben. Dass diese Methode schnell zu Fehlern führen kann, lässt sich an folgendem Satz zeigen:
 `````{admonition} Beispiel
 :class: hinweis
-Ursprünglicher Satz: "Die Luft ist gut." \
-In tokenisierter und lemmatisierter Form:
+Die wunderschöne, von einem Nachbarn geklaute Rose ist rot. 
+`````
+Das Nomen, das mit geringsten Abstand zu dem Adjektiv "wunderschön" steht, ist "Nachbar" und nicht "Rose", worauf sich das Adjektiv tatsächlich bezieht. Es wird deshalb auf Dependenzgrammatik zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischerBeziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite}`jurafsky2025`, S. 427.). Die grammatikalischen Beziehungen sind durch ein geschlossenen Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {citep}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {citep}`tiger`, das für Deutsch entwickelt wurde.
+
+In der folgenden Abbildung sind die automatisch erzeugten Dependenzannotationen für den Beispielsatz dargestellt, anhand derer die korrekten Adjektiv-Nomen-Paare automatisch extrahiert werden können.
+
+
+```{figure} ../assets/images/dependency_plot.svg
+---
+height:
+name: Dependenzannotation des Satze "Die wunderschöne, von einem Nachbarn geklaute Rose ist rot".
+---
+Dependenzannotation erstellt mit spaCy; model: "de_core_news_sm".
+```
+Die Dependenzannotation sind durch die beschrifteten Bögen in der oberen Bildhälfte dargestellt. Die Beschriftungen sind die Dependenz-Tags, die Abkürzungen werden in spaCy wie folgt aufgelöst:
+* nk: noun kernel element 
+* sb: subject
+* sbp: passivized subject 
+* cj: conjunction
+* pd: predicate
+
+Die Pfeile drücken die Übergeordnetheit eines Wortes in Beziehung zu einem anderen aus, z.B. ist das Wort "Rose" dem Wort "wunderschöne" übergeordnet und zzwar mit der Beziehung "noun kernel element". Das übergeordnete Wort wird "Kopf" genannt.
+In der automatischen Annotation lassen sich bereits Fehler feststellen: Das partizipiale Adjektiv "geklaute" ist dem Adjektiv "wunderschöne" in Form einer Konjunktion untergeordnet, allerdings sind die Adjektive nicht durch eine Konjunktion wie "und" verbunden und sind deshalb gleichrangige "noun kernel elements", die von dem Nomen "Rose" abhängen. Um zusätzlich zu den attributive Adjektive auch prädikative Adjektive wie in diesem Beispiel "rot" zu extrahieren, kann das Tag "pd" verwendet werden.
+Die Abbildung zeigt unter dem Satz die POS-Tags, also die Wortarten, die die Grundlage für das Depedency Parsing bilden. Die folgende Tabelle gibt eine Übersicht über die Annotationen, auf denen die Textanalyse aufbaut.
+
+
+`````{admonition} Beispiel
+:class: hinweis
+Ursprünglicher Satz: "Die wunderschöne, von einem Nachbarn geklaute Rose ist rot." \
+In tokenisierter und lemmatisierter Form mit POS-Tags und Dependenz-Tags sowie Dependenz-Kopf:
 
 ```{table}
 :name: Tokenisierung, Lemmatisierung und POS-Tagging (Universal Tags)
-| Token   | Lemma| POS-Tag | 
-|--------|-------|---------|
-| Die    | die   | DET     |
-| Luft   | Luft  | NOUN
-| ist  | sein | VERB |
-| gut | gut  | ADJ | 
-| .      | .     | PUNCT | 
+| Token   | Lemma| POS-Tag | Dependenz-Tag | Dependenz-Kopf |
+|--------|-------|---------|---------------| ---------------| 
+| Die | der | DET | nk| Rose| 
+| wunderschöne | wunderschön | ADJ | nk| Rose| 
+| , | -- | PUNCT | punct| wunderschöne| 
+| von | von | ADP | sbp| geklaute| 
+| einem | ein | DET | nk| Nachbarn| 
+| Nachbarn | Nachbar | NOUN | nk| von| 
+| geklaute | geklaut | ADJ | cj| wunderschöne| 
+| Rose | Rose | NOUN | sb| ist| 
+| ist | sein | AUX | ROOT| ist| 
+| rot | rot | ADV | pd| ist| 
+| . | -- | PUNCT | punct| ist|
 ```
 `````
-Sobald die Wortformen und Wortarten erzeugt wurden, kann die Häufigkeit errechnet und diachron analysiert werden. 
+
+
 
 ## NLP mit Python 
 
@@ -73,8 +113,8 @@ Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird
 `````
 
 ### NLP mit spaCy 
-Da die Vorverarbeitung der Texte keinerlei spezialisierter NLP-Methoden bedarf und auf Grund der leichten Benutzbarkeit sowie der Geschwindigkeit benutzen wir spaCy für die Tokenisierung und Lemmatisierung des Textkorpus. spaCy stellt unterschiedliche Methoden für die Vorverarbeitung bereit, die meisten basieren auf maschinellem Lernen. Da die Vorverarbeitun sprachabhängig ist, stellt spaCy für die unterstützen Sprachen (über 20) verschiedene Analyse-Modelle zur Verfügung. Eine Übersicht über die von spaCy unterstützen Sprachen gibt es <a href="https://spacy.io/models" class="external-link" target="_blank">hier</a>.
-Die zur Verfügung gestellte Modelle unterscheiden sich in der Geschwindigkeit und in der Akkuratheit der Annotation. Da wir auf einem verhältnismäßig großem Korpus operieren ()und sich die Leistung der Modelle für die Tokenisierung gar nicht und für die Lemmatisierung nur wenig (0.02%) unterscheidet, verwenden wir ein Modell, das auf Geschwindigkeit ausgelegt ist (`de_core_news_sm`). 
+Da die Vorverarbeitung der Texte keinerlei spezialisierter NLP-Methoden bedarf und auf Grund der leichten Benutzbarkeit sowie der Geschwindigkeit benutzen wir spaCy für die Annotation des Textkorpus. spaCy stellt unterschiedliche Methoden für die Vorverarbeitung bereit, die meisten basieren auf maschinellem Lernen. Da die Vorverarbeitun sprachabhängig ist, stellt spaCy für die unterstützten Sprachen (über 20) verschiedene Analyse-Modelle zur Verfügung. Eine Übersicht über die von spaCy unterstützen Sprachen gibt es <a href="https://spacy.io/models" class="external-link" target="_blank">hier</a>.
+Die zur Verfügung gestellte Modelle unterscheiden sich in der Geschwindigkeit und in der Akkuratheit der Annotation. Da wir auf einem verhältnismäßig großem Korpus operieren und sich die Leistung der Modelle für die Tokenisierung gar nicht und für die Lemmatisierung, das POS-Tagging nur wenig (0.01% - 0.04%) unterscheidet, verwenden wir ein Modell, das auf Geschwindigkeit ausgelegt ist (`de_core_news_sm`). Die Akkuratheit der deutschen Modelle wird auf <a href="https://spacy.io/models/de" class="external-link" target="_blank">dieser Website</a> verglichen. 
 
 `````{admonition} Leistung von spaCy auf unserem Korpus 
 :class: caution
@@ -83,4 +123,4 @@ Die Modelle in spaCy sind auf zeitgenössische Zeitungs- und Medientexte ausgele
 `````
 
 ## Zusammenfassung und nächste Schritte
-Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte, die als txt-Dateien vorliegen, mittels spaCy annotiert und die Annotationen werden in Tabellen (csv-Dateien) gespeichert. 
+Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte, die als txt-Dateien vorliegen, mittels spaCy annotiert und die Annotationen werden in einem spaCy-spezifischen Format gespeichert.  
