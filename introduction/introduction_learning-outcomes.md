@@ -4,9 +4,9 @@
 ```{admonition} [Grundlagen korpusbasierter geisteswissenschaftlicher Forschung](research-question_intro)
 :class: lernziele, dropdown
 
-1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Medienwellen-Forschung zur Spanischen Grippe nachvollzogen und erläutert werden.
+1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Messung der wahrgenommenen Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und erläutert werden.
 
-2. Der Operationalisierungsprozess kann am Beispiel der Spanischen Grippe nachvollzogen und auf andere Forschungsfragen übertragen werden.
+2. Der Operationalisierungsprozess kann am Beispiel der wahrgenommenen Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und auf andere Forschungsfragen übertragen werden.
 ```
 
 
