@@ -10,119 +10,157 @@ kernelspec:
   name: python3
 ---
 
-(corpus-collection_building-our-corpus)=
-# Aufbau des Forschungskorpus
+# Auswahl des Forschungskorpus
 
-Um das Korpus für unser Forschungsprojekt aufzubauen, müssen nun drei Punkte abgearbeitet werden: 
-1. Das **Korpuskonzept**, also auch die Sammlungsstrategie, muss ausgearbeitet und im besten Fall in den Korpus-Metadaten festgehalten werden.
-2. Die **Elemente des Korpus** müssen festgelegt und ebenfalls mit zumindest basalen Metadaten beschrieben werden.
-3. Die **Sammlung der Elemente** muss durchgeführt werden. 
+Diese Fallstudie untersucht, wie deutschsprachige literarische Texte des 19. Jahrhunderts die abnehmende Luftqualität reflektieren und diskursivieren.  
+Ein zentraler Schritt besteht darin, ein geeignetes **Forschungskorpus** auszuwählen, das den historischen Zeitraum und die thematische Breite unserer Forschungsfrage abdeckt.
 
+Im Unterschied zur vorherigen Fallstudie, in der das Korpus selbst aufgebaut wurde, liegt der Fokus hier auf der **reflektierten Auswahl** eines bestehenden Korpus.
 
-## Korpuskonzept
-Als Untersuchungsgegenstand wurde [oben](research-question_operationalization) "Texte in Berliner Tageszeitungen" angegeben, wobei wir uns auf den Zeitraum der Spanischen Grippe-Pandemie beschränken wollen. Als Zeitraum für die Spanische Grippe gibt <a href="https://en.wikipedia.org/wiki/Spanish_flu" class="external-link" target="_blank">Wikipedia</a> "February 1918 – April 1920" an. Ebenfalls auf <a href="https://de.wikipedia.org/wiki/Liste_Berliner_Tageszeitungen" class="external-link" target="_blank">Wikipedia</a> wird angegeben, dass es um 1925 in Berlin "30 Tageszeitungen" gab. Geht man nur von einer Ausgabe pro Tag aus (was wenig ist, da viele Zeitungen in dieser Zeit in Morgen- und Abendausgabe erscheinen), würde ein vollständiges Korpus für diesen Untersuchungsgegenstand 24.570 Ausgaben von Tageszeitungen umfassen. 
-Bei unseren Recherchen haben wir als mögliche Quelle für die Korpuselemente das <a href="https://zefys.staatsbibliothek-berlin.de/" class="external-link" target="_blank">"ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin"</a>, kurz "ZEFYS", identifiziert, das zu zahlreichen Berliner Tageszeitungen unseres Untersuchungszeitraums Bilddigitalisate (u.a. im PDF-Format) führt. Eine von uns durchgeführte Stichproben hat dabei ergeben, das dass PDF einer Ausgabe im Durchschnitt etwa 74 MB groß ist. Eine erste Grobschätzung für ein Korpus ergab damit eine Größe von 
+````{admonition} Lernziel
+:class: keypoint
+Nach diesem Abschnitt können Sie die Kriterien für die Auswahl eines geeigneten Forschungskorpus benennen, bestehende Korpora vergleichen und den Auswahlprozess datenbasiert begründen.
+`````
 
+---
+
+## 1 Vom Aufbau zur Auswahl
+
+Während in der Fallstudie 2 ein eigenes Zeitungskorpus zur Spanischen Grippe 1918/19 aufgebaut wurde, greifen wir in dieser Fallstudie auf bereits existierende digitale Korpora deutschsprachiger Prosa zurück.
+Wir stehen also nicht vor der Aufgabe, Texte selbst zu digitalisieren, sondern müssen reflektiert entscheiden, **welches existierende Korpus** für unsere Forschungsfrage geeignet ist.
+
+Die im Kapitel [„Korpora als Forschungsobjekte“](corpus-collection_corpora-as-research-objects.md) beschriebenen Strategien – *Vollständigkeit, Repräsentativität, Balance* und *Opportunismus* – bilden dabei unseren Bewertungsrahmen {cite:p}`schoech2017`.
+
+---
+
+## 2 Vorhandene Korpora deutschsprachiger Prosa
+
+Im Folgenden werden drei frei verfügbare Korpora vorgestellt, die sich für literaturwissenschaftliche Analysen deutscher Prosa eignen.
+
+| Korpus                                                                                                                                   | Beschreibung                                 | Zeitraum  | Format    | Auswahlstrategie             | Stärken                                            | Schwächen                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | --------- | --------- | ---------------------------- | -------------------------------------------------- | ------------------------------------ |
+| **Corpus of German-Language Fiction** ([Figshare](https://figshare.com/articles/dataset/Corpus_of_German-Language_Fiction_txt_/4524680)) | ca. 1 200 Romane in Plain Text mit Metadaten | 1750–1950 | TXT | opportunistisch / balanciert | großer Umfang, gute zeitliche Abdeckung            | uneinheitliche Metadaten, OCR-Fehler |
+| **d-Prose 1870–1920** ([Zenodo](https://zenodo.org/records/5015008))                                                                     | ca. 150 Werke, TEI/XML, kuratiert            | 1870–1920 | TEI/XML   | balanciert                   | gute Metadaten, literaturwissenschaftlich gepflegt | begrenzter Zeitraum                  |
+| **ELTeC-German** ([Zenodo](https://zenodo.org/records/4662482))                                                                          | ca. 100 Werke, nach ELTeC-Samplingprotokoll  | 1840–1920 | TEI/XML   | repräsentativ                | methodisch solide, Gender-Balance                  | relativ klein, Lücken vor 1840       |
+
+```{admonition} Hinweis
+:class: tip
+Bereits in dieser Übersicht zeigt sich, dass kein Korpus „perfekt“ ist. 
+Die Entscheidung für ein Korpus hängt immer vom Zusammenspiel zwischen Forschungsfrage, zeitlicher Abdeckung, Datenqualität und praktischer Zugänglichkeit ab.
 ```
-24.570 x 75 MB = 1.818,18 GB
-```
-mithin fast 2 Terabyte. Ein solches Korpus ist pragmatisch kaum zu handhaben. Aus diesen pragmatischen Gründen kann unser Korpus also kein vollständiges sein; stattdessen haben wir uns für ein tendenziell balanciertes Korpus entschieden. 
 
-Dieses Korpus konzentriert sich dabei 
+---
 
-- auf zwei renommierte Zeitungen, nämlich die <a href="https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/" class="external-link" target="_blank">Vossische Zeitung</a> und die <a href="https://zefys.staatsbibliothek-berlin.de/list/title/zdb/2719372X/" class="external-link" target="_blank">Berliner Morgenpost</a>, 
-- wobei wir jeweils nur eine Ausgabe pro Tag und Zeitung nehmen, also im Falle von Morgen- und Abendausgabe eine von beiden auswählen, und
-- uns auf den Zeitraum 1. Januar 1918 bis 31.12.1919 beschränken, also maximal 2 x 2 x 365 = 1.460 Ausgaben umfassen 
+## 3 Explorative Analyse der Metadaten
 
-Das Korpus soll ausgehend von den über ZEFYS verfügbaren PDF-Dateien aufgebaut werden. Am Ende des weiter unten genauer erläuterten Korpusaufbau-Prozesses stand damit schließlich ein Korpus, das sich mit folgenden Metadaten beschreiben lässt: 
+Um die Eignung der Korpora genauer zu prüfen, untersuchen wir zunächst ihre Metadaten.
+Ziel ist es, **ein erstes Gefühl für die zeitliche Verteilung, Vollständigkeit und Struktur** der Daten zu gewinnen.
 
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/" class="external-link" target="_blank">DC.title</a>**: "Zeitungskorpus zur Spanischen Grippe in Berlin, 1918/1919"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/" class="external-link" target="_blank">DC.description</a>**: "Sammlung sämtlicher verfügbarer Morgenausgaben der beiden Berliner Zeitungen "Vossische" und "Berliner Morgenpost aus den Jahren 1918 und 1919"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Henny Sluyter-Gäthje, Daniil Skorinkin, Peer Trilcke für QUADRIGA. Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities und Verwaltungswissenschaft"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/publisher/" class="external-link" target="_blank">DC.publisher</a>**: <a href="https://zefys.staatsbibliothek-berlin.de/" class="external-link" target="_blank">"ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin"</a>
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/" class="external-link" target="_blank">DC.date</a>**: "2024-06-01"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/" class="external-link" target="_blank">DC.format</a>**: "PDF"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/" class="external-link" target="_blank">DC.language</a>**: "Deutsch"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/" class="external-link" target="_blank">DC.subject</a>**: "Geschichte, Medienwissenschaft"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/" class="external-link" target="_blank">DC.coverage</a>**: "1918-01-01 bis 1919-12-31, Berlin"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/" class="external-link" target="_blank">DC.identifier</a>**: "QUADRIGA\_FS-Text-01\_Data01_Corpus-Table"
+### 3.1 Laden und Erkunden der Metadaten
 
-## Elemente des Korpus
-Mit dem eben ausgeführten Korpuskonzept sind auch die Elemente des Korpus definiert. Wir entscheiden uns für ein basales Metadatenschema, das folgende Felder umfasst:
-
-- ID: `DC.identifier`
-- Name der Zeitung: `DC.publisher`
-- Datum: `DC.date`
-- URL mit Herkunft der Datei: `DC.source`
-
-Navigiert man im ZEFYS-Portal, wird schnell die Struktur von deren Datenhaltung ersichtlich, die sich für die semi-automatische Erstellung einer die Korpus-Elemente beschreibenden Metadaten-Tabelle nutzen lässt. 
-
-- Unter <a href="https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/-/1918/#jan" class="external-link" target="_blank">https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/-/1918/#jan</a> findet man z.B. eine Übersicht für den Monat Januar 1918. 
-- Ruft man die Ausgabe vom 1. Januar 1918 auf, gelangt man zur Ansicht in einem Viewer: <a href="https://dfg-viewer.de/show/?set%5Bmets%5D=https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.xml" class="external-link" target="_blank">https://dfg-viewer.de/show/?set%5Bmets%5D=https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.xml</a> 
-- Dort kann man über ein Klick in der oberen Menüleiste auch das gesamte PDF über einen API-Call zum Image Server der Staatsbibliothek aufrufen. Die dafür verwendete URL lautet <a href="https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf" class="external-link" target="_blank">https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf</a> 
-
-Wie Stichproben zeigen, werden die Links des ZEFYS-Portals erfreulich systematisch gebildet. Sie setzen sich zusammen aus 
-
-- `https://content.staatsbibliothek-berlin.de/zefys/` – Angabe des Image-Servers und dem Endpunkt für ZEFYS
-- `SNP27112366` – einer Zeichenkette mit der ID der Zeitung
-- `19180101` – einer Zeichenkette für das Datum
-- `0-0-0-0` – einer Zeichenkette, die die Ausgabe benennt; weitere Ausgaben weisen die Zeichenkette `1-0-0-0` etc. auf. ZEFYS vergibt in der Regel `0-0-0-0` für die Morgenausgabe. Wir nehmen stehts die `0-0-0-0`-Datei. 
-
-Die Analyse der ZEFYS API macht es möglich, unsere Metadaten-Tabelle semi-automatisch etwa mit Excel oder Open Office zu befüllen. Ausgehend vom 
-
-- Wissen über die ID der Zeitung (`SNP27112366` für die "Vossin" und `SNP2719372X` für die "Berliner Morgenpost"), 
-- unserer Festlegung des Zeitraums, also Daten von `19180101` bis `19191231`
-- und der Kenntnis der anderen Link-Bestandteile 
-
-können wir die URLs bauen und parallel die anderen Datenfelder befüllen. Die so entstehende Tabelle sieht folgendermaßen aus: 
-
-| DC.identifier                        | DC.publisher        | DC.date     | DC.source                                                                          |
-|--------------------------------------|---------------------|-------------|------------------------------------------------------------------------------------|
-| SNP2719372X-19180101-0-0-0-0         | Berliner Morgenpost | 1918-01-01  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) |
-| SNP2719372X-19180102-0-0-0-0         | Berliner Morgenpost | 1918-01-02  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180102-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180102-0-0-0-0.pdf) |
-| SNP2719372X-19180103-0-0-0-0         | Berliner Morgenpost | 1918-01-03  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180103-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180103-0-0-0-0.pdf) |
-| SNP2719372X-19180104-0-0-0-0         | Berliner Morgenpost | 1918-01-04  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180104-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180104-0-0-0-0.pdf) |
-| …                                    | …                   | …           | …                                                                                  |
-| SNP27112366-19180101-0-0-0-0         | Vossische Zeitung           | 1918-01-01  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf) |
-| SNP27112366-19180102-0-0-0-0         | Vossische Zeitung          | 1918-01-02  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180102-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180102-0-0-0-0.pdf) |
-| SNP27112366-19180103-0-0-0-0         | Vossische Zeitung           | 1918-01-03  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180103-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180103-0-0-0-0.pdf) |
-| SNP27112366-19180104-0-0-0-0         | Vossische Zeitung           | 1918-01-04  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180104-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180104-0-0-0-0.pdf) |
-
-```{code-cell} python3
+```python
 import pandas as pd
-df = pd.read_csv("../data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv", sep=";")
-df.head()
+import matplotlib.pyplot as plt
+
+# Beispiel: Metadaten des Corpus of German-Language Fiction
+meta = pd.read_csv("metadata_german_fiction.csv")
+meta['year'] = meta['year'].astype(int)
+
+meta.head()
 ```
 
-Die vollständige CSV-Datei kann [hier](https://github.com/quadriga-dk/Text-Fallstudie-1/blob/main/data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv) heruntergeladen werden.
+### 3.2 Zeitliche Verteilung
 
-## Sammlung der Elemente
-Die CSV-Datei, die sämtliche Elemente Korpus aufführt, listet auch jeweils einen Link zur PDF-Datei des Korpus. Dieser Link hat stets die Form: 
-
-```
-https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf
-
-```
-Ruft man den [Link](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) etwa im Browser auf, wird die PDF angezeigt oder heruntergeladen. Auf diese Weise ließen sich sukzessive, Klick für Klick, sämtliche Elemente des Korpus sammeln. Dieser Prozess kann dabei automatisiert werden. 
-
-Dafür erstellen wir aus der CSV-Datei zunächst eine einfache Link-Liste mit allen Links und speichern diese als TXT-Datei, der wir in unserem Fall den Dateinamen "QUADRIGA_FS-Text-01_Data01_Link-List.txt" geben. Diese Datei lässt sich [hier](https://github.com/quadriga-dk/Text-Fallstudie-1/blob/main/data/metadata/QUADRIGA_FS-Text-01_Data01_Link-List.txt) herunterladen.
-
-Sofern Sie mit der PowerShell (Windows) oder dem Terminal Ihres Computers umgehen können, können Sie nun Folgendes machen: Legen Sie Link-Liste in einem Ordner ab und navigieren Sie in der PowerShell/im Terminal in diesen Ordner. 
-
-Mac-Nutzer-innen führen nun folgenden Befehl aus: 
-```
-xargs -n 1 curl -O < QUADRIGA_FS-Text-01_Data01_Link-List.txt
-```
-Windows-Nutzer:innen führen in der PowerShell folgenden Befehl aus
-
-```
-Get-Content QUADRIGA_FS-Text-01_Data01_Link-List.txt | ForEach-Object {
-    Invoke-WebRequest -Uri $_ -OutFile (Split-Path $_ -Leaf)
-}
+```python
+meta['year'].hist(bins=30)
+plt.xlabel("Publikationsjahr")
+plt.ylabel("Anzahl Texte")
+plt.title("Zeitliche Verteilung der Texte im Corpus of German-Language Fiction")
+plt.show()
 ```
 
-Es startet ein Download, der – sofern er komplett durchläuft - am Ende 1.328 Dateien im Umfang von 104,7 GB einsammelt. 
+```{admonition} Interpretation
+:class: hint
+Wie gleichmäßig ist die zeitliche Verteilung?
+Sind bestimmte Jahrzehnte über- oder unterrepräsentiert?
+```
 
-Dies ist unser Forschungskorpus 🚀
+### 3.3 Weitere Explorationsideen
 
+* Verteilung der Textlängen
+* Geschlechterverhältnis der Autor:innen (falls vorhanden)
+* Anteil von Texten aus dem 19. Jahrhundert
+* Vergleich mehrerer Korpora nebeneinander
 
+---
+
+## 4 Bewertung und Entscheidung
+
+Die explorative Analyse erlaubt nun eine systematische Bewertung entlang der Kriterien von {cite:p}`schoech2017`.
+
+| Kriterium           | ELTeC-German | d-Prose 1870–1920 | Corpus of German Fiction |
+| ------------------- | ------------ | ----------------- | ------------------------ |
+| Zeitliche Abdeckung | mittel       | gering            | hoch                     |
+| Datenqualität       | hoch         | hoch              | mittel                   |
+| Repräsentativität   | hoch         | mittel            | gering                   |
+| Umfang              | klein        | mittel            | groß                     |
+| Verfügbarkeit       | sehr gut     | gut               | gut                      |
+
+```{admonition} Zwischenfazit
+:class: keypoint
+Das Corpus of German-Language Fiction bietet die größte zeitliche Breite und damit die besten Voraussetzungen, um Veränderungen im sprachlichen Diskurs über Luftqualität im 19. Jahrhundert zu untersuchen.
+```
+
+---
+
+## 5 Sampling und Filterung des Korpus
+
+Für die weitere Analyse konzentrieren wir uns auf den Zeitraum **1800–1900**.
+Zudem möchten wir sicherstellen, dass jedes Jahrzehnt annähernd gleich stark vertreten ist.
+
+```python
+subset = meta.query("1800 <= year <= 1900")
+
+# Optional: pro Jahrzehnt 10 Texte zufällig ziehen
+subset_decades = (
+    subset.groupby(subset['year']//10*10)
+    .apply(lambda x: x.sample(n=min(10, len(x)), random_state=42))
+    .reset_index(drop=True)
+)
+
+subset_decades.to_csv("corpus_subset_metadata.csv", index=False)
+```
+
+```{admonition} Weiterführende Übung
+:class: seealso
+Versuchen Sie, eine eigene Filterung zu definieren – z. B. nur Texte, die in Großstädten spielen, oder nur Romane weiblicher Autorinnen.  
+Solche Entscheidungen verändern das Erkenntnispotenzial des Korpus erheblich.
+```
+
+---
+
+## 6 Reflexion: Auswahl als epistemische Entscheidung
+
+Die Entscheidung für ein bestimmtes Korpus ist nie neutral.
+Sie bestimmt, **welche literarischen Stimmen, Räume und historischen Kontexte** in der Analyse sichtbar werden.
+Die bewusste Reflexion über diese Auswahl ist ein zentraler Bestandteil datenbasierter geisteswissenschaftlicher Forschung.
+
+```{admonition} Merksatz
+:class: keypoint
+Mit der Auswahl eines Korpus konstruieren wir das epistemische Objekt unserer Forschung – und damit die Grenzen dessen, was wir erkennen können.
+```
+
+---
+
+```{admonition} Weiterführende Links
+:class: seealso
+- [forTEXT-Artikel „Korpusbildung“](https://fortext.net/routinen/methoden/korpusbildung) {cite:p}`fortext-2020-id-203`  
+- [ELTeC Documentation](https://www.distant-reading.net/eltec/)  
+- [Corpus of German-Language Fiction (Fischer et al.)](https://figshare.com/articles/dataset/Corpus_of_German-Language-Fiction_txt_/4524680)
+```
+
+---
+
+```{bibliography}
+:filter: docname in ["fallstudie3_korpuswahl"]
+```
