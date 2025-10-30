@@ -26,8 +26,7 @@ Nach diesem Abschnitt können Sie die Kriterien für die Auswahl eines geeignete
 
 ## 1 Vom Aufbau zur Auswahl
 
-Während in der Fallstudie 2 ein eigenes Zeitungskorpus zur Spanischen Grippe 1918/19 aufgebaut wurde, greifen wir in dieser Fallstudie auf bereits existierende digitale Korpora deutschsprachiger Prosa zurück.
-Wir stehen also nicht vor der Aufgabe, Texte selbst zu digitalisieren, sondern müssen reflektiert entscheiden, **welches existierende Korpus** für unsere Forschungsfrage geeignet ist.
+Während in der Fallstudie 1 ein eigenes Zeitungskorpus zur Spanischen Grippe 1918/19 aufgebaut wurde, greifen wir in dieser Fallstudie auf bereits existierende digitale Korpora deutschsprachiger Prosa zurück. Wir stehen also nicht vor der Aufgabe, Texte selbst zu digitalisieren, sondern müssen reflektiert entscheiden, **welches existierende Korpus** für unsere Forschungsfrage geeignet ist.
 
 Die im Kapitel [„Korpora als Forschungsobjekte“](corpus-collection_corpora-as-research-objects.md) beschriebenen Strategien – *Vollständigkeit, Repräsentativität, Balance* und *Opportunismus* – bilden dabei unseren Bewertungsrahmen {cite:p}`schoech2017`.
 
@@ -39,8 +38,8 @@ Im Folgenden werden drei frei verfügbare Korpora vorgestellt, die sich für lit
 
 | Korpus                                                                                                                                   | Beschreibung                                 | Zeitraum  | Format    | Auswahlstrategie             | Stärken                                            | Schwächen                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | --------- | --------- | ---------------------------- | -------------------------------------------------- | ------------------------------------ |
-| **Corpus of German-Language Fiction** ([Figshare](https://figshare.com/articles/dataset/Corpus_of_German-Language_Fiction_txt_/4524680)) | ca. 1 200 Romane in Plain Text mit Metadaten | 1750–1950 | TXT | opportunistisch / balanciert | großer Umfang, gute zeitliche Abdeckung            | uneinheitliche Metadaten, OCR-Fehler |
 | **d-Prose 1870–1920** ([Zenodo](https://zenodo.org/records/5015008))                                                                     | ca. 150 Werke, TEI/XML, kuratiert            | 1870–1920 | TEI/XML   | balanciert                   | gute Metadaten, literaturwissenschaftlich gepflegt | begrenzter Zeitraum                  |
+| **Corpus of German-Language Fiction** ([Figshare](https://figshare.com/articles/dataset/Corpus_of_German-Language_Fiction_txt_/4524680)) | ca. 1 200 Romane in Plain Text mit Metadaten | 1750–1950 | TXT | opportunistisch / balanciert | großer Umfang, gute zeitliche Abdeckung            | uneinheitliche Metadaten, OCR-Fehler |
 | **ELTeC-German** ([Zenodo](https://zenodo.org/records/4662482))                                                                          | ca. 100 Werke, nach ELTeC-Samplingprotokoll  | 1840–1920 | TEI/XML   | repräsentativ                | methodisch solide, Gender-Balance                  | relativ klein, Lücken vor 1840       |
 
 ```{admonition} Hinweis
