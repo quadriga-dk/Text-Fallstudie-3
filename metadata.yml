@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
-schema-version: 1.0.0-alpha
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+schema-version: 1.0.0
 book-version: 0.0.1-beta
 title: Ecocriticism – Case Study
 identifier: https://doi.org/10.5281/zenodo.TODOTODO
@@ -28,6 +28,7 @@ contributors:
 - given-names: Lamia
   family-names: Islam
   affiliation: Universität Potsdam
+language: deu
 table-of-contents: '- Präambel
 
   - Fragestellung und Operationalisierung. Einführung in die Fallstudie
@@ -206,6 +207,7 @@ date-modified: '2025-06-20'
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
+
   Förderkennzeichen: 16DKZ2034'
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
 git: https://github.com/quadriga-dk/Text-Fallstudie-2
@@ -214,3 +216,5 @@ license:
   content:
     url: https://creativecommons.org/licenses/by-sa/4.0/
     name: CC BY-SA 4.0
+keywords:
+- Open Educational Resources
