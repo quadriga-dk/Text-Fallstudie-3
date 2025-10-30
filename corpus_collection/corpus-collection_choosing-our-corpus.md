@@ -34,7 +34,7 @@ Die im Kapitel [„Korpora als Forschungsobjekte“](corpus-collection_corpora-a
 
 ## 2 Vorhandene Korpora deutschsprachiger Prosa
 
-Im Folgenden werden drei frei verfügbare Korpora vorgestellt, die sich für literaturwissenschaftliche Analysen deutscher Prosa eignen.
+Im Folgenden werden drei frei verfügbare Korpora vorgestellt, die sich für literaturwissenschaftliche Analysen deutscher Prosa eignen. Konkret wurden für diese Fallstudie das [d-Prose-Korpus](https://zenodo.org/records/5015008), das [Corpus of German-Language Fiction](https://figshare.com/articles/dataset/Corpus_of_German-Language_Fiction_txt_/4524680) sowie das [German ELTeC-Korpus](https://zenodo.org/records/4662482) herangezogen.
 
 | Korpus                                                                                                                                   | Beschreibung                                 | Zeitraum  | Format    | Auswahlstrategie             | Stärken                                            | Schwächen                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | --------- | --------- | ---------------------------- | -------------------------------------------------- | ------------------------------------ |
