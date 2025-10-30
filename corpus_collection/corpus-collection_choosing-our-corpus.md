@@ -61,8 +61,8 @@ Ziel ist es, **ein erstes Gefühl für die zeitliche Verteilung, Vollständigkei
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Beispiel: Metadaten des Corpus of German-Language Fiction
-meta = pd.read_csv("metadata_german_fiction.csv")
+# Beispiel: Metadaten des ELTeC-German
+meta = pd.read_csv("https://zenodo.org/records/4662482/files/metadata.csv")
 meta['year'] = meta['year'].astype(int)
 
 meta.head()
@@ -74,7 +74,7 @@ meta.head()
 meta['year'].hist(bins=30)
 plt.xlabel("Publikationsjahr")
 plt.ylabel("Anzahl Texte")
-plt.title("Zeitliche Verteilung der Texte im Corpus of German-Language Fiction")
+plt.title("Zeitliche Verteilung der Texte im ELTEC-DEU")
 plt.show()
 ```
 
