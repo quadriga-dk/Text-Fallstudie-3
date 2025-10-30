@@ -77,6 +77,7 @@ plt.ylabel("Anzahl Texte")
 plt.title("Zeitliche Verteilung der Texte im ELTEC-DEU")
 plt.show()
 ```
+[!corpus-hist-eltec-deu.png](assets/images/corpus-hist-eltec-deu.png)
 
 ```{admonition} Interpretation
 :class: hint
