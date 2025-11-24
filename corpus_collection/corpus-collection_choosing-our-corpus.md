@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Auswahl des Forschungskorpus
+# Auswahl des Forschungskorpus THIS FILE IS SUGGESTED FOR DEPRECATION IN FAVOUR OF [corpus-collection_choosing-our-corpus-based-on-metadata.ipynb](corpus-collection_choosing-our-corpus-based-on-metadata.ipynb)
 
 Diese Fallstudie untersucht, wie deutschsprachige literarische Texte des 19. Jahrhunderts die abnehmende Luftqualität reflektieren und diskursivieren.  
 Ein zentraler Schritt besteht darin, ein geeignetes **Forschungskorpus** auszuwählen, das den historischen Zeitraum und die thematische Breite unserer Forschungsfrage abdeckt.
