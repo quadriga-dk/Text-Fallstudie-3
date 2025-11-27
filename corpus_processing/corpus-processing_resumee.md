@@ -8,7 +8,7 @@ Die Verarbeitung von Text mittels <a href="corpus-processing_intro-to-nlp#was-is
 
 **Methodische Grundlagen**
 
-Die vorgestellten <a href="corpus-processing_intro-to-nlp#verwendete-nlp-methoden">NLP-Methoden</a> - Tokenisierung, Lemmatisierung und POS-Tagging - bilden die Basis für weiterführende Textanalysen. Der Vergleich zwischen einfacher Worttrennung und professioneller Tokenisierung zeigt dabei die Bedeutung spezialisierter NLP-Tools.
+Die vorgestellten <a href="corpus-processing_intro-to-nlp#verwendete-nlp-methoden">NLP-Methoden</a> - Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing - bilden die Basis für weiterführende Textanalysen. Der Vergleich zwischen einfacher Worttrennung und professioneller Tokenisierung zeigt dabei die Bedeutung spezialisierter NLP-Tools.
 
 **Praktische Umsetzung**
 
