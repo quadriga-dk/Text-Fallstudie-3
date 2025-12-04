@@ -6,7 +6,7 @@ from pathlib import Path
 import multiprocessing as mp
 import pandas as pd
 import spacy
-from spacy.tokens import DocBin
+from spacy.tokens import DocBin, Doc
 import psutil
 import gc
 
@@ -30,12 +30,15 @@ def process_single_file(filepath):
         
         # Process in smaller batches to control memory
         batch_size = 30
-       
-        doc_bin = DocBin()
-        for doc in nlp.pipe(lines, disable=disabled, batch_size=batch_size):
-            doc_bin.add(doc)
+        docs = list(nlp.pipe(lines, disable=disabled, batch_size=batch_size))
+        merged_doc = Doc.from_docs(docs)
+        doc_bin = DocBin(docs=docs)
+
+        #doc_bin = DocBin()
+        #for doc in nlp.pipe(lines, disable=disabled, batch_size=batch_size):
+        #    doc_bin.add(doc)
         
-        return filepath, doc_bin, None
+        return filepath, doc_bin, merged_doc, None
         
     except Exception as e:
         return filepath, None, str(e)
@@ -58,13 +61,32 @@ def get_files_to_process(corpus_dir: Path, output_dir: Path, force: bool = False
     already_processed = []
     
     for filepath in corpus_filepaths:
-        output_path = output_dir / f"{filepath.stem}.csv"
+        output_path = output_dir / f"{filepath.stem}.spacy"
         if output_path.exists():
             already_processed.append(filepath)
         else:
             files_to_process.append(filepath)
     
     return files_to_process, already_processed
+
+def create_dataframe(doc: Doc) -> pd.DataFrame:
+    annotations = []
+
+    # iterate token
+    for token in doc:
+        # Extract annotations
+        annotation = {
+            "Idx": token.i,
+            "Token": token.text,
+            "Lemma": token.lemma_,
+            "PoS": token.pos_,
+            "Dependency": token.dep_,
+            "Dependency_head_idx": token.head.i,
+            "Dependency_head_text": token.head.text
+        }
+        annotations.append(annotation)
+    return  pd.DataFrame(annotations)
+
 
 
 def process_corpus(args):
@@ -80,8 +102,13 @@ def process_corpus(args):
         return 1
     
     # Create output directory
-    args.output_dir.mkdir(parents=True, exist_ok=True)
+    if not args.output_dir_spacy.exists():
+        args.output_dir_spacy.mkdir(parents=True)
     
+    # Create output directory
+    if not args.output_dir_csv.exists():
+        args.output_dir_csv.mkdir(parents=True)
+
     # Get all corpus files
     all_files = sorted(args.corpus_dir.glob("*.txt"))
     print(f"Total files in corpus: {len(all_files)}")
@@ -92,7 +119,7 @@ def process_corpus(args):
     
     # Filter to only files needing processing
     files_to_process, already_processed = get_files_to_process(
-        args.corpus_dir, args.output_dir, args.force
+        args.corpus_dir, args.output_dir_spacy, args.force
     )
     
     print(f"Already processed: {len(already_processed)} files")
@@ -107,7 +134,8 @@ def process_corpus(args):
     
     # Model configuration
     nlp_model_name = args.model
-    disable_components = ['ner', 'attribute_ruler', 'sentencizer']
+    #disable_components = ['ner', 'attribute_ruler', 'sentencizer']
+    disable_components = ['ner','sentencizer']
     
     # Get optimal number of workers
     n_workers = args.workers
@@ -136,7 +164,7 @@ def process_corpus(args):
         initargs=(nlp_model_name, disable_components)
     ) as pool:
         
-        for filepath, data, error in pool.imap_unordered(
+        for filepath, data, doc, error in pool.imap_unordered(
             process_single_file, 
             files_to_process,
             chunksize=chunksize
@@ -147,10 +175,15 @@ def process_corpus(args):
                 errors += 1
                 print(f"  ERROR: {filepath.name} - {error}")
             else:
+                # Create dataframe from doc
+                annotation_df = create_dataframe(doc)
+                output_path_csv = args.output_dir_csv / filepath.with_suffix(".csv").name
+                annotation_df.to_csv(output_path_csv, index=False)
+
 
                 # Save the processed data
-                output_path = args.output_dir / filepath.with_suffix(".spacy")
-                data.to_disk(output_path)
+                output_path_spacy = args.output_dir_spacy / filepath.with_suffix(".spacy").name
+                data.to_disk(output_path_spacy)
                 processed += 1
                 
                 if args.verbose and processed <= 5:
@@ -228,7 +261,12 @@ Examples:
         help='Directory containing .txt files to process'
     )
     parser.add_argument(
-        'output_dir',
+        'output_dir_spacy',
+        type=Path,
+        help='Directory where .spacy output files will be saved'
+    )
+    parser.add_argument(
+        'output_dir_csv',
         type=Path,
         help='Directory where .csv output files will be saved'
     )
