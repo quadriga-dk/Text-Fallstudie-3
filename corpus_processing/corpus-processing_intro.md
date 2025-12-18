@@ -18,8 +18,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ````
 ```{admonition} Korpusverarbeitung mit Natural Language Processing
 :class: lernziele
-
-1. Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung. Lemmatisierung und POS-Tagging für die Textanalyse beschrieben werden.
+1. Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing für die Textanalyse beschrieben werden.
 
 2. Die notwendigen Schritte zur automatischen Annotation eines Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren Methoden der Worttrennung genannt werden.
 ```

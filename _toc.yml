@@ -30,7 +30,8 @@ chapters:
   - file: corpus_analysis/corpus-analysis_intro
     sections:
     - file: corpus_analysis/corpus-analysis_analysis
-    - file: corpus_analysis/corpus-analysis_diachronic-analysis
+    - file: corpus_analysis/corpus-analysis_semantic-field-analysis
+    - file: corpus_analysis/corpus-analysis_real-syntactic-ngram
     - file: corpus_analysis/corpus-analysis_resumee
     - file: corpus_analysis/corpus-analysis_assessment
   - file: reflection/reflection_reflection

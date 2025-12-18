@@ -25,7 +25,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 3. Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.
 
-4. Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung, Metadatenerstellung und Datensammlung) kann am Beispiel eines Zeitungskorpus beschrieben werde
+4. Der Prozess der Korpusauswahl unter Einbezug der Korpusgröße und abgedecktem Zeitraum kann in Hinblick auf die Forschungsfrage erläutert werden.
 ```
 
 
