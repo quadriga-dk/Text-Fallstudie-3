@@ -1,0 +1,65 @@
+{
+  "upload_type": "lesson",
+  "title": "Ecocriticism – Case Study",
+  "creators": [
+    {
+      "name": "Skorinkin, Daniil",
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0002-1845-9974"
+    },
+    {
+      "name": "Sluyter-Gäthje, Henny",
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0003-2969-3237"
+    },
+    {
+      "name": "Trilcke, Peer",
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0002-1421-4320"
+    }
+  ],
+  "description": "Die vorliegende Fallstudie bereitet – in Form eines “Jupyter Books” – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf.",
+  "publication_date": "2025-06-20",
+  "keywords": [
+    "Open Educational Resources"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "language": "deu",
+  "contributors": [
+    {
+      "name": "Schnaitter, Hannes",
+      "type": "Other",
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft",
+      "orcid": "0000-0002-1602-6032"
+    },
+    {
+      "name": "Samoilova, Evgenia",
+      "type": "Other",
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0003-3858-901X"
+    },
+    {
+      "name": "Islam, Lamia",
+      "type": "Other",
+      "affiliation": "Universität Potsdam"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/quadriga-dk/Text-Fallstudie-2",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "quadriga"
+    }
+  ],
+  "version": "0.0.1-beta"
+}

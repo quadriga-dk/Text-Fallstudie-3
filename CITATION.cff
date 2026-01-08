@@ -26,8 +26,8 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
-keywords:
-- open educational resource
+keywords: &id002
+- Open Educational Resources
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -47,7 +47,6 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
+  keywords: *id002
   version: 0.0.1-beta
 version: 0.0.1-beta
