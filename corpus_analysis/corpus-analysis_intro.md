@@ -18,14 +18,16 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```{admonition} Frequenzanalysen semantischer Felder
 :class: lernziele
-1. Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms können interpretiert werden. 
+1. Das Konzept des semantischen Feldes kann erklärt und das Berechnen von Häufigkeiten des semantischen Felds auf einem Korpus kann erklärt werden.
+
+2. Der Unterschied zwischen absoluten und relativen Häufigkeiten kann beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms interpretiert werden. 
 
 2. Das Konzept von syntaktischen n-Grams in Bezug auf Adjektiv-Nomen-Paare kann beschrieben und die notwendigen Schritte zur automatischen Extraktion der syntaktischen n-Grams können aufgezählt werden. 
 
-3. Die Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
+3. Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
 ```
 
-Für die Ausführung einer digitalen Analyse, in diesem Fall der Analyse der Spanischen Grippe in einem Berliner Zeitungskorpus (1918-20) durch Worthäufigkeiten über Zeit, wird ein Korpus benötigt, das in Wörter (Token) aufgeteilt und mit Lemmata angereichtert ist. Wir haben gezeigt, wie mittels OCR ein aus PDF-Dateien bestehendes Zeitungskorpus in ein Textkorpus konvertiert werden kann (siehe die Kapitel ["Korpusaufbau"](corpus-collection_intro) und ["OCR — Vom Bild zum Text"](ocr_intro)). Das Textkorpus wurde dann mit der Python-Bibliothek spaCy unter Anwendung von NLP-Methoden (Tokenisierung und Lemmatisierung) angereichtert (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)). Das angereichterte Korpus liegt im Tabellenformat (CSV) vor. In jeder Zeile steht ein Wort und die Grundform des Wortes.
+Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro))., sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.jpeg
@@ -35,15 +37,8 @@ name: Flussdiagramm der Fallstudie
 ---
 Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
+Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Grundlagen](corpus-analysis_analysis) zur Erstellung eines semantischen Felds, zur Extraktion von Häufigkeiten sowie zur Visualisierung der Häufigkeiten in Form eines Streudiagramms und die Errechnung und Darstellung einer Trend-Linie. 
 
-Nachdem die Korpuserstellung und -anreicherung abgeschlossen ist, wird in diesem Kapitel zur Forschungsfrage zurückgekehrt. Es soll die öffentliche Aufmerksamkeit für die spanische Grippe im Zeitaum von 1918-1920 an Hand von Worthäufigkeiten derjenigen Wörter gemessen werden, die direkt oder indirekt auf die spanische Grippe verweisen. Es wird zuerst konzeptionell in die Frequenzanalyse eingeführt, dann wird die Analyse mit folgenden Schritten durchgeführt:
+Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt]() und die Ergebnisse anhand der Visualisierungen interpretiert. 
 
-1. Erstellung eines Wortfelds, in dem grippenbezogenen Wörter gesammelt werden
-2. Berechnung der Häufigkeiten dieses Wortfelds 
-3. Visuelle Darstellung der Häufigkeiten über Zeit durch ein Liniendiagramm. Das Diagramm hat verschiedene Stellschrauben:
- - Anzeige von absoluten oder relativen Häufigkeiten
- - Einstellung des zu betrachtenden Zeitraums
- - Filtern nach Zeitung 
-4. Extraktion der Kontexte der grippenbezogenen Wörter (KWIC) für weiterführende manuelle Analysen
-
-Zum Abschluss wird ein Fazit gezogen. 
+Im nächsten Schritt werden [syntaktische n-Gramme eingeführt]() und auf dem [Korpus analysiert](). Die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
