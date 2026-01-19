@@ -31,6 +31,7 @@ chapters:
     sections:
     - file: corpus_analysis/corpus-analysis_analysis
     - file: corpus_analysis/corpus-analysis_semantic-field-analysis
+    - file: corpus_analysis/corpus-analysis_syntactic-ngrams-intro
     - file: corpus_analysis/corpus-analysis_syntactic-ngram
     - file: corpus_analysis/corpus-analysis_resumee
     - file: corpus_analysis/corpus-analysis_assessment
