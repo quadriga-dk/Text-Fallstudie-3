@@ -30,7 +30,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro))., sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
 
-```{figure} ../assets/images/flow-chart_corpus-analysis.jpeg
+```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---
 height:
 name: Flussdiagramm der Fallstudie

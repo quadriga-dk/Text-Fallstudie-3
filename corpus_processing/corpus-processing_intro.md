@@ -26,7 +26,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Für die Ausführung einer digitalen Analyse, in diesem Fall die Analyse von Worthäufigkeiten und Kollokationen über Zeit, wird ein über die Zeit gestreutes Korpus benötigt, das im txt-Format (oder einem anderen, computerlesbaren Format) vorliegt. Bevor die Analyse auf dem Korpus ausgeführt werden kann, muss das Korpus mit linguistischen Informationen angereichert werden, etwa um Wörter einer bestimmten Wortart, in diesem Fall Adjektiv-Nomen-Paare, zu identifizieren.  
 
 
-```{figure} ../assets/images/flow-chart_corpus-processing.jpeg
+```{figure} ../assets/images/flow-chart_corpus-processing.png
 ---
 height:
 name: Flussdiagramm der Fallstudie
