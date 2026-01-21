@@ -34,7 +34,7 @@
 
 
 
-```{admonition} [Frequenzanalysen semantischer Felder](corpus-analysis_intro)
+```{admonition} [Frequenzanalysen semantischer Felder und syntaktischer n-Gramm-Abhängigkeiten](corpus-analysis_intro)
 :class: lernziele, dropdown
 
 1. Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms können interpretiert werden. 
