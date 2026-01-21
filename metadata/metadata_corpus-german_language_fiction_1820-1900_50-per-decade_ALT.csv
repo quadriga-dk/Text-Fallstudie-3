@@ -1,401 +1,401 @@
-lastname,firstname,title,year,volume,ID
-Heun,Karl Gottlieb Samuel,Die Versuchung,1827,,Karl_Gottlieb_Samuel_Heun_-_Die_Versuchung_(1827)
-Grillparzer,Franz,Das Kloster bei Sendomir,1827,,Franz_Grillparzer_-_Das_Kloster_bei_Sendomir_(1827)
-Rilke,Rainer Maria,Erzählungen aus dem Nachlaß,1826,,Rainer_Maria_Rilke_-_Erzählungen_aus_dem_Nachlaß_(1826)
-Clauren,H.,Die Gränz-Kommission,1825,,H._Clauren_-_Die_Gränz-Kommission_(1825)
-Clauren,H.,Das Dijon-Röschen,1823,1,H._Clauren_-_Das_Dijon-Röschen_-_1_(1823)
-Contessa,Karl Wilhelm Salice,Die Schatzgräber,1825,,Karl_Wilhelm_Salice_Contessa_-_Die_Schatzgräber_(1825)
-Clauren,H.,Der Blutschatz,1823,,H._Clauren_-_Der_Blutschatz_(1823)
-Hoffmann,ETA,Lebensansichten des Katers Murr,1820,,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1820)
-Weisflog,Carl,Bürgerliche Historien,1828,,Carl_Weisflog_-_Bürgerliche_Historien_(1828)
-Paul,Jean,Der Komet,1820,,Jean_Paul_-_Der_Komet_(1820)
-von Schmid,Christoph,Das hölzerne Kreuz,1826,,Christoph_von_Schmid_-_Das_hölzerne_Kreuz_(1826)
-von Arnim,Achim,Die Majoratsherren,1820,,Achim_von_Arnim_-_Die_Majoratsherren_(1820)
-Tieck,Ludwig,Der Gelehrte,1827,,Ludwig_Tieck_-_Der_Gelehrte_(1827)
-Tieck,Ludwig,Das Fest zu Kenelworth,1828,,Ludwig_Tieck_-_Das_Fest_zu_Kenelworth_(1828)
-Zschokke,Heinrich,Die Rose von Disentis,1822,,Heinrich_Zschokke_-_Die_Rose_von_Disentis_(1822)
-Tieck,Ludwig,Die Gesellschaft auf dem Lande,1825,,Ludwig_Tieck_-_Die_Gesellschaft_auf_dem_Lande_(1825)
-Zschokke,Heinrich,Der König von Akim,1825,,Heinrich_Zschokke_-_Der_König_von_Akim_(1825)
-Grillparzer,Franz,Ein Erlebnis,1822,,Franz_Grillparzer_-_Ein_Erlebnis_(1822)
-Tieck,Ludwig,Die Gemälde,1821,,Ludwig_Tieck_-_Die_Gemälde_(1821)
-Schöll,Adolf,Der arme Stephan,1827,,Adolf_Schöll_-_Der_arme_Stephan_(1827)
-von Schmid,Christoph,Rosa von Tannenburg,1823,,Christoph_von_Schmid_-_Rosa_von_Tannenburg_(1823)
-Clauren,H.,Der selige Papier-Müller,1820,,H._Clauren_-_Der_selige_Papier-Müller_(1820)
-Hauff,Wilhelm,Der Mann im Mond,1826,,Wilhelm_Hauff_-_Der_Mann_im_Mond_(1826)
-Nettelbeck,Joachim,Des Seefahrers Nettelbeck Lebensgeschichte,1821,,Joachim_Nettelbeck_-_Des_Seefahrers_Nettelbeck_Lebensgeschichte_(1821)
-Hauff,Wilhelm,Phantasien im Bremer Ratskeller,1827,,Wilhelm_Hauff_-_Phantasien_im_Bremer_Ratskeller_(1827)
-Zschokke,Heinrich,Addrich im Moos,1825,,Heinrich_Zschokke_-_Addrich_im_Moos_(1825)
-Alexis,Willibald,Walladmor,1824,,Willibald_Alexis_-_Walladmor_(1824)
-Huber,Therese,Das misslungene Opfer,1828,,Therese_Huber_-_Das_misslungene_Opfer_(1828)
-von Eichendorff,Joseph,Aus dem Leben eines Taugenichts,1826,,Joseph_von_Eichendorff_-_Aus_dem_Leben_eines_Taugenichts_(1826)
-Hauff,Wilhelm,Der junge Engländer,1827,,Wilhelm_Hauff_-_Der_junge_Engländer_(1827)
-Schreyvogel,Joseph,Samuel Brinks letzte Liebesgeschichte,1821,,Joseph_Schreyvogel_-_Samuel_Brinks_letzte_Liebesgeschichte_(1821)
-Hauff,Wilhelm,Phantasien und Skizzen,1827,,Wilhelm_Hauff_-_Phantasien_und_Skizzen_(1827)
-Huber,Therese,Alte Zeit und neue Zeit,1828,,Therese_Huber_-_Alte_Zeit_und_neue_Zeit_(1828)
-Hagen,August,Norika,1829,,August_Hagen_-_Norika_(1829)
-Tieck,Ludwig,Der Geheimnisvolle,1822,,Ludwig_Tieck_-_Der_Geheimnisvolle_(1822)
-Clauren,H.,Die Gräfin Cherubim,1824,,H._Clauren_-_Die_Gräfin_Cherubim_(1824)
-Rochlitz,Friedrich,Amtsbericht des Pfarrers zu Eichengrün,1821,,Friedrich_Rochlitz_-_Amtsbericht_des_Pfarrers_zu_Eichengrün_(1821)
-Hoffmann,ETA,Letzte Stücke,1822,,ETA_Hoffmann_-_Letzte_Stücke_(1822)
-Hoffmann,ETA,Des Vetters Eckfenster,1822,,ETA_Hoffmann_-_Des_Vetters_Eckfenster_(1822)
-der Jüngere,Johann Rudolf Wyß,Viel Noth und viel Hülf,1825,,Johann_Rudolf_Wyß_der_Jüngere_-_Viel_Noth_und_viel_Hülf_(1825)
-Tieck,Ludwig,Die Verlobung,1823,,Ludwig_Tieck_-_Die_Verlobung_(1823)
-Hoffmann,ETA,Die Irrungen,1820,Verloren und Gefunden,ETA_Hoffmann_-_Die_Irrungen_-_Verloren_und_Gefunden_(1820)
-Tieck,Ludwig,Der Aufruhr in den Cevennen,1826,,Ludwig_Tieck_-_Der_Aufruhr_in_den_Cevennen_(1826)
-von Goethe,Johann Wolfgang,Wilhelm Meisters Wanderjahre,1821,,Johann_Wolfgang_von_Goethe_-_Wilhelm_Meisters_Wanderjahre_(1821)
-Tieck,Ludwig,Der Alte vom Berge,1828,,Ludwig_Tieck_-_Der_Alte_vom_Berge_(1828)
-Rückert,Friedrich,Die Makamen des Hariri,1826,,Friedrich_Rückert_-_Die_Makamen_des_Hariri_(1826)
-Grün,Anastasius,Der Eremit auf der Sierra Morena,1827,,Anastasius_Grün_-_Der_Eremit_auf_der_Sierra_Morena_(1827)
-von Schmid,Christoph,Das Blumenkörbchen,1823,,Christoph_von_Schmid_-_Das_Blumenkörbchen_(1823)
-Tieck,Ludwig,Der fünfzehnte November,1827,,Ludwig_Tieck_-_Der_fünfzehnte_November_(1827)
-Paul,Jean,Der Maschinenmann,1825,,Jean_Paul_-_Der_Maschinenmann_(1825)
-Tieck,Ludwig,Der Mondsüchtige,1832,,Ludwig_Tieck_-_Der_Mondsüchtige_(1832)
-Sealsfield,Charles,Das blutige Blockhaus,1834,,Charles_Sealsfield_-_Das_blutige_Blockhaus_(1834)
-Immermann,Karl,Der Oberhof,1839,,Karl_Immermann_-_Der_Oberhof_(1839)
-Laube,Heinrich,Eine Fahrt nach Pommern und der Insel Rügen,1837,,Heinrich_Laube_-_Eine_Fahrt_nach_Pommern_und_der_Insel_Rügen_(1837)
-Tieck,Ludwig,Abendgespräche,1839,,Ludwig_Tieck_-_Abendgespräche_(1839)
-von Ungern-Sternberg,Alexander,Die Zerrissenen,1832,,Alexander_von_Ungern-Sternberg_-_Die_Zerrissenen_(1832)
-Fröhlich,Abraham Manuel,Der Kinderball,1833,,Abraham_Manuel_Fröhlich_-_Der_Kinderball_(1833)
-Tieck,Ludwig,Die Klausenburg,1837,,Ludwig_Tieck_-_Die_Klausenburg_(1837)
-Glassbrenner,Adolf,Die Königsstraße,1838,,Adolf_Glassbrenner_-_Die_Königsstraße_(1838)
-Kerner,Justinus,Geschichte des Mädchens von Orlach,1834,,Justinus_Kerner_-_Geschichte_des_Mädchens_von_Orlach_(1834)
-Mörike,Eduard,Der Schatz,1836,,Eduard_Mörike_-_Der_Schatz_(1836)
-Castelli,Ignaz Franz,Tobias Guarnerius,1839,,Ignaz_Franz_Castelli_-_Tobias_Guarnerius_(1839)
-Laube,Heinrich,Eine Tyroler Geschichte,1837,,Heinrich_Laube_-_Eine_Tyroler_Geschichte_(1837)
-von Arnim,Achim,Erzählungen,1831,,Achim_von_Arnim_-_Erzählungen_(1831)
-von Gaudy,Franz,Venetianische Novellen,1838,,Franz_von_Gaudy_-_Venetianische_Novellen_(1838)
-Laube,Heinrich,Reisenovellen,1837,Band 6,Heinrich_Laube_-_Reisenovellen_-_Band_6_(1837)
-von Eichendorff,Joseph,Viel Lärmen um Nichts,1833,,Joseph_von_Eichendorff_-_Viel_Lärmen_um_Nichts_(1833)
-Tieck,Ludwig,Das alte Buch und die Reise ins Blaue hinein,1835,,Ludwig_Tieck_-_Das_alte_Buch_und_die_Reise_ins_Blaue_hinein_(1835)
-Smidt,Heinrich,Seemanns-Sagen und Schiffer-Märchen,1835,,Heinrich_Smidt_-_Seemanns-Sagen_und_Schiffer-Märchen_(1835)
-Sealsfield,Charles,Nathan der Squatter,1835,,Charles_Sealsfield_-_Nathan_der_Squatter_(1835)
-Mosen,Julius,Georg Venlot,1831,,Julius_Mosen_-_Georg_Venlot_(1831)
-Kohn,Joseph Seligmann,Der jüdische Gil Blas,1834,,Joseph_Seligmann_Kohn_-_Der_jüdische_Gil_Blas_(1834)
-Laube,Heinrich,Johanna,1837,,Heinrich_Laube_-_Johanna_(1837)
-Gutzkow,Karl,"Wally, die Zweiflerin",1835,,"Karl_Gutzkow_-_Wally,_die_Zweiflerin_(1835)"
-Tieck,Ludwig,Eigensinn und Laune,1836,,Ludwig_Tieck_-_Eigensinn_und_Laune_(1836)
-Hebbel,Friedrich,Barbier Zitterlein,1836,,Friedrich_Hebbel_-_Barbier_Zitterlein_(1836)
-Tieck,Ludwig,Die Ahnenprobe,1833,,Ludwig_Tieck_-_Die_Ahnenprobe_(1833)
-Tieck,Ludwig,Des Lebens Überfluss,1837,,Ludwig_Tieck_-_Des_Lebens_Überfluss_(1837)
-Laube,Heinrich,Das Schloß in Franken,1837,,Heinrich_Laube_-_Das_Schloß_in_Franken_(1837)
-Hebel,Johann Peter,Reise nach Frankfurt,1832,,Johann_Peter_Hebel_-_Reise_nach_Frankfurt_(1832)
-von Gaudy,Franz,Die Brenta-Blume,1838,,Franz_von_Gaudy_-_Die_Brenta-Blume_(1838)
-Sealsfield,Charles,Der Legitime und die Republikaner,1833,,Charles_Sealsfield_-_Der_Legitime_und_die_Republikaner_(1833)
-Laube,Heinrich,Die Novelle in der Theaterloge,1837,,Heinrich_Laube_-_Die_Novelle_in_der_Theaterloge_(1837)
-Glassbrenner,Adolf,Der Gensd'armen-Markt,1838,,Adolf_Glassbrenner_-_Der_Gensd'armen-Markt_(1838)
-Tieck,Ludwig,"Dichterleben, zweiter Theil",1831,,"Ludwig_Tieck_-_Dichterleben,_zweiter_Theil_(1831)"
-Immermann,Karl,Der Karneval und die Somnambule,1830,,Karl_Immermann_-_Der_Karneval_und_die_Somnambule_(1830)
-Laube,Heinrich,Ein Liebespaar,1837,,Heinrich_Laube_-_Ein_Liebespaar_(1837)
-Rellstab,Ludwig,1812 – Ein historischer Roman,1834,,Ludwig_Rellstab_-_1812_–_Ein_historischer_Roman_(1834)
-von Eichendorff,Joseph,Auch ich war in Arkadien!,1834,,Joseph_von_Eichendorff_-_Auch_ich_war_in_Arkadien!_(1834)
-Gotthelf,Jeremias,Die Wassernot im Emmental,1838,,Jeremias_Gotthelf_-_Die_Wassernot_im_Emmental_(1838)
-Aurbacher,Ludwig,Die schwäbische Bauernhochzeit,1832,,Ludwig_Aurbacher_-_Die_schwäbische_Bauernhochzeit_(1832)
-Mörike,Eduard,Lucie Gelmeroth,1834,,Eduard_Mörike_-_Lucie_Gelmeroth_(1834)
-Laube,Heinrich,Reisenovellen,1836,Band 4,Heinrich_Laube_-_Reisenovellen_-_Band_4_(1836)
-Laube,Heinrich,Reisenovellen,1836,Band 3,Heinrich_Laube_-_Reisenovellen_-_Band_3_(1836)
-Hebel,Johann Peter,Der Zundelheiner,1839,,Johann_Peter_Hebel_-_Der_Zundelheiner_(1839)
-Mörike,Eduard,Maler Nolten,1832,,Eduard_Mörike_-_Maler_Nolten_(1832)
-Spindler,Carl,Herbstviolen,1834,,Carl_Spindler_-_Herbstviolen_(1834)
-von Schmid,Christoph,"Ludwig, der kleine Auswanderer",1834,,"Christoph_von_Schmid_-_Ludwig,_der_kleine_Auswanderer_(1834)"
-Laube,Heinrich,Die Karlisten,1837,,Heinrich_Laube_-_Die_Karlisten_(1837)
-Tieck,Ludwig,Der wiederkehrende griechische Kaiser,1831,,Ludwig_Tieck_-_Der_wiederkehrende_griechische_Kaiser_(1831)
-Gutzkow,Karl,Eine Phantasieliebe,1845,,Karl_Gutzkow_-_Eine_Phantasieliebe_(1845)
-Seidl,Johann Gabriel,Sie ist versorgt!,1842,,Johann_Gabriel_Seidl_-_Sie_ist_versorgt!_(1842)
-Riehl,Wilhelm Heinrich,Meister Martin Hildebrand,1847,,Wilhelm_Heinrich_Riehl_-_Meister_Martin_Hildebrand_(1847)
-Gerstäcker,Friedrich,Die Wolfsglocke,1849,,Friedrich_Gerstäcker_-_Die_Wolfsglocke_(1849)
-Uhland,Ludwig,Lied der Nibelungen,1840,,Ludwig_Uhland_-_Lied_der_Nibelungen_(1840)
-Aurbacher,Ludwig,"Erzählungen, Lieder und Sprüche aus dem Allerley",1847,,"Ludwig_Aurbacher_-_Erzählungen,_Lieder_und_Sprüche_aus_dem_Allerley_(1847)"
-Hegner,Ulrich,Aus dem Leben eines Geringen,1840,,Ulrich_Hegner_-_Aus_dem_Leben_eines_Geringen_(1840)
-Kuenlin,Franz,Die Ehen werden im Himmel geschlossen,1840,,Franz_Kuenlin_-_Die_Ehen_werden_im_Himmel_geschlossen_(1840)
-Gotthelf,Jeremias,Jakobs des Handwerksgesellen Wanderungen durch die Schweiz,1846,,Jeremias_Gotthelf_-_Jakobs_des_Handwerksgesellen_Wanderungen_durch_die_Schweiz_(1846)
-Seidl,Johann Gabriel,Die Blaue,1842,,Johann_Gabriel_Seidl_-_Die_Blaue_(1842)
-Stifter,Adalbert,Feldblumen,1841,,Adalbert_Stifter_-_Feldblumen_(1841)
-Seidl,Johann Gabriel,Das goldene Ringlein,1842,,Johann_Gabriel_Seidl_-_Das_goldene_Ringlein_(1842)
-Gotthelf,Jeremias,Wie Uli der Knecht glücklich wird,1841,,Jeremias_Gotthelf_-_Wie_Uli_der_Knecht_glücklich_wird_(1841)
-Aston,Louise,Aus dem Leben einer Frau,1847,,Louise_Aston_-_Aus_dem_Leben_einer_Frau_(1847)
-Gerstäcker,Friedrich,Die Vertreibung der Mormonen aus Missouri,1845,,Friedrich_Gerstäcker_-_Die_Vertreibung_der_Mormonen_aus_Missouri_(1845)
-Gotthelf,Jeremias,Michels Brautschau,1849,,Jeremias_Gotthelf_-_Michels_Brautschau_(1849)
-Gotthelf,Jeremias,Wie Anne Bäbi Jowäger haushaltet,1843,Teil 2,Jeremias_Gotthelf_-_Wie_Anne_Bäbi_Jowäger_haushaltet_-_Teil_2_(1843)
-Gutzkow,Karl,Der Sadducäer von Amsterdam,1843,,Karl_Gutzkow_-_Der_Sadducäer_von_Amsterdam_(1843)
-Gotthelf,Jeremias,Der Geltstag,1845,,Jeremias_Gotthelf_-_Der_Geltstag_(1845)
-Alexis,Willibald,Der falsche Woldemar,1842,,Willibald_Alexis_-_Der_falsche_Woldemar_(1842)
-Gerstäcker,Friedrich,Die Silbermine in den Ozarkgebirgen,1847,,Friedrich_Gerstäcker_-_Die_Silbermine_in_den_Ozarkgebirgen_(1847)
-Weerth,Georg,Leben und Taten des berühmten Ritters Schnapphahnski,1849,,Georg_Weerth_-_Leben_und_Taten_des_berühmten_Ritters_Schnapphahnski_(1849)
-Hoefer,Edmund,Auf der Universität,1846,,Edmund_Hoefer_-_Auf_der_Universität_(1846)
-Stifter,Adalbert,Prokopus,1847,,Adalbert_Stifter_-_Prokopus_(1847)
-Aston,Louise,Lydia,1848,,Louise_Aston_-_Lydia_(1848)
-Gotthelf,Jeremias,Wie Joggeli eine Frau sucht,1841,,Jeremias_Gotthelf_-_Wie_Joggeli_eine_Frau_sucht_(1841)
-von Sallet,Friedrich,Kontraste und Paradoxen,1843,,Friedrich_von_Sallet_-_Kontraste_und_Paradoxen_(1843)
-Hackländer,FW,Humoristische Erzählungen,1847,,FW_Hackländer_-_Humoristische_Erzählungen_(1847)
-Stifter,Adalbert,Der Hochwald,1841,,Adalbert_Stifter_-_Der_Hochwald_(1841)
-Stifter,Adalbert,Der Waldsteig,1845,,Adalbert_Stifter_-_Der_Waldsteig_(1845)
-Stifter,Adalbert,Der Condor,1840,,Adalbert_Stifter_-_Der_Condor_(1840)
-Sealsfield,Charles,Die Erzählung des Obersten Morse,1841,,Charles_Sealsfield_-_Die_Erzählung_des_Obersten_Morse_(1841)
-Hoefer,Edmund,Das verlassene Haus,1845,,Edmund_Hoefer_-_Das_verlassene_Haus_(1845)
-Auerbach,Berthold,Schwarzwälder Dorfgeschichten,1843,,Berthold_Auerbach_-_Schwarzwälder_Dorfgeschichten_(1843)
-Stifter,Adalbert,Das Haidedorf,1840,,Adalbert_Stifter_-_Das_Haidedorf_(1840)
-Schirges,Georg,Der Bälgentreter von Eilersrode,1845,,Georg_Schirges_-_Der_Bälgentreter_von_Eilersrode_(1845)
-Franz,Agnes,Seltene Freundschaft oder: Bello und Miezchen,1843,,Agnes_Franz_-_Seltene_Freundschaft_oder:_Bello_und_Miezchen_(1843)
-Seidl,Johann Gabriel,Juana,1842,,Johann_Gabriel_Seidl_-_Juana_(1842)
-von Gaudy,Franz,Novellen und Erzählungen 1,1840,,Franz_von_Gaudy_-_Novellen_und_Erzählungen_1_(1840)
-Gotthelf,Jeremias,Eine alte Geschichte zu neuer Erbauung,1849,,Jeremias_Gotthelf_-_Eine_alte_Geschichte_zu_neuer_Erbauung_(1849)
-Alexis,Willibald,Der Roland von Berlin – Zweiter Band,1840,,Willibald_Alexis_-_Der_Roland_von_Berlin_–_Zweiter_Band_(1840)
-Seidl,Johann Gabriel,Die Schweden vor Olmütz,1843,,Johann_Gabriel_Seidl_-_Die_Schweden_vor_Olmütz_(1843)
-Paalzow,Henriette,Thomas Thyrnau – Erster Theil,1843,,Henriette_Paalzow_-_Thomas_Thyrnau_–_Erster_Theil_(1843)
-Spindler,Carl,Der Vogelhändler von Imst,1841,,Carl_Spindler_-_Der_Vogelhändler_von_Imst_(1841)
-Reuter,Fritz,Ein gräflicher Geburtstag,1847,1,Fritz_Reuter_-_Ein_gräflicher_Geburtstag_-_1_(1847)
-Gotthelf,Jeremias,Hans Joggeli der Erbvetter,1848,,Jeremias_Gotthelf_-_Hans_Joggeli_der_Erbvetter_(1848)
-Tieck,Ludwig,Tod des Dichters,1845,,Ludwig_Tieck_-_Tod_des_Dichters_(1845)
-Stifter,Adalbert,Das alte Siegel,1844,,Adalbert_Stifter_-_Das_alte_Siegel_(1844)
-Heine,Heinrich,Der Rabbi von Bacherach,1840,,Heinrich_Heine_-_Der_Rabbi_von_Bacherach_(1840)
-Kompert,Leopold,Ohne Bewilligung,1848,,Leopold_Kompert_-_Ohne_Bewilligung_(1848)
-Hackländer,FW,Namenlose Geschichten,1851,Zweiter Band,FW_Hackländer_-_Namenlose_Geschichten_-_Zweiter_Band_(1851)
-Hackländer,FW,Handel und Wandel,1850,,FW_Hackländer_-_Handel_und_Wandel_(1850)
-Gutzkow,Karl,Die Kurstauben,1852,,Karl_Gutzkow_-_Die_Kurstauben_(1852)
-Gerstäcker,Friedrich,Der Flatbootmann,1858,,Friedrich_Gerstäcker_-_Der_Flatbootmann_(1858)
-Freytag,Gustav,Soll und Haben,1855,,Gustav_Freytag_-_Soll_und_Haben_(1855)
-von François,Louise,Fräulein Muthchen und ihr Hausmeier,1859,,Louise_von_François_-_Fräulein_Muthchen_und_ihr_Hausmeier_(1859)
-Gotthelf,Jeremias,Der Besenbinder von Rychiswyl,1852,,Jeremias_Gotthelf_-_Der_Besenbinder_von_Rychiswyl_(1852)
-Ruppius,Otto,Das Vermächtnis des Pedlars,1859,,Otto_Ruppius_-_Das_Vermächtnis_des_Pedlars_(1859)
-Bronner,Franz Xaver,Ein Mönchsleben aus der empfindsamen Zeit,1850,,Franz_Xaver_Bronner_-_Ein_Mönchsleben_aus_der_empfindsamen_Zeit_(1850)
-Hartmann,Moritz,Der Krieg um den Wald,1850,1,Moritz_Hartmann_-_Der_Krieg_um_den_Wald_-_1_(1850)
-Auerbach,Berthold,Barfüßele,1856,,Berthold_Auerbach_-_Barfüßele_(1856)
-Gutzkow,Karl,Die Ritter vom Geiste,1851,,Karl_Gutzkow_-_Die_Ritter_vom_Geiste_(1851)
-Keller,Gottfried,"Pankraz, der Schmoller",1856,,"Gottfried_Keller_-_Pankraz,_der_Schmoller_(1856)"
-Galen,Philipp,Der Strandvogt von Jasmund,1859,Zweiter Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Zweiter_Band_(1859)
-Stifter,Adalbert,Der Nachsommer,1857,,Adalbert_Stifter_-_Der_Nachsommer_(1857)
-Hackländer,FW,Der Augenblick des Glücks,1857,,FW_Hackländer_-_Der_Augenblick_des_Glücks_(1857)
-Wildermuth,Ottilie,Ein sonnenloses Leben,1855,,Ottilie_Wildermuth_-_Ein_sonnenloses_Leben_(1855)
-Bronner,Franz Xaver,Ein Mönchsleben aus der empfindsamen Zeit,1850,Band 2,Franz_Xaver_Bronner_-_Ein_Mönchsleben_aus_der_empfindsamen_Zeit_-_Band_2_(1850)
-Mügge,Theodor,Erich Randal,1856,,Theodor_Mügge_-_Erich_Randal_(1856)
-Meredith,George,Richard Feverel,1859,,George_Meredith_-_Richard_Feverel_(1859)
-Nathusius,Marie,Elisabeth. I. Band,1858,,Marie_Nathusius_-_Elisabeth._I._Band_(1858)
-Galen,Philipp,Der Strandvogt von Jasmund,1859,Dritter Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Dritter_Band_(1859)
-Hackländer,FW,Eugen Stillfried – Zweiter Band,1852,,FW_Hackländer_-_Eugen_Stillfried_–_Zweiter_Band_(1852)
-Retcliffe,Sir John,Nena Sahib,1858,,Sir_John_Retcliffe_-_Nena_Sahib_(1858)
-Galen,Philipp,Der Strandvogt von Jasmund,1859,Erster Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Erster_Band_(1859)
-Riehl,Wilhelm Heinrich,Die Lehrjahre eines Humanisten,1856,,Wilhelm_Heinrich_Riehl_-_Die_Lehrjahre_eines_Humanisten_(1856)
-Keller,Gottfried,"Spiegel, das Kätzchen",1856,,"Gottfried_Keller_-_Spiegel,_das_Kätzchen_(1856)"
-Gerstäcker,Friedrich,Jack und Bill,1858,,Friedrich_Gerstäcker_-_Jack_und_Bill_(1858)
-Gerstäcker,Friedrich,John Wells,1859,,Friedrich_Gerstäcker_-_John_Wells_(1859)
-Gerstäcker,Friedrich,Blau Wasser,1858,,Friedrich_Gerstäcker_-_Blau_Wasser_(1858)
-Heyse,Paul,Anfang und Ende,1857,,Paul_Heyse_-_Anfang_und_Ende_(1857)
-Gutzkow,Karl,Der Zauberer von Rom. IV. Buch,1858,,Karl_Gutzkow_-_Der_Zauberer_von_Rom._IV._Buch_(1858)
-Mügge,Theodor,Afraja,1854,,Theodor_Mügge_-_Afraja_(1854)
-Heyse,Paul,Am Tiberufer,1855,,Paul_Heyse_-_Am_Tiberufer_(1855)
-Bechstein,Ludwig,Der Dunkelgraf,1854,,Ludwig_Bechstein_-_Der_Dunkelgraf_(1854)
-Mügge,Theodor,Der Vogt von Sylt,1851,,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851)
-Nathusius,Marie,Elisabeth – Zweiter Band,1858,,Marie_Nathusius_-_Elisabeth_–_Zweiter_Band_(1858)
-Ludwig,Otto,Die Heiterethei und ihr Widerspiel,1857,,Otto_Ludwig_-_Die_Heiterethei_und_ihr_Widerspiel_(1857)
-Reuter,Fritz,Eine Heirathsgeschichte,1855,,Fritz_Reuter_-_Eine_Heirathsgeschichte_(1855)
-Wildermuth,Ottilie,Die Lehrjahre der zwei Schwestern,1855,,Ottilie_Wildermuth_-_Die_Lehrjahre_der_zwei_Schwestern_(1855)
-Hackländer,FW,Eugen Stillfried – Dritter Band,1852,,FW_Hackländer_-_Eugen_Stillfried_–_Dritter_Band_(1852)
-Heyse,Paul,Das Bild der Mutter,1858,,Paul_Heyse_-_Das_Bild_der_Mutter_(1858)
-Wildermuth,Ottilie,Unabhängigkeit,1855,,Ottilie_Wildermuth_-_Unabhängigkeit_(1855)
-Storm,Theodor,Hinzelmeier,1855,,Theodor_Storm_-_Hinzelmeier_(1855)
-Heyse,Paul,Maria Francisca,1858,,Paul_Heyse_-_Maria_Francisca_(1858)
-Reuter,Fritz,Memoiren eines alten Fliegenschimmels,1855,,Fritz_Reuter_-_Memoiren_eines_alten_Fliegenschimmels_(1855)
-Gerstäcker,Friedrich,Die Nacht auf dem Walfisch,1858,,Friedrich_Gerstäcker_-_Die_Nacht_auf_dem_Walfisch_(1858)
-Gotthelf,Jeremias,Die Frau Pfarrerin,1854,,Jeremias_Gotthelf_-_Die_Frau_Pfarrerin_(1854)
-Hoefer,Edmund,Die alte Erlaucht,1857,,Edmund_Hoefer_-_Die_alte_Erlaucht_(1857)
-Ruppius,Otto,Der Pedlar,1857,,Otto_Ruppius_-_Der_Pedlar_(1857)
-Stifter,Adalbert,Der Kuss von Sentze,1866,,Adalbert_Stifter_-_Der_Kuss_von_Sentze_(1866)
-Kompert,Leopold,Eisik's Brille,1860,,Leopold_Kompert_-_Eisik's_Brille_(1860)
-Wichert,Ernst,Für tot erklärt,1867,,Ernst_Wichert_-_Für_tot_erklärt_(1867)
-Gerstäcker,Friedrich,Im Busch,1864,,Friedrich_Gerstäcker_-_Im_Busch_(1864)
-Spielhagen,Friedrich,In Reih' und Glied. Erster Theil,1866,,Friedrich_Spielhagen_-_In_Reih'_und_Glied._Erster_Theil_(1866)
-Spielhagen,Friedrich,Die Dorfcoquette,1868,,Friedrich_Spielhagen_-_Die_Dorfcoquette_(1868)
-Auerbach,Berthold,Das Landhaus am Rhein,1869,Band IV,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_IV_(1869)
-Retcliffe,Sir John,Solferino,1866,,Sir_John_Retcliffe_-_Solferino_(1866)
-Storm,Theodor,In St Jürgen,1867,,Theodor_Storm_-_In_St_Jürgen_(1867)
-Steub,Ludwig,Der schwarze Gast,1863,,Ludwig_Steub_-_Der_schwarze_Gast_(1863)
-Heyse,Paul,Die kleine Mama,1865,,Paul_Heyse_-_Die_kleine_Mama_(1865)
-Auerbach,Berthold,Auf der Höhe Band I,1865,,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865)
-Heyse,Paul,Die Witwe von Pisa,1865,,Paul_Heyse_-_Die_Witwe_von_Pisa_(1865)
-Schmidt,Maximilian,Glasmacherleut',1869,,Maximilian_Schmidt_-_Glasmacherleut'_(1869)
-Spielhagen,Friedrich,Hammer und Amboß,1869,,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869)
-Hartmann,Moritz,Das Schloß im Gebirge,1866,,Moritz_Hartmann_-_Das_Schloß_im_Gebirge_(1866)
-Raabe,Wilhelm,Abu Telfan,1868,,Wilhelm_Raabe_-_Abu_Telfan_(1868)
-Möllhausen,Balduin,Das Mormonenmädchen. Band II,1864,,Balduin_Möllhausen_-_Das_Mormonenmädchen._Band_II_(1864)
-Freytag,Gustav,Verlorene Handschrift,1864,,Gustav_Freytag_-_Verlorene_Handschrift_(1864)
-Marlitt,Eugenie,Die zwölf Apostel,1865,,Eugenie_Marlitt_-_Die_zwölf_Apostel_(1865)
-Wildermuth,Ottilie,Das Feental,1862,,Ottilie_Wildermuth_-_Das_Feental_(1862)
-Hebbel,Friedrich,Eine Nacht im Jägerhause,1863,,Friedrich_Hebbel_-_Eine_Nacht_im_Jägerhause_(1863)
-Heyse,Paul,Barbarossa,1869,,Paul_Heyse_-_Barbarossa_(1869)
-Raabe,Wilhelm,Die schwarze Galeere,1865,,Wilhelm_Raabe_-_Die_schwarze_Galeere_(1865)
-Wildermuth,Ottilie,Cherubino und Zephirine,1862,,Ottilie_Wildermuth_-_Cherubino_und_Zephirine_(1862)
-Gerstäcker,Friedrich,Unter dem Äquator,1861,,Friedrich_Gerstäcker_-_Unter_dem_Äquator_(1861)
-Wildermuth,Ottilie,Mädchenbriefe,1862,,Ottilie_Wildermuth_-_Mädchenbriefe_(1862)
-Smidt,Heinrich,Meeresstille und hohe See,1861,,Heinrich_Smidt_-_Meeresstille_und_hohe_See_(1861)
-Marlitt,Eugenie,Das Geheimnis der alten Mamsell,1867,,Eugenie_Marlitt_-_Das_Geheimnis_der_alten_Mamsell_(1867)
-Gerstäcker,Friedrich,Der Kunstreiter,1861,,Friedrich_Gerstäcker_-_Der_Kunstreiter_(1861)
-Auerbach,Berthold,Das Landhaus am Rhein,1869,Band I,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_I_(1869)
-Auerbach,Berthold,Das Landhaus am Rhein,1869,Band III,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_III_(1869)
-Heyse,Paul,Im Grafenschloß,1861,,Paul_Heyse_-_Im_Grafenschloß_(1861)
-Raabe,Wilhelm,Die Leute aus dem Walde,1863,,Wilhelm_Raabe_-_Die_Leute_aus_dem_Walde_(1863)
-Möllhausen,Balduin,Das Mormonenmädchen. Band I,1864,,Balduin_Möllhausen_-_Das_Mormonenmädchen._Band_I_(1864)
-Spielhagen,Friedrich,In Reih' und Glied. Zweiter Theil,1866,,Friedrich_Spielhagen_-_In_Reih'_und_Glied._Zweiter_Theil_(1866)
-Fontane,Theodor,Jenseit des Tweed,1860,,Theodor_Fontane_-_Jenseit_des_Tweed_(1860)
-Stifter,Adalbert,Witiko,1865,,Adalbert_Stifter_-_Witiko_(1865)
-Wildermuth,Ottilie,Krieg und Frieden,1862,,Ottilie_Wildermuth_-_Krieg_und_Frieden_(1862)
-Marlitt,Eugenie,Goldelse,1866,,Eugenie_Marlitt_-_Goldelse_(1866)
-von Saar,Ferdinand,Innocens,1866,,Ferdinand_von_Saar_-_Innocens_(1866)
-Reithard,Johann Jakob,"Die Frauen in Burgdorf, oder Entstehung der Hühnersuppe",1860,,"Johann_Jakob_Reithard_-_Die_Frauen_in_Burgdorf,_oder_Entstehung_der_Hühnersuppe_(1860)"
-Kürnberger,Ferdinand,Die Last des Schweigens,1866,,Ferdinand_Kürnberger_-_Die_Last_des_Schweigens_(1866)
-Keller,Gottfried,Die mißbrauchten Liebesbriefe,1860,,Gottfried_Keller_-_Die_mißbrauchten_Liebesbriefe_(1860)
-Storm,Theodor,Am Kamin,1861,,Theodor_Storm_-_Am_Kamin_(1861)
-Heyse,Paul,Ein Ring,1862,,Paul_Heyse_-_Ein_Ring_(1862)
-Kompert,Leopold,Die Jahrzeit,1865,,Leopold_Kompert_-_Die_Jahrzeit_(1865)
-Gerstäcker,Friedrich,Unter den Pehuenchen,1867,,Friedrich_Gerstäcker_-_Unter_den_Pehuenchen_(1867)
-Meyer-Merian,Theodor,Dienen und Verdienen,1865,,Theodor_Meyer-Merian_-_Dienen_und_Verdienen_(1865)
-Raabe,Wilhelm,Nach dem großen Kriege,1861,,Wilhelm_Raabe_-_Nach_dem_großen_Kriege_(1861)
-Jensen,Wilhelm,Karin von Schweden,1872,,Wilhelm_Jensen_-_Karin_von_Schweden_(1872)
-Jensen,Wilhelm,Nach Sonnenuntergang – Zweites Buch,1879,,Wilhelm_Jensen_-_Nach_Sonnenuntergang_–_Zweites_Buch_(1879)
-Storm,Theodor,Carsten Curator,1878,,Theodor_Storm_-_Carsten_Curator_(1878)
-Storm,Theodor,Waldwinkel,1874,,Theodor_Storm_-_Waldwinkel_(1874)
-Stelzhamer,Franz,"Reisel, der Wildschütz und Geiger",1874,,"Franz_Stelzhamer_-_Reisel,_der_Wildschütz_und_Geiger_(1874)"
-Steub,Ludwig,Benno und Kriemhilde,1879,,Ludwig_Steub_-_Benno_und_Kriemhilde_(1879)
-Gerstäcker,Friedrich,Das Wrack,1870,,Friedrich_Gerstäcker_-_Das_Wrack_(1870)
-Raabe,Wilhelm,Eulenpfingsten,1874,,Wilhelm_Raabe_-_Eulenpfingsten_(1874)
-Mörike,Eduard,Bruchstücke eines Romans,1875,,Eduard_Mörike_-_Bruchstücke_eines_Romans_(1875)
-Wildermuth,Ottilie,Todte Treue,1877,,Ottilie_Wildermuth_-_Todte_Treue_(1877)
-von Saar,Ferdinand,Die Steinklopfer,1874,1,Ferdinand_von_Saar_-_Die_Steinklopfer_-_1_(1874)
-Halm,Friedrich,Die Marzipan-Lise,1871,,Friedrich_Halm_-_Die_Marzipan-Lise_(1871)
-Stelzhamer,Franz,Groß-Piesenham,1874,,Franz_Stelzhamer_-_Groß-Piesenham_(1874)
-Schaumberger,Heinrich,Fritz Reinhardt,1874,,Heinrich_Schaumberger_-_Fritz_Reinhardt_(1874)
-Rosegger,Peter,Die Wallfahrer,1874,,Peter_Rosegger_-_Die_Wallfahrer_(1874)
-Rosegger,Peter,Das Felsenbildnis,1874,,Peter_Rosegger_-_Das_Felsenbildnis_(1874)
-Fontane,Theodor,Vor dem Sturm,1878,,Theodor_Fontane_-_Vor_dem_Sturm_(1878)
-Raabe,Wilhelm,Der gute Tag,1876,,Wilhelm_Raabe_-_Der_gute_Tag_(1876)
-Rosegger,Peter,Die Schriften des Waldschulmeisters,1875,,Peter_Rosegger_-_Die_Schriften_des_Waldschulmeisters_(1875)
-Steub,Ludwig,Die Rose der Sewi,1879,,Ludwig_Steub_-_Die_Rose_der_Sewi_(1879)
-Storm,Theodor,Aquis submersus,1877,,Theodor_Storm_-_Aquis_submersus_(1877)
-Wörishöffer,Sophie,Robert des Schiffsjungen Fahrten und Abenteuer,1877,,Sophie_Wörishöffer_-_Robert_des_Schiffsjungen_Fahrten_und_Abenteuer_(1877)
-Streckfuß,Adolf,Der Herr Präsident,1871,,Adolf_Streckfuß_-_Der_Herr_Präsident_(1871)
-Heyse,Paul,Die Pfadfinderin,1870,,Paul_Heyse_-_Die_Pfadfinderin_(1870)
-Spielhagen,Friedrich,Sturmflut,1877,,Friedrich_Spielhagen_-_Sturmflut_(1877)
-Schücking,Levin,Der Kampf im Spessart,1875,,Levin_Schücking_-_Der_Kampf_im_Spessart_(1875)
-Spyri,Johanna,Wie Wiselis Weg gefunden wird,1878,,Johanna_Spyri_-_Wie_Wiselis_Weg_gefunden_wird_(1878)
-Ebers,Georg,Homo sum,1878,,Georg_Ebers_-_Homo_sum_(1878)
-Werner,E,Glück auf!,1874,,E_Werner_-_Glück_auf!_(1874)
-Wildermuth,Ottilie,Die alte Freundin,1877,,Ottilie_Wildermuth_-_Die_alte_Freundin_(1877)
-Reuter,Fritz,De Urgeschicht von Meckelnborg,1874,,Fritz_Reuter_-_De_Urgeschicht_von_Meckelnborg_(1874)
-Spyri,Johanna,Heimatlos,1878,,Johanna_Spyri_-_Heimatlos_(1878)
-Anzengruber,Ludwig,Dorfgänge,1879,,Ludwig_Anzengruber_-_Dorfgänge_(1879)
-Salomon,Ludwig,Die Blüchertrompete,1871,,Ludwig_Salomon_-_Die_Blüchertrompete_(1871)
-Raabe,Wilhelm,Deutscher Mondschein,1873,,Wilhelm_Raabe_-_Deutscher_Mondschein_(1873)
-Raabe,Wilhelm,Wunnigel,1877,,Wilhelm_Raabe_-_Wunnigel_(1877)
-von Saar,Ferdinand,Marianne,1873,,Ferdinand_von_Saar_-_Marianne_(1873)
-Hamerling,Robert,Aspasia,1875,,Robert_Hamerling_-_Aspasia_(1875)
-Raabe,Wilhelm,Des Reiches Krone,1870,,Wilhelm_Raabe_-_Des_Reiches_Krone_(1870)
-Schaumberger,Heinrich,Glückliches Unglück,1874,,Heinrich_Schaumberger_-_Glückliches_Unglück_(1874)
-von François,Louise,Die letzte Reckenburgerin,1871,,Louise_von_François_-_Die_letzte_Reckenburgerin_(1871)
-Seidel,Heinrich,Ein Skizzenbuch,1878,,Heinrich_Seidel_-_Ein_Skizzenbuch_(1878)
-Keller,Gottfried,Der Landvogt von Greifensee,1877,,Gottfried_Keller_-_Der_Landvogt_von_Greifensee_(1877)
-Keller,Gottfried,Das verlorene Lachen,1874,,Gottfried_Keller_-_Das_verlorene_Lachen_(1874)
-Kurz,Hermann,"Gesammelte kleinere Erzählungen, 3. Teil",1873,,"Hermann_Kurz_-_Gesammelte_kleinere_Erzählungen,_3._Teil_(1873)"
-Schaumberger,Heinrich,Vater und Sohn,1876,,Heinrich_Schaumberger_-_Vater_und_Sohn_(1876)
-Dahn,Felix,Ein Kampf um Rom,1876,,Felix_Dahn_-_Ein_Kampf_um_Rom_(1876)
-Meding,Oskar,Zwei Kaiserkronen,1872,,Oskar_Meding_-_Zwei_Kaiserkronen_(1872)
-von Sacher-Masoch,Leopold,Mondnacht,1875,,Leopold_von_Sacher-Masoch_-_Mondnacht_(1875)
-Mörike,Eduard,Traumseele,1875,,Eduard_Mörike_-_Traumseele_(1875)
-von Ebner-Eschenbach,Marie,Die Freiherren von Gemperlein,1889,,Marie_von_Ebner-Eschenbach_-_Die_Freiherren_von_Gemperlein_(1889)
-von Suttner,Bertha,Die Waffen nieder!,1889,,Bertha_von_Suttner_-_Die_Waffen_nieder!_(1889)
-Voß,Richard,Die Auferstandenen – Erster Band,1887,,Richard_Voß_-_Die_Auferstandenen_–_Erster_Band_(1887)
-Ganghofer,Ludwig,Die Brautfahrt des Damian Zagg,1880,,Ludwig_Ganghofer_-_Die_Brautfahrt_des_Damian_Zagg_(1880)
-Seidel,Heinrich,"Lang, lang ist's her",1880,,"Heinrich_Seidel_-_Lang,_lang_ist's_her_(1880)"
-Dahn,Felix,Walhall,1883,,Felix_Dahn_-_Walhall_(1883)
-Spyri,Johanna,"Und wer nur Gott zum Freunde hat, dem hilft er immer wieder",1882,,"Johanna_Spyri_-_Und_wer_nur_Gott_zum_Freunde_hat,_dem_hilft_er_immer_wieder_(1882)"
-Schlaf,Johannes,Papa Hamlet,1889,,Johannes_Schlaf_-_Papa_Hamlet_(1889)
-Spyri,Johanna,Heidis Lehr- und Wanderjahre,1880,,Johanna_Spyri_-_Heidis_Lehr-_und_Wanderjahre_(1880)
-Stinde,Julius,Buchholzens in Italien,1883,,Julius_Stinde_-_Buchholzens_in_Italien_(1883)
-Anzengruber,Ludwig,Kalendergeschichten,1882,,Ludwig_Anzengruber_-_Kalendergeschichten_(1882)
-Voß,Richard,Die Sabinerin,1889,,Richard_Voß_-_Die_Sabinerin_(1889)
-Keller,Gottfried,Das Sinngedicht,1881,,Gottfried_Keller_-_Das_Sinngedicht_(1881)
-Wichert,Ernst,Ewe,1880,,Ernst_Wichert_-_Ewe_(1880)
-Ganghofer,Ludwig,Der nette Kerl,1880,,Ludwig_Ganghofer_-_Der_nette_Kerl_(1880)
-von Ebner-Eschenbach,Marie,"Lotti, die Uhrmacherin",1880,,"Marie_von_Ebner-Eschenbach_-_Lotti,_die_Uhrmacherin_(1880)"
-Storm,Theodor,Zur Chronik von Grieshuus,1884,,Theodor_Storm_-_Zur_Chronik_von_Grieshuus_(1884)
-Hoefer,Edmund,Der Alte von Menkendorf,1882,,Edmund_Hoefer_-_Der_Alte_von_Menkendorf_(1882)
-von Glümer,Claire,Gesühnt,1882,,Claire_von_Glümer_-_Gesühnt_(1882)
-Roquette,Otto,Das Eulenzeichen,1884,,Otto_Roquette_-_Das_Eulenzeichen_(1884)
-Stinde,Julius,Die Familie Buchholz. Aus dem Leben der Hauptstadt,1884,,Julius_Stinde_-_Die_Familie_Buchholz._Aus_dem_Leben_der_Hauptstadt_(1884)
-Ganghofer,Ludwig,Der Jäger von Fall,1883,,Ludwig_Ganghofer_-_Der_Jäger_von_Fall_(1883)
-Spyri,Johanna,Rosenresli,1882,,Johanna_Spyri_-_Rosenresli_(1882)
-Hoffmann,Hans,Im Lande der Phäaken,1884,,Hans_Hoffmann_-_Im_Lande_der_Phäaken_(1884)
-Dahn,Felix,Felicitas,1882,,Felix_Dahn_-_Felicitas_(1882)
-von Eschstruth,Nataly,Hofluft,1889,Band 1,Nataly_von_Eschstruth_-_Hofluft_-_Band_1_(1889)
-Klaußmann,Oskar,Drei Kriminalerzählungen,1889,,Oskar_Klaußmann_-_Drei_Kriminalerzählungen_(1889)
-Schmidt,Maximilian,Die Jachenauer in Griechenland,1888,,Maximilian_Schmidt_-_Die_Jachenauer_in_Griechenland_(1888)
-Wörishöffer,Sophie,Onnen Visser,1885,Der Schmugglersohn von Norderney,Sophie_Wörishöffer_-_Onnen_Visser_-_Der_Schmugglersohn_von_Norderney_(1885)
-Spyri,Johanna,In sicherer Hut,1882,,Johanna_Spyri_-_In_sicherer_Hut_(1882)
-Meding,Oskar,Die Saxoborussen,1885,,Oskar_Meding_-_Die_Saxoborussen_(1885)
-Raabe,Wilhelm,Ein Besuch,1884,,Wilhelm_Raabe_-_Ein_Besuch_(1884)
-Wichert,Ernst,Der Schaktarp,1881,,Ernst_Wichert_-_Der_Schaktarp_(1881)
-Jensen,Wilhelm,Dietwald Werneken,1888,,Wilhelm_Jensen_-_Dietwald_Werneken_(1888)
-Rosegger,Peter,Jakob der Letzte,1889,,Peter_Rosegger_-_Jakob_der_Letzte_(1889)
-von Ebner-Eschenbach,Marie,Der gute Mond,1886,,Marie_von_Ebner-Eschenbach_-_Der_gute_Mond_(1886)
-May,Karl,Deutsche Herzen,1885,Deutsche Helden. 6. Der Engel der Verbannten-,Karl_May_-_Deutsche_Herzen_-_Deutsche_Helden._6._Der_Engel_der_Verbannten-_(1885)
-Marlitt,Eugenie,Im Schillingshof,1880,,Eugenie_Marlitt_-_Im_Schillingshof_(1880)
-von Ebner-Eschenbach,Marie,Krambambuli,1884,,Marie_von_Ebner-Eschenbach_-_Krambambuli_(1884)
-Raabe,Wilhelm,Das Horn von Wanza,1881,,Wilhelm_Raabe_-_Das_Horn_von_Wanza_(1881)
-Stinde,Julius,Frau Buchholz im Orient,1888,,Julius_Stinde_-_Frau_Buchholz_im_Orient_(1888)
-Schmidt,Maximilian,Die Schwanjungfrau,1885,,Maximilian_Schmidt_-_Die_Schwanjungfrau_(1885)
-von Keyserling,Eduard,Fräulein Rosa Herz,1887,,Eduard_von_Keyserling_-_Fräulein_Rosa_Herz_(1887)
-Spielhagen,Friedrich,Noblesse oblige,1888,,Friedrich_Spielhagen_-_Noblesse_oblige_(1888)
-Schweichel,Robert,Die Falkner von St. Vigil,1881,,Robert_Schweichel_-_Die_Falkner_von_St._Vigil_(1881)
-Schwerin,Josephine Gräfin,Rodanseck,1883,,Josephine_Gräfin_Schwerin_-_Rodanseck_(1883)
-Fontane,Theodor,Cécile,1887,,Theodor_Fontane_-_Cécile_(1887)
-Stettenheim,Julius,Muckenich's Reden und Thaten,1885,,Julius_Stettenheim_-_Muckenich's_Reden_und_Thaten_(1885)
-Spyri,Johanna,Moni der Geißbub,1887,,Johanna_Spyri_-_Moni_der_Geißbub_(1887)
-Ebers,Georg,Serapis,1885,,Georg_Ebers_-_Serapis_(1885)
-von Sacher-Masoch,Leopold,Neue Erzählungen,1893,,Leopold_von_Sacher-Masoch_-_Neue_Erzählungen_(1893)
-Sudermann,Hermann,Jolanthes Hochzeit,1892,,Hermann_Sudermann_-_Jolanthes_Hochzeit_(1892)
-Fontane,Theodor,Meine Kinderjahre,1894,,Theodor_Fontane_-_Meine_Kinderjahre_(1894)
-Anklam,Louise,Kindergeschichten,1898,,Louise_Anklam_-_Kindergeschichten_(1898)
-Heimburg,Wilhelmine,Trudchens Heirat,1894,,Wilhelmine_Heimburg_-_Trudchens_Heirat_(1894)
-von Liliencron,Detlev,Der letzte Gruß,1899,,Detlev_von_Liliencron_-_Der_letzte_Gruß_(1899)
-Rosegger,Peter,Die Abelsberger Chronik,1898,,Peter_Rosegger_-_Die_Abelsberger_Chronik_(1898)
-von Hofmannsthal,Hugo,Reitergeschichte,1899,,Hugo_von_Hofmannsthal_-_Reitergeschichte_(1899)
-von Gumppenberg,Hanns,Vom Fenster aus,1895,,Hanns_von_Gumppenberg_-_Vom_Fenster_aus_(1895)
-Schobert,Hedwig,Künstlerblut,1892,,Hedwig_Schobert_-_Künstlerblut_(1892)
-Schmidt,Maximilian,Humor (erste Reihe),1899,,Maximilian_Schmidt_-_Humor_(erste_Reihe)_(1899)
-Schlaf,Johannes,In Dingsda,1892,,Johannes_Schlaf_-_In_Dingsda_(1892)
-zu Reventlow,Fanny,Ultimo,1897,,Fanny_zu_Reventlow_-_Ultimo_(1897)
-von Sacher-Masoch,Leopold,Der Wanderer,1895,,Leopold_von_Sacher-Masoch_-_Der_Wanderer_(1895)
-von Suttner,Bertha,Langeweile,1895,,Bertha_von_Suttner_-_Langeweile_(1895)
-Bierbaum,Otto Julius,Die Lavendel-Ehe,1895,,Otto_Julius_Bierbaum_-_Die_Lavendel-Ehe_(1895)
-Seidel,Heinrich,Das Atelier,1899,,Heinrich_Seidel_-_Das_Atelier_(1899)
-Bierbaum,Otto Julius,Die Schlangendame,1896,,Otto_Julius_Bierbaum_-_Die_Schlangendame_(1896)
-Frapan,Ilse,Weisse Flamme,1895,,Ilse_Frapan_-_Weisse_Flamme_(1895)
-Ebers,Georg,Per aspera,1892,,Georg_Ebers_-_Per_aspera_(1892)
-Stratz,Rudolph,Unter den Linden,1893,,Rudolph_Stratz_-_Unter_den_Linden_(1893)
-Bierbaum,Otto Julius,Josephine,1893,,Otto_Julius_Bierbaum_-_Josephine_(1893)
-Rosegger,Peter,Peter Mayr der Wirt an der Mahr,1891,,Peter_Rosegger_-_Peter_Mayr_der_Wirt_an_der_Mahr_(1891)
-Raabe,Wilhelm,Gutmanns Reisen,1891,,Wilhelm_Raabe_-_Gutmanns_Reisen_(1891)
-Riehl,Wilhelm Heinrich,Rheingauer Deutsch,1897,,Wilhelm_Heinrich_Riehl_-_Rheingauer_Deutsch_(1897)
-Thoma,Ludwig,Kirta!,1895,,Ludwig_Thoma_-_Kirta!_(1895)
-Rilke,Rainer Maria,Die Näherin,1895,,Rainer_Maria_Rilke_-_Die_Näherin_(1895)
-von Polenz,Wilhelm,Der Pfarrer von Breitendorf Erster Band,1893,,Wilhelm_von_Polenz_-_Der_Pfarrer_von_Breitendorf_Erster_Band_(1893)
-Bierbaum,Otto Julius,To-lu-to-lo oder Wie Emil Türke wurde,1897,,Otto_Julius_Bierbaum_-_To-lu-to-lo_oder_Wie_Emil_Türke_wurde_(1897)
-Eckstein,Ernst,Fürst Arno,1899,,Ernst_Eckstein_-_Fürst_Arno_(1899)
-May,Karl,Freuden und Leiden eines Vielgelesenen,1896,,Karl_May_-_Freuden_und_Leiden_eines_Vielgelesenen_(1896)
-Panizza,Oskar,Die gelbe Kröte,1896,,Oskar_Panizza_-_Die_gelbe_Kröte_(1896)
-Wolff,Julius,Das schwarze Weib,1894,,Julius_Wolff_-_Das_schwarze_Weib_(1894)
-Hoffmann,Hans,Das Gymnasium zu Stolpenburg,1891,,Hans_Hoffmann_-_Das_Gymnasium_zu_Stolpenburg_(1891)
-Przybyszewski,Stanislaw,Satans Kinder,1897,,Stanislaw_Przybyszewski_-_Satans_Kinder_(1897)
-May,Karl,Der Schatz der Inkas,1890,,Karl_May_-_Der_Schatz_der_Inkas_(1890)
-Riehl,Wilhelm Heinrich,Durch tausend Jahre – Vierter Band,1897,,Wilhelm_Heinrich_Riehl_-_Durch_tausend_Jahre_–_Vierter_Band_(1897)
-Meyer,Conrad Ferdinand,Angela Borgia,1891,,Conrad_Ferdinand_Meyer_-_Angela_Borgia_(1891)
-Fontane,Theodor,Die Poggenpuhls,1896,,Theodor_Fontane_-_Die_Poggenpuhls_(1896)
-Barlach,Ernst,Fragmente aus früherer Zeit,1895,,Ernst_Barlach_-_Fragmente_aus_früherer_Zeit_(1895)
-Engel,Georg,Die Last,1898,,Georg_Engel_-_Die_Last_(1898)
-Spyri,Johanna,Einer vom Hause Lesa,1890,,Johanna_Spyri_-_Einer_vom_Hause_Lesa_(1890)
-Bierbaum,Otto Julius,Letzte Musterung,1893,,Otto_Julius_Bierbaum_-_Letzte_Musterung_(1893)
-Heiberg,Hermann,Todsünden,1891,,Hermann_Heiberg_-_Todsünden_(1891)
-Flaischlen,Cäsar,Schattenspiel,1897,,Cäsar_Flaischlen_-_Schattenspiel_(1897)
-Schnitzler,Arthur,Gespräch in der Kaffeehausecke,1895,,Arthur_Schnitzler_-_Gespräch_in_der_Kaffeehausecke_(1895)
-von Wolzogen,Ernst,Die Gloriahose und andere Novellen,1897,,Ernst_von_Wolzogen_-_Die_Gloriahose_und_andere_Novellen_(1897)
-Bierbaum,Otto Julius,Die Mondmarie,1893,,Otto_Julius_Bierbaum_-_Die_Mondmarie_(1893)
-Jensen,Wilhelm,Hunnenblut,1892,,Wilhelm_Jensen_-_Hunnenblut_(1892)
-Schnitzler,Arthur,Die Braut,1895,,Arthur_Schnitzler_-_Die_Braut_(1895)
+lastname,firstname,title,year,volume,ID,decade
+Heun,Karl Gottlieb Samuel,Die Versuchung,1827,,Karl_Gottlieb_Samuel_Heun_-_Die_Versuchung_(1827),1820
+Grillparzer,Franz,Das Kloster bei Sendomir,1827,,Franz_Grillparzer_-_Das_Kloster_bei_Sendomir_(1827),1820
+Rilke,Rainer Maria,Erzählungen aus dem Nachlaß,1826,,Rainer_Maria_Rilke_-_Erzählungen_aus_dem_Nachlaß_(1826),1820
+Clauren,H.,Die Gränz-Kommission,1825,,H._Clauren_-_Die_Gränz-Kommission_(1825),1820
+Clauren,H.,Das Dijon-Röschen,1823,1,H._Clauren_-_Das_Dijon-Röschen_-_1_(1823),1820
+Contessa,Karl Wilhelm Salice,Die Schatzgräber,1825,,Karl_Wilhelm_Salice_Contessa_-_Die_Schatzgräber_(1825),1820
+Clauren,H.,Der Blutschatz,1823,,H._Clauren_-_Der_Blutschatz_(1823),1820
+Hoffmann,ETA,Lebensansichten des Katers Murr,1820,,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1820),1820
+Weisflog,Carl,Bürgerliche Historien,1828,,Carl_Weisflog_-_Bürgerliche_Historien_(1828),1820
+Paul,Jean,Der Komet,1820,,Jean_Paul_-_Der_Komet_(1820),1820
+von Schmid,Christoph,Das hölzerne Kreuz,1826,,Christoph_von_Schmid_-_Das_hölzerne_Kreuz_(1826),1820
+von Arnim,Achim,Die Majoratsherren,1820,,Achim_von_Arnim_-_Die_Majoratsherren_(1820),1820
+Tieck,Ludwig,Der Gelehrte,1827,,Ludwig_Tieck_-_Der_Gelehrte_(1827),1820
+Tieck,Ludwig,Das Fest zu Kenelworth,1828,,Ludwig_Tieck_-_Das_Fest_zu_Kenelworth_(1828),1820
+Zschokke,Heinrich,Die Rose von Disentis,1822,,Heinrich_Zschokke_-_Die_Rose_von_Disentis_(1822),1820
+Tieck,Ludwig,Die Gesellschaft auf dem Lande,1825,,Ludwig_Tieck_-_Die_Gesellschaft_auf_dem_Lande_(1825),1820
+Zschokke,Heinrich,Der König von Akim,1825,,Heinrich_Zschokke_-_Der_König_von_Akim_(1825),1820
+Grillparzer,Franz,Ein Erlebnis,1822,,Franz_Grillparzer_-_Ein_Erlebnis_(1822),1820
+Tieck,Ludwig,Die Gemälde,1821,,Ludwig_Tieck_-_Die_Gemälde_(1821),1820
+Schöll,Adolf,Der arme Stephan,1827,,Adolf_Schöll_-_Der_arme_Stephan_(1827),1820
+von Schmid,Christoph,Rosa von Tannenburg,1823,,Christoph_von_Schmid_-_Rosa_von_Tannenburg_(1823),1820
+Clauren,H.,Der selige Papier-Müller,1820,,H._Clauren_-_Der_selige_Papier-Müller_(1820),1820
+Hauff,Wilhelm,Der Mann im Mond,1826,,Wilhelm_Hauff_-_Der_Mann_im_Mond_(1826),1820
+Nettelbeck,Joachim,Des Seefahrers Nettelbeck Lebensgeschichte,1821,,Joachim_Nettelbeck_-_Des_Seefahrers_Nettelbeck_Lebensgeschichte_(1821),1820
+Hauff,Wilhelm,Phantasien im Bremer Ratskeller,1827,,Wilhelm_Hauff_-_Phantasien_im_Bremer_Ratskeller_(1827),1820
+Zschokke,Heinrich,Addrich im Moos,1825,,Heinrich_Zschokke_-_Addrich_im_Moos_(1825),1820
+Alexis,Willibald,Walladmor,1824,,Willibald_Alexis_-_Walladmor_(1824),1820
+Huber,Therese,Das misslungene Opfer,1828,,Therese_Huber_-_Das_misslungene_Opfer_(1828),1820
+von Eichendorff,Joseph,Aus dem Leben eines Taugenichts,1826,,Joseph_von_Eichendorff_-_Aus_dem_Leben_eines_Taugenichts_(1826),1820
+Hauff,Wilhelm,Der junge Engländer,1827,,Wilhelm_Hauff_-_Der_junge_Engländer_(1827),1820
+Schreyvogel,Joseph,Samuel Brinks letzte Liebesgeschichte,1821,,Joseph_Schreyvogel_-_Samuel_Brinks_letzte_Liebesgeschichte_(1821),1820
+Hauff,Wilhelm,Phantasien und Skizzen,1827,,Wilhelm_Hauff_-_Phantasien_und_Skizzen_(1827),1820
+Huber,Therese,Alte Zeit und neue Zeit,1828,,Therese_Huber_-_Alte_Zeit_und_neue_Zeit_(1828),1820
+Hagen,August,Norika,1829,,August_Hagen_-_Norika_(1829),1820
+Tieck,Ludwig,Der Geheimnisvolle,1822,,Ludwig_Tieck_-_Der_Geheimnisvolle_(1822),1820
+Clauren,H.,Die Gräfin Cherubim,1824,,H._Clauren_-_Die_Gräfin_Cherubim_(1824),1820
+Rochlitz,Friedrich,Amtsbericht des Pfarrers zu Eichengrün,1821,,Friedrich_Rochlitz_-_Amtsbericht_des_Pfarrers_zu_Eichengrün_(1821),1820
+Hoffmann,ETA,Letzte Stücke,1822,,ETA_Hoffmann_-_Letzte_Stücke_(1822),1820
+Hoffmann,ETA,Des Vetters Eckfenster,1822,,ETA_Hoffmann_-_Des_Vetters_Eckfenster_(1822),1820
+der Jüngere,Johann Rudolf Wyß,Viel Noth und viel Hülf,1825,,Johann_Rudolf_Wyß_der_Jüngere_-_Viel_Noth_und_viel_Hülf_(1825),1820
+Tieck,Ludwig,Die Verlobung,1823,,Ludwig_Tieck_-_Die_Verlobung_(1823),1820
+Hoffmann,ETA,Die Irrungen,1820,Verloren und Gefunden,ETA_Hoffmann_-_Die_Irrungen_-_Verloren_und_Gefunden_(1820),1820
+Tieck,Ludwig,Der Aufruhr in den Cevennen,1826,,Ludwig_Tieck_-_Der_Aufruhr_in_den_Cevennen_(1826),1820
+von Goethe,Johann Wolfgang,Wilhelm Meisters Wanderjahre,1821,,Johann_Wolfgang_von_Goethe_-_Wilhelm_Meisters_Wanderjahre_(1821),1820
+Tieck,Ludwig,Der Alte vom Berge,1828,,Ludwig_Tieck_-_Der_Alte_vom_Berge_(1828),1820
+Rückert,Friedrich,Die Makamen des Hariri,1826,,Friedrich_Rückert_-_Die_Makamen_des_Hariri_(1826),1820
+Grün,Anastasius,Der Eremit auf der Sierra Morena,1827,,Anastasius_Grün_-_Der_Eremit_auf_der_Sierra_Morena_(1827),1820
+von Schmid,Christoph,Das Blumenkörbchen,1823,,Christoph_von_Schmid_-_Das_Blumenkörbchen_(1823),1820
+Tieck,Ludwig,Der fünfzehnte November,1827,,Ludwig_Tieck_-_Der_fünfzehnte_November_(1827),1820
+Paul,Jean,Der Maschinenmann,1825,,Jean_Paul_-_Der_Maschinenmann_(1825),1820
+Tieck,Ludwig,Der Mondsüchtige,1832,,Ludwig_Tieck_-_Der_Mondsüchtige_(1832),1830
+Sealsfield,Charles,Das blutige Blockhaus,1834,,Charles_Sealsfield_-_Das_blutige_Blockhaus_(1834),1830
+Immermann,Karl,Der Oberhof,1839,,Karl_Immermann_-_Der_Oberhof_(1839),1830
+Laube,Heinrich,Eine Fahrt nach Pommern und der Insel Rügen,1837,,Heinrich_Laube_-_Eine_Fahrt_nach_Pommern_und_der_Insel_Rügen_(1837),1830
+Tieck,Ludwig,Abendgespräche,1839,,Ludwig_Tieck_-_Abendgespräche_(1839),1830
+von Ungern-Sternberg,Alexander,Die Zerrissenen,1832,,Alexander_von_Ungern-Sternberg_-_Die_Zerrissenen_(1832),1830
+Fröhlich,Abraham Manuel,Der Kinderball,1833,,Abraham_Manuel_Fröhlich_-_Der_Kinderball_(1833),1830
+Tieck,Ludwig,Die Klausenburg,1837,,Ludwig_Tieck_-_Die_Klausenburg_(1837),1830
+Glassbrenner,Adolf,Die Königsstraße,1838,,Adolf_Glassbrenner_-_Die_Königsstraße_(1838),1830
+Kerner,Justinus,Geschichte des Mädchens von Orlach,1834,,Justinus_Kerner_-_Geschichte_des_Mädchens_von_Orlach_(1834),1830
+Mörike,Eduard,Der Schatz,1836,,Eduard_Mörike_-_Der_Schatz_(1836),1830
+Castelli,Ignaz Franz,Tobias Guarnerius,1839,,Ignaz_Franz_Castelli_-_Tobias_Guarnerius_(1839),1830
+Laube,Heinrich,Eine Tyroler Geschichte,1837,,Heinrich_Laube_-_Eine_Tyroler_Geschichte_(1837),1830
+von Arnim,Achim,Erzählungen,1831,,Achim_von_Arnim_-_Erzählungen_(1831),1830
+von Gaudy,Franz,Venetianische Novellen,1838,,Franz_von_Gaudy_-_Venetianische_Novellen_(1838),1830
+Laube,Heinrich,Reisenovellen,1837,Band 6,Heinrich_Laube_-_Reisenovellen_-_Band_6_(1837),1830
+von Eichendorff,Joseph,Viel Lärmen um Nichts,1833,,Joseph_von_Eichendorff_-_Viel_Lärmen_um_Nichts_(1833),1830
+Tieck,Ludwig,Das alte Buch und die Reise ins Blaue hinein,1835,,Ludwig_Tieck_-_Das_alte_Buch_und_die_Reise_ins_Blaue_hinein_(1835),1830
+Smidt,Heinrich,Seemanns-Sagen und Schiffer-Märchen,1835,,Heinrich_Smidt_-_Seemanns-Sagen_und_Schiffer-Märchen_(1835),1830
+Sealsfield,Charles,Nathan der Squatter,1835,,Charles_Sealsfield_-_Nathan_der_Squatter_(1835),1830
+Mosen,Julius,Georg Venlot,1831,,Julius_Mosen_-_Georg_Venlot_(1831),1830
+Kohn,Joseph Seligmann,Der jüdische Gil Blas,1834,,Joseph_Seligmann_Kohn_-_Der_jüdische_Gil_Blas_(1834),1830
+Laube,Heinrich,Johanna,1837,,Heinrich_Laube_-_Johanna_(1837),1830
+Gutzkow,Karl,"Wally, die Zweiflerin",1835,,"Karl_Gutzkow_-_Wally,_die_Zweiflerin_(1835)",1830
+Tieck,Ludwig,Eigensinn und Laune,1836,,Ludwig_Tieck_-_Eigensinn_und_Laune_(1836),1830
+Hebbel,Friedrich,Barbier Zitterlein,1836,,Friedrich_Hebbel_-_Barbier_Zitterlein_(1836),1830
+Tieck,Ludwig,Die Ahnenprobe,1833,,Ludwig_Tieck_-_Die_Ahnenprobe_(1833),1830
+Tieck,Ludwig,Des Lebens Überfluss,1837,,Ludwig_Tieck_-_Des_Lebens_Überfluss_(1837),1830
+Laube,Heinrich,Das Schloß in Franken,1837,,Heinrich_Laube_-_Das_Schloß_in_Franken_(1837),1830
+Hebel,Johann Peter,Reise nach Frankfurt,1832,,Johann_Peter_Hebel_-_Reise_nach_Frankfurt_(1832),1830
+von Gaudy,Franz,Die Brenta-Blume,1838,,Franz_von_Gaudy_-_Die_Brenta-Blume_(1838),1830
+Sealsfield,Charles,Der Legitime und die Republikaner,1833,,Charles_Sealsfield_-_Der_Legitime_und_die_Republikaner_(1833),1830
+Laube,Heinrich,Die Novelle in der Theaterloge,1837,,Heinrich_Laube_-_Die_Novelle_in_der_Theaterloge_(1837),1830
+Glassbrenner,Adolf,Der Gensd'armen-Markt,1838,,Adolf_Glassbrenner_-_Der_Gensd'armen-Markt_(1838),1830
+Tieck,Ludwig,"Dichterleben, zweiter Theil",1831,,"Ludwig_Tieck_-_Dichterleben,_zweiter_Theil_(1831)",1830
+Immermann,Karl,Der Karneval und die Somnambule,1830,,Karl_Immermann_-_Der_Karneval_und_die_Somnambule_(1830),1830
+Laube,Heinrich,Ein Liebespaar,1837,,Heinrich_Laube_-_Ein_Liebespaar_(1837),1830
+Rellstab,Ludwig,1812 – Ein historischer Roman,1834,,Ludwig_Rellstab_-_1812_–_Ein_historischer_Roman_(1834),1830
+von Eichendorff,Joseph,Auch ich war in Arkadien!,1834,,Joseph_von_Eichendorff_-_Auch_ich_war_in_Arkadien!_(1834),1830
+Gotthelf,Jeremias,Die Wassernot im Emmental,1838,,Jeremias_Gotthelf_-_Die_Wassernot_im_Emmental_(1838),1830
+Aurbacher,Ludwig,Die schwäbische Bauernhochzeit,1832,,Ludwig_Aurbacher_-_Die_schwäbische_Bauernhochzeit_(1832),1830
+Mörike,Eduard,Lucie Gelmeroth,1834,,Eduard_Mörike_-_Lucie_Gelmeroth_(1834),1830
+Laube,Heinrich,Reisenovellen,1836,Band 4,Heinrich_Laube_-_Reisenovellen_-_Band_4_(1836),1830
+Laube,Heinrich,Reisenovellen,1836,Band 3,Heinrich_Laube_-_Reisenovellen_-_Band_3_(1836),1830
+Hebel,Johann Peter,Der Zundelheiner,1839,,Johann_Peter_Hebel_-_Der_Zundelheiner_(1839),1830
+Mörike,Eduard,Maler Nolten,1832,,Eduard_Mörike_-_Maler_Nolten_(1832),1830
+Spindler,Carl,Herbstviolen,1834,,Carl_Spindler_-_Herbstviolen_(1834),1830
+von Schmid,Christoph,"Ludwig, der kleine Auswanderer",1834,,"Christoph_von_Schmid_-_Ludwig,_der_kleine_Auswanderer_(1834)",1830
+Laube,Heinrich,Die Karlisten,1837,,Heinrich_Laube_-_Die_Karlisten_(1837),1830
+Tieck,Ludwig,Der wiederkehrende griechische Kaiser,1831,,Ludwig_Tieck_-_Der_wiederkehrende_griechische_Kaiser_(1831),1830
+Gutzkow,Karl,Eine Phantasieliebe,1845,,Karl_Gutzkow_-_Eine_Phantasieliebe_(1845),1840
+Seidl,Johann Gabriel,Sie ist versorgt!,1842,,Johann_Gabriel_Seidl_-_Sie_ist_versorgt!_(1842),1840
+Riehl,Wilhelm Heinrich,Meister Martin Hildebrand,1847,,Wilhelm_Heinrich_Riehl_-_Meister_Martin_Hildebrand_(1847),1840
+Gerstäcker,Friedrich,Die Wolfsglocke,1849,,Friedrich_Gerstäcker_-_Die_Wolfsglocke_(1849),1840
+Uhland,Ludwig,Lied der Nibelungen,1840,,Ludwig_Uhland_-_Lied_der_Nibelungen_(1840),1840
+Aurbacher,Ludwig,"Erzählungen, Lieder und Sprüche aus dem Allerley",1847,,"Ludwig_Aurbacher_-_Erzählungen,_Lieder_und_Sprüche_aus_dem_Allerley_(1847)",1840
+Hegner,Ulrich,Aus dem Leben eines Geringen,1840,,Ulrich_Hegner_-_Aus_dem_Leben_eines_Geringen_(1840),1840
+Kuenlin,Franz,Die Ehen werden im Himmel geschlossen,1840,,Franz_Kuenlin_-_Die_Ehen_werden_im_Himmel_geschlossen_(1840),1840
+Gotthelf,Jeremias,Jakobs des Handwerksgesellen Wanderungen durch die Schweiz,1846,,Jeremias_Gotthelf_-_Jakobs_des_Handwerksgesellen_Wanderungen_durch_die_Schweiz_(1846),1840
+Seidl,Johann Gabriel,Die Blaue,1842,,Johann_Gabriel_Seidl_-_Die_Blaue_(1842),1840
+Stifter,Adalbert,Feldblumen,1841,,Adalbert_Stifter_-_Feldblumen_(1841),1840
+Seidl,Johann Gabriel,Das goldene Ringlein,1842,,Johann_Gabriel_Seidl_-_Das_goldene_Ringlein_(1842),1840
+Gotthelf,Jeremias,Wie Uli der Knecht glücklich wird,1841,,Jeremias_Gotthelf_-_Wie_Uli_der_Knecht_glücklich_wird_(1841),1840
+Aston,Louise,Aus dem Leben einer Frau,1847,,Louise_Aston_-_Aus_dem_Leben_einer_Frau_(1847),1840
+Gerstäcker,Friedrich,Die Vertreibung der Mormonen aus Missouri,1845,,Friedrich_Gerstäcker_-_Die_Vertreibung_der_Mormonen_aus_Missouri_(1845),1840
+Gotthelf,Jeremias,Michels Brautschau,1849,,Jeremias_Gotthelf_-_Michels_Brautschau_(1849),1840
+Gotthelf,Jeremias,Wie Anne Bäbi Jowäger haushaltet,1843,Teil 2,Jeremias_Gotthelf_-_Wie_Anne_Bäbi_Jowäger_haushaltet_-_Teil_2_(1843),1840
+Gutzkow,Karl,Der Sadducäer von Amsterdam,1843,,Karl_Gutzkow_-_Der_Sadducäer_von_Amsterdam_(1843),1840
+Gotthelf,Jeremias,Der Geltstag,1845,,Jeremias_Gotthelf_-_Der_Geltstag_(1845),1840
+Alexis,Willibald,Der falsche Woldemar,1842,,Willibald_Alexis_-_Der_falsche_Woldemar_(1842),1840
+Gerstäcker,Friedrich,Die Silbermine in den Ozarkgebirgen,1847,,Friedrich_Gerstäcker_-_Die_Silbermine_in_den_Ozarkgebirgen_(1847),1840
+Weerth,Georg,Leben und Taten des berühmten Ritters Schnapphahnski,1849,,Georg_Weerth_-_Leben_und_Taten_des_berühmten_Ritters_Schnapphahnski_(1849),1840
+Hoefer,Edmund,Auf der Universität,1846,,Edmund_Hoefer_-_Auf_der_Universität_(1846),1840
+Stifter,Adalbert,Prokopus,1847,,Adalbert_Stifter_-_Prokopus_(1847),1840
+Aston,Louise,Lydia,1848,,Louise_Aston_-_Lydia_(1848),1840
+Gotthelf,Jeremias,Wie Joggeli eine Frau sucht,1841,,Jeremias_Gotthelf_-_Wie_Joggeli_eine_Frau_sucht_(1841),1840
+von Sallet,Friedrich,Kontraste und Paradoxen,1843,,Friedrich_von_Sallet_-_Kontraste_und_Paradoxen_(1843),1840
+Hackländer,FW,Humoristische Erzählungen,1847,,FW_Hackländer_-_Humoristische_Erzählungen_(1847),1840
+Stifter,Adalbert,Der Hochwald,1841,,Adalbert_Stifter_-_Der_Hochwald_(1841),1840
+Stifter,Adalbert,Der Waldsteig,1845,,Adalbert_Stifter_-_Der_Waldsteig_(1845),1840
+Stifter,Adalbert,Der Condor,1840,,Adalbert_Stifter_-_Der_Condor_(1840),1840
+Sealsfield,Charles,Die Erzählung des Obersten Morse,1841,,Charles_Sealsfield_-_Die_Erzählung_des_Obersten_Morse_(1841),1840
+Hoefer,Edmund,Das verlassene Haus,1845,,Edmund_Hoefer_-_Das_verlassene_Haus_(1845),1840
+Auerbach,Berthold,Schwarzwälder Dorfgeschichten,1843,,Berthold_Auerbach_-_Schwarzwälder_Dorfgeschichten_(1843),1840
+Stifter,Adalbert,Das Haidedorf,1840,,Adalbert_Stifter_-_Das_Haidedorf_(1840),1840
+Schirges,Georg,Der Bälgentreter von Eilersrode,1845,,Georg_Schirges_-_Der_Bälgentreter_von_Eilersrode_(1845),1840
+Franz,Agnes,Seltene Freundschaft oder: Bello und Miezchen,1843,,Agnes_Franz_-_Seltene_Freundschaft_oder:_Bello_und_Miezchen_(1843),1840
+Seidl,Johann Gabriel,Juana,1842,,Johann_Gabriel_Seidl_-_Juana_(1842),1840
+von Gaudy,Franz,Novellen und Erzählungen 1,1840,,Franz_von_Gaudy_-_Novellen_und_Erzählungen_1_(1840),1840
+Gotthelf,Jeremias,Eine alte Geschichte zu neuer Erbauung,1849,,Jeremias_Gotthelf_-_Eine_alte_Geschichte_zu_neuer_Erbauung_(1849),1840
+Alexis,Willibald,Der Roland von Berlin – Zweiter Band,1840,,Willibald_Alexis_-_Der_Roland_von_Berlin_–_Zweiter_Band_(1840),1840
+Seidl,Johann Gabriel,Die Schweden vor Olmütz,1843,,Johann_Gabriel_Seidl_-_Die_Schweden_vor_Olmütz_(1843),1840
+Paalzow,Henriette,Thomas Thyrnau – Erster Theil,1843,,Henriette_Paalzow_-_Thomas_Thyrnau_–_Erster_Theil_(1843),1840
+Spindler,Carl,Der Vogelhändler von Imst,1841,,Carl_Spindler_-_Der_Vogelhändler_von_Imst_(1841),1840
+Reuter,Fritz,Ein gräflicher Geburtstag,1847,1,Fritz_Reuter_-_Ein_gräflicher_Geburtstag_-_1_(1847),1840
+Gotthelf,Jeremias,Hans Joggeli der Erbvetter,1848,,Jeremias_Gotthelf_-_Hans_Joggeli_der_Erbvetter_(1848),1840
+Tieck,Ludwig,Tod des Dichters,1845,,Ludwig_Tieck_-_Tod_des_Dichters_(1845),1840
+Stifter,Adalbert,Das alte Siegel,1844,,Adalbert_Stifter_-_Das_alte_Siegel_(1844),1840
+Heine,Heinrich,Der Rabbi von Bacherach,1840,,Heinrich_Heine_-_Der_Rabbi_von_Bacherach_(1840),1840
+Kompert,Leopold,Ohne Bewilligung,1848,,Leopold_Kompert_-_Ohne_Bewilligung_(1848),1840
+Hackländer,FW,Namenlose Geschichten,1851,Zweiter Band,FW_Hackländer_-_Namenlose_Geschichten_-_Zweiter_Band_(1851),1850
+Hackländer,FW,Handel und Wandel,1850,,FW_Hackländer_-_Handel_und_Wandel_(1850),1850
+Gutzkow,Karl,Die Kurstauben,1852,,Karl_Gutzkow_-_Die_Kurstauben_(1852),1850
+Gerstäcker,Friedrich,Der Flatbootmann,1858,,Friedrich_Gerstäcker_-_Der_Flatbootmann_(1858),1850
+Freytag,Gustav,Soll und Haben,1855,,Gustav_Freytag_-_Soll_und_Haben_(1855),1850
+von François,Louise,Fräulein Muthchen und ihr Hausmeier,1859,,Louise_von_François_-_Fräulein_Muthchen_und_ihr_Hausmeier_(1859),1850
+Gotthelf,Jeremias,Der Besenbinder von Rychiswyl,1852,,Jeremias_Gotthelf_-_Der_Besenbinder_von_Rychiswyl_(1852),1850
+Ruppius,Otto,Das Vermächtnis des Pedlars,1859,,Otto_Ruppius_-_Das_Vermächtnis_des_Pedlars_(1859),1850
+Bronner,Franz Xaver,Ein Mönchsleben aus der empfindsamen Zeit,1850,,Franz_Xaver_Bronner_-_Ein_Mönchsleben_aus_der_empfindsamen_Zeit_(1850),1850
+Hartmann,Moritz,Der Krieg um den Wald,1850,1,Moritz_Hartmann_-_Der_Krieg_um_den_Wald_-_1_(1850),1850
+Auerbach,Berthold,Barfüßele,1856,,Berthold_Auerbach_-_Barfüßele_(1856),1850
+Gutzkow,Karl,Die Ritter vom Geiste,1851,,Karl_Gutzkow_-_Die_Ritter_vom_Geiste_(1851),1850
+Keller,Gottfried,"Pankraz, der Schmoller",1856,,"Gottfried_Keller_-_Pankraz,_der_Schmoller_(1856)",1850
+Galen,Philipp,Der Strandvogt von Jasmund,1859,Zweiter Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Zweiter_Band_(1859),1850
+Stifter,Adalbert,Der Nachsommer,1857,,Adalbert_Stifter_-_Der_Nachsommer_(1857),1850
+Hackländer,FW,Der Augenblick des Glücks,1857,,FW_Hackländer_-_Der_Augenblick_des_Glücks_(1857),1850
+Wildermuth,Ottilie,Ein sonnenloses Leben,1855,,Ottilie_Wildermuth_-_Ein_sonnenloses_Leben_(1855),1850
+Bronner,Franz Xaver,Ein Mönchsleben aus der empfindsamen Zeit,1850,Band 2,Franz_Xaver_Bronner_-_Ein_Mönchsleben_aus_der_empfindsamen_Zeit_-_Band_2_(1850),1850
+Mügge,Theodor,Erich Randal,1856,,Theodor_Mügge_-_Erich_Randal_(1856),1850
+Meredith,George,Richard Feverel,1859,,George_Meredith_-_Richard_Feverel_(1859),1850
+Nathusius,Marie,Elisabeth. I. Band,1858,,Marie_Nathusius_-_Elisabeth._I._Band_(1858),1850
+Galen,Philipp,Der Strandvogt von Jasmund,1859,Dritter Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Dritter_Band_(1859),1850
+Hackländer,FW,Eugen Stillfried – Zweiter Band,1852,,FW_Hackländer_-_Eugen_Stillfried_–_Zweiter_Band_(1852),1850
+Retcliffe,Sir John,Nena Sahib,1858,,Sir_John_Retcliffe_-_Nena_Sahib_(1858),1850
+Galen,Philipp,Der Strandvogt von Jasmund,1859,Erster Band,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Erster_Band_(1859),1850
+Riehl,Wilhelm Heinrich,Die Lehrjahre eines Humanisten,1856,,Wilhelm_Heinrich_Riehl_-_Die_Lehrjahre_eines_Humanisten_(1856),1850
+Keller,Gottfried,"Spiegel, das Kätzchen",1856,,"Gottfried_Keller_-_Spiegel,_das_Kätzchen_(1856)",1850
+Gerstäcker,Friedrich,Jack und Bill,1858,,Friedrich_Gerstäcker_-_Jack_und_Bill_(1858),1850
+Gerstäcker,Friedrich,John Wells,1859,,Friedrich_Gerstäcker_-_John_Wells_(1859),1850
+Gerstäcker,Friedrich,Blau Wasser,1858,,Friedrich_Gerstäcker_-_Blau_Wasser_(1858),1850
+Heyse,Paul,Anfang und Ende,1857,,Paul_Heyse_-_Anfang_und_Ende_(1857),1850
+Gutzkow,Karl,Der Zauberer von Rom. IV. Buch,1858,,Karl_Gutzkow_-_Der_Zauberer_von_Rom._IV._Buch_(1858),1850
+Mügge,Theodor,Afraja,1854,,Theodor_Mügge_-_Afraja_(1854),1850
+Heyse,Paul,Am Tiberufer,1855,,Paul_Heyse_-_Am_Tiberufer_(1855),1850
+Bechstein,Ludwig,Der Dunkelgraf,1854,,Ludwig_Bechstein_-_Der_Dunkelgraf_(1854),1850
+Mügge,Theodor,Der Vogt von Sylt,1851,,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851),1850
+Nathusius,Marie,Elisabeth – Zweiter Band,1858,,Marie_Nathusius_-_Elisabeth_–_Zweiter_Band_(1858),1850
+Ludwig,Otto,Die Heiterethei und ihr Widerspiel,1857,,Otto_Ludwig_-_Die_Heiterethei_und_ihr_Widerspiel_(1857),1850
+Reuter,Fritz,Eine Heirathsgeschichte,1855,,Fritz_Reuter_-_Eine_Heirathsgeschichte_(1855),1850
+Wildermuth,Ottilie,Die Lehrjahre der zwei Schwestern,1855,,Ottilie_Wildermuth_-_Die_Lehrjahre_der_zwei_Schwestern_(1855),1850
+Hackländer,FW,Eugen Stillfried – Dritter Band,1852,,FW_Hackländer_-_Eugen_Stillfried_–_Dritter_Band_(1852),1850
+Heyse,Paul,Das Bild der Mutter,1858,,Paul_Heyse_-_Das_Bild_der_Mutter_(1858),1850
+Wildermuth,Ottilie,Unabhängigkeit,1855,,Ottilie_Wildermuth_-_Unabhängigkeit_(1855),1850
+Storm,Theodor,Hinzelmeier,1855,,Theodor_Storm_-_Hinzelmeier_(1855),1850
+Heyse,Paul,Maria Francisca,1858,,Paul_Heyse_-_Maria_Francisca_(1858),1850
+Reuter,Fritz,Memoiren eines alten Fliegenschimmels,1855,,Fritz_Reuter_-_Memoiren_eines_alten_Fliegenschimmels_(1855),1850
+Gerstäcker,Friedrich,Die Nacht auf dem Walfisch,1858,,Friedrich_Gerstäcker_-_Die_Nacht_auf_dem_Walfisch_(1858),1850
+Gotthelf,Jeremias,Die Frau Pfarrerin,1854,,Jeremias_Gotthelf_-_Die_Frau_Pfarrerin_(1854),1850
+Hoefer,Edmund,Die alte Erlaucht,1857,,Edmund_Hoefer_-_Die_alte_Erlaucht_(1857),1850
+Ruppius,Otto,Der Pedlar,1857,,Otto_Ruppius_-_Der_Pedlar_(1857),1850
+Stifter,Adalbert,Der Kuss von Sentze,1866,,Adalbert_Stifter_-_Der_Kuss_von_Sentze_(1866),1860
+Kompert,Leopold,Eisik's Brille,1860,,Leopold_Kompert_-_Eisik's_Brille_(1860),1860
+Wichert,Ernst,Für tot erklärt,1867,,Ernst_Wichert_-_Für_tot_erklärt_(1867),1860
+Gerstäcker,Friedrich,Im Busch,1864,,Friedrich_Gerstäcker_-_Im_Busch_(1864),1860
+Spielhagen,Friedrich,In Reih' und Glied. Erster Theil,1866,,Friedrich_Spielhagen_-_In_Reih'_und_Glied._Erster_Theil_(1866),1860
+Spielhagen,Friedrich,Die Dorfcoquette,1868,,Friedrich_Spielhagen_-_Die_Dorfcoquette_(1868),1860
+Auerbach,Berthold,Das Landhaus am Rhein,1869,Band IV,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_IV_(1869),1860
+Retcliffe,Sir John,Solferino,1866,,Sir_John_Retcliffe_-_Solferino_(1866),1860
+Storm,Theodor,In St Jürgen,1867,,Theodor_Storm_-_In_St_Jürgen_(1867),1860
+Steub,Ludwig,Der schwarze Gast,1863,,Ludwig_Steub_-_Der_schwarze_Gast_(1863),1860
+Heyse,Paul,Die kleine Mama,1865,,Paul_Heyse_-_Die_kleine_Mama_(1865),1860
+Auerbach,Berthold,Auf der Höhe Band I,1865,,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),1860
+Heyse,Paul,Die Witwe von Pisa,1865,,Paul_Heyse_-_Die_Witwe_von_Pisa_(1865),1860
+Schmidt,Maximilian,Glasmacherleut',1869,,Maximilian_Schmidt_-_Glasmacherleut'_(1869),1860
+Spielhagen,Friedrich,Hammer und Amboß,1869,,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869),1860
+Hartmann,Moritz,Das Schloß im Gebirge,1866,,Moritz_Hartmann_-_Das_Schloß_im_Gebirge_(1866),1860
+Raabe,Wilhelm,Abu Telfan,1868,,Wilhelm_Raabe_-_Abu_Telfan_(1868),1860
+Möllhausen,Balduin,Das Mormonenmädchen. Band II,1864,,Balduin_Möllhausen_-_Das_Mormonenmädchen._Band_II_(1864),1860
+Freytag,Gustav,Verlorene Handschrift,1864,,Gustav_Freytag_-_Verlorene_Handschrift_(1864),1860
+Marlitt,Eugenie,Die zwölf Apostel,1865,,Eugenie_Marlitt_-_Die_zwölf_Apostel_(1865),1860
+Wildermuth,Ottilie,Das Feental,1862,,Ottilie_Wildermuth_-_Das_Feental_(1862),1860
+Hebbel,Friedrich,Eine Nacht im Jägerhause,1863,,Friedrich_Hebbel_-_Eine_Nacht_im_Jägerhause_(1863),1860
+Heyse,Paul,Barbarossa,1869,,Paul_Heyse_-_Barbarossa_(1869),1860
+Raabe,Wilhelm,Die schwarze Galeere,1865,,Wilhelm_Raabe_-_Die_schwarze_Galeere_(1865),1860
+Wildermuth,Ottilie,Cherubino und Zephirine,1862,,Ottilie_Wildermuth_-_Cherubino_und_Zephirine_(1862),1860
+Gerstäcker,Friedrich,Unter dem Äquator,1861,,Friedrich_Gerstäcker_-_Unter_dem_Äquator_(1861),1860
+Wildermuth,Ottilie,Mädchenbriefe,1862,,Ottilie_Wildermuth_-_Mädchenbriefe_(1862),1860
+Smidt,Heinrich,Meeresstille und hohe See,1861,,Heinrich_Smidt_-_Meeresstille_und_hohe_See_(1861),1860
+Marlitt,Eugenie,Das Geheimnis der alten Mamsell,1867,,Eugenie_Marlitt_-_Das_Geheimnis_der_alten_Mamsell_(1867),1860
+Gerstäcker,Friedrich,Der Kunstreiter,1861,,Friedrich_Gerstäcker_-_Der_Kunstreiter_(1861),1860
+Auerbach,Berthold,Das Landhaus am Rhein,1869,Band I,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_I_(1869),1860
+Auerbach,Berthold,Das Landhaus am Rhein,1869,Band III,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_III_(1869),1860
+Heyse,Paul,Im Grafenschloß,1861,,Paul_Heyse_-_Im_Grafenschloß_(1861),1860
+Raabe,Wilhelm,Die Leute aus dem Walde,1863,,Wilhelm_Raabe_-_Die_Leute_aus_dem_Walde_(1863),1860
+Möllhausen,Balduin,Das Mormonenmädchen. Band I,1864,,Balduin_Möllhausen_-_Das_Mormonenmädchen._Band_I_(1864),1860
+Spielhagen,Friedrich,In Reih' und Glied. Zweiter Theil,1866,,Friedrich_Spielhagen_-_In_Reih'_und_Glied._Zweiter_Theil_(1866),1860
+Fontane,Theodor,Jenseit des Tweed,1860,,Theodor_Fontane_-_Jenseit_des_Tweed_(1860),1860
+Stifter,Adalbert,Witiko,1865,,Adalbert_Stifter_-_Witiko_(1865),1860
+Wildermuth,Ottilie,Krieg und Frieden,1862,,Ottilie_Wildermuth_-_Krieg_und_Frieden_(1862),1860
+Marlitt,Eugenie,Goldelse,1866,,Eugenie_Marlitt_-_Goldelse_(1866),1860
+von Saar,Ferdinand,Innocens,1866,,Ferdinand_von_Saar_-_Innocens_(1866),1860
+Reithard,Johann Jakob,"Die Frauen in Burgdorf, oder Entstehung der Hühnersuppe",1860,,"Johann_Jakob_Reithard_-_Die_Frauen_in_Burgdorf,_oder_Entstehung_der_Hühnersuppe_(1860)",1860
+Kürnberger,Ferdinand,Die Last des Schweigens,1866,,Ferdinand_Kürnberger_-_Die_Last_des_Schweigens_(1866),1860
+Keller,Gottfried,Die mißbrauchten Liebesbriefe,1860,,Gottfried_Keller_-_Die_mißbrauchten_Liebesbriefe_(1860),1860
+Storm,Theodor,Am Kamin,1861,,Theodor_Storm_-_Am_Kamin_(1861),1860
+Heyse,Paul,Ein Ring,1862,,Paul_Heyse_-_Ein_Ring_(1862),1860
+Kompert,Leopold,Die Jahrzeit,1865,,Leopold_Kompert_-_Die_Jahrzeit_(1865),1860
+Gerstäcker,Friedrich,Unter den Pehuenchen,1867,,Friedrich_Gerstäcker_-_Unter_den_Pehuenchen_(1867),1860
+Meyer-Merian,Theodor,Dienen und Verdienen,1865,,Theodor_Meyer-Merian_-_Dienen_und_Verdienen_(1865),1860
+Raabe,Wilhelm,Nach dem großen Kriege,1861,,Wilhelm_Raabe_-_Nach_dem_großen_Kriege_(1861),1860
+Jensen,Wilhelm,Karin von Schweden,1872,,Wilhelm_Jensen_-_Karin_von_Schweden_(1872),1870
+Jensen,Wilhelm,Nach Sonnenuntergang – Zweites Buch,1879,,Wilhelm_Jensen_-_Nach_Sonnenuntergang_–_Zweites_Buch_(1879),1870
+Storm,Theodor,Carsten Curator,1878,,Theodor_Storm_-_Carsten_Curator_(1878),1870
+Storm,Theodor,Waldwinkel,1874,,Theodor_Storm_-_Waldwinkel_(1874),1870
+Stelzhamer,Franz,"Reisel, der Wildschütz und Geiger",1874,,"Franz_Stelzhamer_-_Reisel,_der_Wildschütz_und_Geiger_(1874)",1870
+Steub,Ludwig,Benno und Kriemhilde,1879,,Ludwig_Steub_-_Benno_und_Kriemhilde_(1879),1870
+Gerstäcker,Friedrich,Das Wrack,1870,,Friedrich_Gerstäcker_-_Das_Wrack_(1870),1870
+Raabe,Wilhelm,Eulenpfingsten,1874,,Wilhelm_Raabe_-_Eulenpfingsten_(1874),1870
+Mörike,Eduard,Bruchstücke eines Romans,1875,,Eduard_Mörike_-_Bruchstücke_eines_Romans_(1875),1870
+Wildermuth,Ottilie,Todte Treue,1877,,Ottilie_Wildermuth_-_Todte_Treue_(1877),1870
+von Saar,Ferdinand,Die Steinklopfer,1874,1,Ferdinand_von_Saar_-_Die_Steinklopfer_-_1_(1874),1870
+Halm,Friedrich,Die Marzipan-Lise,1871,,Friedrich_Halm_-_Die_Marzipan-Lise_(1871),1870
+Stelzhamer,Franz,Groß-Piesenham,1874,,Franz_Stelzhamer_-_Groß-Piesenham_(1874),1870
+Schaumberger,Heinrich,Fritz Reinhardt,1874,,Heinrich_Schaumberger_-_Fritz_Reinhardt_(1874),1870
+Rosegger,Peter,Die Wallfahrer,1874,,Peter_Rosegger_-_Die_Wallfahrer_(1874),1870
+Rosegger,Peter,Das Felsenbildnis,1874,,Peter_Rosegger_-_Das_Felsenbildnis_(1874),1870
+Fontane,Theodor,Vor dem Sturm,1878,,Theodor_Fontane_-_Vor_dem_Sturm_(1878),1870
+Raabe,Wilhelm,Der gute Tag,1876,,Wilhelm_Raabe_-_Der_gute_Tag_(1876),1870
+Rosegger,Peter,Die Schriften des Waldschulmeisters,1875,,Peter_Rosegger_-_Die_Schriften_des_Waldschulmeisters_(1875),1870
+Steub,Ludwig,Die Rose der Sewi,1879,,Ludwig_Steub_-_Die_Rose_der_Sewi_(1879),1870
+Storm,Theodor,Aquis submersus,1877,,Theodor_Storm_-_Aquis_submersus_(1877),1870
+Wörishöffer,Sophie,Robert des Schiffsjungen Fahrten und Abenteuer,1877,,Sophie_Wörishöffer_-_Robert_des_Schiffsjungen_Fahrten_und_Abenteuer_(1877),1870
+Streckfuß,Adolf,Der Herr Präsident,1871,,Adolf_Streckfuß_-_Der_Herr_Präsident_(1871),1870
+Heyse,Paul,Die Pfadfinderin,1870,,Paul_Heyse_-_Die_Pfadfinderin_(1870),1870
+Spielhagen,Friedrich,Sturmflut,1877,,Friedrich_Spielhagen_-_Sturmflut_(1877),1870
+Schücking,Levin,Der Kampf im Spessart,1875,,Levin_Schücking_-_Der_Kampf_im_Spessart_(1875),1870
+Spyri,Johanna,Wie Wiselis Weg gefunden wird,1878,,Johanna_Spyri_-_Wie_Wiselis_Weg_gefunden_wird_(1878),1870
+Ebers,Georg,Homo sum,1878,,Georg_Ebers_-_Homo_sum_(1878),1870
+Werner,E,Glück auf!,1874,,E_Werner_-_Glück_auf!_(1874),1870
+Wildermuth,Ottilie,Die alte Freundin,1877,,Ottilie_Wildermuth_-_Die_alte_Freundin_(1877),1870
+Reuter,Fritz,De Urgeschicht von Meckelnborg,1874,,Fritz_Reuter_-_De_Urgeschicht_von_Meckelnborg_(1874),1870
+Spyri,Johanna,Heimatlos,1878,,Johanna_Spyri_-_Heimatlos_(1878),1870
+Anzengruber,Ludwig,Dorfgänge,1879,,Ludwig_Anzengruber_-_Dorfgänge_(1879),1870
+Salomon,Ludwig,Die Blüchertrompete,1871,,Ludwig_Salomon_-_Die_Blüchertrompete_(1871),1870
+Raabe,Wilhelm,Deutscher Mondschein,1873,,Wilhelm_Raabe_-_Deutscher_Mondschein_(1873),1870
+Raabe,Wilhelm,Wunnigel,1877,,Wilhelm_Raabe_-_Wunnigel_(1877),1870
+von Saar,Ferdinand,Marianne,1873,,Ferdinand_von_Saar_-_Marianne_(1873),1870
+Hamerling,Robert,Aspasia,1875,,Robert_Hamerling_-_Aspasia_(1875),1870
+Raabe,Wilhelm,Des Reiches Krone,1870,,Wilhelm_Raabe_-_Des_Reiches_Krone_(1870),1870
+Schaumberger,Heinrich,Glückliches Unglück,1874,,Heinrich_Schaumberger_-_Glückliches_Unglück_(1874),1870
+von François,Louise,Die letzte Reckenburgerin,1871,,Louise_von_François_-_Die_letzte_Reckenburgerin_(1871),1870
+Seidel,Heinrich,Ein Skizzenbuch,1878,,Heinrich_Seidel_-_Ein_Skizzenbuch_(1878),1870
+Keller,Gottfried,Der Landvogt von Greifensee,1877,,Gottfried_Keller_-_Der_Landvogt_von_Greifensee_(1877),1870
+Keller,Gottfried,Das verlorene Lachen,1874,,Gottfried_Keller_-_Das_verlorene_Lachen_(1874),1870
+Kurz,Hermann,"Gesammelte kleinere Erzählungen, 3. Teil",1873,,"Hermann_Kurz_-_Gesammelte_kleinere_Erzählungen,_3._Teil_(1873)",1870
+Schaumberger,Heinrich,Vater und Sohn,1876,,Heinrich_Schaumberger_-_Vater_und_Sohn_(1876),1870
+Dahn,Felix,Ein Kampf um Rom,1876,,Felix_Dahn_-_Ein_Kampf_um_Rom_(1876),1870
+Meding,Oskar,Zwei Kaiserkronen,1872,,Oskar_Meding_-_Zwei_Kaiserkronen_(1872),1870
+von Sacher-Masoch,Leopold,Mondnacht,1875,,Leopold_von_Sacher-Masoch_-_Mondnacht_(1875),1870
+Mörike,Eduard,Traumseele,1875,,Eduard_Mörike_-_Traumseele_(1875),1870
+von Ebner-Eschenbach,Marie,Die Freiherren von Gemperlein,1889,,Marie_von_Ebner-Eschenbach_-_Die_Freiherren_von_Gemperlein_(1889),1880
+von Suttner,Bertha,Die Waffen nieder!,1889,,Bertha_von_Suttner_-_Die_Waffen_nieder!_(1889),1880
+Voß,Richard,Die Auferstandenen – Erster Band,1887,,Richard_Voß_-_Die_Auferstandenen_–_Erster_Band_(1887),1880
+Ganghofer,Ludwig,Die Brautfahrt des Damian Zagg,1880,,Ludwig_Ganghofer_-_Die_Brautfahrt_des_Damian_Zagg_(1880),1880
+Seidel,Heinrich,"Lang, lang ist's her",1880,,"Heinrich_Seidel_-_Lang,_lang_ist's_her_(1880)",1880
+Dahn,Felix,Walhall,1883,,Felix_Dahn_-_Walhall_(1883),1880
+Spyri,Johanna,"Und wer nur Gott zum Freunde hat, dem hilft er immer wieder",1882,,"Johanna_Spyri_-_Und_wer_nur_Gott_zum_Freunde_hat,_dem_hilft_er_immer_wieder_(1882)",1880
+Schlaf,Johannes,Papa Hamlet,1889,,Johannes_Schlaf_-_Papa_Hamlet_(1889),1880
+Spyri,Johanna,Heidis Lehr- und Wanderjahre,1880,,Johanna_Spyri_-_Heidis_Lehr-_und_Wanderjahre_(1880),1880
+Stinde,Julius,Buchholzens in Italien,1883,,Julius_Stinde_-_Buchholzens_in_Italien_(1883),1880
+Anzengruber,Ludwig,Kalendergeschichten,1882,,Ludwig_Anzengruber_-_Kalendergeschichten_(1882),1880
+Voß,Richard,Die Sabinerin,1889,,Richard_Voß_-_Die_Sabinerin_(1889),1880
+Keller,Gottfried,Das Sinngedicht,1881,,Gottfried_Keller_-_Das_Sinngedicht_(1881),1880
+Wichert,Ernst,Ewe,1880,,Ernst_Wichert_-_Ewe_(1880),1880
+Ganghofer,Ludwig,Der nette Kerl,1880,,Ludwig_Ganghofer_-_Der_nette_Kerl_(1880),1880
+von Ebner-Eschenbach,Marie,"Lotti, die Uhrmacherin",1880,,"Marie_von_Ebner-Eschenbach_-_Lotti,_die_Uhrmacherin_(1880)",1880
+Storm,Theodor,Zur Chronik von Grieshuus,1884,,Theodor_Storm_-_Zur_Chronik_von_Grieshuus_(1884),1880
+Hoefer,Edmund,Der Alte von Menkendorf,1882,,Edmund_Hoefer_-_Der_Alte_von_Menkendorf_(1882),1880
+von Glümer,Claire,Gesühnt,1882,,Claire_von_Glümer_-_Gesühnt_(1882),1880
+Roquette,Otto,Das Eulenzeichen,1884,,Otto_Roquette_-_Das_Eulenzeichen_(1884),1880
+Stinde,Julius,Die Familie Buchholz. Aus dem Leben der Hauptstadt,1884,,Julius_Stinde_-_Die_Familie_Buchholz._Aus_dem_Leben_der_Hauptstadt_(1884),1880
+Ganghofer,Ludwig,Der Jäger von Fall,1883,,Ludwig_Ganghofer_-_Der_Jäger_von_Fall_(1883),1880
+Spyri,Johanna,Rosenresli,1882,,Johanna_Spyri_-_Rosenresli_(1882),1880
+Hoffmann,Hans,Im Lande der Phäaken,1884,,Hans_Hoffmann_-_Im_Lande_der_Phäaken_(1884),1880
+Dahn,Felix,Felicitas,1882,,Felix_Dahn_-_Felicitas_(1882),1880
+von Eschstruth,Nataly,Hofluft,1889,Band 1,Nataly_von_Eschstruth_-_Hofluft_-_Band_1_(1889),1880
+Klaußmann,Oskar,Drei Kriminalerzählungen,1889,,Oskar_Klaußmann_-_Drei_Kriminalerzählungen_(1889),1880
+Schmidt,Maximilian,Die Jachenauer in Griechenland,1888,,Maximilian_Schmidt_-_Die_Jachenauer_in_Griechenland_(1888),1880
+Wörishöffer,Sophie,Onnen Visser,1885,Der Schmugglersohn von Norderney,Sophie_Wörishöffer_-_Onnen_Visser_-_Der_Schmugglersohn_von_Norderney_(1885),1880
+Spyri,Johanna,In sicherer Hut,1882,,Johanna_Spyri_-_In_sicherer_Hut_(1882),1880
+Meding,Oskar,Die Saxoborussen,1885,,Oskar_Meding_-_Die_Saxoborussen_(1885),1880
+Raabe,Wilhelm,Ein Besuch,1884,,Wilhelm_Raabe_-_Ein_Besuch_(1884),1880
+Wichert,Ernst,Der Schaktarp,1881,,Ernst_Wichert_-_Der_Schaktarp_(1881),1880
+Jensen,Wilhelm,Dietwald Werneken,1888,,Wilhelm_Jensen_-_Dietwald_Werneken_(1888),1880
+Rosegger,Peter,Jakob der Letzte,1889,,Peter_Rosegger_-_Jakob_der_Letzte_(1889),1880
+von Ebner-Eschenbach,Marie,Der gute Mond,1886,,Marie_von_Ebner-Eschenbach_-_Der_gute_Mond_(1886),1880
+May,Karl,Deutsche Herzen,1885,Deutsche Helden. 6. Der Engel der Verbannten-,Karl_May_-_Deutsche_Herzen_-_Deutsche_Helden._6._Der_Engel_der_Verbannten-_(1885),1880
+Marlitt,Eugenie,Im Schillingshof,1880,,Eugenie_Marlitt_-_Im_Schillingshof_(1880),1880
+von Ebner-Eschenbach,Marie,Krambambuli,1884,,Marie_von_Ebner-Eschenbach_-_Krambambuli_(1884),1880
+Raabe,Wilhelm,Das Horn von Wanza,1881,,Wilhelm_Raabe_-_Das_Horn_von_Wanza_(1881),1880
+Stinde,Julius,Frau Buchholz im Orient,1888,,Julius_Stinde_-_Frau_Buchholz_im_Orient_(1888),1880
+Schmidt,Maximilian,Die Schwanjungfrau,1885,,Maximilian_Schmidt_-_Die_Schwanjungfrau_(1885),1880
+von Keyserling,Eduard,Fräulein Rosa Herz,1887,,Eduard_von_Keyserling_-_Fräulein_Rosa_Herz_(1887),1880
+Spielhagen,Friedrich,Noblesse oblige,1888,,Friedrich_Spielhagen_-_Noblesse_oblige_(1888),1880
+Schweichel,Robert,Die Falkner von St. Vigil,1881,,Robert_Schweichel_-_Die_Falkner_von_St._Vigil_(1881),1880
+Schwerin,Josephine Gräfin,Rodanseck,1883,,Josephine_Gräfin_Schwerin_-_Rodanseck_(1883),1880
+Fontane,Theodor,Cécile,1887,,Theodor_Fontane_-_Cécile_(1887),1880
+Stettenheim,Julius,Muckenich's Reden und Thaten,1885,,Julius_Stettenheim_-_Muckenich's_Reden_und_Thaten_(1885),1880
+Spyri,Johanna,Moni der Geißbub,1887,,Johanna_Spyri_-_Moni_der_Geißbub_(1887),1880
+Ebers,Georg,Serapis,1885,,Georg_Ebers_-_Serapis_(1885),1880
+von Sacher-Masoch,Leopold,Neue Erzählungen,1893,,Leopold_von_Sacher-Masoch_-_Neue_Erzählungen_(1893),1890
+Sudermann,Hermann,Jolanthes Hochzeit,1892,,Hermann_Sudermann_-_Jolanthes_Hochzeit_(1892),1890
+Fontane,Theodor,Meine Kinderjahre,1894,,Theodor_Fontane_-_Meine_Kinderjahre_(1894),1890
+Anklam,Louise,Kindergeschichten,1898,,Louise_Anklam_-_Kindergeschichten_(1898),1890
+Heimburg,Wilhelmine,Trudchens Heirat,1894,,Wilhelmine_Heimburg_-_Trudchens_Heirat_(1894),1890
+von Liliencron,Detlev,Der letzte Gruß,1899,,Detlev_von_Liliencron_-_Der_letzte_Gruß_(1899),1890
+Rosegger,Peter,Die Abelsberger Chronik,1898,,Peter_Rosegger_-_Die_Abelsberger_Chronik_(1898),1890
+von Hofmannsthal,Hugo,Reitergeschichte,1899,,Hugo_von_Hofmannsthal_-_Reitergeschichte_(1899),1890
+von Gumppenberg,Hanns,Vom Fenster aus,1895,,Hanns_von_Gumppenberg_-_Vom_Fenster_aus_(1895),1890
+Schobert,Hedwig,Künstlerblut,1892,,Hedwig_Schobert_-_Künstlerblut_(1892),1890
+Schmidt,Maximilian,Humor (erste Reihe),1899,,Maximilian_Schmidt_-_Humor_(erste_Reihe)_(1899),1890
+Schlaf,Johannes,In Dingsda,1892,,Johannes_Schlaf_-_In_Dingsda_(1892),1890
+zu Reventlow,Fanny,Ultimo,1897,,Fanny_zu_Reventlow_-_Ultimo_(1897),1890
+von Sacher-Masoch,Leopold,Der Wanderer,1895,,Leopold_von_Sacher-Masoch_-_Der_Wanderer_(1895),1890
+von Suttner,Bertha,Langeweile,1895,,Bertha_von_Suttner_-_Langeweile_(1895),1890
+Bierbaum,Otto Julius,Die Lavendel-Ehe,1895,,Otto_Julius_Bierbaum_-_Die_Lavendel-Ehe_(1895),1890
+Seidel,Heinrich,Das Atelier,1899,,Heinrich_Seidel_-_Das_Atelier_(1899),1890
+Bierbaum,Otto Julius,Die Schlangendame,1896,,Otto_Julius_Bierbaum_-_Die_Schlangendame_(1896),1890
+Frapan,Ilse,Weisse Flamme,1895,,Ilse_Frapan_-_Weisse_Flamme_(1895),1890
+Ebers,Georg,Per aspera,1892,,Georg_Ebers_-_Per_aspera_(1892),1890
+Stratz,Rudolph,Unter den Linden,1893,,Rudolph_Stratz_-_Unter_den_Linden_(1893),1890
+Bierbaum,Otto Julius,Josephine,1893,,Otto_Julius_Bierbaum_-_Josephine_(1893),1890
+Rosegger,Peter,Peter Mayr der Wirt an der Mahr,1891,,Peter_Rosegger_-_Peter_Mayr_der_Wirt_an_der_Mahr_(1891),1890
+Raabe,Wilhelm,Gutmanns Reisen,1891,,Wilhelm_Raabe_-_Gutmanns_Reisen_(1891),1890
+Riehl,Wilhelm Heinrich,Rheingauer Deutsch,1897,,Wilhelm_Heinrich_Riehl_-_Rheingauer_Deutsch_(1897),1890
+Thoma,Ludwig,Kirta!,1895,,Ludwig_Thoma_-_Kirta!_(1895),1890
+Rilke,Rainer Maria,Die Näherin,1895,,Rainer_Maria_Rilke_-_Die_Näherin_(1895),1890
+von Polenz,Wilhelm,Der Pfarrer von Breitendorf Erster Band,1893,,Wilhelm_von_Polenz_-_Der_Pfarrer_von_Breitendorf_Erster_Band_(1893),1890
+Bierbaum,Otto Julius,To-lu-to-lo oder Wie Emil Türke wurde,1897,,Otto_Julius_Bierbaum_-_To-lu-to-lo_oder_Wie_Emil_Türke_wurde_(1897),1890
+Eckstein,Ernst,Fürst Arno,1899,,Ernst_Eckstein_-_Fürst_Arno_(1899),1890
+May,Karl,Freuden und Leiden eines Vielgelesenen,1896,,Karl_May_-_Freuden_und_Leiden_eines_Vielgelesenen_(1896),1890
+Panizza,Oskar,Die gelbe Kröte,1896,,Oskar_Panizza_-_Die_gelbe_Kröte_(1896),1890
+Wolff,Julius,Das schwarze Weib,1894,,Julius_Wolff_-_Das_schwarze_Weib_(1894),1890
+Hoffmann,Hans,Das Gymnasium zu Stolpenburg,1891,,Hans_Hoffmann_-_Das_Gymnasium_zu_Stolpenburg_(1891),1890
+Przybyszewski,Stanislaw,Satans Kinder,1897,,Stanislaw_Przybyszewski_-_Satans_Kinder_(1897),1890
+May,Karl,Der Schatz der Inkas,1890,,Karl_May_-_Der_Schatz_der_Inkas_(1890),1890
+Riehl,Wilhelm Heinrich,Durch tausend Jahre – Vierter Band,1897,,Wilhelm_Heinrich_Riehl_-_Durch_tausend_Jahre_–_Vierter_Band_(1897),1890
+Meyer,Conrad Ferdinand,Angela Borgia,1891,,Conrad_Ferdinand_Meyer_-_Angela_Borgia_(1891),1890
+Fontane,Theodor,Die Poggenpuhls,1896,,Theodor_Fontane_-_Die_Poggenpuhls_(1896),1890
+Barlach,Ernst,Fragmente aus früherer Zeit,1895,,Ernst_Barlach_-_Fragmente_aus_früherer_Zeit_(1895),1890
+Engel,Georg,Die Last,1898,,Georg_Engel_-_Die_Last_(1898),1890
+Spyri,Johanna,Einer vom Hause Lesa,1890,,Johanna_Spyri_-_Einer_vom_Hause_Lesa_(1890),1890
+Bierbaum,Otto Julius,Letzte Musterung,1893,,Otto_Julius_Bierbaum_-_Letzte_Musterung_(1893),1890
+Heiberg,Hermann,Todsünden,1891,,Hermann_Heiberg_-_Todsünden_(1891),1890
+Flaischlen,Cäsar,Schattenspiel,1897,,Cäsar_Flaischlen_-_Schattenspiel_(1897),1890
+Schnitzler,Arthur,Gespräch in der Kaffeehausecke,1895,,Arthur_Schnitzler_-_Gespräch_in_der_Kaffeehausecke_(1895),1890
+von Wolzogen,Ernst,Die Gloriahose und andere Novellen,1897,,Ernst_von_Wolzogen_-_Die_Gloriahose_und_andere_Novellen_(1897),1890
+Bierbaum,Otto Julius,Die Mondmarie,1893,,Otto_Julius_Bierbaum_-_Die_Mondmarie_(1893),1890
+Jensen,Wilhelm,Hunnenblut,1892,,Wilhelm_Jensen_-_Hunnenblut_(1892),1890
+Schnitzler,Arthur,Die Braut,1895,,Arthur_Schnitzler_-_Die_Braut_(1895),1890
