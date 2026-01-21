@@ -19,6 +19,7 @@ chapters:
     - file: corpus_collection/corpus-collection_text_as_digital_objects
     - file: corpus_collection/corpus-collection_metadata
     - file: corpus_collection/corpus-collection_choosing-our-corpus-based-on-metadata
+    - file: corpus_collection/corpus-collection_filtering-our-corpus
     - file: corpus_collection/corpus-collection_summary
     - file: corpus_collection/corpus-collection_assessment
   - file: corpus_processing/corpus-processing_intro
