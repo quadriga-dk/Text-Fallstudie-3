@@ -18,7 +18,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```{admonition} Frequenzanalysen semantischer Felder
 :class: lernziele
-1. Das Konzept des semantischen Feldes kann erklärt und das Berechnen von Häufigkeiten des semantischen Felds auf einem Korpus kann erklärt werden.
+1. Das Konzept des semantischen Feldes sowie die Berechnung von Häufigkeiten des semantischen Felds auf einem Korpus kann erklärt werden.
 
 2. Der Unterschied zwischen absoluten und relativen Häufigkeiten kann beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms interpretiert werden. 
 
@@ -39,6 +39,6 @@ Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
 Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Grundlagen](corpus-analysis_analysis) zur Erstellung eines semantischen Felds, zur Extraktion von Häufigkeiten sowie zur Visualisierung der Häufigkeiten in Form eines Streudiagramms und die Errechnung und Darstellung einer Trend-Linie. 
 
-Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt]() und die Ergebnisse anhand der Visualisierungen interpretiert. 
+Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt]() und die Ergebnisse werden anhand der Visualisierungen interpretiert. 
 
 Im nächsten Schritt werden [syntaktische n-Gramme eingeführt]() und auf dem [Korpus analysiert](). Die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
