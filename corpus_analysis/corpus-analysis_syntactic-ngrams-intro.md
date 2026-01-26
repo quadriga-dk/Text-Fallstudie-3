@@ -1,4 +1,4 @@
-## Von Wörtern zu Mustern: n-Gramme
+# Von Wörtern zu Mustern: n-Gramme
 
 Das [vorangehende Notebook](corpus-analysis_semantic-field-analysis.ipynb) konzentriert sich auf **einzelne Wörter und ihre Häufigkeiten**, etwa um semantische Felder rund um Luft, Verschmutzung oder Umwelt zu identifizieren. Solche Analysen sind ein zentraler erster Schritt, bleiben jedoch auf *isolierte lexikalische Einheiten* beschränkt. Viele inhaltlich relevante Bedeutungen werden jedoch nicht durch einzelne Wörter ausgedrückt, sondern durch **wiederkehrende Wortkombinationen**.
 
