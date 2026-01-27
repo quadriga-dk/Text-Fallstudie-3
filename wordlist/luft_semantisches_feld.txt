@@ -2,7 +2,6 @@ Luftmasse
 Wrasen
 Stickluft
 Luftzug
-Moder
 Dunst
 Schwefeldunst
 Lufthauch
