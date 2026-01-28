@@ -6,6 +6,20 @@ Ein verbreiteter Ansatz, um über Einzelwörter hinauszugehen, ist die Analyse v
 
 In diesem Sinne stellen n-Gramme eine natürliche methodische Erweiterung wortbasierter Frequenzanalysen dar: Der Fokus verschiebt sich von der Frage, *welche Wörter vorkommen*, hin zu der Frage, *wie Wörter regelmäßig gemeinsam auftreten*.
 
+Seit längerem ist bekannt, dass Häufigkeiten von n-Grammen ein wirkungsvolles Instrument für die quantitative Untersuchung kultureller Trends, für die Analyse der kulturellen Verarbeitung historischer Ereignisse sowie für die Erforschung der Ideengeschichte darstellen. Bereits in der 2011 erschienenen Arbeit, mit der der Google Books Ngram Viewer eingeführt wurde (Michel, 2011), wiesen die Autor:innen auf die kultur- und geschichtswissenschaftliche Aussagekraft gemeinsamer Frequenzverläufe bestimmter n-Gramme hin. Als Beispiele nennen sie unter anderem die zeitliche Dynamik der englischen 3-Gramme "the Great War", "World War I" und "World War II" sowie die Entwicklung des n-Gramms "天安門" (Tiananmen Square) im chinesischen Korpus.
+
+Inzwischen lassen sich zahlreiche weitere Beispiele finden, die zeigen, wie aufschlussreich n-Gramm-Analysen sein können. Betrachtet man etwa im englischen Google-Books-Korpus alle Bigramme, die mit dem Verb to hate beginnen und mit einem Substantiv enden, so gehört hate war zu den häufigsten Treffern. Auffällig sind dabei zwei sehr ausgeprägte Häufigkeitsspitzen, die zeitlich mit dem Ersten und dem Zweiten Weltkrieg zusammenfallen. Solche Befunde verdeutlichen, dass n-Gramme nicht nur lexikalische Muster erfassen, sondern auch als Indikatoren für historische Zäsuren und kollektive Deutungsprozesse gelesen werden können.
+
+```{figure} ../assets/images/ngrams_hate_war.png
+---
+height:
+name: Ngrams Example
+---
+Ngram Viewer Beispiel.
+```
+
+
+
 ---
 
 ## Von linearen zu syntaktischen n-Grammen
