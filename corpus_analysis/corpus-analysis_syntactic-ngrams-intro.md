@@ -36,7 +36,18 @@ Klassische **lineare n-Gramme** definieren solche Muster ausschließlich auf der
 
 Diese Einschränkung ist besonders relevant für **das Deutsche**, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute, Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
 
-*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern **Relationen in einer syntaktischen Analyse**, typischerweise in einem Dependenzbaum. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat sich insbesondere für die sprachliche Beschreibung des Deutschen als nützlich erwiesen, da hier syntaktische Relationen häufig aussagekräftiger sind als lineare Nachbarschaft (vgl. etwa Andresen & Zinsmeister).
+*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern **Relationen in einer syntaktischen Analyse**, typischerweise in einem Dependenzbaum. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. 
+
+```{figure} ../assets/images/dep_tree.png
+---
+height:
+name: Ngrams Example
+---
+ Ein Beispiel für einen Dependenzbaum.
+```
+
+
+Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat sich insbesondere für die sprachliche Beschreibung des Deutschen als nützlich erwiesen, da hier syntaktische Relationen häufig aussagekräftiger sind als lineare Nachbarschaft (vgl. etwa Andresen & Zinsmeister).
 
 ---
 
