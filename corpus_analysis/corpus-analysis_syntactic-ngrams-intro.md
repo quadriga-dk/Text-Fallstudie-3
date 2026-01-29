@@ -2,7 +2,7 @@
 
 Das [vorangehende Notebook](corpus-analysis_semantic-field-analysis.ipynb) konzentriert sich auf **einzelne Wörter und ihre Häufigkeiten**, etwa um semantische Felder rund um Luft, Verschmutzung oder Umwelt zu identifizieren. Solche Analysen sind ein zentraler erster Schritt, bleiben jedoch auf *isolierte lexikalische Einheiten* beschränkt. Viele inhaltlich relevante Bedeutungen werden jedoch nicht durch einzelne Wörter ausgedrückt, sondern durch **wiederkehrende Wortkombinationen**.
 
-Ein verbreiteter Ansatz, um über Einzelwörter hinauszugehen, ist die Analyse von **n-Grammen**. N-Gramme modellieren Sprache als Sequenzen von *n* aufeinanderfolgenden Tokens und erlauben es, wiederkehrende mehrwortige Muster sichtbar zu machen, etwa Kollokationen, feste Wendungen oder kurze Konstruktionen. So lassen sich statt der getrennten Betrachtung von *Rauch* und *Luft* beispielsweise Muster wie *dichter Rauch*, *schlechte Luft* oder *Luft und Wasser* identifizieren. Hier ist ein Beispiel für die Aufteilung einer Phrase aus einem der vielen Texte dieser Fallstudie (Hinzelmeier von Theodor Storm) in N-Gramme der Länge 1, 2 und 3 (d. h. Unigramme, 2-Gramme und 3-Gramme).
+Ein verbreiteter Ansatz, um über Einzelwörter hinauszugehen, ist die Analyse von **n-Grammen**. N-Gramme modellieren Sprache als Sequenzen von *n* aufeinanderfolgenden Tokens und erlauben es, wiederkehrende mehrwortige Muster sichtbar zu machen, etwa Kollokationen, feste Wendungen oder kurze Konstruktionen. So lassen sich statt der getrennten Betrachtung von *Rauch* und *Luft* beispielsweise Muster wie *dichter Rauch*, *schlechte Luft* oder *Luft und Wasser* identifizieren. Hier ist ein Beispiel für die Aufteilung einer Phrase aus einem der vielen Texte dieser Fallstudie (Eine Nacht im Jägerhause, Friedrich Hebbel) in N-Gramme der Länge 1, 2 und 3 (d. h. Unigramme, 2-Gramme und 3-Gramme):
 
 ```{figure} ../assets/images/ngrams_simple.png
 ---
@@ -46,7 +46,7 @@ Betrachten wir den folgenden Satz:
 
 > *Die von dichtem Rauch erfüllte Luft war kaum atembar.*
 
-Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen wie:
+Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Grammen) wie:
 
 * *dichtem Rauch*
 * *Rauch erfüllte*
