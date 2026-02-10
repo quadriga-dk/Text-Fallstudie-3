@@ -1,4 +1,4 @@
-lastname,firstname,title,year,volume,ID
+lastname,firstname,DC.title,DC.date,volume,DC.identifier
 Walloth,Wilhelm,Das Schatzhaus des Königs,1883,,Wilhelm_Walloth_-_Das_Schatzhaus_des_Königs_(1883)
 Däubler,Theodor,L'Africana,1928,,Theodor_Däubler_-_L'Africana_(1928)
 Eyth,Max,Der Schneider von Ulm,1906,,Max_Eyth_-_Der_Schneider_von_Ulm_(1906)
