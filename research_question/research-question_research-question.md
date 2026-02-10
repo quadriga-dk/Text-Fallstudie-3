@@ -1,25 +1,15 @@
 (research-question_research-question)=
 # Fragestellung
-Die Darstellung von Luftverschmutzung in Texten ist ein wachsendes Forschungsfeld. Die meisten Forschenden konzentrieren sich auf moderne Zeitungen {cite:p}`rabbani_ecological_2025` oder Websuchanfragen{cite:p}`lin_detecting_2022`, was naheliegend erscheint. 
+Die umweltgeschichtliche Forschung hat in den letzten Jahrzehnten quellengestützt herausgearbeitet, wie sich im Zuge des 19. Jahrhunderts die Luftqualität in Deutschland – wie in zahlreichen anderen Gebieten, in denen die Industrialisierung voranschritt – rasant verschlechterte {cite:p}`bruggemeier_1996; uekotter_2003` Zeitgenössische Diskussionen um die Rauchplage, um Ausdünstungen und Gase zeichnen ein Bild massiver Luftverschmutzung insbesondere durch die aufkommende Industrie. „Der Obstbaum gedeiht nur kümmerlich und ist er endlich tragbar und steht in Blüthe, so braucht der Hüttenrauch diese nur gelind zu überstreichen, um sie zu vergiften“ (zit. nach {cite:p}`AndersenBrueggemeier_1989`{S. 64}, heißt es 1846 in einem Beschwerdeschreiben von Anwohner:innen, die im sächsischen Halsbrücke unter dem Rauch und Staub aus den benachbarten Hüttenwerken zu leiden hatten. 
 
-```{figure} ../assets/images/daily_nitrogen_cough.png
----
-height: 300px
-name: Tägliche Stickstoffdioxid-(NO₂)-Werte und das Suchinteresse nach dem Begriff „Husten“ („to cough“) im Oktober 2016 in Atlanta.
----
-Tägliche Stickstoffdioxid-(NO₂)-Werte und das Suchinteresse nach dem Begriff „Husten“ („to cough“) im Oktober 2016 in Atlanta. Quelle: {cite:p}`lin_detecting_2022`
-```
+Auch wenn literarische Texte als fiktionale Werke keineswegs ihre zeitgenössische Gegenwart abbilden (müssen), erweisen sie sich doch immer wieder als hochsensible Instrumente, die Entwicklungen zum Beispiel in Kultur und Gesellschaft auf besondere Weise beobachten und beobachtbar machen. Der literaturwissenschaftliche Ansatz des Ecocriticism {cite:p}`buehler_2016` richtet seine Aufmerksamkeit dabei auf die in literarischen Texten entworfenen und verhandelten Mensch-Umwelt-Beziehungen und diskutiert diese u.a. vor dem Hintergrund von herrschenden Naturkonzepten, zeitgenössischen Menschenbildern oder auch umweltgeschichtlichen Entwicklungen. Vor diesem Hintergrund stellt sich die Frage, wie sich die Literatur des 19. Jahrhunderts zu der Tatsache verhält, dass die Luft, die ihre Verfasser:innen atmen, rapide stickiger, stickender, dreckiger, schmutziger – insgesamt: schlechter wurde?  Dieser ökokritischen Frage nach dem Niederschlag der Luftverschmutzung in der deutschsprachigen Literatur des 19. Jahrhunderts wollen wir im Folgenden nachgehen. 
 
-Aus literaturwissenschaftlicher Perspektive lässt sich jedoch auch die literarische Fiktion auf Spuren der Auseinandersetzung mit der Qualität der Luft untersuchen.
-
-Diese Fallstudie führt durch ein Digital-Humanities-Forschungsprojekt, das aus literaturwissenschaftlicher Perspektive untersucht, wie deutschsprachige literarische Texte des 19. Jahrhunderts die zunehmende Verschlechterung der Luftqualität reflektieren und diskursivieren. Im Mittelpunkt steht dabei die Frage, in welcher Weise sich Wahrnehmungen von „schlechter Luft“ sprachlich fassen lassen und wie sich diese im Verlauf des Jahrhunderts verändern. 
 
 `````{admonition} Forschungsfrage
 :class: keypoint
-Wie diskursivieren deutschsprachige literarische Texte des 19. Jahrhunderts die abnehmende Luftqualität, und wie verändern sich dabei die Häufigkeiten und Kontexte des semantischen Feldes „Luft“ im Zeitverlauf?
+Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen? 
 `````
 
-Das Projekt kombiniert Ansätze der linguistischen Anreicherung, der quantitativen Analyse und der Visualisierung, um literarische Reaktionen auf Umweltveränderungen nachvollziehbar zu machen.
 
 ## Bibliographie
 ```{bibliography}
