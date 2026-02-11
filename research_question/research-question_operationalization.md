@@ -9,12 +9,6 @@ Für die Operationalisierung unserer Forschungsfrage müssen insbesondere zwei F
 - Wie kann diese gemessen werden? 
 - Und was ist die Grundlage für eine solche Messung, bedenkt man, dass uns "die" deutschsprachige Literatur des 19. Jahrhunderts nicht als Korpus vorliegt.
 
-
-
-
-		- semantisches Feld / Wortfeld "Luft" – Welchen Wortraum nimmt das ein? 
-		- Semantisierung: Adjektiv-Substantiv-Kombinationen ("syntaktische N-grame"); Beispiel "frische Luft"
-
 Entlang dieser Fragen nehmen wir unsere Operationalisierung vor. Die Operationalisierung muss dabei Indikatoren benennen, deren Vorhandensein in literarischen Texten wir im Zuge von Messoperationen quantitativ beschreiben können. 
 
 In Hinblick auf die **erste Frage** gegen wir dabei von der folgenden pragmatischen Operationalisierung aus: Auf schematische Weise gedacht, kann Literatur auf Phänomene in der zeitgenössischen Umwelt zum Beispiel durch gesteigerte Thematisierung reagieren. "Luft" könnte in diesem Sinne mehr und mehr Gegenstand in den literarischen Texten werden. Darüber hinaus ist denkbar, dass die Umweltphänomene eine andere Semantisierung erhalten. "Luft" könnte in diesem Sinne zunehmend mit negativer Semantik verbunden werden (und dann etwa eine aufklärerisch-kritische Perspektive einnehmen). Denkbar ist freilich auch das Gegenteil: Literatur könnte utopische Gegenwelten entwerfen und also mit einer herausgehoben positiven Semantik von "Luft" reagieren. 
