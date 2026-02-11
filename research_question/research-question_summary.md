@@ -4,9 +4,9 @@
 ```{admonition} Key points des Kapitels
 :class: keypoint
 
-**Medizinische vs. mediale Wellen:** Medizinische Fallzahlen und mediale Aufmerksamkeit folgen unterschiedlichen Verlaufsmustern. "Medienwellen" zeigen sich in der schwankenden Intensität öffentlicher Diskussion über Pandemien.
+**Literatur und Umwelt** Literatur kann auf Veränderung in der ihr zeitgenössischen Umwelt auf verschiedene Weisen reagieren. Dieses komplexe Verhältnis wird im Forschungszweig des Ecocriticism untersucht.  
 
-**Operationalisierung:** Qualitative Fragestellungen werden durch Operationalisierung für quantitative Methoden zugänglich gemacht. "Öffentliche Aufmerksamkeit" wird als messbare Worthäufigkeit in Tageszeitungen definiert.
+**Operationalisierung:** Qualitative Fragestellungen werden durch Operationalisierung für quantitative Methoden zugänglich gemacht. Die Reaktion der Literatur auf Umweltphänomene wird als messbare Wort- und N-Gram-Häufigkeit in einem Auswahlkorpus definiert.
 
 **Methodische Grenzen:** Jede Operationalisierung bringt diskutable Einschränkungen mit sich. Die kritische Reflexion dieser Grenzen ist essentieller Bestandteil von Digital Humanities-Projekten.
 
