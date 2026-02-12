@@ -1,0 +1,81 @@
+decade,year_int,title,filename,count,noun_count,rel_freq,share_of_adj_count_in_decade,adjective
+1850,1856,Die Werke der Barmherzigkeit,Wilhelm_Heinrich_Riehl_-_Die_Werke_der_Barmherzigkeit_(1856),3,5,60.0,0.0967741935483871,frisch
+1850,1858,Gesammelte kleinere Erzählungen – Vierter Teil,Hermann_Kurz_-_Gesammelte_kleinere_Erzählungen_–_Vierter_Teil_(1858),3,11,27.27272727272727,0.0967741935483871,frisch
+1850,1857,Das alte Haus,Friedrich_Gerstäcker_-_Das_alte_Haus_(1857),4,21,19.047619047619047,0.12903225806451613,frisch
+1850,1854,Tahiti,Friedrich_Gerstäcker_-_Tahiti_(1854),2,11,18.181818181818183,0.06451612903225806,frisch
+1850,1857,Der Augenblick des Glücks,FW_Hackländer_-_Der_Augenblick_des_Glücks_(1857),2,12,16.666666666666664,0.06451612903225806,frisch
+1880,1885,Unterm Birnbaum,Theodor_Fontane_-_Unterm_Birnbaum_(1885),2,6,33.33333333333333,0.08,frisch
+1880,1886,Der Weg zum Glück. Sechster Band,Karl_May_-_Der_Weg_zum_Glück._Sechster_Band_(1886),2,9,22.22222222222222,0.08,frisch
+1880,1886,Gesammelte Erzählungen,Isabella_Braun_-_Gesammelte_Erzählungen_(1886),2,10,20.0,0.08,frisch
+1880,1888,Artur und Squirrel,Johanna_Spyri_-_Artur_und_Squirrel_(1888),1,5,20.0,0.04,frisch
+1880,1885,Die Saxoborussen,Oskar_Meding_-_Die_Saxoborussen_(1885),3,19,15.789473684210526,0.12,frisch
+1820,1824,Die Gräfin Cherubim,H._Clauren_-_Die_Gräfin_Cherubim_(1824),1,5,20.0,0.0625,frei
+1820,1825,Dichterleben,Ludwig_Tieck_-_Dichterleben_(1825),1,5,20.0,0.0625,frei
+1820,1823,Rosa von Tannenburg,Christoph_von_Schmid_-_Rosa_von_Tannenburg_(1823),1,5,20.0,0.0625,frei
+1820,1824,Walladmor,Willibald_Alexis_-_Walladmor_(1824),4,42,9.523809523809524,0.25,frei
+1820,1827,Der Jude,Carl_Spindler_-_Der_Jude_(1827),3,32,9.375,0.1875,frei
+1860,1864,Nachkommenschaften,Adalbert_Stifter_-_Nachkommenschaften_(1864),3,7,42.857142857142854,0.125,frei
+1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),3,20,15.0,0.125,frei
+1860,1860,Alle jagen John Mulligan,Friedrich_Gerstäcker_-_Alle_jagen_John_Mulligan_(1860),1,7,14.285714285714285,0.041666666666666664,frei
+1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),2,15,13.333333333333334,0.08333333333333333,frei
+1860,1869,Das Landhaus am Rhein,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_I_(1869),1,8,12.5,0.041666666666666664,frei
+1840,1840,Das Haidedorf,Adalbert_Stifter_-_Das_Haidedorf_(1840),1,5,20.0,0.125,rein
+1840,1840,Novellen und Erzählungen 1,Franz_von_Gaudy_-_Novellen_und_Erzählungen_1_(1840),1,9,11.11111111111111,0.125,rein
+1840,1841,Feldblumen,Adalbert_Stifter_-_Feldblumen_(1841),1,16,6.25,0.125,rein
+1840,1840,Der Roland von Berlin – Erster Band,Willibald_Alexis_-_Der_Roland_von_Berlin_–_Erster_Band_(1840),1,18,5.555555555555555,0.125,rein
+1840,1840,Der Roland von Berlin – Zweiter Band,Willibald_Alexis_-_Der_Roland_von_Berlin_–_Zweiter_Band_(1840),1,23,4.3478260869565215,0.125,rein
+1850,1859,Flucht und Fund,Ferdinand_Kürnberger_-_Flucht_und_Fund_(1859),1,6,16.666666666666664,0.09090909090909091,rein
+1850,1852,Eugen Stillfried,FW_Hackländer_-_Eugen_Stillfried_-_Erster_Band_(1852),1,12,8.333333333333332,0.09090909090909091,rein
+1850,1853,Bunte Steine,Adalbert_Stifter_-_Bunte_Steine_(1853),3,40,7.5,0.2727272727272727,rein
+1850,1852,Eugen Stillfried – Zweiter Band,FW_Hackländer_-_Eugen_Stillfried_–_Zweiter_Band_(1852),1,14,7.142857142857142,0.09090909090909091,rein
+1850,1851,Der Vogt von Sylt,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851),1,16,6.25,0.09090909090909091,rein
+1820,1825,Dichterleben,Ludwig_Tieck_-_Dichterleben_(1825),1,5,20.0,0.16666666666666666,blau
+1820,1828,Novellen,Wilhelm_Hauff_-_Novellen_(1828),1,9,11.11111111111111,0.16666666666666666,blau
+1820,1826,Reisebilder,Heinrich_Heine_-_Reisebilder_(1826),1,16,6.25,0.16666666666666666,blau
+1820,1826,Aus dem Leben eines Taugenichts,Joseph_von_Eichendorff_-_Aus_dem_Leben_eines_Taugenichts_(1826),1,27,3.7037037037037033,0.16666666666666666,blau
+1820,1827,Der Jude,Carl_Spindler_-_Der_Jude_(1827),1,32,3.125,0.16666666666666666,blau
+1890,1896,Der Stern des Glücks,Nataly_von_Eschstruth_-_Der_Stern_des_Glücks_(1896),2,14,14.285714285714285,0.2222222222222222,blau
+1890,1890,Leberecht Hühnchen als Großvater,Heinrich_Seidel_-_Leberecht_Hühnchen_als_Großvater_(1890),2,17,11.76470588235294,0.2222222222222222,blau
+1890,1897,Durch tausend Jahre – Zweiter Band,Wilhelm_Heinrich_Riehl_-_Durch_tausend_Jahre_–_Zweiter_Band_(1897),3,27,11.11111111111111,0.3333333333333333,blau
+1890,1897,Jung gefreit,Nataly_von_Eschstruth_-_Jung_gefreit_-_1_(1897),1,17,5.88235294117647,0.1111111111111111,blau
+1890,1898,An heiligen Wassern,Jakob_Christoph_Heer_-_An_heiligen_Wassern_(1898),1,20,5.0,0.1111111111111111,blau
+1850,1852,Eugen Stillfried,FW_Hackländer_-_Eugen_Stillfried_-_Erster_Band_(1852),2,12,16.666666666666664,0.3333333333333333,kalt
+1850,1857,Das alte Haus,Friedrich_Gerstäcker_-_Das_alte_Haus_(1857),2,21,9.523809523809524,0.3333333333333333,kalt
+1850,1851,Der Vogt von Sylt,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851),1,16,6.25,0.16666666666666666,kalt
+1850,1858,Nena Sahib,Sir_John_Retcliffe_-_Nena_Sahib_(1858),1,75,1.3333333333333335,0.16666666666666666,kalt
+1850,1858,Elisabeth. I. Band,Marie_Nathusius_-_Elisabeth._I._Band_(1858),0,5,0.0,0.0,kalt
+1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.125,kalt
+1860,1864,Der Hungerpastor,Wilhelm_Raabe_-_Der_Hungerpastor_(1864),2,39,5.128205128205128,0.25,kalt
+1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),2,58,3.4482758620689653,0.25,kalt
+1860,1866,Saat und Ernte,Armand_(Friedrich_Strubberg)_-_Saat_und_Ernte_(1866),1,32,3.125,0.125,kalt
+1860,1868,Abu Telfan,Wilhelm_Raabe_-_Abu_Telfan_(1868),1,41,2.4390243902439024,0.125,kalt
+1860,1868,Die Dorfcoquette,Friedrich_Spielhagen_-_Die_Dorfcoquette_(1868),1,5,20.0,0.16666666666666666,leer
+1860,1865,Auf der Höhe Dritter Band,Berthold_Auerbach_-_Auf_der_Höhe_Dritter_Band_(1865),1,10,10.0,0.16666666666666666,leer
+1860,1860,Neue Geschichten aus dem Ghetto,Leopold_Kompert_-_Neue_Geschichten_aus_dem_Ghetto_(1860),1,11,9.090909090909092,0.16666666666666666,leer
+1860,1865,General Franco,Friedrich_Gerstäcker_-_General_Franco_(1865),2,27,7.4074074074074066,0.3333333333333333,leer
+1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),1,15,6.666666666666667,0.16666666666666666,leer
+1870,1871,Die letzte Reckenburgerin,Louise_von_François_-_Die_letzte_Reckenburgerin_(1871),1,10,10.0,0.1111111111111111,leer
+1870,1878,Landolin von Reutershöfen,Berthold_Auerbach_-_Landolin_von_Reutershöfen_(1878),1,16,6.25,0.1111111111111111,leer
+1870,1874,Die zweite Frau,Eugenie_Marlitt_-_Die_zweite_Frau_(1874),1,28,3.571428571428571,0.1111111111111111,leer
+1870,1870,Der Schüdderump,Wilhelm_Raabe_-_Der_Schüdderump_(1870),1,32,3.125,0.1111111111111111,leer
+1870,1878,Vor dem Sturm,Theodor_Fontane_-_Vor_dem_Sturm_(1878),1,34,2.941176470588235,0.1111111111111111,leer
+1850,1857,Die alte Erlaucht,Edmund_Hoefer_-_Die_alte_Erlaucht_(1857),1,8,12.5,0.25,klar
+1850,1857,Sträflinge,Friedrich_Gerstäcker_-_Sträflinge_(1857),1,11,9.090909090909092,0.25,klar
+1850,1854,Tahiti,Friedrich_Gerstäcker_-_Tahiti_(1854),1,11,9.090909090909092,0.25,klar
+1850,1858,Michel,Johannes_Scherr_-_Michel_(1858),1,16,6.25,0.25,klar
+1850,1858,Elisabeth. I. Band,Marie_Nathusius_-_Elisabeth._I._Band_(1858),0,5,0.0,0.0,klar
+1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),1,6,16.666666666666664,0.16666666666666666,klar
+1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),2,20,10.0,0.3333333333333333,klar
+1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.16666666666666666,klar
+1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),1,58,1.7241379310344827,0.16666666666666666,klar
+1860,1869,Hammer und Amboß,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869),1,74,1.3513513513513513,0.16666666666666666,klar
+1830,1833,Viel Lärmen um Nichts,Joseph_von_Eichendorff_-_Viel_Lärmen_um_Nichts_(1833),1,5,20.0,0.5,still
+1830,1839,Die Entführung,Joseph_von_Eichendorff_-_Die_Entführung_(1839),1,9,11.11111111111111,0.5,still
+1830,1832,Die Zerrissenen,Alexander_von_Ungern-Sternberg_-_Die_Zerrissenen_(1832),0,6,0.0,0.0,still
+1830,1839,Der Oberhof,Karl_Immermann_-_Der_Oberhof_(1839),0,14,0.0,0.0,still
+1830,1839,Die neuen Argonauten,Franz_Dingelstedt_-_Die_neuen_Argonauten_(1839),0,6,0.0,0.0,still
+1860,1865,Auf der Höhe Vierter Band,Berthold_Auerbach_-_Auf_der_Höhe_Vierter_Band_(1865),1,9,11.11111111111111,0.2,still
+1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),1,15,6.666666666666667,0.2,still
+1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),2,58,3.4482758620689653,0.4,still
+1860,1869,Hammer und Amboß,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869),1,74,1.3513513513513513,0.2,still
+1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),0,6,0.0,0.0,still

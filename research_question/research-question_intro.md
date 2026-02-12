@@ -18,9 +18,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ````
 ```{admonition} Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
 :class: lernziele
-1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Messung der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und erläutert werden.
+1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel einer quantitativen Analyse der Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung nachvollzogen und erläutert werden.
 
-2. Der Operationalisierungsprozess kann am Beispiel der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und auf andere Forschungsfragen übertragen werden.
+2. Der Operationalisierungsprozess kann am Beispiel einer quantitativen Analyse der Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung nachvollzogen und auf andere Forschungsfragen übertragen werden.
 ```
 
 Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet. 
