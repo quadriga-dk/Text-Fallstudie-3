@@ -62,7 +62,7 @@ Das Universal Dependencies Annotationsschema folgt der Dependenzgrammatik, währ
 
 Automatische Annotationen mit Dependenzinformationen können mittels **Dependency Parsing** erzeugt werden. In der folgenden Abbildung sind die automatisch erzeugten Dependenzannotationen für den Beispielsatz dargestellt, anhand derer die Adjektiv-Nomen-Paare automatisch extrahiert werden können.
 
-```{figure} ../assets/images/dependency_plot.svg
+```{figure} ../assets/images/dependency_plot.png
 ---
 height:
 name: Dependenzannotation des Satze "Die wunderschöne, von einem Nachbarn geklaute Rose ist rot".
