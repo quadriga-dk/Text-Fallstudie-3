@@ -19,9 +19,9 @@ Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im 
 Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen. 
 
 **So funktioniert es:**
-- Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten
-- Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch
-- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten 
+- Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten.
+- Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch.
+- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten.
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
@@ -166,9 +166,9 @@ questions = [
                 Konsistenz des Zeitungsformats, 
                 Zugänglichkeit der relevanten Artikel. 
                 - Nicht geeignet sind Messungen, die:
-                Andere Zeitungen einbeziehen, 
-                Externe Datenquellen erfordern, 
-                Nicht im Zeitungskorpus enthaltene Informationen benötigen"""
+                andere Zeitungen einbeziehen, 
+                externe Datenquellen erfordern, 
+                nicht im Zeitungskorpus enthaltene Informationen benötigen"""
             }
         ]
     },
@@ -186,13 +186,13 @@ questions = [
                 "correct": False,
                 "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein
                 - Wichtige Aspekte:
-                Gleichbleibende Verfügbarkeit der Daten, 
+                gleichbleibende Verfügbarkeit der Daten, 
                 Vergleichbarkeit der Messungen über Zeit, 
                 Berücksichtigung möglicher Formatänderungen. 
                 - Problematisch wären:
                 Indikatoren, die nur für Teilzeiträume verfügbar sind, 
                 Messungen, die durch Änderungen der Zeitung beeinflusst werden, 
-                Nicht durchgängig dokumentierte Aspekte"""
+                nicht durchgängig dokumentierte Aspekte"""
             }
         ]
     },
@@ -210,13 +210,13 @@ questions = [
                 "correct": False,
                 "feedback": """× Nicht korrekt! - Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein
                 - Praktische Aspekte:
-                Verfügbare Zeit und Personal, 
-                Technische Möglichkeiten (z.B. OCR, Textanalysetools), 
+                verfügbare Zeit und Personal, 
+                technische Möglichkeiten (z.B. OCR, Textanalysetools), 
                 Aufwand-Nutzen-Verhältnis. 
                 - Problematisch wären:
-                Zu zeitaufwendige manuelle Analysen, 
-                Technisch nicht realisierbare Messungen, 
-                Unverhältnismäßig komplexe Verfahren"""
+                zu zeitaufwendige manuelle Analysen, 
+                technisch nicht realisierbare Messungen, 
+                unverhältnismäßig komplexe Verfahren"""
             }
         ]
     }
