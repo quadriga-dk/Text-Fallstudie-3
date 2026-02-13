@@ -46,3 +46,8 @@ Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
 - Im **4. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch und visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
 
 Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection)) 	
+
+## Bibliographie
+```{bibliography}
+:filter: docname in docnames
+```
