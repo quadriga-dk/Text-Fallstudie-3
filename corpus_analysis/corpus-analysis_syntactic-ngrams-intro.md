@@ -14,7 +14,7 @@ Beispiel für die Aufteilung einer Phrase in N-Gramme der Länge 1, 2 und 3.
 
 In diesem Sinne stellen n-Gramme eine natürliche methodische Erweiterung wortbasierter Frequenzanalysen dar: Der Fokus verschiebt sich von der Frage, *welche Wörter vorkommen*, hin zu der Frage, *wie Wörter regelmäßig gemeinsam auftreten*.
 
-Seit längerem ist bekannt, dass Häufigkeiten von n-Grammen ein wirkungsvolles Instrument für die quantitative Untersuchung kultureller Trends, für die Analyse der kulturellen Verarbeitung historischer Ereignisse sowie für die Erforschung der Ideengeschichte darstellen. Bereits in der 2011 erschienenen Arbeit, mit der der Google Books Ngram Viewer eingeführt wurde (Michel, 2011), wiesen die Autor:innen auf die kultur- und geschichtswissenschaftliche Aussagekraft gemeinsamer Frequenzverläufe bestimmter n-Gramme hin. Als Beispiele nennen sie unter anderem die zeitliche Dynamik der englischen 3-Gramme "the Great War", "World War I" und "World War II" sowie die Entwicklung des n-Gramms "天安門" (Tiananmen Square) im chinesischen Korpus.
+Seit längerem ist bekannt, dass Häufigkeiten von n-Grammen ein wirkungsvolles Instrument für die quantitative Untersuchung kultureller Trends, für die Analyse der kulturellen Verarbeitung historischer Ereignisse sowie für die Erforschung der Ideengeschichte darstellen. Bereits in der 2011 erschienenen Arbeit, mit der der Google Books Ngram Viewer eingeführt wurde {cite:p}`michel_et_al_2011`, wiesen die Autor:innen auf die kultur- und geschichtswissenschaftliche Aussagekraft gemeinsamer Frequenzverläufe bestimmter n-Gramme hin. Als Beispiele nennen sie unter anderem die zeitliche Dynamik der englischen 3-Gramme "the Great War", "World War I" und "World War II" sowie die Entwicklung des n-Gramms "天安門" (Tiananmen Square) im chinesischen Korpus.
 
 Inzwischen lassen sich zahlreiche weitere Beispiele finden, die zeigen, wie aufschlussreich n-Gramm-Analysen sein können. Betrachtet man etwa im englischen Google-Books-Korpus alle 2-Gramme, die mit dem Verb "to hate" (hassen) beginnen und mit einem Substantiv enden, so gehört 2-Gramme "**hate war**" (den Krieg hassen) zu den [häufigsten Treffern](https://books.google.com/ngrams/graph?content=hate_VERB+*_NOUN&year_start=1901&year_end=2000&corpus=en&smoothing=3). Auffällig sind dabei zwei sehr ausgeprägte Häufigkeitsspitzen, die zeitlich mit dem Ersten und dem Zweiten Weltkrieg zusammenfallen. 
 
@@ -34,7 +34,7 @@ Solche Befunde verdeutlichen, dass n-Gramme nicht nur lexikalische Muster erfass
 
 Klassische **lineare n-Gramme** definieren solche Muster ausschließlich auf der Grundlage von Oberflächenadjazenz. Dieser Ansatz ist einfach und oft effektiv, weist jedoch eine zentrale Einschränkung auf: Er reagiert sehr empfindlich auf Wortstellung und auf die Einschübe von Modifikatoren. Dadurch werden semantisch und funktional ähnliche Ausdrücke häufig in viele unterschiedliche Oberflächenvarianten aufgespalten.
 
-Diese Einschränkung ist besonders relevant für **das Deutsche**, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute, Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
+Diese Einschränkung ist besonders relevant für **das Deutsche**, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute, Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind (vgl. etwa {cite}`andresen_benefit_2017`).
 
 *Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern **Relationen in einer syntaktischen Analyse**, typischerweise in einem Dependenzbaum. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. 
 
@@ -47,7 +47,7 @@ name: Ngrams Example
 ```
 
 
-Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat sich insbesondere für die sprachliche Beschreibung des Deutschen als nützlich erwiesen, da hier syntaktische Relationen häufig aussagekräftiger sind als lineare Nachbarschaft (vgl. etwa Andresen & Zinsmeister).
+Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat sich insbesondere für die sprachliche Beschreibung des Deutschen als nützlich erwiesen, da hier syntaktische Relationen häufig aussagekräftiger sind als lineare Nachbarschaft.
 
 ---
 
@@ -80,3 +80,8 @@ Für die Analyse historischer Diskurse über Luftqualität ermöglichen syntakti
 ---
 
 Das folgende Notebook knüpft an diese Überlegungen an und untersucht, wie syntaktische n-Gramme aus dem Korpus extrahiert werden können und wie sie sich als exploratives Analyseinstrument neben wortbasierten und linearen n-Gramm-Ansätzen einsetzen lassen.
+
+## Bibliographie
+```{bibliography}
+:filter: docname in docnames
+```
