@@ -26,7 +26,7 @@ Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduc
 Anhand einer Auswahl an deutschsprachigen literarischen Texten aus dem *Corpus of German-Language Fiction* {cite:p}`Fischer2017` wird dabei eine Frage aus dem Feld der Digitalen Literaturwissenschaft nachgegangen: **Wie diskursivieren deutschsprachige literarische Texte die abnehmende Luftqualität im 19. Jahrhundert?**
 
 ### Zielgruppe
-Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humnanites sind nicht erforderlich, wohl aber eine prinzipiell Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
+Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipiell Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
 
  
 ### Struktur der Fallstudie
@@ -40,9 +40,9 @@ name: Flussdiagramm der Fallstudie
 Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
 ```
 
-- Im **1. Schritt** entwickeln wir eine Forschungsfrage und operationalisieren diese Forschungsfrage für die quantitative Analyse, entwickeln also ein Konzept, wie wir mittels Meßoperationen zu einer Antwort auf die Forschungsfrage kommen (siehe Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)).
-- Im **2. Schritt** wählen wir ein Korpus aus Textobjekten für die Analyse aus, das aus txt-Dateien besteht (siehe Kapitel ["Korpusaufbau"](corpus-collection_intro))
-- Im **3. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an. (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
+- Im **1. Schritt** entwickeln wir eine Forschungsfrage und operationalisieren diese Forschungsfrage für die quantitative Analyse, entwickeln also ein Konzept, wie wir mittels Messoperationen zu einer Antwort auf die Forschungsfrage kommen (siehe Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)).
+- Im **2. Schritt** wählen wir ein Korpus aus Textobjekten für die Analyse aus, das aus txt-Dateien besteht (siehe Kapitel ["Korpusaufbau"](corpus-collection_intro)).
+- Im **3. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
 - Im **4. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch und visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
 
 Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection)) 	
