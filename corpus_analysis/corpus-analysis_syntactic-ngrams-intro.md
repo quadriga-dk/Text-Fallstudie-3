@@ -75,10 +75,6 @@ name: Ngrams Example
  Ein Beispiel für einen Dependenzbaum.
 ```
 
-Zugleich lässt sich auch die relationale Struktur der Verschmutzungsbeschreibung erfassen, etwa über einen Pfad wie:
-
-* *Fabriken → schwängern → Luft*
-
 Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sprachlich zu beschreiben – und sie bleiben auch dann erkennbar, wenn die Oberflächenform variiert, etwa in:
 
 * *eine von Fabrikrauch geschwängerte, üble Luft*
