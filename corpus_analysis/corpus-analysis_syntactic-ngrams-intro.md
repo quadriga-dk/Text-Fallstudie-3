@@ -65,7 +65,7 @@ Diese Muster spiegeln jeweils nur lokale Oberflächenadjazenz wider. Besonders a
 
 Eine syntaktische n-Gramm-Analyse hingegen berücksichtigt die Struktur des Dependenzbaums. Dort ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. Ein entsprechender syntaktischer Pfad könnte etwa so modelliert werden:
 
-* *übel → Luft*
+* *Luft  → übel*
 
 ```{figure} ../assets/images/dep_tree_ueble_luft.png
 ---
