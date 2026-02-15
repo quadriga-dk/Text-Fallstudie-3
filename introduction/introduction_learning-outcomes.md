@@ -41,7 +41,7 @@
 
 2. Das Konzept von syntaktischen n-Grams in Bezug auf Adjektiv-Nomen-Paare kann beschrieben und die notwendigen Schritte zur automatischen Extraktion der syntaktischen n-Grams können aufgezählt werden. 
 
-3. Die Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
+3. Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
 
 ```
 
@@ -50,5 +50,5 @@
 ```{admonition} [Kritische Bewertung der Reichweite und Limitationen](reflection_reflection)
 :class: lernziele, dropdown
 
-1. Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.
+1. Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.
 ```
