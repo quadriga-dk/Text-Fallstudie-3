@@ -51,31 +51,40 @@ Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat 
 
 ---
 
-## Ein einfaches Beispiel: Luft, Rauch und Syntax
+Hier ist eine neu formulierte Fassung des Abschnitts **„Ein einfaches Beispiel“** mit einem historischen, zum späten 19. Jahrhundert passenden Beispiel und einem adjektivischen Attribut, das **linear vom Substantiv getrennt**, aber syntaktisch direkt mit ihm verbunden ist:
+
+---
+
+## Ein einfaches Beispiel: Fabrikrauch und verdorbene Luft
 
 Betrachten wir den folgenden Satz:
 
-> *Die von dichtem Rauch erfüllte Luft war kaum atembar.*
+> *Ich roch eine üble, von den Schloten der neuen Fabriken schwer geschwängerte Luft.*
 
-Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Grammen) wie:
+Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Gramme) wie:
 
-* *dichtem Rauch*
-* *Rauch erfüllte*
-* *erfüllte Luft*
+* *üble von*
+* *neuen Fabriken*
+* *schwer geschwängerte*
+* *geschwängerte Luft*
 
-Diese Muster hängen stark von der konkreten Oberflächenrealisierung ab. Bereits kleine Veränderungen der Wortstellung oder zusätzliche Modifikatoren führen zu anderen linearen n-Grammen, obwohl die zugrunde liegende Beschreibung dieselbe bleibt.
+Diese Muster spiegeln jeweils nur lokale Oberflächenadjazenz wider. Besonders auffällig ist, dass das Adjektiv *üble* zwar semantisch klar die *Luft* charakterisiert, in der linearen Struktur jedoch durch eine längere attributive Erweiterung (*von den Schloten der neuen Fabriken schwer geschwängerte*) vom Substantiv getrennt ist. Eine lineare n-Gramm-Analyse kann diese übergreifende Einheit nicht als zusammenhängendes Muster erfassen.
 
-Eine syntaktische n-Gramm-Analyse kann hingegen direkt die syntaktische Beziehung zwischen *Rauch* und *Luft* erfassen, etwa über einen Dependenzpfad der Form:
+Eine syntaktische n-Gramm-Analyse hingegen berücksichtigt die Struktur des Dependenzbaums. Dort ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. Ein entsprechender syntaktischer Pfad könnte etwa so modelliert werden:
 
-* *Rauch → erfüllen → Luft*
+* *übel → Luft*
 
-Dieses syntaktische Muster repräsentiert eine stabile Art der Beschreibung verschmutzter Luft („Luft, die mit Rauch gefüllt ist“) und lässt sich auch in verschiedenen Oberflächenvarianten wiederfinden, etwa in:
+Zugleich lässt sich auch die relationale Struktur der Verschmutzungsbeschreibung erfassen, etwa über einen Pfad wie:
 
-* *durch Rauch erfüllte Luft*
-* *die Luft war von Rauch erfüllt*
-* *Luft, die mit Rauch erfüllt war*
+* *Fabriken → schwängern → Luft*
 
-Für die Analyse historischer Diskurse über Luftqualität ermöglichen syntaktische n-Gramme damit den Übergang von einzelnen Schlüsselwörtern zu **wiederkehrenden relationalen Mustern**, mit denen Luftverschmutzung sprachlich beschrieben wird.
+Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sprachlich zu beschreiben – und sie bleiben auch dann erkennbar, wenn die Oberflächenform variiert, etwa in:
+
+* *eine von Fabrikrauch geschwängerte, üble Luft*
+* *die Luft war übel und von Fabrikdünsten erfüllt*
+* *übel erschien die von Rauch erfüllte Luft der Stadt*
+
+Für die Analyse historischer Diskurse über Industrialisierung und Luftqualität ermöglichen syntaktische n-Gramme somit den Zugriff auf **strukturell wiederkehrende Beschreibungsweisen**, selbst wenn diese in der Textoberfläche stark variieren oder diskontinuierlich realisiert sind.
 
 ---
 
