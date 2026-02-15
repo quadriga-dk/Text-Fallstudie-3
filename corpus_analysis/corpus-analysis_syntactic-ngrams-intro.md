@@ -67,6 +67,14 @@ Eine syntaktische n-Gramm-Analyse hingegen berücksichtigt die Struktur des Depe
 
 * *übel → Luft*
 
+```{figure} ../assets/images/dep_tree_ueble_luft.png
+---
+height:
+name: Ngrams Example
+---
+ Ein Beispiel für einen Dependenzbaum.
+```
+
 Zugleich lässt sich auch die relationale Struktur der Verschmutzungsbeschreibung erfassen, etwa über einen Pfad wie:
 
 * *Fabriken → schwängern → Luft*
