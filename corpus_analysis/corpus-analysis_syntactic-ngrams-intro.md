@@ -46,14 +46,7 @@ name: Ngrams Example
  Ein Beispiel für einen Dependenzbaum.
 ```
 
-
 Dieser Ansatz wurde als Alternative zu linearen n-Grammen vorgeschlagen und hat sich insbesondere für die sprachliche Beschreibung des Deutschen als nützlich erwiesen, da hier syntaktische Relationen häufig aussagekräftiger sind als lineare Nachbarschaft.
-
----
-
-Hier ist eine neu formulierte Fassung des Abschnitts **„Ein einfaches Beispiel“** mit einem historischen, zum späten 19. Jahrhundert passenden Beispiel und einem adjektivischen Attribut, das **linear vom Substantiv getrennt**, aber syntaktisch direkt mit ihm verbunden ist:
-
----
 
 ## Ein einfaches Beispiel: Fabrikrauch und verdorbene Luft
 
