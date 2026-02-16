@@ -1,5 +1,5 @@
 (corpus-analysis_intro)=
-# Korpusanalyse. Von Häufigkeiten zu Diagrammen 
+# Korpusanalyse. Semantische Felder und syntaktische N-Gramme 
 ````{margin}
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
