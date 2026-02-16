@@ -40,9 +40,8 @@ name: Snippet eines Bilddigitalisats
 **Beispiel:**
 
 `
-Die Grippe wütet weiter
-Zunahme der schweren Fälle in Berlin. 
-Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin noch deutlich gestiegen. Die Warenhäuser und sonstigen Geschäfte, die Kriegs- und die privaten Betriebe klagen, dass übermäßig viele Angestellte krank melden müssen, und auch bei der Post und bei der Straßenbahn ist die Zahl der Grippekranken bedeutend gestiegen.
+In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbrand das passende Brennmaterial abgeben müßte. Eierbriketts, wie sie jetzt in die Haushaltungen kommen, sind im Küchenherd fast unbrauchbar; sie gelangen oft genug halb verbrannt in den Aschkasten. Ein großer Teil geht als Ruß und Qualm in den Schornstein.
+
 `
 
 *Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
@@ -65,12 +64,12 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Die Grippe wütet weiter</title>
+            <title>Bessere Ausnutzung der Kohle</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Berliner Morgenpost</publisher>
+            <publisher>Vossische Zeitung</publisher>
             <pubPlace>Berlin</pubPlace>
-            <date when="1918-10-15"/>
+            <date when="1918-07-23"/>
          </publicationStmt>
          <sourceDesc>
             <p>Digitalisat bereitgestellt vom ZEFYS - ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin</p>
@@ -80,9 +79,10 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
   <text>
       <body>
          <head>
-            Die Grippe wütet weiter
+            Bessere Ausnutzung der Kohle
          </head>
-         <p>Some text here.</p>
+         <p>...</p>
+         <p>In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbrand das passende Brennmaterial abgeben müßte. Eierbriketts, wie sie jetzt in die Haushaltungen kommen, sind im Küchenherd fast unbrauchbar; sie gelangen oft genug halb verbrannt in den Aschkasten. Ein großer Teil geht als Ruß und Qualm in den Schornstein.</p>
       </body>
   </text>
 </TEI>
@@ -103,35 +103,44 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
 
 ```
 ID,TOKEN,LEMMA,POS
-1,Die,die,DET
-2,Grippe,Grippe,NOUN
-3,wütet,wüten,VERB
-4,weiter,weiter,ADV
-6,Zunahme,Zunahme,NOUN
-7,der,der,DET
-8,schweren,schwer,ADJ
-9,Fälle,Fall,NOUN
-10,in,in,ADP
-11,Berlin,Berlin,PROPN
-12,.,.,PUNCT
+1,In,in,ADP
+2,verschiedenen,verschieden,ADJ
+3,Zuschriften,Zuschrift,NOUN
+4,wird,werden,AUX
+5,darauf,darauf,ADV
+6,hingewiesen,hinweisen,VERB
+8,daß,daß,SCONJ
+9,man,man,PRON
+10,für,für,ADP
+11,den,der,DET
+12,Hausbrand,Hausbrand,NOUN
+13,das,der,DET
+14,passende,passend,ADJ
+15,Brennmaterial,Brennmaterial,NOUN
+16,abgeben,abgeben,VERB
+17,müßte,müssen,AUX
 ```
 
 *CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
 
-
-| ID  | TOKEN    | LEMMA   | POS   |
-|-----|----------|---------|-------|
-| 1   | Die      | die     | DET   |
-| 2   | Grippe   | Grippe  | NOUN  |
-| 3   | wütet    | wüten   | VERB  |
-| 4   | weiter   | weiter  | ADV   |
-| 6   | Zunahme  | Zunahme | NOUN  |
-| 7   | der      | der     | DET   |
-| 8   | schweren | schwer  | ADJ   |
-| 9   | Fälle    | Fall    | NOUN  |
-| 10  | in       | in      | ADP   |
-| 11  | Berlin   | Berlin  | PROPN |
-| 12  | .        | .       | PUNCT |
+| ID | TOKEN         | LEMMA         | POS   |
+| -- | ------------- | ------------- | ----- |
+| 1  | In            | in            | ADP   |
+| 2  | verschiedenen | verschieden   | ADJ   |
+| 3  | Zuschriften   | Zuschrift     | NOUN  |
+| 4  | wird          | werden        | AUX   |
+| 5  | darauf        | darauf        | ADV   |
+| 6  | hingewiesen   | hinweisen     | VERB  |
+| 8  | daß           | daß           | SCONJ |
+| 9  | man           | man           | PRON  |
+| 10 | für           | für           | ADP   |
+| 11 | den           | der           | DET   |
+| 12 | Hausbrand     | Hausbrand     | NOUN  |
+| 13 | das           | der           | DET   |
+| 14 | passende      | passend       | ADJ   |
+| 15 | Brennmaterial | Brennmaterial | NOUN  |
+| 16 | abgeben       | abgeben       | VERB  |
+| 17 | müßte         | müssen        | AUX   |
 
 *CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
 
