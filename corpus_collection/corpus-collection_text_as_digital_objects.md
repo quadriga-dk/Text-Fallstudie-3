@@ -41,7 +41,6 @@ name: Snippet eines Bilddigitalisats
 
 `
 In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbrand das passende Brennmaterial abgeben müßte. Eierbriketts, wie sie jetzt in die Haushaltungen kommen, sind im Küchenherd fast unbrauchbar; sie gelangen oft genug halb verbrannt in den Aschkasten. Ein großer Teil geht als Ruß und Qualm in den Schornstein.
-
 `
 
 *Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
