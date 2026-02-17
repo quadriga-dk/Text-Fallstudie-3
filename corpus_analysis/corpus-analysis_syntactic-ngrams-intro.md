@@ -21,11 +21,24 @@ Diese Muster spiegeln jeweils nur lokale Oberflächenadjazenz wider. Besonders a
 
 Diese Einschränkung ist besonders relevant für das Deutsche, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute (wie in unsere Beispiel oben), Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind (vgl. etwa {cite}`andresen_benefit_2017`).
 
-*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern Relationen in einer syntaktischen Analyse, typischerweise in einem Dependenzbaum. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. 
+*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern Relationen in einer syntaktischen Analyse, typischerweise in einem <a href="https://de.wikipedia.org/wiki/Dependenzgrammatik" target="_blank">Dependenzbaum</a>. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. 
 
-In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. 
+```{figure} ../assets/images/dep_tree_ueble_luft_part_demo.png
+---
+height:
+name: Ngrams Example
+---
+ Teil des syntaktischen Dependenzbaum für dasselbe Beispiel.
+```
 
-* *Luft  → übel*
+Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung aufweisen, können als syntaktische Bigramme behandelt werden: 
+
+* *Ich  ← roch*
+* *roch  → Luft*
+* **übel ← Luft**
+* *ein ← Luft*
+
+usw.
 
 Der vollständige syntaktische Baum (erzeugt mit dem deutschen `spacy`-Modell *de_core_news_sm*) sieht folgendermaßen aus; die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist dabei rot hervorgehoben:
 
@@ -34,7 +47,7 @@ Der vollständige syntaktische Baum (erzeugt mit dem deutschen `spacy`-Modell *d
 height:
 name: Ngrams Example
 ---
- Ein Beispiel für einen Dependenzbaum. Die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist dabei rot hervorgehoben.
+ Vollständiger syntaktischer Dependenzbaum für dasselbe Beispiel. Die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist rot hervorgehoben.
 ```
 
 Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sprachlich zu beschreiben – und sie bleiben auch dann erkennbar, wenn die Oberflächenform variiert, etwa in:
