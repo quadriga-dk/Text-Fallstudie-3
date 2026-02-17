@@ -27,14 +27,14 @@ In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von 
 
 * *Luft  → übel*
 
-Ein entsprechender syntaktischer Pfad könnte etwa so modelliert werden:
+Der vollständige syntaktische Baum (erzeugt mit dem deutschen `spacy`-Modell *de_core_news_sm*) sieht folgendermaßen aus; die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist dabei rot hervorgehoben:
 
 ```{figure} ../assets/images/dep_tree_ueble_luft.png
 ---
 height:
 name: Ngrams Example
 ---
- Ein Beispiel für einen Dependenzbaum.
+ Ein Beispiel für einen Dependenzbaum. Die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist dabei rot hervorgehoben.
 ```
 
 Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sprachlich zu beschreiben – und sie bleiben auch dann erkennbar, wenn die Oberflächenform variiert, etwa in:
