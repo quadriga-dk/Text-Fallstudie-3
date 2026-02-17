@@ -1,4 +1,4 @@
-decade,year_int,title,filename,count,noun_count,rel_freq,share_of_adj_count_in_decade,adjective
+decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_in_decade,adjective
 1850,1856,Die Werke der Barmherzigkeit,Wilhelm_Heinrich_Riehl_-_Die_Werke_der_Barmherzigkeit_(1856),3,5,60.0,0.0967741935483871,frisch
 1850,1858,Gesammelte kleinere Erzählungen – Vierter Teil,Hermann_Kurz_-_Gesammelte_kleinere_Erzählungen_–_Vierter_Teil_(1858),3,11,27.27272727272727,0.0967741935483871,frisch
 1850,1857,Das alte Haus,Friedrich_Gerstäcker_-_Das_alte_Haus_(1857),4,21,19.047619047619047,0.12903225806451613,frisch

@@ -1,4 +1,4 @@
-decade,year_int,title,filename,count,noun_count,rel_freq,share_of_adj_count_in_decade,adjective
+decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_in_decade,adjective
 1820,1827,Der Gelehrte,Ludwig_Tieck_-_Der_Gelehrte_(1827),4,7,57.14285714285714,0.3333333333333333,frisch
 1820,1823,Rosa von Tannenburg,Christoph_von_Schmid_-_Rosa_von_Tannenburg_(1823),2,5,40.0,0.16666666666666666,frisch
 1820,1821,Des Seefahrers Nettelbeck Lebensgeschichte,Joachim_Nettelbeck_-_Des_Seefahrers_Nettelbeck_Lebensgeschichte_(1821),2,8,25.0,0.16666666666666666,frisch
