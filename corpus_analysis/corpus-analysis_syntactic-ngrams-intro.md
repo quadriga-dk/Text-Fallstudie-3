@@ -46,8 +46,11 @@ Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung 
 
 usw.
 
+```{admonition} Dependenzsyntax und Universal Dependencies
+:class: hinweis
 Die theoretischen Grundlagen der Dependenzsyntax sowie die detaillierten Prinzipien der Annotation syntaktischer Relationen werden in dieser Fallstudie nicht vertieft behandelt.
-Stattdessen nutzen wir für die Extraktion syntaktischer Dependenzen spaCy-Modelle, die auf dem etablierten Standard <a href="https://universaldependencies.org/" class="external-link" target="_blank">*Universal Dependencies*</a> basieren. Eine Übersicht über die zugrunde liegenden Annotierungsprinzipien findet sich <a href="https://universaldependencies.org/u/overview/syntax.html" class="external-link" target="_blank">hier</a>.
+Wir nutzen für die Extraktion syntaktischer Dependenzen spaCy-Modelle, die auf dem etablierten Standard <a href="https://universaldependencies.org/" class="external-link" target="_blank">*Universal Dependencies*</a> basieren. Eine Übersicht über die zugrunde liegenden Annotierungsprinzipien findet sich <a href="https://universaldependencies.org/u/overview/syntax.html" class="external-link" target="_blank">hier</a>.
+```
 
 Der vollständige syntaktische Baum, projiziert auf die lineare Struktur desselben Satzes und erzeugt mit dem deutschen spacy-Modell `de_core_news_sm`, sieht folgendermaßen aus:
 
