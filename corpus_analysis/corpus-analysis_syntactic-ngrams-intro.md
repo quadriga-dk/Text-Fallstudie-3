@@ -25,7 +25,7 @@ Diese Muster spiegeln jeweils nur lokale Oberflächenadjazenz wider. Besonders a
 
 Diese Einschränkung ist besonders relevant für das Deutsche {cite:p}`andresen_benefit_2017`, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute (wie in unsere Beispiel oben), Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
 
-*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern Relationen in einer syntaktischen Analyse, typischerweise in einem <a href="https://de.wikipedia.org/wiki/Dependenzgrammatik" target="_blank">Dependenzbaum</a>. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. 
+*Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern Relationen in einer syntaktischen Analyse, typischerweise in einem <a href="https://de.wikipedia.org/wiki/Dependenzgrammatik"  class="external-link" target="_blank">Dependenzbaum</a>. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. 
 
 ```{figure} ../assets/images/dep_tree_ueble_luft_part_demo.png
 ---
@@ -46,7 +46,10 @@ Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung 
 
 usw.
 
-Der vollständige syntaktische Baum, projiziert auf die lineare Struktur des Satzes und erzeugt mit dem deutschen spacy-Modell de_core_news_sm, sieht folgendermaßen aus:
+Die theoretischen Grundlagen der Dependenzsyntax sowie die detaillierten Prinzipien der Annotation syntaktischer Relationen werden in dieser Fallstudie nicht vertieft behandelt.
+Stattdessen nutzen wir für die Extraktion syntaktischer Dependenzen spaCy-Modelle, die auf dem etablierten Standard <a href="https://universaldependencies.org/" class="external-link" target="_blank">*Universal Dependencies*</a> basieren. Eine Übersicht über die zugrunde liegenden Annotierungsprinzipien findet sich <a href="https://universaldependencies.org/u/overview/syntax.html" class="external-link" target="_blank">hier</a>.
+
+Der vollständige syntaktische Baum, projiziert auf die lineare Struktur desselben Satzes und erzeugt mit dem deutschen spacy-Modell `de_core_news_sm`, sieht folgendermaßen aus:
 
 ```{figure} ../assets/images/dep_tree_ueble_luft.png
 ---
@@ -64,9 +67,7 @@ Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sp
 
 Für die Analyse historischer Diskurse über Industrialisierung und Luftqualität ermöglichen syntaktische n-Gramme somit den Zugriff auf strukturell wiederkehrende Beschreibungsweisen, selbst wenn diese in der Textoberfläche stark variieren oder diskontinuierlich realisiert sind.
 
----
-
-Das folgende Notebook knüpft an diese Überlegungen an und untersucht, wie syntaktische n-Gramme aus dem Korpus extrahiert werden können und wie sie sich als exploratives Analyseinstrument neben wortbasierten und linearen n-Gramm-Ansätzen einsetzen lassen.
+Das folgende [Notebook](corpus-analysis_syntactic-ngram.ipynb) knüpft an diese Überlegungen an und untersucht, wie syntaktische n-Gramme aus dem Korpus extrahiert werden können und wie sie sich als exploratives Analyseinstrument einsetzen lassen.
 
 ## Bibliographie
 ```{bibliography}
