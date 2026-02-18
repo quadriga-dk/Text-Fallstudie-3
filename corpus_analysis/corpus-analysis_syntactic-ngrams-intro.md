@@ -53,7 +53,7 @@ Der vollständige syntaktische Baum (erzeugt mit dem deutschen `spacy`-Modell *d
 height:
 name: Ngrams Example
 ---
- Vollständiger syntaktischer Dependenzbaum für dasselbe Beispiel. Die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist rot hervorgehoben.
+ Vollständiger syntaktischer Dependenzbaum für dasselbe Beispiel, projiziert auf die lineare Struktur des Satzes. Die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist rot hervorgehoben.
 ```
 
 Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sprachlich zu beschreiben – und sie bleiben auch dann erkennbar, wenn die Oberflächenform variiert, etwa in:
