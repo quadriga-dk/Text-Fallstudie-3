@@ -46,7 +46,7 @@ Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung 
 
 usw.
 
-Der vollständige syntaktische Baum (erzeugt mit dem deutschen `spacy`-Modell *de_core_news_sm*) sieht folgendermaßen aus; die direkte syntaktische Dependenzbeziehung von *Luft* zu *üble* ist dabei rot hervorgehoben:
+Der vollständige syntaktische Baum, projiziert auf die lineare Struktur des Satzes und erzeugt mit dem deutschen spacy-Modell de_core_news_sm, sieht folgendermaßen aus:
 
 ```{figure} ../assets/images/dep_tree_ueble_luft.png
 ---
