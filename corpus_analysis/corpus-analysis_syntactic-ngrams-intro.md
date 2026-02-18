@@ -7,6 +7,7 @@ Betrachten wir den folgenden Satz:
 > *Ich roch eine üble, von den Schloten der neuen Fabriken schwer geschwängerte Luft.*
 
 Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Gramme) wie:
+
 * *Ich roch*
 * *roch eine*
 * *eine üble*
@@ -14,6 +15,9 @@ Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Gramme) 
 * *von den*
 * *den Schloten*
 * *Schloten der*
+* *der neuen*
+* *neuen Fabriken*
+* *Fabriken schwer*
 * *schwer geschwängerte*
 * *geschwängerte Luft*
 
@@ -37,6 +41,8 @@ Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung 
 * *roch  → Luft*
 * **übel ← Luft**
 * *ein ← Luft*
+* *übel → geschwängerte* 
+* *von ← geschwängerte*
 
 usw.
 
