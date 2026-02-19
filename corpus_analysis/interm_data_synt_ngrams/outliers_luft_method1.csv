@@ -9,16 +9,26 @@ decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_i
 1880,1886,Gesammelte Erzählungen,Isabella_Braun_-_Gesammelte_Erzählungen_(1886),2,10,20.0,0.08,frisch
 1880,1888,Artur und Squirrel,Johanna_Spyri_-_Artur_und_Squirrel_(1888),1,5,20.0,0.04,frisch
 1880,1885,Die Saxoborussen,Oskar_Meding_-_Die_Saxoborussen_(1885),3,19,15.789473684210526,0.12,frisch
+1810,1810,Novellen,Achim_von_Arnim_-_Novellen_(1810),2,11,18.181818181818183,0.2222222222222222,frei
+1810,1814,Der Magnetiseur,ETA_Hoffmann_-_Der_Magnetiseur_(1814),1,7,14.285714285714285,0.1111111111111111,frei
+1810,1812,Die Molkenkur,Ulrich_Hegner_-_Die_Molkenkur_(1812),1,9,11.11111111111111,0.1111111111111111,frei
+1810,1819,Lebensansichten des Katers Murr,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1819),1,12,8.333333333333332,0.1111111111111111,frei
+1810,1817,Die Kronenwächter,Achim_von_Arnim_-_Die_Kronenwächter_(1817),1,19,5.263157894736842,0.1111111111111111,frei
 1820,1824,Die Gräfin Cherubim,H._Clauren_-_Die_Gräfin_Cherubim_(1824),1,5,20.0,0.0625,frei
 1820,1825,Dichterleben,Ludwig_Tieck_-_Dichterleben_(1825),1,5,20.0,0.0625,frei
 1820,1823,Rosa von Tannenburg,Christoph_von_Schmid_-_Rosa_von_Tannenburg_(1823),1,5,20.0,0.0625,frei
 1820,1824,Walladmor,Willibald_Alexis_-_Walladmor_(1824),4,42,9.523809523809524,0.25,frei
 1820,1827,Der Jude,Carl_Spindler_-_Der_Jude_(1827),3,32,9.375,0.1875,frei
-1860,1864,Nachkommenschaften,Adalbert_Stifter_-_Nachkommenschaften_(1864),3,7,42.857142857142854,0.125,frei
-1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),3,20,15.0,0.125,frei
-1860,1860,Alle jagen John Mulligan,Friedrich_Gerstäcker_-_Alle_jagen_John_Mulligan_(1860),1,7,14.285714285714285,0.041666666666666664,frei
-1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),2,15,13.333333333333334,0.08333333333333333,frei
-1860,1869,Das Landhaus am Rhein,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_I_(1869),1,8,12.5,0.041666666666666664,frei
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),2,23,8.695652173913043,0.4,blau
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),1,13,7.6923076923076925,0.2,blau
+1810,1813,Der Zauberring,Friedrich_de_la_Motte_Fouqué_-_Der_Zauberring_(1813),1,16,6.25,0.2,blau
+1810,1810,"Armut, Reichtum, Schuld und Buße der Gräfin Dolores","Achim_von_Arnim_-_Armut,_Reichtum,_Schuld_und_Buße_der_Gräfin_Dolores_(1810)",1,63,1.5873015873015872,0.2,blau
+1810,1810,Novellen,Achim_von_Arnim_-_Novellen_(1810),0,11,0.0,0.0,blau
+1820,1825,Dichterleben,Ludwig_Tieck_-_Dichterleben_(1825),1,5,20.0,0.16666666666666666,blau
+1820,1828,Novellen,Wilhelm_Hauff_-_Novellen_(1828),1,9,11.11111111111111,0.16666666666666666,blau
+1820,1826,Reisebilder,Heinrich_Heine_-_Reisebilder_(1826),1,16,6.25,0.16666666666666666,blau
+1820,1826,Aus dem Leben eines Taugenichts,Joseph_von_Eichendorff_-_Aus_dem_Leben_eines_Taugenichts_(1826),1,27,3.7037037037037033,0.16666666666666666,blau
+1820,1827,Der Jude,Carl_Spindler_-_Der_Jude_(1827),1,32,3.125,0.16666666666666666,blau
 1840,1840,Das Haidedorf,Adalbert_Stifter_-_Das_Haidedorf_(1840),1,5,20.0,0.125,rein
 1840,1840,Novellen und Erzählungen 1,Franz_von_Gaudy_-_Novellen_und_Erzählungen_1_(1840),1,9,11.11111111111111,0.125,rein
 1840,1841,Feldblumen,Adalbert_Stifter_-_Feldblumen_(1841),1,16,6.25,0.125,rein
@@ -29,26 +39,16 @@ decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_i
 1850,1853,Bunte Steine,Adalbert_Stifter_-_Bunte_Steine_(1853),3,40,7.5,0.2727272727272727,rein
 1850,1852,Eugen Stillfried – Zweiter Band,FW_Hackländer_-_Eugen_Stillfried_–_Zweiter_Band_(1852),1,14,7.142857142857142,0.09090909090909091,rein
 1850,1851,Der Vogt von Sylt,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851),1,16,6.25,0.09090909090909091,rein
-1820,1825,Dichterleben,Ludwig_Tieck_-_Dichterleben_(1825),1,5,20.0,0.16666666666666666,blau
-1820,1828,Novellen,Wilhelm_Hauff_-_Novellen_(1828),1,9,11.11111111111111,0.16666666666666666,blau
-1820,1826,Reisebilder,Heinrich_Heine_-_Reisebilder_(1826),1,16,6.25,0.16666666666666666,blau
-1820,1826,Aus dem Leben eines Taugenichts,Joseph_von_Eichendorff_-_Aus_dem_Leben_eines_Taugenichts_(1826),1,27,3.7037037037037033,0.16666666666666666,blau
-1820,1827,Der Jude,Carl_Spindler_-_Der_Jude_(1827),1,32,3.125,0.16666666666666666,blau
-1890,1896,Der Stern des Glücks,Nataly_von_Eschstruth_-_Der_Stern_des_Glücks_(1896),2,14,14.285714285714285,0.2222222222222222,blau
-1890,1890,Leberecht Hühnchen als Großvater,Heinrich_Seidel_-_Leberecht_Hühnchen_als_Großvater_(1890),2,17,11.76470588235294,0.2222222222222222,blau
-1890,1897,Durch tausend Jahre – Zweiter Band,Wilhelm_Heinrich_Riehl_-_Durch_tausend_Jahre_–_Zweiter_Band_(1897),3,27,11.11111111111111,0.3333333333333333,blau
-1890,1897,Jung gefreit,Nataly_von_Eschstruth_-_Jung_gefreit_-_1_(1897),1,17,5.88235294117647,0.1111111111111111,blau
-1890,1898,An heiligen Wassern,Jakob_Christoph_Heer_-_An_heiligen_Wassern_(1898),1,20,5.0,0.1111111111111111,blau
+1810,1817,Die Kronenwächter,Achim_von_Arnim_-_Die_Kronenwächter_(1817),1,19,5.263157894736842,0.5,kalt
+1810,1810,"Armut, Reichtum, Schuld und Buße der Gräfin Dolores","Achim_von_Arnim_-_Armut,_Reichtum,_Schuld_und_Buße_der_Gräfin_Dolores_(1810)",1,63,1.5873015873015872,0.5,kalt
+1810,1810,Novellen,Achim_von_Arnim_-_Novellen_(1810),0,11,0.0,0.0,kalt
+1810,1814,Der Magnetiseur,ETA_Hoffmann_-_Der_Magnetiseur_(1814),0,7,0.0,0.0,kalt
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),0,13,0.0,0.0,kalt
 1850,1852,Eugen Stillfried,FW_Hackländer_-_Eugen_Stillfried_-_Erster_Band_(1852),2,12,16.666666666666664,0.3333333333333333,kalt
 1850,1857,Das alte Haus,Friedrich_Gerstäcker_-_Das_alte_Haus_(1857),2,21,9.523809523809524,0.3333333333333333,kalt
 1850,1851,Der Vogt von Sylt,Theodor_Mügge_-_Der_Vogt_von_Sylt_(1851),1,16,6.25,0.16666666666666666,kalt
 1850,1858,Nena Sahib,Sir_John_Retcliffe_-_Nena_Sahib_(1858),1,75,1.3333333333333335,0.16666666666666666,kalt
 1850,1858,Elisabeth. I. Band,Marie_Nathusius_-_Elisabeth._I._Band_(1858),0,5,0.0,0.0,kalt
-1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.125,kalt
-1860,1864,Der Hungerpastor,Wilhelm_Raabe_-_Der_Hungerpastor_(1864),2,39,5.128205128205128,0.25,kalt
-1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),2,58,3.4482758620689653,0.25,kalt
-1860,1866,Saat und Ernte,Armand_(Friedrich_Strubberg)_-_Saat_und_Ernte_(1866),1,32,3.125,0.125,kalt
-1860,1868,Abu Telfan,Wilhelm_Raabe_-_Abu_Telfan_(1868),1,41,2.4390243902439024,0.125,kalt
 1860,1868,Die Dorfcoquette,Friedrich_Spielhagen_-_Die_Dorfcoquette_(1868),1,5,20.0,0.16666666666666666,leer
 1860,1865,Auf der Höhe Dritter Band,Berthold_Auerbach_-_Auf_der_Höhe_Dritter_Band_(1865),1,10,10.0,0.16666666666666666,leer
 1860,1860,Neue Geschichten aus dem Ghetto,Leopold_Kompert_-_Neue_Geschichten_aus_dem_Ghetto_(1860),1,11,9.090909090909092,0.16666666666666666,leer
@@ -59,23 +59,23 @@ decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_i
 1870,1874,Die zweite Frau,Eugenie_Marlitt_-_Die_zweite_Frau_(1874),1,28,3.571428571428571,0.1111111111111111,leer
 1870,1870,Der Schüdderump,Wilhelm_Raabe_-_Der_Schüdderump_(1870),1,32,3.125,0.1111111111111111,leer
 1870,1878,Vor dem Sturm,Theodor_Fontane_-_Vor_dem_Sturm_(1878),1,34,2.941176470588235,0.1111111111111111,leer
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),2,13,15.384615384615385,1.0,klar
+1810,1810,Novellen,Achim_von_Arnim_-_Novellen_(1810),0,11,0.0,0.0,klar
+1810,1814,Der Magnetiseur,ETA_Hoffmann_-_Der_Magnetiseur_(1814),0,7,0.0,0.0,klar
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),0,23,0.0,0.0,klar
+1810,1812,Die Molkenkur,Ulrich_Hegner_-_Die_Molkenkur_(1812),0,9,0.0,0.0,klar
 1850,1857,Die alte Erlaucht,Edmund_Hoefer_-_Die_alte_Erlaucht_(1857),1,8,12.5,0.25,klar
 1850,1857,Sträflinge,Friedrich_Gerstäcker_-_Sträflinge_(1857),1,11,9.090909090909092,0.25,klar
 1850,1854,Tahiti,Friedrich_Gerstäcker_-_Tahiti_(1854),1,11,9.090909090909092,0.25,klar
 1850,1858,Michel,Johannes_Scherr_-_Michel_(1858),1,16,6.25,0.25,klar
 1850,1858,Elisabeth. I. Band,Marie_Nathusius_-_Elisabeth._I._Band_(1858),0,5,0.0,0.0,klar
-1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),1,6,16.666666666666664,0.16666666666666666,klar
-1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),2,20,10.0,0.3333333333333333,klar
-1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.16666666666666666,klar
-1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),1,58,1.7241379310344827,0.16666666666666666,klar
-1860,1869,Hammer und Amboß,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869),1,74,1.3513513513513513,0.16666666666666666,klar
+1810,1810,Novellen,Achim_von_Arnim_-_Novellen_(1810),1,11,9.090909090909092,0.5,still
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),1,13,7.6923076923076925,0.5,still
+1810,1814,Der Magnetiseur,ETA_Hoffmann_-_Der_Magnetiseur_(1814),0,7,0.0,0.0,still
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),0,23,0.0,0.0,still
+1810,1812,Die Molkenkur,Ulrich_Hegner_-_Die_Molkenkur_(1812),0,9,0.0,0.0,still
 1830,1833,Viel Lärmen um Nichts,Joseph_von_Eichendorff_-_Viel_Lärmen_um_Nichts_(1833),1,5,20.0,0.5,still
 1830,1839,Die Entführung,Joseph_von_Eichendorff_-_Die_Entführung_(1839),1,9,11.11111111111111,0.5,still
 1830,1832,Die Zerrissenen,Alexander_von_Ungern-Sternberg_-_Die_Zerrissenen_(1832),0,6,0.0,0.0,still
 1830,1839,Der Oberhof,Karl_Immermann_-_Der_Oberhof_(1839),0,14,0.0,0.0,still
 1830,1839,Die neuen Argonauten,Franz_Dingelstedt_-_Die_neuen_Argonauten_(1839),0,6,0.0,0.0,still
-1860,1865,Auf der Höhe Vierter Band,Berthold_Auerbach_-_Auf_der_Höhe_Vierter_Band_(1865),1,9,11.11111111111111,0.2,still
-1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),1,15,6.666666666666667,0.2,still
-1860,1864,Die verlorene Handschrift,Gustav_Freytag_-_Die_verlorene_Handschrift_(1864),2,58,3.4482758620689653,0.4,still
-1860,1869,Hammer und Amboß,Friedrich_Spielhagen_-_Hammer_und_Amboß_(1869),1,74,1.3513513513513513,0.2,still
-1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),0,6,0.0,0.0,still

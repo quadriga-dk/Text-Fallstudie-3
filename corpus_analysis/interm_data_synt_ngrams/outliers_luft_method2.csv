@@ -29,16 +29,26 @@ decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_i
 1860,1861,Im Grafenschloß,Paul_Heyse_-_Im_Grafenschloß_(1861),1,10,10.0,0.2,rein
 1860,1867,Das Geheimnis der alten Mamsell,Eugenie_Marlitt_-_Das_Geheimnis_der_alten_Mamsell_(1867),1,18,5.555555555555555,0.2,rein
 1860,1861,Unter dem Äquator,Friedrich_Gerstäcker_-_Unter_dem_Äquator_(1861),1,32,3.125,0.2,rein
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),2,23,8.695652173913043,0.5,blau
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),1,13,7.6923076923076925,0.25,blau
+1810,1813,Der Zauberring,Friedrich_de_la_Motte_Fouqué_-_Der_Zauberring_(1813),1,16,6.25,0.25,blau
+1810,1815,Die Elixiere des Teufels,ETA_Hoffmann_-_Die_Elixiere_des_Teufels_(1815),0,13,0.0,0.0,blau
+1810,1819,Lebensansichten des Katers Murr,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1819),0,12,0.0,0.0,blau
 1840,1840,Das Haidedorf,Adalbert_Stifter_-_Das_Haidedorf_(1840),1,5,20.0,0.14285714285714285,blau
 1840,1847,Prokopus,Adalbert_Stifter_-_Prokopus_(1847),1,6,16.666666666666664,0.14285714285714285,blau
 1840,1848,Lydia,Louise_Aston_-_Lydia_(1848),1,10,10.0,0.14285714285714285,blau
 1840,1841,Der Vogelhändler von Imst,Carl_Spindler_-_Der_Vogelhändler_von_Imst_(1841),1,41,2.4390243902439024,0.14285714285714285,blau
 1840,1843,Schwarzwälder Dorfgeschichten,Berthold_Auerbach_-_Schwarzwälder_Dorfgeschichten_(1843),3,154,1.948051948051948,0.42857142857142855,blau
-1860,1861,Nach dem großen Kriege,Wilhelm_Raabe_-_Nach_dem_großen_Kriege_(1861),2,11,18.181818181818183,0.2222222222222222,blau
-1860,1865,Auf der Höhe Band I,Berthold_Auerbach_-_Auf_der_Höhe_Band_I_(1865),1,15,6.666666666666667,0.1111111111111111,blau
-1860,1861,Unter dem Äquator,Friedrich_Gerstäcker_-_Unter_dem_Äquator_(1861),2,32,6.25,0.2222222222222222,blau
-1860,1867,Das Geheimnis der alten Mamsell,Eugenie_Marlitt_-_Das_Geheimnis_der_alten_Mamsell_(1867),1,18,5.555555555555555,0.1111111111111111,blau
-1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),1,20,5.0,0.1111111111111111,blau
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),2,13,15.384615384615385,1.0,klar
+1810,1815,Die Elixiere des Teufels,ETA_Hoffmann_-_Die_Elixiere_des_Teufels_(1815),0,13,0.0,0.0,klar
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),0,23,0.0,0.0,klar
+1810,1819,Lebensansichten des Katers Murr,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1819),0,12,0.0,0.0,klar
+1810,1813,Der Zauberring,Friedrich_de_la_Motte_Fouqué_-_Der_Zauberring_(1813),0,16,0.0,0.0,klar
+1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),1,6,16.666666666666664,0.07692307692307693,klar
+1860,1865,Die kleine Mama,Paul_Heyse_-_Die_kleine_Mama_(1865),1,8,12.5,0.07692307692307693,klar
+1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),2,20,10.0,0.15384615384615385,klar
+1860,1861,Im Grafenschloß,Paul_Heyse_-_Im_Grafenschloß_(1861),1,10,10.0,0.07692307692307693,klar
+1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.07692307692307693,klar
 1860,1868,Die Dorfcoquette,Friedrich_Spielhagen_-_Die_Dorfcoquette_(1868),1,5,20.0,0.2,leer
 1860,1869,Das Landhaus am Rhein,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_III_(1869),1,8,12.5,0.2,leer
 1860,1869,Das Landhaus am Rhein,Berthold_Auerbach_-_Das_Landhaus_am_Rhein_-_Band_IV_(1869),1,13,7.6923076923076925,0.2,leer
@@ -49,21 +59,11 @@ decade,year_int,DC.title,filename,count,noun_count,rel_freq,share_of_adj_count_i
 1870,1871,Die letzte Reckenburgerin,Louise_von_François_-_Die_letzte_Reckenburgerin_(1871),1,10,10.0,0.07142857142857142,leer
 1870,1879,Nach Sonnenuntergang – Zweites Buch,Wilhelm_Jensen_-_Nach_Sonnenuntergang_–_Zweites_Buch_(1879),1,14,7.142857142857142,0.07142857142857142,leer
 1870,1876,Ein Kampf um Rom,Felix_Dahn_-_Ein_Kampf_um_Rom_(1876),2,52,3.8461538461538463,0.14285714285714285,leer
-1850,1857,Die alte Erlaucht,Edmund_Hoefer_-_Die_alte_Erlaucht_(1857),1,8,12.5,0.2,klar
-1850,1858,Elisabeth – Zweiter Band,Marie_Nathusius_-_Elisabeth_–_Zweiter_Band_(1858),1,12,8.333333333333332,0.2,klar
-1850,1859,Der Strandvogt von Jasmund,Philipp_Galen_-_Der_Strandvogt_von_Jasmund_-_Erster_Band_(1859),1,13,7.6923076923076925,0.2,klar
-1850,1850,Handel und Wandel,FW_Hackländer_-_Handel_und_Wandel_(1850),1,15,6.666666666666667,0.2,klar
-1850,1856,Erich Randal,Theodor_Mügge_-_Erich_Randal_(1856),1,39,2.564102564102564,0.2,klar
-1860,1869,Glasmacherleut',Maximilian_Schmidt_-_Glasmacherleut'_(1869),1,6,16.666666666666664,0.07692307692307693,klar
-1860,1865,Die kleine Mama,Paul_Heyse_-_Die_kleine_Mama_(1865),1,8,12.5,0.07692307692307693,klar
-1860,1865,Witiko,Adalbert_Stifter_-_Witiko_(1865),2,20,10.0,0.15384615384615385,klar
-1860,1861,Im Grafenschloß,Paul_Heyse_-_Im_Grafenschloß_(1861),1,10,10.0,0.07692307692307693,klar
-1860,1864,Im Busch,Friedrich_Gerstäcker_-_Im_Busch_(1864),1,14,7.142857142857142,0.07692307692307693,klar
-1840,1847,Humoristische Erzählungen,FW_Hackländer_-_Humoristische_Erzählungen_(1847),1,16,6.25,0.25,kalt
-1840,1840,Der Roland von Berlin – Zweiter Band,Willibald_Alexis_-_Der_Roland_von_Berlin_–_Zweiter_Band_(1840),1,23,4.3478260869565215,0.25,kalt
-1840,1841,Der Hochwald,Adalbert_Stifter_-_Der_Hochwald_(1841),1,26,3.8461538461538463,0.25,kalt
-1840,1846,Jakobs des Handwerksgesellen Wanderungen durch die Schweiz,Jeremias_Gotthelf_-_Jakobs_des_Handwerksgesellen_Wanderungen_durch_die_Schweiz_(1846),1,36,2.7777777777777777,0.25,kalt
-1840,1845,Tod des Dichters,Ludwig_Tieck_-_Tod_des_Dichters_(1845),0,13,0.0,0.0,kalt
+1810,1812,Die Elfen,Ludwig_Tieck_-_Die_Elfen_(1812),2,9,22.22222222222222,1.0,kalt
+1810,1815,Die Elixiere des Teufels,ETA_Hoffmann_-_Die_Elixiere_des_Teufels_(1815),0,13,0.0,0.0,kalt
+1810,1819,Das Marmorbild,Joseph_von_Eichendorff_-_Das_Marmorbild_(1819),0,13,0.0,0.0,kalt
+1810,1819,Gabriele,Johanna_Schopenhauer_-_Gabriele_(1819),0,23,0.0,0.0,kalt
+1810,1819,Lebensansichten des Katers Murr,ETA_Hoffmann_-_Lebensansichten_des_Katers_Murr_(1819),0,12,0.0,0.0,kalt
 1890,1897,Satans Kinder,Stanislaw_Przybyszewski_-_Satans_Kinder_(1897),1,6,16.666666666666664,0.3333333333333333,kalt
 1890,1891,Peter Mayr der Wirt an der Mahr,Peter_Rosegger_-_Peter_Mayr_der_Wirt_an_der_Mahr_(1891),1,23,4.3478260869565215,0.3333333333333333,kalt
 1890,1895,Fragmente aus früherer Zeit,Ernst_Barlach_-_Fragmente_aus_früherer_Zeit_(1895),1,33,3.0303030303030303,0.3333333333333333,kalt
