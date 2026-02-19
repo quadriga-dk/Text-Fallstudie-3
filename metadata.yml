@@ -1,8 +1,5 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
-schema-version: 1.0.0-alpha
-book-version: 0.0.1-beta
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 title: Ecocriticism – Case Study
-identifier: https://doi.org/10.5281/zenodo.TODOTODO
 authors:
 - given-names: Daniil
   family-names: Skorinkin
@@ -16,18 +13,9 @@ authors:
   family-names: Trilcke
   orcid: https://orcid.org/0000-0002-1421-4320
   affiliation: Universität Potsdam
-contributors:
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  affiliation: Universität Potsdam
-- given-names: Lamia
-  family-names: Islam
-  affiliation: Universität Potsdam
+keywords:
+- Open Educational Resources
+description: TODO
 table-of-contents: '- Präambel
 
   - Fragestellung und Operationalisierung. Einführung in die Fallstudie
@@ -41,55 +29,73 @@ table-of-contents: '- Präambel
   - Reflexion
 
   - Epilog'
-description: TODO
 discipline:
 - übergreifend
 research-object-type:
 - übergreifend
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+time-required: 10h
+language: de
+contributors:
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
+identifier: https://doi.org/10.5281/zenodo.TODOTODO
+git: https://github.com/quadriga-dk/Text-Fallstudie-2
+url: https://quadriga-dk.github.io/Text-Fallstudie-2/
 chapters:
 - title: Präambel
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html
   description: TODO
   learning-goal: TODO
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: TODO
     competency: nicht anwendbar
     data-flow: nicht anwendbar
-    blooms-category: TODO
+    blooms-category: nicht anwendbar
 - title: Fragestellung und Operationalisierung. Einführung in die Fallstudie
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html
   description: TODO
   learning-goal: Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit
     Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der
     “Operationalisierung”.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Sie kennen Ansätze zur Operationalisierung von Forschungsfragen
       für quantitaive Methoden-Settings.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Korpora als epistemische Objekte
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html
   description: TODO
   learning-goal: Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit
     der Erstellung basaler Metadaten vertraut.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche
       Forschungsobjekte und kennen Typen von Korpora.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie sind mit der Idee von Metadaten vertraut und kennen basale
       Metadatenschemata für Korpora und Korpus-Elemente.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Texte als digitale Objekte. Einführung in HTML
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html
   description: TODO
@@ -97,118 +103,112 @@ chapters:
     benennen der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von
     ausgewählte HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML
     aufzählen.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Sie kennen unterschiedliche Realisierungsweisen und Formate
       von Text im Digitalen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können die Semantik der textangebenden html-Tags beschreiben
       und Tags zur Textextraktion auswählen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Scraping als Methode zum Korpusaufbau
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html
   description: TODO
   learning-goal: Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche
     Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und
     Nachteile benennen.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Sie können die Komponenten aufzählen, die an einem HTTP-Request
       beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und
       einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500
       interpretieren.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können verschiedene Methoden der Website-Abfrage aufzählen
       und Unterschiede identifizieren.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können Vor- und Nachteile der Methoden erklären und ermitteln,
       in welchen Szenarien welche Methode geeignet ist.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Korpusaufbau
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
   description: TODO
   learning-goal: Die Lernenden können den Quellcode einer Website untersuchen, geeignete
     HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode
     für die Extraktion verwendet werden muss.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code
       zur Extraktion des Website-Texts ausführen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Korpusanalyse. Textkomplexität
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html
   description: TODO
   learning-goal: Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität
     erklären und die Ergebnisse interpretieren.
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur
       Berechnung der Textkomplexität dienen, aufzählen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität
       und können die Vor- und Nachteile der Methoden aufzeigen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können das Konzept eines Liniendiagramms erklären.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können die Konzeption der Analyse beschreiben und andere
       Möglichkeiten des Korpus-Splitting entwerfen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
   - learning-objective: Sie können das Konzept eines Balkendiagramms erklären und
       das erstellte Diagramm interpretieren sowie die Gründe für Ihre Interpretation
       nennen.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
 - title: Reflexion
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html
   description: TODO
   learning-goal: TODO
-  duration: TODO
-  educational-level: TODO
+  time-required: TODO
   learning-objectives:
   - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
-    competency: TODO
-    data-flow: TODO
-    blooms-category: TODO
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-duration: 10h
-date-published: '2024-06-17'
-date-modified: '2025-06-20'
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: nicht anwendbar
+date-issued: '2024-06-17'
+date-modified: '2026-02-19'
+version: 0.0.1-beta
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
+
   Förderkennzeichen: 16DKZ2034'
-url: https://quadriga-dk.github.io/Text-Fallstudie-2/
-git: https://github.com/quadriga-dk/Text-Fallstudie-2
+quality-assurance:
+  description: https://doi.org/TODO
+  date: '2026-11-14'
+learning-resource-type: Jupyter Book
+schema-version: 1.0.0
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
