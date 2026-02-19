@@ -1,9 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Ecocriticism – Case Study
-abstract: Die vorliegende Fallstudie bereitet – in Form eines “Jupyter Books” – den
-  Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch
-  auf.
+abstract: TODO
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -26,8 +24,8 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
-keywords:
-- open educational resource
+keywords: &id002
+- Open Educational Resources
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -36,7 +34,7 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2025'
+  year: '2026'
   authors: *id001
   title: Ecocriticism – Case Study
   type: book
@@ -47,7 +45,6 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
+  keywords: *id002
   version: 0.0.1-beta
 version: 0.0.1-beta

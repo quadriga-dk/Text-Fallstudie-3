@@ -1,0 +1,359 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "@vocab": "http://schema.org/"
+  },
+  "@type": [
+    "Book",
+    "LearningResource"
+  ],
+  "name": "Ecocriticism – Case Study",
+  "description": "TODO",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.TODOTODO",
+    "url": "https://doi.org/10.5281/zenodo.TODOTODO"
+  },
+  "version": "0.0.1-beta",
+  "schemaVersion": "1.0.0",
+  "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
+  "workExample": {
+    "@type": "SoftwareSourceCode",
+    "name": "Source Code Repository",
+    "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-2"
+  },
+  "datePublished": "2024-06-17",
+  "dateModified": "2026-02-19",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Daniil",
+      "familyName": "Skorinkin",
+      "name": "Daniil Skorinkin",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1845-9974",
+        "url": "https://orcid.org/0000-0002-1845-9974"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Henny",
+      "familyName": "Sluyter-Gäthje",
+      "name": "Henny Sluyter-Gäthje",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-2969-3237",
+        "url": "https://orcid.org/0000-0003-2969-3237"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Peer",
+      "familyName": "Trilcke",
+      "name": "Peer Trilcke",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1421-4320",
+        "url": "https://orcid.org/0000-0002-1421-4320"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Hannes",
+      "familyName": "Schnaitter",
+      "name": "Hannes Schnaitter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1602-6032",
+        "url": "https://orcid.org/0000-0002-1602-6032"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Evgenia",
+      "familyName": "Samoilova",
+      "name": "Evgenia Samoilova",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-3858-901X",
+        "url": "https://orcid.org/0000-0003-3858-901X"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lamia",
+      "familyName": "Islam",
+      "name": "Lamia Islam",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    }
+  ],
+  "inLanguage": "de",
+  "keywords": [
+    "Open Educational Resources"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Open Educational Resources"
+    },
+    {
+      "@type": "Thing",
+      "name": "übergreifend"
+    },
+    {
+      "@type": "Thing",
+      "name": "übergreifend"
+    }
+  ],
+  "audience": [
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (PostDoc)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (Projektleitung)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Promovierende"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Hochschullehrende"
+    }
+  ],
+  "timeRequired": "10h",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source Code",
+      "license": "https://opensource.org/licenses/AGPL-3.0"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Content",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "Präambel",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html",
+      "timeRequired": "TODO",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Fragestellung und Operationalisierung. Einführung in die Fallstudie",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der “Operationalisierung”.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Korpora als epistemische Objekte",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche Forschungsobjekte und kennen Typen von Korpora.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie sind mit der Idee von Metadaten vertraut und kennen basale Metadatenschemata für Korpora und Korpus-Elemente.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Texte als digitale Objekte. Einführung in HTML",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie kennen unterschiedliche Realisierungsweisen und Formate von Text im Digitalen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können die Semantik der textangebenden html-Tags beschreiben und Tags zur Textextraktion auswählen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Scraping als Methode zum Korpusaufbau",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und Nachteile benennen.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können die Komponenten aufzählen, die an einem HTTP-Request beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500 interpretieren.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können verschiedene Methoden der Website-Abfrage aufzählen und Unterschiede identifizieren.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können Vor- und Nachteile der Methoden erklären und ermitteln, in welchen Szenarien welche Methode geeignet ist.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Korpusaufbau",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code zur Extraktion des Website-Texts ausführen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Korpusanalyse. Textkomplexität",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html",
+      "timeRequired": "TODO",
+      "teaches": "Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität erklären und die Ergebnisse interpretieren.",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur Berechnung der Textkomplexität dienen, aufzählen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität und können die Vor- und Nachteile der Methoden aufzeigen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können das Konzept eines Liniendiagramms erklären.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können die Konzeption der Analyse beschreiben und andere Möglichkeiten des Korpus-Splitting entwerfen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Sie können das Konzept eines Balkendiagramms erklären und das erstellte Diagramm interpretieren sowie die Gründe für Ihre Interpretation nennen.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Reflexion",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html",
+      "timeRequired": "TODO",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        }
+      ]
+    }
+  ],
+  "dcterms:tableOfContents": "- Präambel\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpusaufbau. Auswählen, sammeln, dokumentieren\n- Korpusverarbeitung. Von Strings zu Token\n- Korpusanalyse. Semantische Felder und syntaktische N-Gramme\n- Reflexion\n- Epilog",
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
+  "learningResourceType": "Jupyter Book",
+  "lrmi:learningResourceType": "Jupyter Book",
+  "dcterms:type": "Jupyter Book",
+  "dc:type": "Jupyter Book"
+}
