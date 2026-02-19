@@ -68,7 +68,12 @@ Solche syntaktischen Muster repräsentieren stabile Weisen, Luftverschmutzung sp
 * *die Luft war übel und von Fabrikdünsten erfüllt*
 * *übel erschien die von Rauch erfüllte Luft der Stadt*
 
-Für die Analyse historischer Diskurse über Industrialisierung und Luftqualität ermöglichen syntaktische n-Gramme somit den Zugriff auf strukturell wiederkehrende Beschreibungsweisen, selbst wenn diese in der Textoberfläche stark variieren oder diskontinuierlich realisiert sind.
+Für die Analyse historischer Diskurse über Industrialisierung und Luftqualität ermöglichen syntaktische n-Gramme somit den Zugriff auf strukturell wiederkehrende Beschreibungsweisen, selbst wenn diese in der Textoberfläche stark variieren oder diskontinuierlich realisiert sind. Aus diesem Grund haben wir die syntaktische N-Gramm-Analyse als zweite Methode [unserer Operationalisierung](../research_question/research-question_operationalization.md) gewählt.
+
+`````{admonition} Operationalisierung (zur Erinnerung) 
+:class: hinweis
+"Die Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung durch die Industrialisierung machen wir messbar <...> indem wir zweitens nach der Semantisierung von "Luft" fragen und hierfür syntaktischen N-Grams des Typs "Adjektiv-Substantiv" analysieren. <...>
+`````
 
 Das folgende [Notebook](corpus-analysis_syntactic-ngram.ipynb) knüpft an diese Überlegungen an und untersucht, wie syntaktische n-Gramme aus dem Korpus extrahiert werden können und wie sie sich als exploratives Analyseinstrument einsetzen lassen.
 
