@@ -6,10 +6,11 @@ In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und auf die Oper
 
 `````{admonition} Forschungsfrage
 :class: keypoint
-Wie diskursivieren deutschsprachige literarische Texte des 19. Jahrhunderts die abnehmende Luftqualität und wie verändern sich dabei die Häufigkeiten und Kontexte des semantischen Feldes „Luft“ im Zeitverlauf?
+Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
 `````
 
-Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, ob es eine Entwicklung in der Häufigkeit gibt, mit der die literarischen Texte in den Korpora über Luft sprechen. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird. Auf die zweite Analyse wird näher in den Kapiteln ... eingegangen.
+Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantisches Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel "[Von linearen zu syntaktischen n-Grammen](corpus-analysis_ngrams-intro)" eingeführt.
+
 
 ## Das semantische Feld "Luft"
 ### Erläuterung: Semantisches Feld
