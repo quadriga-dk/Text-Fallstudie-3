@@ -4,7 +4,7 @@
 title: Ecocriticism – Case Study
 author: |
   <a ref="https://quadriga-dk.de">QUADRIGA</a>
-logo: Text3.png
+logo: /assets/Text3.png
 copyright: "2025"
 
 # Force re-execution of notebooks on each build.
