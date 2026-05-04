@@ -29,7 +29,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 
 
-Nachdem im [vorherigen Kapitel](../research_question/research-question_research-question) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die Texte in Berliner Tageszeitungen" untersuchen lassen. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_research-question) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachigen Literatur des 19. Jahrhunderts" untersuchen lässt. 
 
 
 ```{figure} ../assets/images/flow-chart_corpus-collection.png
@@ -40,7 +40,7 @@ name: Flussdiagramm der Fallstudie
 Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 ```
 
-In diesem Kapitel nehmen wir zunächst eine [Sicherung des Begriffsverständnisses](corpus-collection_corpora-as-research-objects) vor und klären entsprechend, was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
+In diesem Kapitel nehmen wir zuerst eine [Sicherung des Begriffsverständnisses](corpus-collection_corpora-as-research-objects) vor und klären entsprechend, was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
 In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
 

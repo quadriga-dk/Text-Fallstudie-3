@@ -10,7 +10,7 @@ Eine besondere Variante von Korpora sind Referenzkorpora, bei deren Zusammenstel
 
 In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt ["Texte als digitale Objekte"](corpus-collection_text_as_digital_objects)). 
 
-Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlungen insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:p}`schoech2017` vier Strategien unterschieden: 
+Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlungen insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:t}`schoech2017` vier Strategien unterschieden: 
 
 ## 1.	Vollständiges Korpus
 Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifischen Gegenstandsbereich.
@@ -41,7 +41,7 @@ Eine Sammlung, deren Auswahl nur durch die Verfügbarkeit von Daten geleitet wir
 - **Beispiel:** Das <a href="https://github.com/tnhaider/DLK" class="external-link" target="_blank">"Deutsche Lyrik Korpus (DLK)"</a>, das alle verfügbaren Gedichte in deutscher Sprache zu aggregieren versucht, oder das <a href="https://dracor.org/ger" class="external-link" target="_blank">German Drama Corpus (GerDraCor)</a>, das sukzessive digital verfügbare deutschsprachige Dramen sammelt.
 
 ## Zusammenfassung 
-Mit welcher Strategie und nach welchen Kriterien ein Korpus aufgebaut wird, entscheidet darüber, welche Forschungsfragen sich mit ihm überhaupt sinnvoll und belastbar beantworten lassen. Mit dem Korpusaufbau wird dabei das epistemische Objekt der Forschung konstruiert. Entsprechend reflektiert sollte man bei diesem Vorgang vorgehen. Darüber hinaus ist eine Reflektion auf die korpusbedingten Grenzen der Analyseergebnisse unabdingbarer Bestandteil von Digital Humanities-Forschungsprojekten.
+Mit welcher Strategie und nach welchen Kriterien ein Korpus aufgebaut wird, entscheidet darüber, welche Forschungsfragen sich mit ihm überhaupt sinnvoll und belastbar beantworten lassen. Mit dem Korpusaufbau wird dabei das epistemische Objekt der Forschung konstruiert. Entsprechend reflektiert sollten wir bei diesem Vorgang vorgehen. Darüber hinaus ist eine Reflektion auf die korpusbedingten Grenzen der Analyseergebnisse unabdingbarer Bestandteil von Digital Humanities-Forschungsprojekten.
 
 
 `````{admonition} Weiterführende Links

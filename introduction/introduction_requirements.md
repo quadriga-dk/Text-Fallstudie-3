@@ -1,7 +1,7 @@
 (introduction_requirements)=
 # Technische Voraussetzungen
 
-Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Selbstüberprüfung. Der Code liegt in Form von "Jupyter Notebooks" vor und kann einerseits hier im "Jupyter Book" gelesen, andererseits mit dem Dienst "Colab" oder lokal auf dem eigenen Computer ausgeführt werden. Diese drei Nutzungsszenarien nennen wir Nutzungs-Modi. 
+Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Selbstüberprüfung. Der Code liegt in "Jupyter Notebooks" vor und kann einerseits hier im "Jupyter Book" gelesen, andererseits mit dem Dienst "Colab" oder lokal auf dem eigenen Computer ausgeführt werden. Diese drei Nutzungsszenarien nennen wir Nutzungs-Modi. 
 
 ## Modi der Nutzung
 - Im **"Book-Only Mode"** lesen Sie in Ihrem Internet-Browser unser "Jupyter Book" und haben eingeschränkte Möglichkeiten, etwa mit Visualisierungen zu interagieren. Dieser Modus erfordert keine Programmierkenntnisse und keine Erfahrungen im Umgang mit der interaktiven Programmierumgebung "Jupyter Notebook".

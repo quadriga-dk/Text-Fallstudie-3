@@ -27,7 +27,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 3. Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
 ```
 
-Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro))., sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
+Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)), sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png

@@ -1,4 +1,3 @@
-(research-question_research-question)=
 # Fragestellung
 Die Darstellung von Luftverschmutzung in Texten ist ein wachsendes Forschungsfeld. Die meisten Forschenden konzentrieren sich auf moderne Zeitungen {cite:p}`rabbani_ecological_2025` oder Websuchanfragen{cite:p}`lin_detecting_2022`, was naheliegend erscheint. 
 

@@ -2,7 +2,7 @@
 # Semantische Felder, Häufigkeitsanalyse und Visualisierung
 
 ## Forschungsfrage und Operationalisierung
-In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und auf die Operationalisierung der Fragestellung zurück. Unsere Fragestellung lautet:
+In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und deren Operationalisierung zurück. Unsere Fragestellung lautet:
 
 `````{admonition} Forschungsfrage
 :class: keypoint
@@ -14,7 +14,7 @@ Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird unte
 
 ## Das semantische Feld "Luft"
 ### Erläuterung: Semantisches Feld
-Die Grundlage unserer Analyse besteht darin, die Textstellen zu identifizieren, in denen Luft eine Rolle spielt, wie es zum Beispiel bei der bloßen Erwähnung von Luft der Fall ist. Uns interessiert jedoch nicht Luft als Einzelwort, sondern als Themenkomplex, weswegen wir eine Liste von Wörtern erstellen, die in semantisch-paradigmatischer Beziehung zu Luft stehen, einem **semantischen Feld**. Bei der Erstellung eines semantisches Felds ist es wichtig, dass möglichst alle und nur die Textstellen erfasst werden, in denen Luft und verwandte Worter erwähnt werden. Da die Wörter losgelöst von ihrem Kontext analysiert werden, sollten sie so gewählt sein, dass sie sich auf Luft und nur auf diese beziehen.
+Die Grundlage unserer Analyse besteht darin, die Textstellen zu identifizieren, in denen Luft eine Rolle spielt. Das ist zum Beispiel bei der bloßen Erwähnung von Luft der Fall. Uns interessiert jedoch nicht Luft als Einzelwort, sondern als Themenkomplex, weswegen wir eine Liste von Wörtern erstellen, die in semantisch-paradigmatischer Beziehung zu Luft stehen, einem **semantischen Feld**. Bei der Erstellung eines semantisches Felds ist es wichtig, dass möglichst alle und nur die Textstellen erfasst werden, in denen Luft und verwandte Worter erwähnt werden. Da die Wörter losgelöst von ihrem Kontext analysiert werden, sollten sie so gewählt sein, dass sie sich auf Luft und nur auf diese beziehen.
 
 ### Erstellung des semantischen Felds
 Da <a href="https://en.wikipedia.org/wiki/Large_language_model" class="external-link" target="_blank">Large Language Models</a> sehr gut dazu in der Lage sind, semantisch ähnliche Wörter zu erzeugen, haben wir das semantische Feld mit Hilfe des Chatbots <a href="https://claude.ai/" class="external-link" target="_blank">Claude</a> erstellt.
