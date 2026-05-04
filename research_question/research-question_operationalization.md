@@ -5,9 +5,9 @@ Die im [vorhergehenden Abschnitt](research-question_research-question) entwickel
 
 Für die Operationalisierung unserer Forschungsfrage müssen insbesondere drei Fragen adressiert werden:
 
-- Was wäre eine literarische Reaktion auf Umweltphänomene wie die Luftverschmutzung? 
-- Wie kann diese gemessen werden? 
-- Und was ist die Grundlage für eine solche Messung, bedenkt man, dass uns "die" deutschsprachige Literatur des 19. Jahrhunderts nicht als Korpus vorliegt.
+1. Was wäre eine literarische Reaktion auf Umweltphänomene wie die Luftverschmutzung? 
+2. Wie kann diese gemessen werden? 
+3. Und was ist die Grundlage für eine solche Messung, bedenkt man, dass uns "die" deutschsprachige Literatur des 19. Jahrhunderts nicht als Korpus vorliegt.
 
 Entlang dieser Fragen nehmen wir unsere Operationalisierung vor. Die Operationalisierung muss dabei Indikatoren benennen, deren Vorhandensein wir in literarischen Texten im Zuge von Messoperationen quantitativ beschreiben können. 
 
