@@ -39,7 +39,7 @@ Bitte tue dasselbe für "gute Luft" und "schlechte Luft".
 ```
 Diesen Prompt haben wir zweimal in unterschiedlichen Chats ausgeführt und als Resultat eine Liste von 112 Nomen erhalten. Diese haben wir manuell gefiltert: Wörter, die rein auf den Geruch bezogen sind wie z.B. "Fäulnisgeruch" oder "Pestgeruch" wurden entfernt, genau so wie Wörter, die zu generell waren oder die keinen direkten Bezug zu "Luft" hatten wie etwa "Dumpfheit". Nach der Filterung bestand die Liste noch aus 96 Wörtern.
 
-Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen besteht. Die Liste ist <a href="" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
+Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen besteht. Die Liste ist <a href="https://raw.githubusercontent.com/quadriga-dk/Text-Fallstudie-3/refs/heads/main/wordlist/luft_semantisches_feld.txt" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
 
 ## Häufigkeit als Analysemethode 
 
