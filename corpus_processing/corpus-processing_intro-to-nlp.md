@@ -113,7 +113,7 @@ In tokenisierter und lemmatisierter Form mit POS-Tags und Dependenz-Tags sowie D
 
 ### nltk und spaCy 
 In Programmiersprachen gibt es Bibliotheken, die Methoden z.B. zur Textverarbeitung, bündeln. Die Bibliotheken können installiert, in den Programmcode geladen und dann angewendet werden.
-Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten vebreitet sind die Bibliotheken <a href="https://spacy.io" class="external-link" target="_blank">spaCy</a> und <a href="https://www.nltk.org/" class="external-link" target="_blank">nltk</a>, die in Tabelle {ref}`cmp-spacy-nltk` verglichen werden.
+Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten vebreitet sind die Bibliotheken <a href="https://spacy.io" class="external-link" target="_blank">spaCy</a> und <a href="https://www.nltk.org/" class="external-link" target="_blank">nltk</a>, die in der Tabelle {ref}`cmp-spacy-nltk` verglichen werden.
 
 ```{table} Vergleich von spaCy und nltk
 :name: cmp-spacy-nltk
