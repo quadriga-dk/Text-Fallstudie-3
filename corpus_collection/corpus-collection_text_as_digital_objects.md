@@ -87,7 +87,7 @@ In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbran
 </TEI>
 ```
 
-*Beispiel für eine XML-Kodierung nach TEI-Standard. Im Kopfbereich der Datei steht der `<teiHeader>` mit Metadaten, es folgt das `<text>`-Element, in dem der Text mit Strukturinformationen (z.B. `<head>` für Überschrift) gesoeichert wird*
+*Beispiel für eine XML-Kodierung nach TEI-Standard. Im Kopfbereich der Datei steht der `<teiHeader>` mit Metadaten, es folgt das `<text>`-Element, in dem der Text mit Strukturinformationen (z.B. `<head>` für Überschrift) gespeichert wird*
 
 ## CSV für annotierte Texte
 
@@ -95,7 +95,7 @@ In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbran
 
 - **Repräsentation:** CSV (Comma-Separated Values) ist ein tabellarisches Datenformat, bei dem jeder Eintrag in einer Zeile einer Tabelle durch ein Trennzeichen (meist ein Komma) getrennt ist. Es eignet sich gut für die Speicherung von Daten, die aus Texten extrahiert und annotiert wurden.
 - **Formate:** Dateien im CSV-Format, oft mit der Endung .csv.
-- **Nutzung:** CSV-Dateien werden häufig in der Computerlinguistik verwendet, um annotierte Textdaten zu speichern, wie z.B. Wortformen, Lemmas, syntaktische Strukturen oder semantische Annotationen. Sie sind leicht mit Statistik- und Analysewerkzeugen zu verarbeiten.
+- **Nutzung:** CSV-Dateien werden häufig in der Computerlinguistik verwendet, um annotierte Textdaten zu speichern, wie z.B. Wortformen, Lemmata, syntaktische Strukturen oder semantische Annotationen. Sie sind leicht mit Statistik- und Analysewerkzeugen zu verarbeiten.
 - **Einschränkungen:** CSV-Dateien sind weniger flexibel für komplexe Textstrukturen und eignen sich besser für flache, tabellarische Daten.
 
 **Beispiel:** 
