@@ -37,7 +37,7 @@ Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links 
 height:
 name: Flussdiagramm der Fallstudie
 ---
-Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
+Flussdiagramm der Fallstudie, die sich aus vier Arbeitspaketen zusammensetzt.
 ```
 
 - Im **1. Schritt** entwickeln wir eine Forschungsfrage und operationalisieren diese Forschungsfrage für die quantitative Analyse, entwickeln also ein Konzept, wie wir mittels Messoperationen zu einer Antwort auf die Forschungsfrage kommen (siehe Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)).
