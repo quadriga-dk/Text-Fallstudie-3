@@ -8,7 +8,7 @@ Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus a
 
 Eine besondere Variante von Korpora sind Referenzkorpora, bei deren Zusammenstellung besondere Aufmerksamkeit darauf gelegt wurde, dass diese Korpora für eine bestimmte Domäne repräsentativ sein können. 
 
-In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt ["Texte als digitale Objekte"](corpus-collection_text_as_digital_objects)). 
+In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects)). 
 
 Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlungen insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:t}`schoech2017` vier Strategien unterschieden: 
 

@@ -29,7 +29,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 
 
-Nachdem im [vorherigen Kapitel](../research_question/research-question_research-question) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachigen Literatur des 19. Jahrhunderts" untersuchen lässt. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachigen Literatur des 19. Jahrhunderts" untersuchen lässt. 
 
 
 ```{figure} ../assets/images/flow-chart_corpus-collection.png

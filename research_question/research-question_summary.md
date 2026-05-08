@@ -4,7 +4,7 @@
 ```{admonition} Key points des Kapitels
 :class: keypoint
 
-**Literatur und Umwelt** Literatur kann auf Veränderung in der ihr zeitgenössischen Umwelt auf verschiedene Weisen reagieren. Dieses komplexe Verhältnis wird im Forschungszweig des Ecocriticism untersucht.  
+**Literatur und Umwelt:** Literatur kann auf Veränderung in der ihr zeitgenössischen Umwelt auf verschiedene Weisen reagieren. Dieses komplexe Verhältnis wird im Forschungszweig des Ecocriticism untersucht.  
 
 **Operationalisierung:** Qualitative Fragestellungen werden durch Operationalisierung für quantitative Methoden zugänglich gemacht. Die Reaktion der Literatur auf Umweltphänomene wird als messbare Wort- und N-Gram-Häufigkeit in einem Auswahlkorpus definiert.
 
@@ -12,5 +12,5 @@
 
 ```
 
-Im zurückliegenden Kapitel haben wir die [Forschungsfrage](research-question_research-question) der vorliegenden Fallstudie expliziert. Um die Forschungsfrage für eine quantitativ-digitale Analyse adressierbar zu machen, haben wir eine [Operationalisierung](research-question_operationalization) vorgenommen, durch die wir einen Messvorgang definieren können, der als Antwort für die Frage gelten kann. Im nächsten Kapitel werden wir nun unser Forschungskorpus aufbauen, auf dem wir den Messvorgang durchführen werden.
+Im zurückliegenden Kapitel haben wir die [Forschungsfrage](research-question_research-question) der vorliegenden Fallstudie expliziert. Um die Forschungsfrage für eine quantitativ-digitale Analyse adressierbar zu machen, haben wir eine [Operationalisierung](research-question_operationalization) vorgenommen, durch die wir einen Messvorgang definieren können, dessen Ergebnisse die Grundlage für die Antwort auf die Frage liefern. Im nächsten Kapitel werden wir nun unser Forschungskorpus aufbauen, auf dem wir den Messvorgang durchführen werden.
 

@@ -7,13 +7,13 @@ Für die Operationalisierung unserer Forschungsfrage müssen insbesondere drei F
 
 1. Was wäre eine literarische Reaktion auf Umweltphänomene wie die Luftverschmutzung? 
 2. Wie kann diese gemessen werden? 
-3. Und was ist die Grundlage für eine solche Messung, bedenkt man, dass uns "die" deutschsprachige Literatur des 19. Jahrhunderts nicht als Korpus vorliegt.
+3. Und was ist eine geeignete Grundlage für eine solche Messung, bedenkt man, dass uns "die" deutschsprachige Literatur des 19. Jahrhunderts nicht als Korpus vorliegt.
 
-Entlang dieser Fragen nehmen wir unsere Operationalisierung vor. Die Operationalisierung muss dabei Indikatoren benennen, deren Vorhandensein wir in literarischen Texten im Zuge von Messoperationen quantitativ beschreiben können. 
+Entlang dieser Fragen nehmen wir unsere Operationalisierung vor. Die Operationalisierung muss dabei Indikatoren benennen, deren Auftreten wir in literarischen Texten im Zuge von Messoperationen quantitativ beschreiben können. 
 
-Im Hinblick auf die **erste Frage** nehmen wir dabei folgende pragmatische Operationalisierung vor: Auf schematische Weise gedacht kann Literatur auf Phänomene in der zeitgenössischen Umwelt zum Beispiel durch gesteigerte Thematisierung reagieren. "Luft" könnte in diesem Sinne mehr und mehr Gegenstand in den literarischen Texten werden. Darüber hinaus ist denkbar, dass die Umweltphänomene eine andere Semantisierung erhalten. "Luft" könnte in diesem Sinne zunehmend mit negativer Semantik verbunden werden (und dann etwa eine aufklärerisch-kritische Perspektive einnehmen). Denkbar ist freilich auch das Gegenteil: Literatur könnte utopische Gegenwelten entwerfen und also mit einer herausgehoben positiven Semantik von "Luft" reagieren. 
+Im Hinblick auf die **erste Frage** nehmen wir dabei folgende pragmatische Operationalisierung vor: Auf schematische Weise gedacht kann Literatur auf Phänomene in der zeitgenössischen Umwelt zum Beispiel durch gesteigerte Thematisierung reagieren. "Luft" könnte in diesem Sinne mehr und mehr Gegenstand in den literarischen Texten werden. Darüber hinaus ist denkbar, dass die Umweltphänomene eine andere Semantisierung erhalten. "Luft" könnte in diesem Sinne zunehmend mit negativer Semantik verbunden werden (und Literatur dann etwa eine aufklärerisch-kritische Perspektive einnehmen). Denkbar ist freilich auch das Gegenteil: Literatur könnte utopische Gegenwelten entwerfen und also mit einer herausgehoben positiven Semantik von "Luft" reagieren. 
 
-Mit einer Veränderung in der Thematisierung und in der Semantisierung sind zwei quantifizierbare Phänomene identifiziert, zu denen sich in Hinblick auf unsere **zweite Frage** Indikatoren für die Messoperationen angeben lassen.
+Mit einer Veränderung in der Thematisierung und in der Semantisierung von Luft sind zwei quantifizierbare Phänomene identifiziert, zu denen sich in Hinblick auf unsere **zweite Frage** Indikatoren für die Messoperationen angeben lassen.
 
 - Die quantitative Veränderung der Thematisierung von Luft wollen wir über die Ermittlung der Häufigkeit von Wörtern aus dem semantischen Feld "Luft" messbar machen. 
 - Die quantitative Veränderung der Semantisierung von Luft wollen wir über die Analyse von syntaktischen N-Grams des Typs "Adjektiv-Substantiv" (z.B. "frische Luft") messbar machen. Wir ziehen dabei nur das N-Grams in Betracht, bei denen "Luft" das Substantiv ist. 
