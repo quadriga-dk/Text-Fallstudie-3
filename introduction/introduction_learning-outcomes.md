@@ -2,7 +2,7 @@
 # Lernziele
 
 ```{admonition} [Grundlagen korpusbasierter geisteswissenschaftlicher Forschung](research-question_intro)
-:class: lernziele, dropdown
+:class: lernziele
 
 1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Messung der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und erläutert werden.
 
@@ -12,7 +12,7 @@
 
 
 ```{admonition} [Ansätze des Korpusaufbaus und Erstellung basaler Metadaten](corpus-collection_intro)
-:class: lernziele, dropdown
+:class: lernziele
 
 1. Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.
 
@@ -25,7 +25,7 @@
 ```
 
 ```{admonition} [Korpusverarbeitung mit Natural Language Processing](corpus-processing_intro)
-:class: lernziele, dropdown
+:class: lernziele
 
 1. Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing für die Textanalyse beschrieben werden.
 
@@ -35,7 +35,7 @@
 
 
 ```{admonition} [Frequenzanalysen semantischer Felder und syntaktischer n-Gramm-Abhängigkeiten](corpus-analysis_intro)
-:class: lernziele, dropdown
+:class: lernziele
 
 1. Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms können interpretiert werden. 
 
@@ -48,7 +48,7 @@
 
 
 ```{admonition} [Kritische Bewertung der Reichweite und Limitationen](reflection_reflection)
-:class: lernziele, dropdown
+:class: lernziele
 
 1. Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.
 ```
