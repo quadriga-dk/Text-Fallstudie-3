@@ -27,7 +27,7 @@ Bei der Beschreibung eines gesamten Korpus sind die Metadaten entscheidend, um d
 Ein beispielhaftes Metadaten-Set für ein Korpus könnte unter Verwendung von Dublin Core so aussehen:
 
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/" class="external-link" target="_blank">DC.title</a>**: "German Novel Corpus (ELTeC-deu)"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/" class="external-link" target="_blank">DC.source</a>**: "https://zenodo.org/records/4662482"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/" class="external-link" target="_blank">DC.source</a>**: <a href="https://zenodo.org/records/4662482" class="external-link" target="_blank">"https://zenodo.org/records/4662482"</a>
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/" class="external-link" target="_blank">DC.description</a>**: "the German novel collection for the ELTeC, the European Literary Text Collection, produced by the COST Action Distant Reading for European Literary History"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Leonard Konle, Fotis Jannidis, Carolin Odebrecht, Lou Burnard"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/publisher/" class="external-link" target="_blank">DC.publisher</a>**: "COST Action 'Distant Reading for European Literary History'"
@@ -53,7 +53,7 @@ Für ein einzelnes Buch könnten die Metadaten so aussehen:
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/" class="external-link" target="_blank">DC.title</a>**: "Die Geier-Wally"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Wilhemine von Hillern"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/" class="external-link" target="_blank">DC.date</a>**: "1873"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/" class="external-link" target="_blank">DC.source</a>**: "https://projekt-gutenberg.org/authors/wilhelmine-von-hillern/books/die-geier-wally/"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/" class="external-link" target="_blank">DC.source</a>**: <a href="https://projekt-gutenberg.org/authors/wilhelmine-von-hillern/books/die-geier-wally/" class="external-link" target="_blank">"https://projekt-gutenberg.org/authors/wilhelmine-von-hillern/books/die-geier-wally/"</a>
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/" class="external-link" target="_blank">DC.language</a>**: "Deutsch"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/" class="external-link" target="_blank">DC.identifier</a>**: "Q1212872"
 

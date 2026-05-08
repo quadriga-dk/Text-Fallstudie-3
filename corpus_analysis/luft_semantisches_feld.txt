@@ -1,3 +1,4 @@
+Luft
 Atmosphäre
 Luftkreis
 Luftmeer
@@ -8,6 +9,7 @@ Luftzug
 Luftwirbel
 Luftwelle
 Dunstkreis
+Dunst
 Himmelsluft
 Sauerstoff
 Stickstoff
@@ -45,3 +47,12 @@ Kellerluft
 Nachtluft
 Morgenluft
 Frühlingsluft
+Rauch
+Wind
+Brise
+Hauch
+Nebel
+Duft
+Geruch
+Schwüle
+Frische

@@ -27,7 +27,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 3. Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
 ```
 
-Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)), sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
+Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel [Korpusverarbeitung – Von Strings zu Token](corpus-processing_intro)), sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png
@@ -39,6 +39,6 @@ Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
 Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Grundlagen](corpus-analysis_analysis) zur Erstellung eines semantischen Felds, zur Extraktion von Häufigkeiten sowie zur Visualisierung der Häufigkeiten in Form eines Streudiagramms und die Errechnung und Darstellung einer Trend-Linie. 
 
-Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt]() und die Ergebnisse werden anhand der Visualisierungen interpretiert. 
+Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt](corpus-analysis_semantic-field-analysis) und die Ergebnisse werden anhand der Visualisierungen interpretiert. 
 
-Im nächsten Schritt werden [syntaktische n-Gramme eingeführt]() und auf dem [Korpus analysiert](). Die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
+Im nächsten Schritt werden [n-Gramme im Generellen](corpus-analysis_ngrams-intro) und dann [syntaktische n-Gramme](corpus-analysis_syntactic-ngrams-intro) eingeführt. Daraufhin wird die [Korpusanalyse](corpus-analysis_syntactic-ngram) ausgeführt und die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.

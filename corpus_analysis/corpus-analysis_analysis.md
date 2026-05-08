@@ -9,12 +9,12 @@ In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und deren Operat
 Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
 `````
 
-Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantisches Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel "[Von linearen zu syntaktischen n-Grammen](corpus-analysis_ngrams-intro)" eingeführt.
+Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantisches Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel [Von linearen zu syntaktischen n-Grammen](corpus-analysis_ngrams-intro) eingeführt.
 
 
 ## Das semantische Feld "Luft"
 ### Erläuterung: Semantisches Feld
-Die Grundlage unserer Analyse besteht darin, die Textstellen zu identifizieren, in denen Luft eine Rolle spielt. Das ist zum Beispiel bei der bloßen Erwähnung von Luft der Fall. Uns interessiert jedoch nicht Luft als Einzelwort, sondern als Themenkomplex, weswegen wir eine Liste von Wörtern erstellen, die in semantisch-paradigmatischer Beziehung zu Luft stehen, einem **semantischen Feld**. Bei der Erstellung eines semantisches Felds ist es wichtig, dass möglichst alle und nur die Textstellen erfasst werden, in denen Luft und verwandte Worter erwähnt werden. Da die Wörter losgelöst von ihrem Kontext analysiert werden, sollten sie so gewählt sein, dass sie sich auf Luft und nur auf diese beziehen.
+Die Grundlage unserer Analyse besteht darin, die Textstellen zu identifizieren, in denen Luft eine Rolle spielt. Das ist zum Beispiel bei der bloßen Erwähnung von Luft der Fall. Uns interessiert jedoch nicht Luft als Einzelwort, sondern als Themenkomplex, weswegen wir eine Liste von Wörtern erstellen, die in semantisch-paradigmatischer Beziehung zu Luft stehen, einem **semantischen Feld**. Bei der Erstellung eines semantisches Felds ist es wichtig, dass möglichst alle und nur die Textstellen erfasst werden, in denen Luft und verwandte Worter erwähnt werden. Da die Wörter losgelöst von ihrem Kontext analysiert werden, sollten sie so gewählt sein, dass sie sich ausschließlich auf Luft beziehen.
 
 ### Erstellung des semantischen Felds
 Da <a href="https://en.wikipedia.org/wiki/Large_language_model" class="external-link" target="_blank">Large Language Models</a> sehr gut dazu in der Lage sind, semantisch ähnliche Wörter zu erzeugen, haben wir das semantische Feld mit Hilfe des Chatbots <a href="https://claude.ai/" class="external-link" target="_blank">Claude</a> erstellt.
@@ -33,7 +33,7 @@ Bedingungen für die Wörter des semantischen Feldes sind.
 * Komposita sind erlaubt;
 * die Wörter sollen sich am historischen Sprachgebrauch des 19. Jahrhunderts orientieren;
 * die Wörter sollen spezifisch für den Kontext "Luft" sein;
-* die Wörter sollen nicht mehrdeutig sein, also noch Möglichkeit nicht in anderen semantischen Kontext vorkommen.
+* die Wörter sollen nicht mehrdeutig sein, also nach Möglichkeit nicht in anderen semantischen Kontext vorkommen.
 
 Bitte tue dasselbe für "gute Luft" und "schlechte Luft". 
 ```
@@ -44,7 +44,7 @@ Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="htt
 ## Häufigkeit als Analysemethode 
 
 ### Warum die Häufigkeit analysieren?
-Die Analyse von Worthäufigkeiten ist sowohl in der Korpuslinguistik als auch in den Digital Humanities weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter im Text korreliert. Besonders bei einem Vergleich von zwei oder mehr Texten ist die Häufigkeitsanalyse sinnvoll, da der Vergleich so quantisierbar wird und eine Aussage darüber getroffen werden kann, ob eine Veränderung zufällig oder systematisch ist.
+Die Analyse von Worthäufigkeiten ist sowohl in der Korpuslinguistik als auch in den Digital Humanities weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter im Text korreliert. Besonders bei einem Vergleich von zwei oder mehr Texten ist die Häufigkeitsanalyse sinnvoll. Denn der Vergleich wird so quantifizierbar und wir können eine Aussage darüber treffen, ob eine Veränderung zufällig oder systematisch ist.
 
 Die Häufigkeit eines semantischen Felds wird erhoben, indem pro Text gezählt wird, wie viele Wörter Teil des semantischen Felds sind. Da die Wörter in der Grundform angegeben sind, werden sie mit den Lemmata im Text verglichen. Die Anzahl der Wörter nennt sich **absolute Häufigkeit**.
 
@@ -70,7 +70,7 @@ Die Häufigkeit eines semantischen Felds wird erhoben, indem pro Text gezählt w
 `````
 
 ### Vergleichbarkeit von Häufigkeiten
-Für die Vergleichbarkeit von Worthäufigkeiten in Texten ist wichtig, dass die Texte auch ansonsten vergleichbar sind. Stammen die Texte z. B. aus unterschiedlichen Zeiträumen müssten ggf. zeitspezifische semantische Felder erstellt werden, um für den Sprachwandel Rechnung zu tragen. Auch sollten die Texte eine ähnliche Länge haben, sodass eine erhöhte Häufigkeit tatsächlich auf eine erhöhte Wichtigkeit zurückgeführt werden kann.
+Für die Vergleichbarkeit von Worthäufigkeiten in Texten ist wichtig, dass die Texte auch ansonsten vergleichbar sind. Stammen die Texte z. B. aus unterschiedlichen Zeiträumen müssten ggf. zeitspezifische semantische Felder erstellt werden, um dem Sprachwandel Rechnung zu tragen. Auch sollten die Texte ähnlich lang sein, sodass eine erhöhte Häufigkeit tatsächlich auf eine erhöhte Wichtigkeit zurückgeführt werden kann.
 Wenn Texte verschieden lang sind, sollten die Häufigkeiten **normalisiert** werden, das heißt sie werden in Bezug zur Textlänge gesetzt. Dafür wird die absolute Häufigkeit durch die Textlänge dividiert, daraus ergibt sich die **relative Häufigkeit**. Die relative Häufigkeit des semantischen Felds "Luft" kann als Anteil der Luftwörter am Gesamttext gesehen werden. 
 
 `````{admonition} Beispiel
@@ -113,11 +113,16 @@ Hinweis: Da für die Texte nur das Publikationsjahr vorliegt, für die Visualisi
 `````
 
 ### Visuelle Darstellung als Streudiagramm 
-Als Resultat haben wir pro Korpus 400 Datenpunkte, für jeden Text einen. Diese Datenpunkte lassen sich auf unterschiedliche Art und Weise darstellen. Wir sind zum einem daran interessiert, ob sich eine Entwicklung abzeichnet, dafür müssen die Datenpunkte über Zeit angeordnet werden. Zum anderen wollen wir ablesen können, in welchen Texten Luft besonders häufig thematisiert wird, da diese möglicherweise wegweisend gewesen sein könnten. Die Datenpunkte sollen also nicht pro Jahr oder Dekade aggregiert werden, sondern jeder Text soll einzeln erkennbar sein. Dies lässt sich besonders gut durch ein **Streudiagramm** darstellen. Bei einem Streudigramm wird ein Text in Abhängigkeit seines X- und Y-Wertes als ein Punkt im Koordiantenkreuz dargestellt. Der X-Wert ist in unserem Fall das Jahr der Veröffentlichung, der Y-Wert ist die relative Häufigkeit.
+Als Resultat erhalten wir pro Korpus 400 Datenpunkte, für jeden Text einen, die gleichmäßig über die Zeit verteilt sind. Diese Datenpunkte lassen sich auf unterschiedliche Art und Weise darstellen. Wir sind zum einem daran interessiert, ob sich eine Entwicklung abzeichnet, dafür müssen die Datenpunkte über Zeit angeordnet werden. Zum anderen wollen wir ablesen können, in welchen Texten Luft besonders häufig thematisiert wird, da diese möglicherweise wegweisend gewesen sein könnten. Die Datenpunkte sollen also nicht pro Jahr oder Dekade aggregiert werden, sondern jeder Text soll einzeln erkennbar sein. Dies lässt sich besonders gut durch ein **Streudiagramm** darstellen. Bei einem Streudigramm wird ein Text in Abhängigkeit seines X- und Y-Wertes als ein Punkt im Koordiantenkreuz dargestellt. Der X-Wert ist in unserem Fall das Jahr der Veröffentlichung, der Y-Wert ist die relative Häufigkeit.
 
 Auf einem Streudiagramm lassen sich allerdings nicht sofort Entwicklungen ablesen. Um diesen Nachteil beizukommen, lässt sich mittels linearer Regression eine **Regressionsgerade** oder sogenannte Trend-Linie berechnen. Die Trend-Linie soll die Datenpunkte möglichst gut beschreiben, das heißt, sie soll möglichst nah an allen Punkten vorbeilaufen. Je nachdem, ob die Gerade steigt oder fällt, ist eine Zu- oder Abnahme des semantischen Felds Luft zu erkennen.
 
-In folgendem Beispiel wurden vier Texte aus Korpus I ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde. Diese Texte ("Eine Meerfahrt", "Die Ahnung", "Waldwinkel", "Susi") sind nicht repräsentativ und sollen einzig die visuelle Darstellung verdeutlichen.
+In folgendem Beispiel wurden vier Texte aus Korpus I ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
+
+`````{admonition} Mindestanzahl an Datenpunkten für eine generalisierbare Interpretation
+:class: caution
+Die Texte in dem Beispiel ("Eine Meerfahrt", "Die Ahnung", "Waldwinkel", "Susi") wurden zwischen 1830 und 1900 veröffentlicht und zeigen einen klaren Trend: Luft wird weniger thematisiert. Diese Texte sind aber nicht repräsentativ für alle literarischen Texte, die in dieser Zeit veröffentlicht wurden. Zwar kann schon anhand von zwei Datenpunkten eine Regressionsgerade berechnet werden, allerdings zeigt diese keinen Trend, der generalisierbar ist. Um mittels der Regressionsgerade tatsächlich einen Effekt zu messen, sollten mindestens 30 Datenpunkte vorliegen. Wenn die Datenpunkte über die Zeit verteilt sind, sollten sie am besten gleichmäßig verteilt sein.
+`````
 
 ```{figure} ../assets/images/Scatterplot-Trendlinie-Bsp.png
 ---
@@ -133,9 +138,7 @@ Um die Regressionsgerade zu berechnen, wird für jeden Punkt der vertikalen Abst
 ```
 
 
-
-
-### Visuelle Darstellung als Streudigramm
+### Visuelle Darstellung als Liniendigramm
 Alternativ, wenn es weniger wichtig ist, die Häufigkeiten einzelner Texte abzulesen, ließen sich die Häufigkeiten auch über einen bestimmten Zeitraum zummenfassen und als Liniendiagramm darstellen. Liniendiagramme eignen sich gut, um zeitliche Verläufe darzustellen, da lokale und globale Minima und Maxima leicht erkennbar sind und sie die Kontinuität der Daten unterstreichen. Um die Häufigkeiten zusammenzufassen werden sowohl die absoluten Häufigkeiten als auch die Textlängen in dem ausgewählten Zeitraum addiert, sodass auf dieser Basis die relative Häufigkeit für den Zeitraum berechnet werden kann.
 
 
@@ -153,7 +156,7 @@ Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen
 | 1823    | 15    | 600  | 0.025 | 
 ```
 1. Alle Häufigkeiten addieren und durch die Summe der Textlängen teilen: $ {{20 + 5 + 15} \over {500 + 100 + 600}} = {{40} \over {1200}} = {0.033}$
-2. Die relative Häufigkeiten addieren und durch die Anzahl an Tagen teilen: $ {{{20 \over 500} + {5 \over 100} + {15 \over 600}} \over 3} = {{0.04 + 0.05 + 0.025} \over 3} = 0.038$
+2. Die relative Häufigkeiten addieren und durch die Anzahl an Texten teilen: $ {{{20 \over 500} + {5 \over 100} + {15 \over 600}} \over 3} = {{0.04 + 0.05 + 0.025} \over 3} = 0.038$
 
 Mit der zweiten Methode ist die relative Häufigkeit um 0.005 Prozentpunkte höher, da der kurze Text, der die höchste relative Häufigkeit aufweist, ein größeren Einfluss auf die Berechnung hat. 
 `````

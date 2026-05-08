@@ -17,7 +17,7 @@ Die systematische Dokumentation erfolgt durch [Metadaten](corpus-collection_meta
 
 **Praktische Umsetzung**
 
-Der praktische Korpusaufbau erfolgt in drei Schritten: Konzeptentwicklung, Metadatenerstellung und [Datensammlung](corpus-collection_building-our-corpus). Dabei müssen sowohl forschungsmethodische Anforderungen als auch praktische Beschränkungen berücksichtigt werden.
+Der praktische Korpusaufbau erfolgt in drei Schritten: Konzeptentwicklung, Metadatenerstellung und [Datensammlung](corpus-collection_choosing-our-corpus-based-on-metadata). Dabei müssen sowohl forschungsmethodische Anforderungen als auch praktische Beschränkungen berücksichtigt werden.
 ```
 
 <!--
