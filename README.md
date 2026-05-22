@@ -17,9 +17,9 @@ Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können s
 
 ## Inhalt der OER
 
-Dieses interaktive Lehrbuch vermittelt Methoden für die automatische Erstellung, Aufbereitung und Analyse eines Textkorpus. Im Zentrum steht die Frage, wie sich die mediale Aufmerksamkeit auf die Spanische Grippe in zeitgenössischen Berliner Zeitungen verändert. 
-Der Fokus des Lehrbuchs liegt auf der Korpuserstellung mittels Optical Character Recognition (OCR) mit pytesseract.
-Das Lehrbuch ist in sechs Kapiteln aufgeteilt. Es wird zuerst in die Fragestellung und deren Operationalisierung eingeführt, dann werden Methoden des Korpusaufbaus beschrieben. Danach wird in die Methode der OCR sowie in die Nachbereichtung des Outputs eingeführt. Das Textkorpus wird dann mit scrapy lemmatisiert und schlussendlich wird eine diachrone Frequenzanalyse auf dem annotierten Korpus ausgeführt.
+Dieses interaktive Lehrbuch vermittelt Methoden für die Zusammenstellung, Aufbereitung und quantitative Analyse eines literarischen Textkorpus. Im Zentrum steht eine ökokritische Frage aus der digitalen Literaturwissenschaft: Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
+Der Fokus des Lehrbuchs liegt auf der Operationalisierung dieser Forschungsfrage, der metadatenbasierten Zusammenstellung eines Korpus aus dem *Corpus of German-Language Fiction* sowie auf der linguistischen Annotation und Auswertung des Korpus mit NLP-Methoden (Tokenisierung, Lemmatisierung, Part-of-Speech-Tagging und Dependenzparsing).
+Das Lehrbuch ist in vier Kapiteln aufgeteilt. Es wird zuerst in die Fragestellung und deren Operationalisierung eingeführt, dann werden Strategien für den metadatenbasierten Korpusaufbau beschrieben. Danach wird in die für die Analyse benötigten NLP-Methoden eingeführt und das Korpus entsprechend annotiert. Schließlich werden auf dem annotierten Korpus zwei Analysen durchgeführt: eine Häufigkeitsanalyse von Wörtern aus dem semantischen Feld „Luft" sowie eine Analyse syntaktischer N-Gramme des Typs „Adjektiv–Substantiv". Eine abschließende Reflexion ordnet Vorgehen und Ergebnisse methodisch ein.
 
 ## Ansprechpartner:innen
 
