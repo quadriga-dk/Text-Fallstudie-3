@@ -32,7 +32,7 @@ Für die Untersuchung der Adjektiv-Nomen-Paare sollen alle Adjektive extrahiert 
 (corpus-processing-intro-2)=
 ## Verwendete NLP-Methoden
 Um diese Analysen durchführen zu können, müssen mehrere Vorverarbeitungsschritte durchgeführt werden:
-Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschieden Wortformen auf Grundform, ihr Lemma, abzubilden, wird das Korpus **lemmatisiert** werden.
+Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschiedene Wortformen auf eine Grundform, ihr Lemma, abzubilden, wird das Korpus **lemmatisiert** werden.
 
 ```{admonition} Zum Begriff des Token
 :class: hinweis, dropdown
