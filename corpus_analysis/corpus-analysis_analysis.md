@@ -39,7 +39,7 @@ Bitte tue dasselbe für "gute Luft" und "schlechte Luft".
 ```
 Diesen Prompt haben wir zweimal in unterschiedlichen Chats ausgeführt und als Resultat eine Liste von 112 Nomen erhalten. Diese haben wir manuell gefiltert: Wörter, die rein auf den Geruch bezogen sind wie z.B. "Fäulnisgeruch" oder "Pestgeruch" wurden entfernt, genau so wie Wörter, die zu generell waren oder die keinen direkten Bezug zu "Luft" hatten wie etwa "Dumpfheit". Nach der Filterung bestand die Liste noch aus 96 Wörtern.
 
-Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen besteht. Die Liste ist <a href="https://raw.githubusercontent.com/quadriga-dk/Text-Fallstudie-3/refs/heads/main/wordlist/luft_semantisches_feld.txt" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
+Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen bestand. Die Liste ist <a href="https://raw.githubusercontent.com/quadriga-dk/Text-Fallstudie-3/refs/heads/main/wordlist/luft_semantisches_feld.txt" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
 
 ## Häufigkeit als Analysemethode 
 
@@ -144,7 +144,7 @@ Alternativ, wenn es weniger wichtig ist, die Häufigkeiten einzelner Texte abzul
 
 `````{admonition} Durchschnitt von relativen Häufigkeiten
 :class: caution
-Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten pro Jahr zu berechnen. Allerdings haben bei dieser Methode alle Texte aus dem selben Erscheinungsjahr den gleichen Einfluss auf die Berechnung, unabhängig davon, ob ein Text nur ein zehntel so lang ist, wie ein anderer Text. 
+Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten pro Jahr zu berechnen. Allerdings haben bei dieser Methode alle Texte aus dem selben Erscheinungsjahr den gleichen Einfluss auf die Berechnung, unabhängig davon, ob ein Text nur ein zehntel so lang ist wie ein anderer Text. 
 
 ```{table}
 :name: Beispiel: Methoden des Zusammenfügens
