@@ -236,7 +236,7 @@ display_quiz(multiple_choice_5, colors=colors.jupyterquiz)
 ## Frage 6
 Analysieren Sie den folgenden Satz mit NLP-Methoden und beschreiben Sie die Ergebnisse:
 
-Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane des 19. Jahrhunderts."
+Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane"
 
 1.	Führen Sie eine Tokenisierung durch.
 2.	Bestimmen Sie die Lemmata der einzelnen Token.
@@ -256,13 +256,13 @@ create_answer_box('process-1')
 :class: solution, dropdown
 
 **Beispiellösung zur Selbstbewertung:**
-1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "Zeitungsartikel", "zur", "Spanischen", "Grippe", "."]
-2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "Zeitungsartikel", "zu", "spanisch", "Grippe", "."]
+1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "deutsche", "zur", "Romane", "."]
+2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "deutsch", "zu", "Roman", "."]
 
 **Reflexion:**
 - Die Tokenisierung ermöglicht die Analyse auf Wortebene und bereitet den Text für weitere Verarbeitung vor
 - Die Lemmatisierung würde alle Formen von "untersuchen" zusammenfassen, was bei einer Frequenzanalyse hilfreich ist
-- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "Spanischen" zu "spanisch") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
+- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "deutsche" zu "deutsch") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
 - Bei einer größeren Textsammlung würden verschiedene grammatikalische Formen desselben Wortes nicht als unterschiedliche Begriffe gezählt
 - Diese Normalisierung verbessert die Qualität von Häufigkeitsanalysen, Keyword-Extraktion und thematischen Analysen
 - Die Informationen über die ursprüngliche Form bleiben erhalten und können für detailliertere linguistische Analysen genutzt werden
