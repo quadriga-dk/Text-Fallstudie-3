@@ -236,7 +236,7 @@ display_quiz(multiple_choice_5, colors=colors.jupyterquiz)
 ## Frage 6
 Analysieren Sie den folgenden Satz mit NLP-Methoden und beschreiben Sie die Ergebnisse:
 
-Originaltext: "Die Forschenden untersuchten verschiedene Zeitungsartikel zur Spanischen Grippe."
+Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane des 19. Jahrhunderts."
 
 1.	Führen Sie eine Tokenisierung durch.
 2.	Bestimmen Sie die Lemmata der einzelnen Token.
