@@ -9,7 +9,7 @@ Ein verbreiteter Ansatz, um über Einzelwörter hinauszugehen, ist die Analyse v
 height:
 name: Ngrams Example
 ---
-Beispiel für die Aufteilung einer Phrase in N-Gramme der Länge 1, 2 und 3.
+Beispiel für die Aufteilung einer Phrase in N-Gramme der Länge 1, 2 und 3. Unigramme sind einfach Tokens:  "ein", "frischer", "Wind", "spielte", "mit", "unsern", "Locken". 2-Gramme sind Sequenzen aus zwei Token.: "ein frischer", "frischer Wind", "Wind spielte", "spielte mit", "mit unsern", "unsern Locken". 3-Gramme: "ein frischer Wind", "frischer Wind spielte", "Wind spielte mit", "spielte mit unsern", "mit unsern Locken". 
 ```
 
 In diesem Sinne stellen n-Gramme eine natürliche methodische Erweiterung wortbasierter Frequenzanalysen dar: Der Fokus verschiebt sich von der Frage, *welche Wörter vorkommen*, hin zu der Frage, *wie Wörter regelmäßig gemeinsam auftreten*.
