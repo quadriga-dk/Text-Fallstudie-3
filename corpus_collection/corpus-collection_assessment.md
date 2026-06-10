@@ -687,7 +687,7 @@ question7 = [
                 "answer": "Gesamtumfang des Korpus",
                 "correct": False,
                 "feedback": """× Nicht korrekt! Der Gesamtumfang:
-                - Ist ein Korpus-Level Metadatum
+                - Ist ein Korpus-Level-Metadatum
                 - Beschreibt die gesamte Sammlung
                 - Gehört nicht zur Dokumentbeschreibung"""
             }
