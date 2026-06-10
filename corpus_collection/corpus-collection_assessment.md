@@ -63,54 +63,27 @@ question1 = [
             {
                 "answer": "Eine nach bestimmten Kriterien zusammengestellte Textsammlung",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die kriteriengeleitete Zusammenstellung ist essentiell für wissenschaftliche Korpora. Die Kriterien müssen dabei:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>transparent dokumentiert sein</li>
-<li>zur Forschungsfrage passen</li>
-<li>systematisch angewendet werden</li>
-</ul>"""
+                "feedback": """✓ Korrekt! Die kriteriengeleitete Zusammenstellung ist essentiell für wissenschaftliche Korpora. Die Kriterien müssen dabei: • transparent dokumentiert sein • zur Forschungsfrage passen • systematisch angewendet werden"""
             },
             {
                 "answer": "Eine Sammlung, die nur digitalisierte Bücher enthält",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Zeitungsartikel (wie in unserer Fallstudie)</li>
-<li>Literarische Texte</li>
-<li>Dokumente</li>
-<li>Andere Textformen</li>
-</ul>
-Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
+                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten: • Zeitungsartikel (wie in unserer Fallstudie) • Literarische Texte • Dokumente • Andere Textformen — Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
             },
             {
                 "answer": "Eine Textsammlung, die spezifischen Forschungszwecken dient",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Zweckgebundenheit ist ein wichtiges Merkmal:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Das Korpus wird für bestimmte Forschungsfragen zusammengestellt</li>
-<li>Die Forschungszwecke bestimmen die Auswahlkriterien</li>
-<li>Die Zweckbindung beeinflusst auch die Art der Aufbereitung der Texte</li>
-</ul>"""
+                "feedback": """✓ Korrekt! Die Zweckgebundenheit ist ein wichtiges Merkmal: • Das Korpus wird für bestimmte Forschungsfragen zusammengestellt • Die Forschungszwecke bestimmen die Auswahlkriterien • Die Zweckbindung beeinflusst auch die Art der Aufbereitung der Texte"""
             },
             {
                 "answer": "Eine beliebige Sammlung von digitalisierten Texten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine beliebige Sammlung erfüllt nicht die wissenschaftlichen Anforderungen an ein Korpus:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Es fehlen systematische Auswahlkriterien</li>
-<li>Die Zusammenstellung ist nicht durch Forschungsfragen motiviert</li>
-<li>Eine methodisch fundierte Analyse wäre nicht möglich</li>
-</ul>"""
+                "feedback": """× Nicht korrekt. Eine beliebige Sammlung erfüllt nicht die wissenschaftlichen Anforderungen an ein Korpus: • Es fehlen systematische Auswahlkriterien • Die Zusammenstellung ist nicht durch Forschungsfragen motiviert • Eine methodisch fundierte Analyse wäre nicht möglich"""
             },
             {
                 "answer": "Eine Sammlung, die immer alle verfügbaren Texte zu einem Thema enthalten muss",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Vollständigkeit ist nur eine mögliche Strategie des Korpusaufbaus:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Wie im Text erläutert, gibt es verschiedene Strategien (z.B. repräsentative Stichproben)</li>
-<li>Die Vollständigkeit ist nur bei klar begrenzten, kleinen Untersuchungsbereichen sinnvoll</li>
-<li>Die Strategie der Korpuserstellung richtet sich nach der Forschungsfrage und praktischen Erwägungen</li>
-</ul>"""
+                "feedback": """× Nicht korrekt. Vollständigkeit ist nur eine mögliche Strategie des Korpusaufbaus: • Wie im Text erläutert, gibt es verschiedene Strategien (z.B. repräsentative Stichproben) • Die Vollständigkeit ist nur bei klar begrenzten, kleinen Untersuchungsbereichen sinnvoll • Die Strategie der Korpuserstellung richtet sich nach der Forschungsfrage und praktischen Erwägungen"""
             }
         ]
     }
@@ -152,40 +125,22 @@ statements = [
             {
                 "answer": "CSV",
                 "correct": True,
-                "feedback": """✓ Korrekt! Weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Tabellarische Struktur ermöglicht klare Zuordnung von Token und Annotationen</li>
-<li>Einfache Verarbeitung mit Analysewerkzeugen</li>
-<li>Gut geeignet für große Datenmengen</li>
-<li>Standardformat für viele linguistische Tools</li>
-</ul>"""
+                "feedback": "✓ Korrekt! Weil: • Tabellarische Struktur ermöglicht klare Zuordnung von Token und Annotationen • Einfache Verarbeitung mit Analysewerkzeugen • Gut geeignet für große Datenmengen • Standardformat für viele linguistische Tools"
             },
             {
                 "answer": "XML/TEI",
                 "correct": False,
-                "feedback": """× Nicht optimal. Obwohl XML/TEI auch Annotationen unterstützt:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Komplexerer Aufbau als nötig für einfache tabellarische Daten</li>
-<li>Weniger effizient für große Mengen einfach strukturierter Annotatione</li>
-</ul>"""
+                "feedback": """× Nicht optimal. Obwohl XML/TEI auch Annotationen unterstützt: • Komplexerer Aufbau als nötig für einfache tabellarische Daten • Weniger effizient für große Mengen einfach strukturierter Annotatione"""
             },
             {
                 "answer": "Plain Text",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Keine Strukturierung für Annotationen möglich</li>
-<li>Keine Möglichkeit, zusätzliche Informationen systematisch zu speichern</li>
-</ul>"""
+                "feedback": """× Nicht korrekt, weil: • Keine Strukturierung für Annotationen möglich • Keine Möglichkeit, zusätzliche Informationen systematisch zu speichern"""
             },
             {
                 "answer": "Bilddigitalisate",
                 "correct": False,
-                "feedback": """× Nicht optimal, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Keine maschinenlesbare Textstruktur</li>
-<li>Keine Möglichkeit für systematische Annotationen</li>
-</ul>"""
+                "feedback": """× Nicht optimal, weil: • Keine maschinenlesbare Textstruktur • Keine Möglichkeit für systematische Annotationen"""
             }
         ]
     }
@@ -212,43 +167,22 @@ statements = [
             {
                 "answer": "CSV",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>CSV nur tabellarische Daten speichert</li>
-<li>Keine visuellen Informationen enthält</li>
-<li>Primär für strukturierte Daten gedacht ist</li>
-</ul>"""
+                "feedback": """× Nicht korrekt, weil: • CSV nur tabellarische Daten speichert • Keine visuellen Informationen enthält • Primär für strukturierte Daten gedacht ist"""
             },
             {
                 "answer": "XML/TEI",
                 "correct": False,
-                "feedback": """× Nicht ganz korrekt. XML/TEI:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Kann zwar Layoutinformationen beschreiben</li>
-<li>Bewahrt aber nicht das visuelle Erscheinungsbild selbst</li>
-<li>Ist bereits maschinenlesbar</li>
-</ul>"""
+                "feedback": """× Nicht ganz korrekt. XML/TEI: • Kann zwar Layoutinformationen beschreiben • Bewahrt aber nicht das visuelle Erscheinungsbild selbst • Ist bereits maschinenlesbar"""
             },
             {
                 "answer": "Plain Text",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Alle Formatierungen verloren gehen</li>
-<li>Nur der reine Text erhalten bleibt</li>
-<li>Keine visuellen Informationen gespeichert werden</li>
-</ul>"""
+                "feedback": """× Nicht korrekt, weil: • Alle Formatierungen verloren gehen • Nur der reine Text erhalten bleibt • Keine visuellen Informationen gespeichert werden"""
             },
             {
                 "answer": "Bilddigitalisate",
                 "correct": True,
-                "feedback": """✓ Korrekt! Bilddigitalisate (PDF, PNG, JPG) sind ideal dafür, weil sie:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Layout und Typographie originalgetreu bewahren</li>
-<li>Illustrationen und grafische Elemente erhalten</li>
-<li>Als historische Referenz dienen können</li>
-</ul>
-Allerdings benötigen sie OCR für Textanalysen."""
+                "feedback": """✓ Korrekt! Bilddigitalisate (PDF, PNG, JPG) sind ideal dafür, weil sie: • Layout und Typographie originalgetreu bewahren • Illustrationen und grafische Elemente erhalten • Als historische Referenz dienen können — Allerdings benötigen sie OCR für Textanalysen."""
             }
         ]
     }
@@ -539,34 +473,17 @@ question5 = [
             {
                 "answer": "Dublin Core umfasst 15 grundlegende Elemente wie Titel, Autor und Datum",
                 "correct": True,
-                "feedback": """✓ Richtig! Dublin Core:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Bietet ein einfaches, universelles Schema</li>
-<li>Die 15 Kernelemente sind standardisiert</li>
-<li>Eignet sich für grundlegende Beschreibungen</li>
-<li>Ist weit verbreitet und leicht anzuwenden</li>
-</ul>"""
+                "feedback": """✓ Richtig! Dublin Core: • Bietet ein einfaches, universelles Schema • Die 15 Kernelemente sind standardisiert • Eignet sich für grundlegende Beschreibungen • Ist weit verbreitet und leicht anzuwenden"""
             },
             {
                 "answer": "TEI wurde speziell für die Auszeichnung von Texten entwickelt und speichert Metadaten im teiHeader",
                 "correct": True,
-                "feedback": """✓ Richtig! TEI:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Ist ein spezialisiertes Schema für Texte</li>
-<li>Nutzt den teiHeader für Metadaten</li>
-<li>Ermöglicht detaillierte Textauszeichnung</li>
-<li>Bietet umfangreiche Beschreibungsmöglichkeiten</li>
-</ul>"""
+                "feedback": """✓ Richtig! TEI: • Ist ein spezialisiertes Schema für Texte • Nutzt den teiHeader für Metadaten • Ermöglicht detaillierte Textauszeichnung • Bietet umfangreiche Beschreibungsmöglichkeiten"""
             },
             {
                 "answer": "MODS und METS sind identische Standards für Bibliotheken",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Standards unterscheiden sich:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>MODS ist für bibliographische Beschreibungen</li>
-<li>METS dient der Kodierung und Übertragung von Digitalisaten</li>
-<li>Beide haben unterschiedliche Schwerpunkte und Anwendungsbereiche</li>
-</ul>"""
+                "feedback": """× Nicht korrekt. Die Standards unterscheiden sich: • MODS ist für bibliographische Beschreibungen • METS dient der Kodierung und Übertragung von Digitalisaten • Beide haben unterschiedliche Schwerpunkte und Anwendungsbereiche"""
             }
         ]
     }
@@ -713,23 +630,12 @@ question7 = [
             {
                 "answer": "Eindeutiger Identifikator (z.B. DOI oder spezifische Kennung)",
                 "correct": True,
-                "feedback": """✓ Richtig! Ein eindeutiger Identifikator:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Ist essentiell für die Dokumentidentifikation</li>
-<li>Ermöglicht präzise Referenzierung</li>
-<li>Unterstützt die Langzeitarchivierung</li>
-<li>Erleichtert die Verknüpfung von Dokumenten</li>
-</ul>"""
+                "feedback": """✓ Richtig! Ein eindeutiger Identifikator: • Ist essentiell für die Dokumentidentifikation • Ermöglicht präzise Referenzierung • Unterstützt die Langzeitarchivierung • Erleichtert die Verknüpfung von Dokumenten"""
             },
             {
                 "answer": "Gesamtumfang des Korpus",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Der Gesamtumfang:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Ist ein Korpus-Level-Metadatum</li>
-<li>Beschreibt die gesamte Sammlung</li>
-<li>Gehört nicht zur Dokumentbeschreibung</li>
-</ul>"""
+                "feedback": """× Nicht korrekt! Der Gesamtumfang: • Ist ein Korpus-Level Metadatum • Beschreibt die gesamte Sammlung • Gehört nicht zur Dokumentbeschreibung"""
             }
         ]
     }

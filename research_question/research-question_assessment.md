@@ -48,57 +48,27 @@ question2 = [
             {
                 "answer": "Zählen der Häufigkeit von umweltbezogenen Begriffen (wie 'Umweltschutz', 'Verschmutzung') in den Zeitungstexten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Sie ein quantifizierbares Maß für die Intensität der Berichterstattung liefert</li>
-<li>Die Häufigkeit von Schlüsselbegriffen messbar ist</li>
-<li>Systematische Vergleiche über Zeit möglich sind</li>
-<li>Die Analyse auf dem definierten Korpus basiert</li>
-</ul>"""
+                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil: • Sie ein quantifizierbares Maß für die Intensität der Berichterstattung liefert • Die Häufigkeit von Schlüsselbegriffen messbar ist • Systematische Vergleiche über Zeit möglich sind • Die Analyse auf dem definierten Korpus basiert"""
             },
             {
                 "answer": "Messen der Länge von Artikeln, die Umweltthemen behandeln",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Methode ist geeignet, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Sie den Umfang der Berichterstattung quantifiziert</li>
-<li>Längere Artikel oft mehr Aufmerksamkeit bedeuten</li>
-<li>Die Messung über Zeit vergleichbar ist</li>
-<li>Die Analyse innerhalb des Quellenkorpus bleibt</li>
-</ul>"""
+                "feedback": """✓ Korrekt! Diese Methode ist geeignet, weil: • Sie den Umfang der Berichterstattung quantifiziert • Längere Artikel oft mehr Aufmerksamkeit bedeuten • Die Messung über Zeit vergleichbar ist • Die Analyse innerhalb des Quellenkorpus bleibt"""
             },
             {
                 "answer": "Erfassen der tatsächlichen Umweltverschmutzungswerte aus diesem Zeitraum",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Dies keine mediale Aufmerksamkeit misst</li>
-<li>Es außerhalb des Untersuchungskorpus liegt</li>
-<li>Es das tatsächliche Geschehen statt der Berichterstattung erfasst</li>
-<li>Es nicht die Forschungsfrage beantwortet</li>
-</ul>"""
+                "feedback": """× Nicht korrekt, weil: • Dies keine mediale Aufmerksamkeit misst • Es außerhalb des Untersuchungskorpus liegt • Es das tatsächliche Geschehen statt der Berichterstattung erfasst • Es nicht die Forschungsfrage beantwortet"""
             },
             {
                 "answer": "Analyse von Regierungsdokumenten zur Umweltpolitik",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Dies außerhalb des definierten Quellenkorpus (Tageszeitungen) liegt</li>
-<li>Es eine andere Textgattung betrifft</li>
-<li>Es nicht die mediale Aufmerksamkeit misst</li>
-<li>Es eine andere Forschungsfrage erfordern würde</li>
-</ul>"""
+                "feedback": """× Nicht korrekt, weil: • Dies außerhalb des definierten Quellenkorpus (Tageszeitungen) liegt • Es eine andere Textgattung betrifft • Es nicht die mediale Aufmerksamkeit misst • Es eine andere Forschungsfrage erfordern würde"""
             },
             {
                 "answer": "Erfassen des prozentualen Anteils der Zeitungsseiten mit Umweltthemen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil:
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Sie den relativen Stellenwert des Themas misst</li>
-<li>Sie verschiedene Zeitpunkte vergleichbar macht</li>
-<li>Sie auf dem definierten Korpus basiert</li>
-<li>Sie ein quantifizierbares Maß liefert</li>
-</ul>"""
+                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil: • Sie den relativen Stellenwert des Themas misst • Sie verschiedene Zeitpunkte vergleichbar macht • Sie auf dem definierten Korpus basiert • Sie ein quantifizierbares Maß liefert"""
             }
         ]
     }
@@ -146,23 +116,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                    "feedback": """× Nicht korrekt! Die Indikatoren müssen in Zahlen ausdrückbar sein
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Beispiele für quantifizierbare Indikatoren:
-<ul>
-<li>Worthäufigkeiten (z.B. Anzahl wissenschaftsbezogener Begriffe)</li>
-<li>Textlängen (z.B. Wörter pro Artikel)</li>
-<li>Prozentuale Anteile (z.B. Anteil am Gesamtumfang)</li>
-</ul>
-</li>
-<li>Gegenbeispiele (nicht quantifizierbar):
-<ul>
-<li>"Wichtigkeit" ohne weitere Spezifikation</li>
-<li>"Qualität der Berichterstattung" ohne Messkriterien</li>
-<li>Vage Beschreibungen wie "häufig" oder "selten"</li>
-</ul>
-</li>
-</ul>"""
+                    "feedback": """× Nicht korrekt! Die Indikatoren müssen in Zahlen ausdrückbar sein. • Beispiele für quantifizierbare Indikatoren: Worthäufigkeiten (z.B. Anzahl wissenschaftsbezogener Begriffe), Textlängen (z.B. Wörter pro Artikel), Prozentuale Anteile (z.B. Anteil am Gesamtumfang) • Gegenbeispiele (nicht quantifizierbar): "Wichtigkeit" ohne weitere Spezifikation, "Qualität der Berichterstattung" ohne Messkriterien, Vage Beschreibungen wie "häufig" oder "selten"."""
             }
         ]
     },
@@ -178,23 +132,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Alle Messungen müssen im Korpus der "Zeit" durchführbar sein.
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Zu beachten:
-<ul>
-<li>Verfügbarkeit aller Ausgaben im Untersuchungszeitraum</li>
-<li>Konsistenz des Zeitungsformats</li>
-<li>Zugänglichkeit der relevanten Artikel</li>
-</ul>
-</li>
-<li>Nicht geeignet sind Messungen, die:
-<ul>
-<li>andere Zeitungen einbeziehen</li>
-<li>externe Datenquellen erfordern</li>
-<li>nicht im Zeitungskorpus enthaltene Informationen benötigen</li>
-</ul>
-</li>
-</ul>"""
+                "feedback": """× Nicht korrekt! Alle Messungen müssen im Korpus der "Zeit" durchführbar sein. • Zu beachten: Verfügbarkeit aller Ausgaben im Untersuchungszeitraum, Konsistenz des Zeitungsformats, Zugänglichkeit der relevanten Artikel • Nicht geeignet sind Messungen, die: andere Zeitungen einbeziehen, externe Datenquellen erfordern, nicht im Zeitungskorpus enthaltene Informationen benötigen"""
             }
         ]
     },
@@ -210,23 +148,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Wichtige Aspekte:
-<ul>
-<li>gleichbleibende Verfügbarkeit der Daten</li>
-<li>Vergleichbarkeit der Messungen über Zeit</li>
-<li>Berücksichtigung möglicher Formatänderungen</li>
-</ul>
-</li>
-<li>Problematisch wären:
-<ul>
-<li>Indikatoren, die nur für Teilzeiträume verfügbar sind</li>
-<li>Messungen, die durch Änderungen der Zeitung beeinflusst werden</li>
-<li>nicht durchgängig dokumentierte Aspekte</li>
-</ul>
-</li>
-</ul>"""
+                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein. • Wichtige Aspekte: gleichbleibende Verfügbarkeit der Daten, Vergleichbarkeit der Messungen über Zeit, Berücksichtigung möglicher Formatänderungen • Problematisch wären: Indikatoren, die nur für Teilzeiträume verfügbar sind, Messungen, die durch Änderungen der Zeitung beeinflusst werden, nicht durchgängig dokumentierte Aspekte"""
             }
         ]
     },
@@ -242,23 +164,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein
-<ul style="text-align: left; display: inline-block; margin: 0.3em auto;">
-<li>Praktische Aspekte:
-<ul>
-<li>verfügbare Zeit und Personal</li>
-<li>technische Möglichkeiten (z.B. OCR, Textanalysetools)</li>
-<li>Aufwand-Nutzen-Verhältnis</li>
-</ul>
-</li>
-<li>Problematisch wären:
-<ul>
-<li>zu zeitaufwendige manuelle Analysen</li>
-<li>technisch nicht realisierbare Messungen</li>
-<li>unverhältnismäßig komplexe Verfahren</li>
-</ul>
-</li>
-</ul>"""
+                "feedback": """× Nicht korrekt! Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein. • Praktische Aspekte: verfügbare Zeit und Personal, technische Möglichkeiten (z.B. OCR, Textanalysetools), Aufwand-Nutzen-Verhältnis • Problematisch wären: zu zeitaufwendige manuelle Analysen, technisch nicht realisierbare Messungen, unverhältnismäßig komplexe Verfahren"""
             }
         ]
     }
