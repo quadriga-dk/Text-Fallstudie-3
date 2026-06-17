@@ -48,27 +48,27 @@ question2 = [
             {
                 "answer": "Zählen der Häufigkeit von umweltbezogenen Begriffen (wie 'Umweltschutz', 'Verschmutzung') in den Zeitungstexten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil: • Sie ein quantifizierbares Maß für die Intensität der Berichterstattung liefert • Die Häufigkeit von Schlüsselbegriffen messbar ist • Systematische Vergleiche über Zeit möglich sind • Die Analyse auf dem definierten Korpus basiert"""
+                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil sie ein quantifizierbares Maß für die Intensität der Berichterstattung liefert, die Häufigkeit von Schlüsselbegriffen messbar ist, systematische Vergleiche über Zeit möglich sind und die Analyse auf dem definierten Korpus basiert."""
             },
             {
                 "answer": "Messen der Länge von Artikeln, die Umweltthemen behandeln",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Methode ist geeignet, weil: • Sie den Umfang der Berichterstattung quantifiziert • Längere Artikel oft mehr Aufmerksamkeit bedeuten • Die Messung über Zeit vergleichbar ist • Die Analyse innerhalb des Quellenkorpus bleibt"""
+                "feedback": """✓ Korrekt! Diese Methode ist geeignet, weil sie den Umfang der Berichterstattung quantifiziert, längere Artikel oft mehr Aufmerksamkeit bedeuten, die Messung über Zeit vergleichbar ist und die Analyse innerhalb des Quellenkorpus bleibt."""
             },
             {
                 "answer": "Erfassen der tatsächlichen Umweltverschmutzungswerte aus diesem Zeitraum",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil: • Dies keine mediale Aufmerksamkeit misst • Es außerhalb des Untersuchungskorpus liegt • Es das tatsächliche Geschehen statt der Berichterstattung erfasst • Es nicht die Forschungsfrage beantwortet"""
+                "feedback": """× Nicht korrekt, weil dies keine mediale Aufmerksamkeit misst, es außerhalb des Untersuchungskorpus liegt, es das tatsächliche Geschehen statt der Berichterstattung erfasst und es nicht die Forschungsfrage beantwortet."""
             },
             {
                 "answer": "Analyse von Regierungsdokumenten zur Umweltpolitik",
                 "correct": False,
-                "feedback": """× Nicht korrekt, weil: • Dies außerhalb des definierten Quellenkorpus (Tageszeitungen) liegt • Es eine andere Textgattung betrifft • Es nicht die mediale Aufmerksamkeit misst • Es eine andere Forschungsfrage erfordern würde"""
+                "feedback": """× Nicht korrekt, weil dies außerhalb des definierten Quellenkorpus (Tageszeitungen) liegt, es eine andere Textgattung betrifft, es nicht die mediale Aufmerksamkeit misst und es eine andere Forschungsfrage erfordern würde."""
             },
             {
                 "answer": "Erfassen des prozentualen Anteils der Zeitungsseiten mit Umweltthemen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil: • Sie den relativen Stellenwert des Themas misst • Sie verschiedene Zeitpunkte vergleichbar macht • Sie auf dem definierten Korpus basiert • Sie ein quantifizierbares Maß liefert"""
+                "feedback": """✓ Korrekt! Diese Operationalisierung ist geeignet, weil sie den relativen Stellenwert des Themas misst, verschiedene Zeitpunkte vergleichbar macht, auf dem definierten Korpus basiert und ein quantifizierbares Maß liefert."""
             }
         ]
     }
@@ -116,7 +116,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                    "feedback": """× Nicht korrekt! Die Indikatoren müssen in Zahlen ausdrückbar sein. • Beispiele für quantifizierbare Indikatoren: Worthäufigkeiten (z.B. Anzahl wissenschaftsbezogener Begriffe), Textlängen (z.B. Wörter pro Artikel), Prozentuale Anteile (z.B. Anteil am Gesamtumfang) • Gegenbeispiele (nicht quantifizierbar): "Wichtigkeit" ohne weitere Spezifikation, "Qualität der Berichterstattung" ohne Messkriterien, Vage Beschreibungen wie "häufig" oder "selten"."""
+                    "feedback": """× Nicht korrekt! Die Indikatoren müssen in Zahlen ausdrückbar sein. Beispiele für quantifizierbare Indikatoren sind Worthäufigkeiten (z.B. Anzahl wissenschaftsbezogener Begriffe), Textlängen (z.B. Wörter pro Artikel) und prozentuale Anteile (z.B. Anteil am Gesamtumfang). Gegenbeispiele (nicht quantifizierbar) sind "Wichtigkeit" ohne weitere Spezifikation, "Qualität der Berichterstattung" ohne Messkriterien sowie vage Beschreibungen wie "häufig" oder "selten"."""
             }
         ]
     },
@@ -132,7 +132,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Alle Messungen müssen im Korpus der "Zeit" durchführbar sein. • Zu beachten: Verfügbarkeit aller Ausgaben im Untersuchungszeitraum, Konsistenz des Zeitungsformats, Zugänglichkeit der relevanten Artikel • Nicht geeignet sind Messungen, die: andere Zeitungen einbeziehen, externe Datenquellen erfordern, nicht im Zeitungskorpus enthaltene Informationen benötigen"""
+                "feedback": """× Nicht korrekt! Alle Messungen müssen im Korpus der "Zeit" durchführbar sein. Zu beachten sind die Verfügbarkeit aller Ausgaben im Untersuchungszeitraum, die Konsistenz des Zeitungsformats und die Zugänglichkeit der relevanten Artikel. Nicht geeignet sind Messungen, die andere Zeitungen einbeziehen, externe Datenquellen erfordern oder nicht im Zeitungskorpus enthaltene Informationen benötigen."""
             }
         ]
     },
@@ -148,7 +148,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein. • Wichtige Aspekte: gleichbleibende Verfügbarkeit der Daten, Vergleichbarkeit der Messungen über Zeit, Berücksichtigung möglicher Formatänderungen • Problematisch wären: Indikatoren, die nur für Teilzeiträume verfügbar sind, Messungen, die durch Änderungen der Zeitung beeinflusst werden, nicht durchgängig dokumentierte Aspekte"""
+                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein. Wichtige Aspekte sind die gleichbleibende Verfügbarkeit der Daten, die Vergleichbarkeit der Messungen über Zeit und die Berücksichtigung möglicher Formatänderungen. Problematisch wären Indikatoren, die nur für Teilzeiträume verfügbar sind, Messungen, die durch Änderungen der Zeitung beeinflusst werden, sowie nicht durchgängig dokumentierte Aspekte."""
             }
         ]
     },
@@ -164,7 +164,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein. • Praktische Aspekte: verfügbare Zeit und Personal, technische Möglichkeiten (z.B. OCR, Textanalysetools), Aufwand-Nutzen-Verhältnis • Problematisch wären: zu zeitaufwendige manuelle Analysen, technisch nicht realisierbare Messungen, unverhältnismäßig komplexe Verfahren"""
+                "feedback": """× Nicht korrekt! Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein. Praktische Aspekte sind die verfügbare Zeit und das Personal, die technischen Möglichkeiten (z.B. OCR, Textanalysetools) und das Aufwand-Nutzen-Verhältnis. Problematisch wären zu zeitaufwendige manuelle Analysen, technisch nicht realisierbare Messungen sowie unverhältnismäßig komplexe Verfahren."""
             }
         ]
     }
