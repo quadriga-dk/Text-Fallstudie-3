@@ -1,7 +1,7 @@
 (research-question_operationalization)= 
 # Operationalisierung
 
-Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, Phänomene in literarischen Texten und deren Entwicklung über die Zeit zu identifizieren – und das bedeutet im quantitativen Methodenparadigma, in dem wir uns mit unserer Studie bewegen: messbar zu machen. Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`
+Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, Phänomene in literarischen Texten und deren Entwicklung über die Zeit zu identifizieren – und das bedeutet im quantitativen Methodenparadigma, in dem wir uns mit unserer Studie bewegen: messbar zu machen. Um dies messen zu können, muss die Forschungsfrage zunächst operationalisiert werden. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`
 
 Für die Operationalisierung unserer Forschungsfrage müssen insbesondere drei Fragen adressiert werden:
 

@@ -23,7 +23,7 @@ NLP ist ein interdisziplinäres Feld, das zwischen der Linguistik und der Inform
 ## Voraussetzungen
 Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind, um die Veränderungen in den Eingenschaften, die Luft zugeschrieben werden, untersuchen zu können.
 
-Für die Untersuchung des semantischen Felds sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
+Um das semantische Feld zu untersuchen, sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
 1. Es sollen **nur** die Wörter des semantischen Felds gefunden werden. Wenn wir nach "Luft" suchen, wollen wir nicht auch "Luftfahrt" finden. 
 2. Unterschiedliche Wortformen sollen auf **eine Wortform** abgebildet werden. Wenn wir nach "Dunst" suchen, wollen wir auch "Dünste" finden.
 

@@ -40,7 +40,7 @@ name: Flussdiagramm der Fallstudie
 Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 ```
 
-In diesem Kapitel nehmen wir zuerst eine [Sicherung des Begriffsverständnisses](corpus-collection_corpora-as-research-objects) vor und klären entsprechend, was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
+In diesem Kapitel [klären wir zuerst](corpus-collection_corpora-as-research-objects), was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
 In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
 

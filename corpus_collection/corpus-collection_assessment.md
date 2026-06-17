@@ -10,7 +10,7 @@ jupytext:
 
 ````{admonition} Hinweis
 :class: hinweis
-Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
+Mit diesen Übungsaufgaben können Sie sich selbst einschätzen und das im Kapitel Gelernte reflektieren.
 
 Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen. 
 
@@ -19,7 +19,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 - Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch
 - Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten 
 
-Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
+Ihre Ergebnisse werden weder bewertet noch gespeichert. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
 **Geschätzte Zeit**: 1h
 
