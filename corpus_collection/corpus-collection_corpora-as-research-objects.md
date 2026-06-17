@@ -10,7 +10,7 @@ Eine besondere Variante von Korpora sind Referenzkorpora, bei deren Zusammenstel
 
 In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects)). 
 
-Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlungen insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:t}`schoech2017` vier Strategien unterschieden: 
+Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Ein Korpus ist dabei ein besonderer Typus einer **Datensammlung** – also einer Menge von Datenobjekten (etwa Texten, Bildern oder Messwerten), die gezielt für einen bestimmten (Forschungs-)Zweck zusammengestellt wird. Für Datensammlungen insgesamt – und damit auch für Korpora – hat {cite:t}`schoech2017` vier Auswahlstrategien unterschieden: 
 
 ## Vollständiges Korpus
 Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifischen Gegenstandsbereich.
