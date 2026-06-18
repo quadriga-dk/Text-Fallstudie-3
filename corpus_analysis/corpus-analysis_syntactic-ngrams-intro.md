@@ -1,7 +1,7 @@
 (corpus-analysis_ngrams-intro)=
 # Von linearen zu syntaktischen n-Grammen
 
-Klassische [lineare n-Gramme](corpus-analysis_ngrams-intro.md) definieren mehrwortige Muster ausschließlich auf der Grundlage von Oberflächenadjazenz. Dieser Ansatz ist einfach und oft effektiv, weist jedoch eine zentrale Einschränkung auf: Er reagiert sehr empfindlich auf Wortstellung und auf die Einschübe von Modifikatoren. Dadurch werden semantisch und funktional ähnliche Ausdrücke häufig in viele unterschiedliche Oberflächenvarianten aufgespalten.
+Klassische [lineare n-Gramme](corpus-analysis_ngrams-intro.md) definieren mehrwortige Muster ausschließlich auf der Grundlage der linearen Wortfolge – also danach, welche Wörter im Text unmittelbar aufeinanderfolgen. Dieser Ansatz ist einfach und oft effektiv, weist jedoch eine zentrale Einschränkung auf: Er reagiert sehr empfindlich auf Wortstellung und auf die Einschübe von Modifikatoren. Dadurch werden semantisch und funktional ähnliche Ausdrücke häufig in viele unterschiedliche Oberflächenvarianten aufgespalten.
 
 Betrachten wir den folgenden Satz:
 
@@ -22,7 +22,7 @@ Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Gramme) 
 * *schwer geschwängerte*
 * *geschwängerte Luft*
 
-Diese Muster spiegeln jeweils nur lokale Oberflächenadjazenz wider. Besonders auffällig ist, dass das Adjektiv *üble* zwar semantisch klar die *Luft* charakterisiert, in der linearen Struktur jedoch durch eine längere attributive Erweiterung (*von den Schloten der neuen Fabriken schwer geschwängerte*) vom Substantiv getrennt ist. Eine lineare n-Gramm-Analyse kann diese übergreifende Einheit nicht als zusammenhängendes Muster erfassen.
+Diese Muster spiegeln jeweils nur die unmittelbare lineare Aufeinanderfolge von Wörtern wider. Besonders auffällig ist, dass das Adjektiv *üble* zwar semantisch klar die *Luft* charakterisiert, in der linearen Struktur jedoch durch eine längere attributive Erweiterung (*von den Schloten der neuen Fabriken schwer geschwängerte*) vom Substantiv getrennt ist. Eine lineare n-Gramm-Analyse kann diese übergreifende Einheit nicht als zusammenhängendes Muster erfassen.
 
 Diese Einschränkung ist besonders relevant für das Deutsche {cite:p}`andresen_benefit_2017`, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute (wie in unsere Beispiel oben), Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
 
