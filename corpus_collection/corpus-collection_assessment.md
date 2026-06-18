@@ -484,6 +484,11 @@ question5 = [
                 "answer": "MODS und METS sind identische Standards für Bibliotheken",
                 "correct": False,
                 "feedback": """× Nicht korrekt. Die Standards unterscheiden sich: MODS ist für bibliographische Beschreibungen gedacht, METS dient der Kodierung und Übertragung von Digitalisaten, und beide haben unterschiedliche Schwerpunkte und Anwendungsbereiche."""
+            },
+            {
+                "answer": "Dublin Core wurde speziell für die detaillierte Auszeichnung von Volltexten entwickelt",
+                "correct": False,
+                "feedback": """× Nicht korrekt. Dublin Core ist bewusst einfach gehalten und universell einsetzbar, mit 15 grundlegenden Elementen zur Beschreibung von Ressourcen. Für die detaillierte Auszeichnung von Volltexten wurde hingegen TEI entwickelt."""
             }
         ]
     }
