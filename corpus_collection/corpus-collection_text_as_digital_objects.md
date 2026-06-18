@@ -35,7 +35,7 @@ name: Snippet eines Bilddigitalisats
 - **Repräsentation:** Plain Text ist eine einfache, unformatierte Textdatei, die nur den reinen Text ohne jegliche Stilelemente oder Metadaten enthält.
 - **Formate:** Das gängigste Dateifoormat ist TXT.
 - **Nutzung:** Plain Text ist ideal für einfache Textanalysen und die Datenverarbeitung, da er leicht zu bearbeiten und in verschiedene Softwareumgebungen zu importieren ist.
-- **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, etwa in Form von Textauszeichnungen, die für komplexere Analysen oder Darstellungen notwendig sind. 
+- **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, etwa in Form von Textauszeichnungen (z.B. Fettungen, Kursivierungen oder Überschriften), die für komplexere Analysen oder Darstellungen notwendig sind. 
 
 **Beispiel:**
 
