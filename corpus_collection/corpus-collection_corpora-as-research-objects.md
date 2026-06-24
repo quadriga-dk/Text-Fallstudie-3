@@ -20,7 +20,7 @@ Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifi
 - **Beispiel:** Alle Gedichte von Friederike Mayröcker oder alle Ausgaben der Berliner Morgenpost aus dem Jahr 1918
 	
 ## Repräsentative Stichprobe
-Eine Stichprobe, die die gesamte <a href="https://de.wikipedia.org/wiki/Streuungsma%C3%9F_(Statistik)" class="external-link" target="_blank">Variabilität</a> der <a href="https://de.wikipedia.org/wiki/Grundgesamtheit" class="external-link" target="_blank">Grundgesamtheit</a> abbildet. Repräsentativität ist dabei das Ergebnis statistischer Operationen.
+Eine Stichprobe, die die gesamte Variabilität der <a href="https://de.wikipedia.org/wiki/Grundgesamtheit" class="external-link" target="_blank">Grundgesamtheit</a> abbildet. Repräsentativität ist dabei das Ergebnis statistischer Operationen.
 
 Dabei ist die **Grundgesamtheit** die Menge aller Texte, über die wir eine Aussage treffen wollen (z.B. alle deutschsprachigen Romane des 19. Jahrhunderts), und die **Stichprobe** eine daraus gezogene Teilmenge. Repräsentativ ist sie, wenn sie die Vielfalt der Grundgesamtheit so gut abbildet, dass Ergebnisse aus der Stichprobe auch für die gesamte Grundgesamtheit gelten.
 
