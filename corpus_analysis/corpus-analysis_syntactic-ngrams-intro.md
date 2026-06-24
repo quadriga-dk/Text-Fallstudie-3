@@ -1,4 +1,3 @@
-(corpus-analysis_ngrams-intro)=
 # Von linearen zu syntaktischen n-Grammen
 
 Klassische [lineare n-Gramme](corpus-analysis_ngrams-intro.md) definieren mehrwortige Muster ausschließlich auf der Grundlage der linearen Wortfolge – also danach, welche Wörter im Text unmittelbar aufeinanderfolgen. Dieser Ansatz ist einfach und oft effektiv, weist jedoch eine zentrale Einschränkung auf: Er reagiert sehr empfindlich auf Wortstellung und auf die Einschübe von Modifikatoren. Dadurch werden semantisch und funktional ähnliche Ausdrücke häufig in viele unterschiedliche Oberflächenvarianten aufgespalten.

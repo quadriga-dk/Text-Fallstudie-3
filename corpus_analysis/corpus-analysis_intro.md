@@ -41,4 +41,4 @@ Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Gru
 
 Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt](corpus-analysis_semantic-field-analysis) und die Ergebnisse werden anhand der Visualisierungen interpretiert. 
 
-Im nächsten Schritt werden [n-Gramme im Generellen](corpus-analysis_ngrams-intro) und dann [syntaktische n-Gramme](corpus-analysis_syntactic-ngrams-intro) eingeführt. Daraufhin wird die [Korpusanalyse](corpus-analysis_syntactic-ngram) ausgeführt und die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
+Im nächsten Schritt werden [n-Gramme im Generellen](corpus-analysis_ngrams-intro.md) und dann [syntaktische n-Gramme](corpus-analysis_syntactic-ngrams-intro.md) eingeführt. Daraufhin wird die [Korpusanalyse](corpus-analysis_syntactic-ngram.ipynb) ausgeführt und die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
