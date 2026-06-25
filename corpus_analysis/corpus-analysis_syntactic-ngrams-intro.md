@@ -72,7 +72,7 @@ Für die Analyse historischer Diskurse über Industrialisierung und Luftqualitä
 
 `````{admonition} Operationalisierung (zur Erinnerung) 
 :class: hinweis
-"Die Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung durch die Industrialisierung machen wir messbar <...> indem wir zweitens nach der Semantisierung von "Luft" fragen und hierfür syntaktischen N-Grams des Typs "Adjektiv-Substantiv" analysieren. <...>
+"Die Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung durch die Industrialisierung machen wir messbar <...> indem wir zweitens nach der Semantisierung von 'Luft' fragen und hierfür syntaktischen N-Grams des Typs 'Adjektiv-Substantiv' analysieren. <...>"
 `````
 
 Das folgende [Notebook](corpus-analysis_syntactic-ngram.ipynb) knüpft an diese Überlegungen an und untersucht, wie syntaktische n-Gramme aus dem Korpus extrahiert werden können und wie sie sich als exploratives Analyseinstrument einsetzen lassen.
