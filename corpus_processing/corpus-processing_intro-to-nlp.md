@@ -32,7 +32,7 @@ Für die Untersuchung der Adjektiv-Nomen-Paare sollen alle Adjektive extrahiert 
 (corpus-processing-intro-2)=
 ## Verwendete NLP-Methoden
 Um diese Analysen durchführen zu können, müssen mehrere Vorverarbeitungsschritte durchgeführt werden:
-Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschiedene Wortformen auf eine Grundform, ihr Lemma, abzubilden, wird das Korpus **lemmatisiert** werden.
+Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschiedene Wortformen auf eine Grundform, ihr Lemma, abzubilden, muss das Korpus **lemmatisiert** werden.
 
 ```{admonition} Zum Begriff des Token
 :class: hinweis, dropdown
@@ -49,7 +49,7 @@ Beispielsatz: Ich roch eine üble, von den Schloten der neuen Fabriken schwer ge
 Schwierigkeit: Das Nomen, das mit geringsten Abstand zu dem Adjektiv "übel" steht, ist "Schlot". Tatsächlich bezieht sich das Adjektiv allerdings auf das Nomen "Luft".
 `````
 
-Es wird deshalb auf **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenen Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {citep}`tiger`, das für Deutsch entwickelt wurde.
+Es wird deshalb auf eine **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenen Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {citep}`tiger`, das für Deutsch entwickelt wurde.
 
 ```{admonition} Unterschiede in den linguistischen Ansätzen zu Dependenzgrammatik
 :class: hinweis, dropdown
