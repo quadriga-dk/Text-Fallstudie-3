@@ -5,6 +5,8 @@ Die umweltgeschichtliche Forschung hat in den letzten Jahrzehnten quellengestüt
 Auch wenn literarische Texte als fiktionale Werke keineswegs ihre zeitgenössische Gegenwart abbilden (müssen), erweisen sie sich doch immer wieder als hochsensible Instrumente, die Entwicklungen zum Beispiel in Kultur und Gesellschaft auf besondere Weise beobachten und beobachtbar machen. Der literaturwissenschaftliche Ansatz des Ecocriticism {cite:p}`buehler_2016` richtet seine Aufmerksamkeit dabei auf die in literarischen Texten entworfenen und verhandelten Mensch-Umwelt-Beziehungen und diskutiert diese u.a. vor dem Hintergrund von herrschenden Naturkonzepten, zeitgenössischen Menschenbildern oder auch umweltgeschichtlichen Entwicklungen. Vor diesem Hintergrund stellt sich die Frage, wie sich die Literatur des 19. Jahrhunderts zu der Tatsache verhält, dass die Luft, die ihre Verfasser:innen atmen, rapide stickiger, stinkender, dreckiger, schmutziger – insgesamt: schlechter wurde. Dieser ökokritischen Frage nach dem Niederschlag der Luftverschmutzung in der deutschsprachigen Literatur des 19. Jahrhunderts wollen wir im Folgenden nachgehen. 
 
 
+Daraus ergibt sich die folgende Forschungsfrage:
+
 `````{admonition} Forschungsfrage
 :class: keypoint
 Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen? 
