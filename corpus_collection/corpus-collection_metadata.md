@@ -12,6 +12,11 @@ Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische An
 3. **<a href="https://www.loc.gov/standards/mods/" class="external-link" target="_blank">MODS (Metadata Object Description Schema)</a>**: Von der Library of Congress entwickelt, bietet MODS eine umfangreichere Beschreibung als Dublin Core und ist besonders für bibliographische Informationen geeignet.
 4. **<a href="https://www.loc.gov/standards/mets/" class="external-link" target="_blank">METS (Metadata Encoding and Transmission Standard)</a>**: Ein Standard zur Kodierung und Übertragung von Digitalisaten und deren Metadaten, häufig in Bibliotheken und Archiven verwendet.
 
+```{admonition} TEI: Textrepräsentation und Metadatenschema in einem
+:class: hinweis
+TEI ist Ihnen im Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects) bereits als Format zur Repräsentation digitaler Texte begegnet – hier taucht es nun als Metadatenschema auf. Das ist kein Widerspruch: TEI ist ein einziger, umfassender XML-Standard, der beide Funktionen in einem Dokument vereint. Das `<text>`-Element kodiert den eigentlichen Text mit seiner Struktur und semantischen Auszeichnung, während der `<teiHeader>` die Metadaten zum Dokument enthält. Die übrigen hier genannten Schemata – Dublin Core, MODS und METS – beschreiben dagegen ausschließlich Metadaten und sagen nichts über die Auszeichnung des Textinhalts selbst aus.
+```
+
 ## Metadaten zur Beschreibung eines Korpus
 
 Bei der Beschreibung eines gesamten Korpus sind die Metadaten entscheidend, um den Kontext, den Umfang und die Struktur des Korpus zu dokumentieren. Wichtige Aspekte sind unter anderem:
