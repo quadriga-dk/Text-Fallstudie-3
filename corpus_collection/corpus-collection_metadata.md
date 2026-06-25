@@ -5,6 +5,8 @@ Metadaten sind Daten über Daten. Sie liefern kontextuelle Informationen, die he
 
 **Metadatenschemata**
 
+Ein **Metadatenschema** ist ein standardisierter, gemeinschaftlich vereinbarter Satz von Feldern – oft *Elemente* genannt –, mit denen sich eine Ressource beschreiben lässt. Es legt fest, *welche* Angaben erfasst werden (etwa Titel, Urheber:in, Datum oder Sprache), wie diese Felder benannt sind und teilweise auch, in welcher Form sie auszufüllen sind. Ein Schema wirkt damit wie ein gemeinsames Vokabular: Beschreiben verschiedene Personen, Institutionen oder Programme ihre Daten nach demselben Schema, werden die Metadaten untereinander vergleichbar, maschinell auswertbar und über Systemgrenzen hinweg austauschbar (interoperabel). Ohne ein solches Schema würde dagegen jede:r eigene, uneinheitliche Bezeichnungen verwenden, was die gemeinsame Nutzung und die Auffindbarkeit der Daten erheblich erschwert.
+
 Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische Anforderungen unterschiedlicher Disziplinen und Anwendungen zu erfüllen. Zu den bekanntesten gehören:
 
 1. **<a href="https://www.dublincore.org/specifications/dublin-core/dces/" class="external-link" target="_blank">Dublin Core</a>**: Ein einfaches und weit verbreitetes Schema, das 15 grundlegende Elemente umfasst, wie Titel, Autor, Thema und Datum.
