@@ -29,6 +29,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel [Korpusverarbeitung – Von Strings zu Token](corpus-processing_intro)), sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
+Bei diesen beiden Korpora handelt es sich um die zwei Zufallsstichproben, die wir im Abschnitt [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb) gezogen und dort als **Korpus I** (Random State `42`) und **Korpus II** (Random State `31415`) benannt haben. Beide Korpora sind also zwei unabhängig gezogene Stichproben aus demselben gefilterten Quellkorpus. Sämtliche folgenden Analysen führen wir auf **beiden Korpora parallel** durch und vergleichen die Ergebnisse miteinander – so lässt sich einschätzen, welche Muster robust sind und welche stärker von der konkreten Zufallsauswahl abhängen.
+
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---

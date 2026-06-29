@@ -117,7 +117,7 @@ Als Resultat erhalten wir pro Korpus 400 Datenpunkte, für jeden Text einen, die
 
 Auf einem Streudiagramm lassen sich allerdings nicht sofort Entwicklungen ablesen. Um diesen Nachteil beizukommen, lässt sich mittels linearer Regression eine **Regressionsgerade** oder sogenannte Trend-Linie berechnen. Die Trend-Linie soll die Datenpunkte möglichst gut beschreiben, das heißt, sie soll möglichst nah an allen Punkten vorbeilaufen. Je nachdem, ob die Gerade steigt oder fällt, ist eine Zu- oder Abnahme des semantischen Felds Luft zu erkennen.
 
-In folgendem Beispiel wurden vier Texte aus Korpus I ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
+In folgendem Beispiel wurden vier Texte aus Korpus I (der ersten unserer beiden Stichproben, siehe [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb)) ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
 
 `````{admonition} Mindestanzahl an Datenpunkten für eine generalisierbare Interpretation
 :class: caution
