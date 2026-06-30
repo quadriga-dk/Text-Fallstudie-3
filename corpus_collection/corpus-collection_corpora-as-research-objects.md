@@ -33,7 +33,7 @@ Auf den ersten Blick wirkt es widersprüchlich, dass eine *zufällige* Auswahl *
 ## Balanciertes Korpus
 Eine gezielt nach bestimmten Kriterien zusammengestellte Auswahl, die alle wesentlichen Merkmale des Gegenstandsbereichs möglichst gleichmäßig abdeckt.
 
-- **Voraussetzung:** Klar definierte Kriterien und gezielte Auswahl, um statistische Korrelationen zu vermeiden.
+- **Voraussetzung:** Klar definierte Kriterien und gezielte Auswahl, um statistische Korrelationen zu vermeiden – also um zu verhindern, dass zwei Merkmale im Korpus immer gemeinsam auftreten und sich in der Analyse deshalb nicht mehr auseinanderhalten lassen. (Stammten z.B. alle frühen Texte von Männern und alle späten von Frauen, ließe sich ein beobachteter Unterschied nicht mehr eindeutig der *Zeit* oder dem *Geschlecht* zuschreiben; ein balanciertes Korpus verteilt die Merkmale daher möglichst gleichmäßig.)
 - **Anwendung:** Ideal für Studien, die Unterschiede und Entwicklungen innerhalb einer Kategorie analysieren wollen, z.B. die Entwicklung literarischer Untergattungen des Romans. 
 - **Beispiel:** Eine Sammlung von Romanen aus verschiedenen Jahrzehnten und Untergattungen, mit breiter Variation in Autoren, Erzählperspektiven und Handlungsorten, Untergattungen.
 	
