@@ -23,10 +23,12 @@ Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduc
 - ein entsprechendes **Korpus** ausgewählt und angereichert wird,
 - um schließlich quantitative **Analysen** auf diesem Korpus durchzuführen.
 
-Anhand einer Auswahl an deutschsprachigen literarischen Texten aus dem *Corpus of German-Language Fiction* {cite:p}`Fischer2017` wird dabei eine Frage aus dem Feld der Digitalen Literaturwissenschaft nachgegangen: **Wie diskursivieren deutschsprachige literarische Texte die abnehmende Luftqualität im 19. Jahrhundert?**
+Anhand einer Auswahl an deutschsprachigen literarischen Texten aus dem *Corpus of German-Language Fiction* {cite:p}`Fischer2017` wird dabei einer Frage aus dem Feld der Digitalen Literaturwissenschaft nachgegangen: **Wie diskursivieren deutschsprachige literarische Texte die abnehmende Luftqualität im 19. Jahrhundert?**
+
+Konkret untersuchen wir, ob und wie sich die zunehmende Luftverschmutzung in der literarischen Sprache niederschlägt: zum einen über die **Häufigkeit** von Wörtern aus dem semantischen Feld "Luft", zum anderen über **syntaktische Adjektiv-Substantiv-Muster** (etwa *schlechte* oder *frische Luft*). Dafür stellen wir ein zeitlich balanciertes Korpus zusammen, reichern es mit linguistischen Annotationen an und betrachten die Ergebnisse im Verlauf des 19. Jahrhunderts.
 
 ### Zielgruppe
-Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipiell Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
+Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipielle Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
 
  
 ### Struktur der Fallstudie

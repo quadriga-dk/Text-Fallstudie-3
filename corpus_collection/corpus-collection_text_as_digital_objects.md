@@ -1,7 +1,7 @@
 (corpus-collection_text_as_digital_objects)=
 # Elemente von Korpora: Texte als digitale Objekte
 
-Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältige Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
+Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältigen Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
 
 - Bilddigitalisate von Text (z.B. PDF, PNG, JPG, TIFF)
 - Reiner Text, auch "Plain Text" (TXT)
@@ -35,7 +35,7 @@ name: Snippet eines Bilddigitalisats
 - **Repräsentation:** Plain Text ist eine einfache, unformatierte Textdatei, die nur den reinen Text ohne jegliche Stilelemente oder Metadaten enthält.
 - **Formate:** Das gängigste Dateifoormat ist TXT.
 - **Nutzung:** Plain Text ist ideal für einfache Textanalysen und die Datenverarbeitung, da er leicht zu bearbeiten und in verschiedene Softwareumgebungen zu importieren ist.
-- **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, etwa in Form von Textauszeichnungen, die für komplexere Analysen oder Darstellungen notwendig sind. 
+- **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, etwa in Form von Textauszeichnungen (z.B. Fettungen, Kursivierungen oder Überschriften), die für komplexere Analysen oder Darstellungen notwendig sind. 
 
 **Beispiel:**
 

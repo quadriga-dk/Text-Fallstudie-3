@@ -6,11 +6,11 @@ Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus a
 - Sammlungen von maschinenlesbaren Textdokumenten, 
 - die nach bestimmten Kriterien zusammengestellt wurden.
 
-Eine besondere Variante von Korpora sind Referenzkorpora, bei deren Zusammenstellung besondere Aufmerksamkeit darauf gelegt wurde, dass diese Korpora für eine bestimmte Domäne repräsentativ sein können. 
+Eine besondere Variante von Korpora sind Referenzkorpora; bei ihnen wird besonders darauf geachtet, dass sie für eine bestimmte Domäne repräsentativ sein können. 
 
 In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects)). 
 
-Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlungen insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:t}`schoech2017` vier Strategien unterschieden: 
+Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Ein Korpus ist dabei ein besonderer Typus einer **Datensammlung** – also einer Menge von Datenobjekten (etwa Texten, Bildern oder Messwerten), die gezielt für einen bestimmten (Forschungs-)Zweck zusammengestellt wird. Für Datensammlungen insgesamt – und damit auch für Korpora – hat {cite:t}`schoech2017` vier Auswahlstrategien unterschieden: 
 
 ## Vollständiges Korpus
 Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifischen Gegenstandsbereich.
@@ -20,7 +20,11 @@ Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifi
 - **Beispiel:** Alle Gedichte von Friederike Mayröcker oder alle Ausgaben der Berliner Morgenpost aus dem Jahr 1918
 	
 ## Repräsentative Stichprobe
-Eine Stichprobe, die die gesamte <a href="https://de.wikipedia.org/wiki/Streuungsma%C3%9F_(Statistik)" class="external-link" target="_blank">Variabilität</a> der <a href="https://de.wikipedia.org/wiki/Grundgesamtheit" class="external-link" target="_blank">Grundgesamtheit</a> abbildet. Repräsentativität ist dabei das Ergebnis statistischer Operationen.
+Eine Stichprobe, die die gesamte Variabilität der <a href="https://de.wikipedia.org/wiki/Grundgesamtheit" class="external-link" target="_blank">Grundgesamtheit</a> abbildet. Repräsentativität ist dabei das Ergebnis statistischer Operationen.
+
+Dabei ist die **Grundgesamtheit** die Menge aller Texte, über die wir eine Aussage treffen wollen (z.B. alle deutschsprachigen Romane des 19. Jahrhunderts), und die **Stichprobe** eine daraus gezogene Teilmenge. Repräsentativ ist sie, wenn sie die Vielfalt der Grundgesamtheit so gut abbildet, dass Ergebnisse aus der Stichprobe auch für die gesamte Grundgesamtheit gelten.
+
+Auf den ersten Blick wirkt es widersprüchlich, dass eine *zufällige* Auswahl *repräsentativ* sein soll. Tatsächlich ist die Zufallsauswahl aber gerade der Weg zur Repräsentativität: Würden wir die Texte gezielt "nach Gefühl" auswählen, flössen unweigerlich unsere eigenen Erwartungen und Vorlieben ein und verzerrten die Auswahl. Bei einer echten Zufallsstichprobe hat dagegen jeder Text der Grundgesamtheit dieselbe Chance, gezogen zu werden. Dadurch werden systematische Verzerrungen vermieden, und bei hinreichend großem Stichprobenumfang bildet die Stichprobe die Verteilung und Vielfalt der Grundgesamtheit mit hoher Wahrscheinlichkeit zuverlässig ab. Voraussetzung dafür ist, dass die Grundgesamtheit bekannt und vollständig dokumentiert ist – dass wir also überhaupt eine Liste aller infrage kommenden Texte besitzen, aus der gezogen werden kann. In der Praxis wird die reine Zufallsauswahl zudem oft verfeinert, indem man die Grundgesamtheit zunächst in Gruppen unterteilt (z.B. nach Jahrzehnten) und aus jeder Gruppe zufällig zieht – eine sogenannte *geschichtete Zufallsstichprobe* –, um sicherzustellen, dass alle relevanten Teilbereiche angemessen vertreten sind.
 
 - **Voraussetzung:** Grundgesamtheit muss bekannt und gut dokumentiert sein; Zufällige Auswahl der Datensätze ist erforderlich.
 - **Anwendung:** Ermöglicht gültige Aussagen über die Grundgesamtheit und dient als Referenz für andere Studien.

@@ -1,7 +1,7 @@
 (research-question_operationalization)= 
 # Operationalisierung
 
-Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, Phänomene in literarischen Texten und deren Entwicklung über die Zeit zu identifizieren – und das bedeutet im quantitativen Methodenparadigma, in dem wir uns mit unserer Studie bewegen: messbar zu machen. Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`
+Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, Phänomene in literarischen Texten und deren Entwicklung über die Zeit zu identifizieren – und das bedeutet im quantitativen Methodenparadigma, in dem wir uns mit unserer Studie bewegen: messbar zu machen. Um dies messen zu können, muss die Forschungsfrage zunächst operationalisiert werden. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`
 
 Für die Operationalisierung unserer Forschungsfrage müssen insbesondere drei Fragen adressiert werden:
 
@@ -16,7 +16,7 @@ Im Hinblick auf die **erste Frage** nehmen wir dabei folgende pragmatische Opera
 Mit einer Veränderung in der Thematisierung und in der Semantisierung von Luft sind zwei quantifizierbare Phänomene identifiziert, zu denen sich in Hinblick auf unsere **zweite Frage** Indikatoren für die Messoperationen angeben lassen.
 
 - Die quantitative Veränderung der Thematisierung von Luft wollen wir über die Ermittlung der Häufigkeit von Wörtern aus dem semantischen Feld "Luft" messbar machen. 
-- Die quantitative Veränderung der Semantisierung von Luft wollen wir über die Analyse von syntaktischen N-Grams des Typs "Adjektiv-Substantiv" (z.B. "frische Luft") messbar machen. Wir ziehen dabei nur das N-Grams in Betracht, bei denen "Luft" das Substantiv ist. 
+- Die quantitative Veränderung der Semantisierung von Luft wollen wir über die Analyse von syntaktischen [N-Grams](corpus-analysis_ngrams-intro) des Typs "Adjektiv-Substantiv" (z.B. "frische Luft") messbar machen. Wir ziehen dabei nur das N-Grams in Betracht, bei denen "Luft" das Substantiv ist. 
 
 In Hinblick auf die **dritte Frage** nehmen wir zunächst eine generische Einschränkung vor: Wir werden nicht alle unterschiedlichen literarischen Genres berücksichtigen, sondern nur literarische Erzähltexte. Erzähltexte sind, auf andere Weise als die poetisch verdichtete Lyrik und als die stark dialogische Dramatik, weltentwerfende Texte, sodass wir hier eher erwarten, überhaupt auf messbare Reaktionen auf Umweltveränderungen stoßen zu können. Nun liegt bedauerlicherweise kein Gesamtkorpus der deutschsprachigen Erzählliteratur des 19. Jahrhunderts vor. Deshalb werden wir uns in Kapitel 3 [Korpusaufbau](corpus-collection_intro) ausführlich mit einer Selektionsstrategie für unser Korpus befassen.
 

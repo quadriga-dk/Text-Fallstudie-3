@@ -4,10 +4,10 @@
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
 
-<a href="https://github.com/quadriga-dk/Text-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-3/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
-<a href="https://github.com/quadriga-dk/Text-Fallstudie-1/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-3/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
 
@@ -29,6 +29,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Nachdem wir im vorherigen Kapitel zwei Korpora literarischer Texte automatisch mit linguistischen Informationen annotiert haben (siehe Kapitel [Korpusverarbeitung – Von Strings zu Token](corpus-processing_intro)), sind alle Vorverabeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
 
+Bei diesen beiden Korpora handelt es sich um die zwei Zufallsstichproben, die wir im Abschnitt [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb) gezogen und dort als **Korpus I** (Random State `42`) und **Korpus II** (Random State `31415`) benannt haben. Beide Korpora sind also zwei unabhängig gezogene Stichproben aus demselben gefilterten Quellkorpus. Sämtliche folgenden Analysen führen wir auf **beiden Korpora parallel** durch und vergleichen die Ergebnisse miteinander – so lässt sich einschätzen, welche Muster robust sind und welche stärker von der konkreten Zufallsauswahl abhängen.
+
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---
@@ -41,4 +43,4 @@ Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Gru
 
 Anschließend wird die [Analyse des semantischen Felds auf den Korpora ausgeführt](corpus-analysis_semantic-field-analysis) und die Ergebnisse werden anhand der Visualisierungen interpretiert. 
 
-Im nächsten Schritt werden [n-Gramme im Generellen](corpus-analysis_ngrams-intro) und dann [syntaktische n-Gramme](corpus-analysis_syntactic-ngrams-intro) eingeführt. Daraufhin wird die [Korpusanalyse](corpus-analysis_syntactic-ngram) ausgeführt und die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.
+Im nächsten Schritt werden [n-Gramme im Generellen](corpus-analysis_ngrams-intro.md) und dann [syntaktische n-Gramme](corpus-analysis_syntactic-ngrams-intro.md) eingeführt. Daraufhin wird die [Korpusanalyse](corpus-analysis_syntactic-ngram.ipynb) ausgeführt und die Ergebnisse werden wieder anhand von Visualisierungen interpretiert.

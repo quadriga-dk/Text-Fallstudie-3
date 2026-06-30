@@ -5,12 +5,19 @@ Metadaten sind Daten über Daten. Sie liefern kontextuelle Informationen, die he
 
 **Metadatenschemata**
 
+Ein **Metadatenschema** ist ein standardisierter, gemeinschaftlich vereinbarter Satz von Feldern – oft *Elemente* genannt –, mit denen sich eine Ressource beschreiben lässt. Es legt fest, *welche* Angaben erfasst werden (etwa Titel, Urheber:in, Datum oder Sprache), wie diese Felder benannt sind und teilweise auch, in welcher Form sie auszufüllen sind. Ein Schema wirkt damit wie ein gemeinsames Vokabular: Beschreiben verschiedene Personen, Institutionen oder Programme ihre Daten nach demselben Schema, werden die Metadaten untereinander vergleichbar, maschinell auswertbar und über Systemgrenzen hinweg austauschbar (interoperabel). Ohne ein solches Schema würde dagegen jede:r eigene, uneinheitliche Bezeichnungen verwenden, was die gemeinsame Nutzung und die Auffindbarkeit der Daten erheblich erschwert.
+
 Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische Anforderungen unterschiedlicher Disziplinen und Anwendungen zu erfüllen. Zu den bekanntesten gehören:
 
 1. **<a href="https://www.dublincore.org/specifications/dublin-core/dces/" class="external-link" target="_blank">Dublin Core</a>**: Ein einfaches und weit verbreitetes Schema, das 15 grundlegende Elemente umfasst, wie Titel, Autor, Thema und Datum.
-2. **<a href="https://tei-c.org/" class="external-link" target="_blank">TEI (Text Encoding Initiative)</a>**: Speziell für Texte entwickelt, bietet TEI detaillierte Richtlinien zur Auszeichnung von Texten und zur Erfassung von deren Metadaten im [`<teiHeader>`](https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-teiHeader.html).
+2. **<a href="https://tei-c.org/" class="external-link" target="_blank">TEI (Text Encoding Initiative)</a>**: Speziell für Texte entwickelt, bietet TEI detaillierte Richtlinien zur Auszeichnung von Texten und zur Erfassung von deren Metadaten im <a href="https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-teiHeader.html" class="external-link" target="_blank"><code>&lt;teiHeader&gt;</code></a>.
 3. **<a href="https://www.loc.gov/standards/mods/" class="external-link" target="_blank">MODS (Metadata Object Description Schema)</a>**: Von der Library of Congress entwickelt, bietet MODS eine umfangreichere Beschreibung als Dublin Core und ist besonders für bibliographische Informationen geeignet.
 4. **<a href="https://www.loc.gov/standards/mets/" class="external-link" target="_blank">METS (Metadata Encoding and Transmission Standard)</a>**: Ein Standard zur Kodierung und Übertragung von Digitalisaten und deren Metadaten, häufig in Bibliotheken und Archiven verwendet.
+
+```{admonition} TEI: Textrepräsentation und Metadatenschema in einem
+:class: hinweis
+TEI ist Ihnen im Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects) bereits als Format zur Repräsentation digitaler Texte begegnet – hier taucht es nun als Metadatenschema auf. Das ist kein Widerspruch: TEI ist ein einziger, umfassender XML-Standard, der beide Funktionen in einem Dokument vereint. Das `<text>`-Element kodiert den eigentlichen Text mit seiner Struktur und semantischen Auszeichnung, während der `<teiHeader>` die Metadaten zum Dokument enthält. Die übrigen hier genannten Schemata – Dublin Core, MODS und METS – beschreiben dagegen ausschließlich Metadaten und sagen nichts über die Auszeichnung des Textinhalts selbst aus.
+```
 
 ## Metadaten zur Beschreibung eines Korpus
 

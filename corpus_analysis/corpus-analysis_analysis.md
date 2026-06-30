@@ -9,7 +9,7 @@ In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und deren Operat
 Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
 `````
 
-Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantisches Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel [Von linearen zu syntaktischen n-Grammen](corpus-analysis_ngrams-intro) eingeführt.
+Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantisches Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel [Syntaktische N-Gramme](corpus-analysis_syntactic-ngram.ipynb) eingeführt.
 
 
 ## Das semantische Feld "Luft"
@@ -39,7 +39,7 @@ Bitte tue dasselbe für "gute Luft" und "schlechte Luft".
 ```
 Diesen Prompt haben wir zweimal in unterschiedlichen Chats ausgeführt und als Resultat eine Liste von 112 Nomen erhalten. Diese haben wir manuell gefiltert: Wörter, die rein auf den Geruch bezogen sind wie z.B. "Fäulnisgeruch" oder "Pestgeruch" wurden entfernt, genau so wie Wörter, die zu generell waren oder die keinen direkten Bezug zu "Luft" hatten wie etwa "Dumpfheit". Nach der Filterung bestand die Liste noch aus 96 Wörtern.
 
-Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen besteht. Die Liste ist <a href="https://raw.githubusercontent.com/quadriga-dk/Text-Fallstudie-3/refs/heads/main/wordlist/luft_semantisches_feld.txt" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
+Zusätzlich sind wir vom Korpus ausgegangen und haben mit Hilfe von <a href="https://www.laurenceanthony.net/software/antconc/" class="external-link" target="_blank">AntConc</a>, einem Korpusanalyse-Programm, alle Komposita, die als Erstglied "Luft" haben, extrahiert. Mit dieser Methode konnten wir noch 31 Nomen hinzufügen, sodass unsere finale Liste aus insgesamt 127 Nomen bestand. Die Liste ist <a href="https://raw.githubusercontent.com/quadriga-dk/Text-Fallstudie-3/refs/heads/main/wordlist/luft_semantisches_feld.txt" class="external-link" target="_blank">hier in GitHub einsehbar</a>.  
 
 ## Häufigkeit als Analysemethode 
 
@@ -113,11 +113,11 @@ Hinweis: Da für die Texte nur das Publikationsjahr vorliegt, für die Visualisi
 `````
 
 ### Visuelle Darstellung als Streudiagramm 
-Als Resultat erhalten wir pro Korpus 400 Datenpunkte, für jeden Text einen, die gleichmäßig über die Zeit verteilt sind. Diese Datenpunkte lassen sich auf unterschiedliche Art und Weise darstellen. Wir sind zum einem daran interessiert, ob sich eine Entwicklung abzeichnet, dafür müssen die Datenpunkte über Zeit angeordnet werden. Zum anderen wollen wir ablesen können, in welchen Texten Luft besonders häufig thematisiert wird, da diese möglicherweise wegweisend gewesen sein könnten. Die Datenpunkte sollen also nicht pro Jahr oder Dekade aggregiert werden, sondern jeder Text soll einzeln erkennbar sein. Dies lässt sich besonders gut durch ein **Streudiagramm** darstellen. Bei einem Streudigramm wird ein Text in Abhängigkeit seines X- und Y-Wertes als ein Punkt im Koordiantenkreuz dargestellt. Der X-Wert ist in unserem Fall das Jahr der Veröffentlichung, der Y-Wert ist die relative Häufigkeit.
+Als Resultat erhalten wir pro Korpus 450 Datenpunkte, für jeden Text einen, die gleichmäßig über die Zeit verteilt sind. Diese Datenpunkte lassen sich auf unterschiedliche Art und Weise darstellen. Wir sind zum einem daran interessiert, ob sich eine Entwicklung abzeichnet, dafür müssen die Datenpunkte über Zeit angeordnet werden. Zum anderen wollen wir ablesen können, in welchen Texten Luft besonders häufig thematisiert wird, da diese möglicherweise wegweisend gewesen sein könnten. Die Datenpunkte sollen also nicht pro Jahr oder Dekade aggregiert werden, sondern jeder Text soll einzeln erkennbar sein. Dies lässt sich besonders gut durch ein **Streudiagramm** darstellen. Bei einem Streudigramm wird ein Text in Abhängigkeit seines X- und Y-Wertes als ein Punkt im Koordiantenkreuz dargestellt. Der X-Wert ist in unserem Fall das Jahr der Veröffentlichung, der Y-Wert ist die relative Häufigkeit.
 
 Auf einem Streudiagramm lassen sich allerdings nicht sofort Entwicklungen ablesen. Um diesen Nachteil beizukommen, lässt sich mittels linearer Regression eine **Regressionsgerade** oder sogenannte Trend-Linie berechnen. Die Trend-Linie soll die Datenpunkte möglichst gut beschreiben, das heißt, sie soll möglichst nah an allen Punkten vorbeilaufen. Je nachdem, ob die Gerade steigt oder fällt, ist eine Zu- oder Abnahme des semantischen Felds Luft zu erkennen.
 
-In folgendem Beispiel wurden vier Texte aus Korpus I ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
+In folgendem Beispiel wurden vier Texte aus Korpus I (der ersten unserer beiden Stichproben, siehe [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb)) ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
 
 `````{admonition} Mindestanzahl an Datenpunkten für eine generalisierbare Interpretation
 :class: caution
@@ -144,7 +144,7 @@ Alternativ, wenn es weniger wichtig ist, die Häufigkeiten einzelner Texte abzul
 
 `````{admonition} Durchschnitt von relativen Häufigkeiten
 :class: caution
-Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten pro Jahr zu berechnen. Allerdings haben bei dieser Methode alle Texte aus dem selben Erscheinungsjahr den gleichen Einfluss auf die Berechnung, unabhängig davon, ob ein Text nur ein zehntel so lang ist, wie ein anderer Text. 
+Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten pro Jahr zu berechnen. Allerdings haben bei dieser Methode alle Texte aus dem selben Erscheinungsjahr den gleichen Einfluss auf die Berechnung, unabhängig davon, ob ein Text nur ein zehntel so lang ist wie ein anderer Text. 
 
 ```{table}
 :name: Beispiel: Methoden des Zusammenfügens

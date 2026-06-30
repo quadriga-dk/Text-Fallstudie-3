@@ -20,7 +20,7 @@
 
 3. Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.
 
-4. Der Prozess der Korpusauswahl unter Einbezug der Korpusgröße und abgedecktem Zeitraum kann in Hinblick auf die Forschungsfrage erläutert werden.
+4. Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.
 
 ```
 

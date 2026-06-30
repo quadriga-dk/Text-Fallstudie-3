@@ -5,10 +5,10 @@
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
 
-<a href="https://github.com/quadriga-dk/Text-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-3/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
-<a href="https://github.com/quadriga-dk/Text-Fallstudie-1/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-3/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
 
@@ -25,7 +25,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 3. Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.
 
-4. Der Prozess der Korpusauswahl unter Einbezug der Korpusgröße und abgedecktem Zeitraum kann in Hinblick auf die Forschungsfrage erläutert werden.
+4. Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.
 ```
 
 
@@ -40,10 +40,10 @@ name: Flussdiagramm der Fallstudie
 Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 ```
 
-In diesem Kapitel nehmen wir zuerst eine [Sicherung des Begriffsverständnisses](corpus-collection_corpora-as-research-objects) vor und klären entsprechend, was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
+In diesem Kapitel [klären wir zuerst](corpus-collection_corpora-as-research-objects), was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
 In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
 
-Um ein Korpus und seine Elememte zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
+Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
 
 In einem abschließenden Schritt geht es dann um den [Aufbau des Forschungskorpus](corpus-collection_building-our-corpus) für die folgenden Untersuchungen: Wir definieren zunächst, welche Objekte ins Korpus aufgenommen werden sollen, erarbeiten dann die Metadaten für die Korpusobjekte und laden schließlich die Dateien für das Korpus herunter. 

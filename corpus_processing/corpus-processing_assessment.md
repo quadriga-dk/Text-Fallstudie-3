@@ -4,17 +4,13 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
 ---
 
 # 🏆Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
 :class: hinweis
-Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
+Mit diesen Übungsaufgaben können Sie sich selbst einschätzen und das im Kapitel Gelernte reflektieren.
 
 Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen. 
 
@@ -23,7 +19,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 - Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch
 - Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten 
 
-Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
+Ihre Ergebnisse werden weder bewertet noch gespeichert. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
 **Geschätzte Zeit**: 45min
 
@@ -240,7 +236,7 @@ display_quiz(multiple_choice_5, colors=colors.jupyterquiz)
 ## Frage 6
 Analysieren Sie den folgenden Satz mit NLP-Methoden und beschreiben Sie die Ergebnisse:
 
-Originaltext: "Die Forschenden untersuchten verschiedene Zeitungsartikel zur Spanischen Grippe."
+Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane"
 
 1.	Führen Sie eine Tokenisierung durch.
 2.	Bestimmen Sie die Lemmata der einzelnen Token.
@@ -260,13 +256,13 @@ create_answer_box('process-1')
 :class: solution, dropdown
 
 **Beispiellösung zur Selbstbewertung:**
-1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "Zeitungsartikel", "zur", "Spanischen", "Grippe", "."]
-2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "Zeitungsartikel", "zu", "spanisch", "Grippe", "."]
+1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "deutsche", "zur", "Romane", "."]
+2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "deutsch", "zu", "Roman", "."]
 
 **Reflexion:**
 - Die Tokenisierung ermöglicht die Analyse auf Wortebene und bereitet den Text für weitere Verarbeitung vor
 - Die Lemmatisierung würde alle Formen von "untersuchen" zusammenfassen, was bei einer Frequenzanalyse hilfreich ist
-- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "Spanischen" zu "spanisch") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
+- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "deutsche" zu "deutsch") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
 - Bei einer größeren Textsammlung würden verschiedene grammatikalische Formen desselben Wortes nicht als unterschiedliche Begriffe gezählt
 - Diese Normalisierung verbessert die Qualität von Häufigkeitsanalysen, Keyword-Extraktion und thematischen Analysen
 - Die Informationen über die ursprüngliche Form bleiben erhalten und können für detailliertere linguistische Analysen genutzt werden
