@@ -46,4 +46,6 @@ In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsfo
 
 Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
 
-In einem abschließenden Schritt geht es dann um den [Aufbau des Forschungskorpus](corpus-collection_building-our-corpus) für die folgenden Untersuchungen: Wir definieren zunächst, welche Objekte ins Korpus aufgenommen werden sollen, erarbeiten dann die Metadaten für die Korpusobjekte und laden schließlich die Dateien für das Korpus herunter. 
+Darauf aufbauend geht es um die [Auswahl des Forschungskorpus](corpus-collection_choosing-our-corpus-based-on-metadata.ipynb): Anhand der Metadaten prüfen wir, welche der bereits verfügbaren Korpora zu unserer Forschungsfrage passen – etwa im Hinblick auf den abgedeckten Zeitraum und die thematische Breite – und entscheiden uns für ein geeignetes Ausgangskorpus.
+
+In einem abschließenden Schritt nehmen wir das [Sampling und die Filterung des Korpus](corpus-collection_filtering-our-corpus.ipynb) vor: Wir grenzen das ausgewählte Korpus auf das für unsere Fragestellung relevante Material ein und ziehen daraus zwei zeitlich balancierte Zufallsstichproben (Korpus I und Korpus II), auf denen die späteren Analysen aufsetzen. 
