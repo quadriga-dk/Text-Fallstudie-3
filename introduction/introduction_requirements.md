@@ -1,7 +1,7 @@
 (introduction_requirements)=
 # Technische Voraussetzungen
 
-Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Selbstüberprüfung. Der Code liegt in "Jupyter Notebooks" vor und kann einerseits hier im "Jupyter Book" gelesen, andererseits mit dem Dienst "Colab" oder lokal auf dem eigenen Computer ausgeführt werden. Diese drei Nutzungsszenarien nennen wir Nutzungs-Modi. 
+Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Selbstüberprüfung. Der Code liegt in "<a href="https://jupyterbook.org/"  class="external-link" target="_blank">Jupyter Notebooks</a>" vor und kann einerseits hier im "Jupyter Book" gelesen, andererseits mit dem Dienst "Colab" oder lokal auf dem eigenen Computer ausgeführt werden. Diese drei Nutzungsszenarien nennen wir Nutzungs-Modi. 
 
 ```{admonition} "Jupyter Book" und "Jupyter Notebook" – was ist der Unterschied?
 :class: keypoint
