@@ -24,7 +24,7 @@ Der Code eines "Jupyter Notebooks" ist in einzelne **Code-Zellen** unterteilt, d
 Weitere Hinweise zur Arbeit mit "Jupter Book", "Jupyter Notebooks" und zur Installation von Anaconda für die Nutzung im "Local Mode" vermitteln die unten verlinkten Tutorials.
 
 ## Ressourcen
-Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der "Jupyter Notebooks" mittels "Colab". Für das lokale Ausführen der "Jupyter Notebooks" auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
+Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der "Jupyter Notebooks" mittels "Colab". Für das lokale Ausführen der "Jupyter Notebooks" auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline (die Abfolge der einzelnen Verarbeitungsschritte) für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
 
 `````{admonition} Tutorials
 :class: seealso
