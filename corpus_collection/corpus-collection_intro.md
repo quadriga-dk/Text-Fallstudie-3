@@ -37,12 +37,12 @@ Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) di
 height:
 name: Flussdiagramm der Fallstudie
 ---
-Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
+Flussdiagramm der Fallstudie. Sie befinden sich nun im zweiten Arbeitspaket.
 ```
 
 In diesem Kapitel [klären wir zuerst](corpus-collection_corpora-as-research-objects), was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
-In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
+In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen Sie unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
 
 Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
 
