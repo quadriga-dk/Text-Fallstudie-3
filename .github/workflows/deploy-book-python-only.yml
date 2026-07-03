@@ -8,6 +8,13 @@ on:
     branches:
       - main
 
+# Cancel an in-progress deploy when a newer one starts: every build publishes
+# the full current state of main, so superseding an older build never loses
+# changes and avoids parallel 8-minute builds during rapid pushes.
+concurrency:
+  group: deploy-book
+  cancel-in-progress: true
+
 # This job installs dependencies, builds the book, and deploys it to GitHub Pages
 # only runs if "Update Metadata" workflow is successful
 jobs:
