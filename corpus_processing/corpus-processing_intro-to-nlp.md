@@ -132,9 +132,7 @@ Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Te
 ```
 `````{admonition} Zum Begriff der Pipeline
 :class: hinweis, dropdown
-Als *Pipeline* (englisch für „Rohrleitung") wird ganz allgemein eine Abfolge von Verarbeitungsschritten bezeichnet, bei der die Ausgabe eines Schritts direkt als Eingabe des nächsten dient. Der Begriff ist nicht auf das NLP beschränkt, sondern wird in vielen Bereichen der Datenverarbeitung und Informatik verwendet.
-
-Auch die verschiedenen NLP-Methoden bauen teilweise aufeinander auf: Grundlegend wird ein Text zuerst tokenisiert, dann folgen PoS-Tagging und Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird daher häufig als Pipeline beschrieben. 
+Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt PoS-Tagging und die Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird im NLP häufig mit der Metapher einer Pipeline (englisch für „Rohrleitung") beschrieben. Der Begriff ist dabei nicht auf das NLP beschränkt: Auch allgemeine Verarbeitungs-, Analyse- oder Forschungsabläufe werden häufig als Pipeline bezeichnet. 
 `````
 
 ### NLP mit spaCy 
