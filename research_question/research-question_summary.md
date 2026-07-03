@@ -4,7 +4,7 @@
 ```{admonition} Key points des Kapitels
 :class: keypoint
 
-**Literatur und Umwelt:** Literatur kann auf Veränderung in der ihr zeitgenössischen Umwelt auf verschiedene Weisen reagieren. Dieses komplexe Verhältnis wird im Forschungszweig des Ecocriticism untersucht.  
+**Literatur und Umwelt:** Literatur kann auf Veränderungen ihrer zeitgenössischen Umwelt auf unterschiedliche Weise reagieren. Dieses komplexe Verhältnis wird im Forschungszweig des Ecocriticism untersucht.  
 
 **Operationalisierung:** Qualitative Fragestellungen werden durch Operationalisierung für quantitative Methoden zugänglich gemacht. Die Reaktion der Literatur auf Umweltphänomene wird als messbare Wort- und N-Gram-Häufigkeit in einem Auswahlkorpus definiert.
 
