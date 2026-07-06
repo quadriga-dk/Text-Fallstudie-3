@@ -1,12 +1,12 @@
 (corpus-collection_corpora-as-research-objects)=
 # Korpora als Forschungsobjekte der Digital Humanities
 
-Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus als das wichtigste epistemische Objekt herauskristallisiert. Korpora lassen sich dabei vereinfacht verstehen als 
+Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus als das wichtigste *epistemische Objekt* herauskristallisiert – also als der zentrale Gegenstand, an dem und über den wissenschaftliche Erkenntnis gewonnen wird. Korpora lassen sich dabei vereinfacht verstehen als 
 
-- Sammlungen von maschinenlesbaren Textdokumenten, 
+- Sammlungen von maschinenlesbaren (d.h. vom Computer automatisch verarbeitbaren) Textdokumenten, 
 - die nach bestimmten Kriterien zusammengestellt wurden.
 
-Eine besondere Variante von Korpora sind Referenzkorpora; bei ihnen wird besonders darauf geachtet, dass sie für eine bestimmte Domäne repräsentativ sein können. 
+Eine besondere Variante von Korpora sind **Referenzkorpora**; sie sind so zusammengestellt, dass sie für einen bestimmten Bereich – eine sogenannte *Domäne*, etwa die deutsche Gegenwartssprache – möglichst repräsentativ sind, und dienen als allgemeine Vergleichsgrundlage, an der sich einzelne Texte oder kleinere Korpora messen lassen (ein Beispiel ist das *Deutsche Referenzkorpus, DeReKo*). 
 
 In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt [Texte als digitale Objekte](corpus-collection_text_as_digital_objects)). 
 
@@ -38,7 +38,7 @@ Eine gezielt nach bestimmten Kriterien zusammengestellte Auswahl, die alle wesen
 - **Beispiel:** Eine Sammlung von Romanen aus verschiedenen Jahrzehnten und Untergattungen, mit breiter Variation in Autoren, Erzählperspektiven und Handlungsorten, Untergattungen.
 	
 ## Opportunistisches Korpus
-Eine Sammlung, deren Auswahl nur durch die Verfügbarkeit von Daten geleitet wird.
+Eine Sammlung, deren Auswahl nur durch die Verfügbarkeit von Daten geleitet wird – man nimmt also schlicht, was ohnehin (etwa digital) vorhanden ist, ohne die Auswahl gezielt zu steuern.
  
 - **Voraussetzung:** Digitale Verfügbarkeit der Daten.
 - **Anwendung:** Geeignet für wenig erschlossene Forschungsbereiche oder erste Explorationen, bleibt allerdings insgesamt unbefriedigend, da nicht beurteilt werden kann, was die Sammlung abbildet. 
