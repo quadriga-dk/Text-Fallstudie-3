@@ -16,6 +16,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
+Dieses Kapitel verfolgt die folgenden Lernziele:
+
 ```{admonition} Frequenzanalysen semantischer Felder
 :class: lernziele
 1. Das Konzept des semantischen Feldes sowie die Berechnung von Häufigkeiten des semantischen Felds auf einem Korpus kann erklärt werden.

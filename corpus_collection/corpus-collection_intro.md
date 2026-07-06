@@ -16,6 +16,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
+
+Dieses Kapitel verfolgt die folgenden Lernziele:
+
 ```{admonition} Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
 :class: lernziele
 
