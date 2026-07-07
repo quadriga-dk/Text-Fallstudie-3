@@ -92,23 +92,23 @@ Obwohl in beiden Texten die absolute Häufigkeit gleich ist (4 Wörter des Felds
 `````
 
 ### Analyse des gesamten Korpus 
-Um den Verlauf nachzuvollziehen, wird für jeden Text im Korpus die relative Häufigkeit des semantischen Felds "Luft" berechnet und in einer Tabelle gespeichert. Die Häufigkeiten können dann über die Zeit verglichen werden, sodass sich ablesen lässt, ob im Laufe der Zeit weniger, mehr oder gleich viel über Luft gesprochen wird.  
+Um den Verlauf nachzuvollziehen, wird für jeden Text im Korpus die relative Häufigkeit des semantischen Felds "Luft" berechnet und in einer Tabelle gespeichert. Die Häufigkeiten können dann über die Zeit verglichen werden, sodass sich ablesen lässt, ob im Laufe der Zeit weniger, mehr oder gleich viel über Luft gesprochen wird. Als Zeitangabe steht dabei für jeden Text nur das **Publikationsjahr** zur Verfügung – ein genaueres Datum (Monat oder Tag) liegt nicht vor. Dieses Jahr führen wir als ganze Zahl in der Spalte `DC.date` (dem Dublin-Core-Feld für das Erscheinungsdatum).  
 
 `````{admonition} Auszug aus der Analysetabelle für Korpus I
 :class: hinweis
 
 ```{table}
 :name: Häufigkeitsanalyse-Korpus
-| lastname | firstname | title | year | total_count_tokens | total_count_semantic_field | relative_frequency |
+| lastname | firstname | title | DC.date | total_count_tokens | total_count_semantic_field | relative_frequency |
 |----------|-----------|-------|------|-------------------|---------------------------|-------------------|
-| Mörike | Eduard | Aus dem Gebiete der Seelenkunde | 1861-01-01 | 596 | 2 | 0.33557 |
-| von Hofmannsthal | Hugo | Das Dorf im Gebirge | 1896-01-01 | 1270 | 4 | 0.314961 |
-| Willkomm | Ernst | Erzählungen eines Wattenschiffers | 1854-01-01 | 7083 | 20 | 0.282366 |
-| Seidl | Johann Gabriel | Das goldene Ringlein | 1842-01-01 | 5855 | 15 | 0.256191 |
-| von Eichendorff | Joseph | Eine Meerfahrt | 1835-01-01 | 23279 | 55 | 0.236264 |
-| von Sacher-Masoch | Leopold | Der Capitulant | 1875-01-01 | 20544 | 41 | 0.199572 |
+| Mörike | Eduard | Aus dem Gebiete der Seelenkunde | 1861 | 596 | 2 | 0.33557 |
+| von Hofmannsthal | Hugo | Das Dorf im Gebirge | 1896 | 1270 | 4 | 0.314961 |
+| Willkomm | Ernst | Erzählungen eines Wattenschiffers | 1854 | 7083 | 20 | 0.282366 |
+| Seidl | Johann Gabriel | Das goldene Ringlein | 1842 | 5855 | 15 | 0.256191 |
+| von Eichendorff | Joseph | Eine Meerfahrt | 1835 | 23279 | 55 | 0.236264 |
+| von Sacher-Masoch | Leopold | Der Capitulant | 1875 | 20544 | 41 | 0.199572 |
 ```
-Hinweis: Da für die Texte nur das Publikationsjahr vorliegt, für die Visualisierung aber ein Datum verwendet wird, wird das Datum in der Spalte `year` für jeden Text auf den 01.01. gesetzt.
+Hinweis: In der Spalte `DC.date` steht für jeden Text nur das Publikationsjahr als ganze Zahl (z.B. `1861`), da kein genaueres Datum vorliegt.
 
 `````
 
