@@ -18,15 +18,11 @@ authors: &id001
   family-names: Trilcke
   orcid: https://orcid.org/0000-0002-1421-4320
   affiliation: Universität Potsdam
-identifiers:
-- type: doi
-  value: 10.5281/zenodo.15682652
-  description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
 keywords: &id002
 - Open Educational Resources
-license: CC-BY-SA-4.0
+license: CC BY-SA 4.0
 references:
 - title: Jupyter Book
   type: software
@@ -38,13 +34,12 @@ preferred-citation:
   authors: *id001
   title: Ecocriticism – Case Study
   type: book
-  doi: 10.5281/zenodo.1568265
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/
   repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
-  license: CC-BY-SA-4.0
+  license: CC BY-SA 4.0
   languages:
   - deu
-  copyright: CC-BY-SA-4.0
+  copyright: CC BY-SA 4.0
   keywords: *id002
   version: 0.0.1-beta
 version: 0.0.1-beta

@@ -13,12 +13,6 @@
   ],
   "name": "Ecocriticism – Case Study",
   "description": "TODO",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "DOI",
-    "value": "10.5281/zenodo.TODOTODO",
-    "url": "https://doi.org/10.5281/zenodo.TODOTODO"
-  },
   "version": "0.0.1-beta",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
