@@ -50,5 +50,7 @@
 ```{admonition} [Kritische Bewertung der Reichweite und Limitationen](reflection_reflection)
 :class: lernziele
 
-1. Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.
+1. Die Reichweite der in einer Digital-Humanities-Fallstudie gewonnenen Erkenntnisse für die fachwissenschaftliche Forschung kann eingeschätzt werden.
+
+2. Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.
 ```
