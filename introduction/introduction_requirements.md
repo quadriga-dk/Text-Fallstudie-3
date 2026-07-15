@@ -5,10 +5,8 @@ Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Se
 
 ```{admonition} "Jupyter Book" und "Jupyter Notebook" – was ist der Unterschied?
 :class: keypoint
-- Ein **"Jupyter Notebook"** ist ein einzelnes interaktives Dokument, das erklärenden Text, ausführbaren Code und dessen Ergebnisse (z.B. Tabellen oder Grafiken) miteinander verbindet. Der Code dieser Fallstudie liegt in solchen Notebooks vor und kann darin Schritt für Schritt ausgeführt werden.
-- Ein **"Jupyter Book"** bündelt viele solcher Notebooks zusammen mit reinen Textseiten zu einer zusammenhängenden, im Browser lesbaren Website – einer Art Online-Buch. Die Fallstudie, die Sie gerade lesen, *ist* ein solches "Jupyter Book".
-
-Kurz gesagt: Das **"Jupyter Book"** ist das Gesamtwerk, das Sie hier vor sich haben; die einzelnen **"Jupyter Notebooks"** sind die ausführbaren Bausteine darin.
+- Ein **"Jupyter Notebook"** ist eine interaktive Seite, die erklärenden Text mit ausführbarem Code und dessen Ergebnissen (z.B. Tabellen oder Grafiken) verbindet – zum Beispiel die Seite [„Korpusverarbeitung – Annotation mit spaCy"](../corpus_processing/corpus-processing_nlp-annotation.ipynb). Solche Notebook-Seiten erkennen Sie in der Menüleiste links an der Rakete (🚀) im Titel.
+- Ein **"Jupyter Book"** bündelt alle Notebook-Seiten mit den reinen Textseiten zu einer zusammenhängenden, im Browser lesbaren Website – einer Art Online-Buch. Diese gesamte Fallstudie mit all ihren Kapiteln und Unterkapiteln, die Sie gerade lesen, *ist* ein solches "Jupyter Book".
 ```
 
 ## Modi der Nutzung
