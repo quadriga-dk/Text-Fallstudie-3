@@ -8,3 +8,5 @@ venv/
 .vscode
 **/.ipynb_checkpoints
 .claude/
+data/annotations/
+corpus_analysis/results/
