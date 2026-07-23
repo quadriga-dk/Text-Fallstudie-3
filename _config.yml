@@ -74,6 +74,8 @@ parse:
 # Files to exclude from the build
 #exclude_patterns: [nlp-enrichment/enrichment_tweaked.ipynb, data-input/aux/*, word_search/parse_conll_make_search.ipynb, README.md]
 
+exclude_patterns: [README.md, ".venv/*", LICENSE.md, corpus_collection/corpus-collection_metadata-extraction.ipynb]
+
 # Enable interactive widgets
 jupyter:
 widgets:

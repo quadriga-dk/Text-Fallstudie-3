@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-```{include} ../introduction/learning-outcomes.md
+```{include} ../introduction/introduction_learning-outcomes.md
 :start-after: "<!-- START: Reflexion -->"
 :end-before: "<!-- END: Reflexion -->"
 ```
