@@ -3,7 +3,7 @@ root: front_page/intro
 options:
   numbered: 3
 chapters:
-  - file: präambel/einführung
+  - file: introduction/einführung
     sections:
     - file: introduction/introduction_learning-outcomes
     - file: introduction/introduction_requirements
