@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Ihre Ergebnisse werden weder bewertet noch gespeichert. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 45min
+**Geschätzte Zeit**: 60min
 
 Viel Erfolg!
 ````
@@ -236,7 +236,7 @@ display_quiz(multiple_choice_5, colors=colors.jupyterquiz)
 ## Frage 6
 Analysieren Sie den folgenden Satz mit NLP-Methoden und beschreiben Sie die Ergebnisse:
 
-Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane"
+Originaltext: "Die Forschenden untersuchten verschiedene deutsche Romane."
 
 1.	Führen Sie eine Tokenisierung durch.
 2.	Bestimmen Sie die Lemmata der einzelnen Token.
@@ -256,13 +256,13 @@ create_answer_box('process-1')
 :class: solution, dropdown
 
 **Beispiellösung zur Selbstbewertung:**
-1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "deutsche", "zur", "Romane", "."]
-2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "deutsch", "zu", "Roman", "."]
+1.	Tokenisierung: ["Die", "Forschenden", "untersuchten", "verschiedene", "deutsche", "Romane", "."]
+2.	Lemmatisierung: ["der", "Forschende", "untersuchen", "verschieden", "deutsch", "Roman", "."]
 
 **Reflexion:**
-- Die Tokenisierung ermöglicht die Analyse auf Wortebene und bereitet den Text für weitere Verarbeitung vor
+- Die Tokenisierung ermöglicht die Analyse auf Wortebene und bereitet den Text für weitere Verarbeitung vor; der Punkt am Satzende wird dabei als eigenes Token abgetrennt
 - Die Lemmatisierung würde alle Formen von "untersuchen" zusammenfassen, was bei einer Frequenzanalyse hilfreich ist
-- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "deutsche" zu "deutsch") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
+- Durch die Lemmatisierung werden verschiedene Flexionsformen (wie "deutsche" zu "deutsch" oder "Romane" zu "Roman") vereinheitlicht ('die' wird standardmäßig zu 'der' lemmatisiert).
 - Bei einer größeren Textsammlung würden verschiedene grammatikalische Formen desselben Wortes nicht als unterschiedliche Begriffe gezählt
 - Diese Normalisierung verbessert die Qualität von Häufigkeitsanalysen, Keyword-Extraktion und thematischen Analysen
 - Die Informationen über die ursprüngliche Form bleiben erhalten und können für detailliertere linguistische Analysen genutzt werden
@@ -301,7 +301,7 @@ multiple_choice_1 = [{
         {
             "answer": "Einlesen des Textes",
             "correct": True,
-            "feedback": """✓ Richtig! Der erste Schritt im Notebook ist das Einlesen des Textes mit text_path.read_text(), nachdem der Pfad zur Datei definiert wurde (text_path = Path("../data/txt/SNP2719372X-19181015-0-0-0-0.txt"))."""
+            "feedback": """✓ Richtig! Der erste Schritt im Notebook ist das Einlesen des Textes mit text_path.read_text(encoding="utf-8"), nachdem der Pfad zur Datei definiert wurde (text_path = Path("../data/txt/Adalbert_Stifter_-_Feldblumen_(1841).txt"))."""
         },
         {
             "answer": "Laden des sprachspezifischen Modells",
@@ -311,7 +311,7 @@ multiple_choice_1 = [{
         {
             "answer": "Auswahl der relevanten Analysekomponenten",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook werden nicht benötigte Komponenten deaktiviert: disable_components = ['ner', 'morphologizer', 'attribute_ruler', 'sentencizer'], um die Verarbeitungsgeschwindigkeit zu erhöhen. Dieser Schritt kann bei geringer Textmenge übersprungen werden."""
+            "feedback": """✓ Richtig! Im Notebook werden nicht benötigte Komponenten ausgewählt und ausgeschlossen: disable_components = ['ner', 'attribute_ruler', 'sentencizer'], um die Verarbeitungsgeschwindigkeit zu erhöhen. Die Komponenten für das POS-Tagging und das Dependency Parsing bleiben dagegen aktiv, da die Analyse sie benötigt. Dieser Schritt kann bei geringer Textmenge übersprungen werden."""
         },
         {
             "answer": "Manuelle Korrektur der Tokenisierungsfehler",
@@ -321,7 +321,7 @@ multiple_choice_1 = [{
         {
             "answer": "Speichern der Ergebnisse in einem strukturierten Format",
             "correct": True,
-            "feedback": """✓ Richtig! Im letzten Schritt werden die Ergebnisse als CSV-Datei gespeichert: text_annotated_df.to_csv(output_path, index=False). Das Notebook erwähnt, dass CSV das Standardformat ist, um tabellarische Daten im Klartext zu speichern."""
+            "feedback": """✓ Richtig! Im letzten Schritt werden die Annotationen in zwei Formaten gespeichert: im spaCy-eigenen Format mit doc.to_disk(output_path_spacy) (Dateiendung .spacy) und als Tabelle mit anno_df.to_csv(output_path_table, index=False) (CSV-Format). Zusätzlich wird eine Dokumentationsdatei mit spaCy-Version, Modellname, Modellversion und Datum geschrieben, um die Reproduzierbarkeit der Annotation sicherzustellen."""
         }
     ]
 }]
@@ -347,22 +347,22 @@ multiple_choice_2 = [{
         {
             "answer": "Satzzeichen werden als eigene Token erkannt",
             "correct": True,
-            "feedback": """✓ Richtig! Das Notebook zeigt im Beispiel words[100:120], dass bei der einfachen Teilung mit split() Satzzeichen an Wörtern hängen bleiben (z.B. "Entfernung,", "anzugreisen."), während spaCy sie als separate Token erkennt."""
+            "feedback": """✓ Richtig! Das Notebook zeigt im Beispiel words[7:79], dass bei der einfachen Teilung mit split() Satzzeichen an Wörtern hängen bleiben (z.B. "Last,", "hat."), während spaCy sie als separate Token erkennt."""
         },
         {
             "answer": "Die Gesamtanzahl der Token ist akkurater",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook wird explizit darauf hingewiesen: "Wie zu sehen ist, hat diese Art der 'falschen' Tokenisierung den Nachteil, dass Satzzeichen nicht von Wörtern abgetrennt werden. Die Wortanzahl ist dementsprechend auch nicht akkurat." Der Vergleich zeigt 11.612 Wörter mit split() gegenüber 15.062 Token mit spaCy."""
+            "feedback": """✓ Richtig! Im Notebook wird explizit darauf hingewiesen: "Wie zu sehen ist, hat diese Art der 'falschen' Tokenisierung den Nachteil, dass Satzzeichen nicht von Wörtern abgetrennt werden. Die Wortanzahl ist dementsprechend auch nicht akkurat." Der Vergleich für den Roman "Feldblumen" zeigt rund 38.000 Wörter mit split() gegenüber rund 47.000 Token mit spaCy."""
         },
         {
             "answer": "Die Tokenisierung mit spaCy ist immer schneller",
             "correct": False,
-            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Im Gegenteil, das Notebook zeigt, dass die spaCy-Annotation 1,47 Sekunden dauert, und für größere Textmengen werden sogar Optimierungen vorgeschlagen, indem nicht benötigte Komponenten deaktiviert werden."""
+            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Im Gegenteil: Die Annotation mit spaCy dauert deutlich länger als ein einfaches split(). Das Notebook misst deshalb die Annotationsdauer und schlägt für die Annotation der gesamten Korpora Optimierungen vor, z.B. das Ausschließen nicht benötigter Komponenten, die .pipe()-Methode und die parallele Prozessierung mehrerer Texte."""
         },
         {
             "answer": "Sie ermöglicht die Lemmatisierung der Tokens",
             "correct": False,
-            "feedback": """x Nicht korrekt: Auch wenn im Notebook die Tokenisierung und die Lemmatisierung im selben Schritt erfolgen, ist die Lemmatisierung kein Teil der Tokenisierung, sondern erfolgt aufbauend auf dieser.""" 
+            "feedback": """× Nicht korrekt: Auch wenn im Notebook die Tokenisierung und die Lemmatisierung im selben Schritt erfolgen, ist die Lemmatisierung kein Teil der Tokenisierung, sondern erfolgt aufbauend auf dieser.""" 
         },
         {
             "answer": "Sie korrigiert automatisch OCR-Fehler im Text",
@@ -386,28 +386,28 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice_3 = [{
-    "question": """Warum werden im Beispiel bestimmte Analysekomponenten von spaCy deaktiviert?""",
+    "question": """Warum werden im Beispiel bestimmte Analysekomponenten von spaCy ausgeschlossen?""",
     "type": "multiple_choice",
     "answers": [
         {
             "answer": "Um die Genauigkeit der Tokenisierung zu erhöhen",
             "correct": False,
-            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Das Deaktivieren von Komponenten dient nicht der Verbesserung der Genauigkeit."""
+            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Das Ausschließen von Komponenten dient nicht der Verbesserung der Genauigkeit."""
         },
         {
             "answer": "Um die Verarbeitungsgeschwindigkeit zu erhöhen",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook steht explizit: "Es werden einige Analysekomponent wie z. B. das Aufteilen des Texts in Sätze (sentencizer) oder die Named Entity Recognition (ner) ausgeschlossen, da diese für die Tokenisierung und die Lemmatisierung nicht benötigt werden. Der Auschluss der Komponentnen erhöht die Annotationsgeschwindikgeit." """
+            "feedback": """✓ Richtig! Im Notebook steht explizit: "Es werden einige Analysekomponent wie z. B. das Aufteilen des Texts in Sätze (sentencizer) oder die Named Entity Recognition (ner) ausgeschlossen, da diese für die Tokenisierung und die Lemmatisierung sowie für das POS-Tagging und Dependency Parsing nicht benötigt werden. Der Auschluss der Komponenten erhöht die Annotationsgeschwindikgeit." Wichtig ist dabei: Es werden nur Komponenten ausgeschlossen, deren Annotationen für die Analyse nicht gebraucht werden – die Komponenten für das POS-Tagging und das Dependency Parsing bleiben aktiv."""
         },
         {
             "answer": "Um mehr Speicherplatz für die Ergebnisse zu haben",
             "correct": False,
-            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Der Speicherplatz für die Ergebnisse wird nicht als Grund für die Deaktivierung von Komponenten genannt."""
+            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Der Speicherplatz für die Ergebnisse wird nicht als Grund für den Ausschluss von Komponenten genannt."""
         },
         {
             "answer": "Um Kompatibilitätsprobleme mit dem CSV-Format zu vermeiden",
             "correct": False,
-            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Es gibt keinen Hinweis darauf, dass die Deaktivierung von Komponenten mit dem CSV-Format zusammenhängt."""
+            "feedback": """× Nicht korrekt. Diese Aussage wird nicht durch das Notebook unterstützt. Es gibt keinen Hinweis darauf, dass der Ausschluss von Komponenten mit dem CSV-Format zusammenhängt."""
         }
     ]
 }]
@@ -426,18 +426,18 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice_4 = [{
-    "question": """Welches Dateiformat wird im Beispiel für die Speicherung der annotierten Texte verwendet und warum?""",
+    "question": """Welches textbasierte, interoperable Dateiformat wird im Beispiel für die Speicherung der Annotationstabelle verwendet und warum?""",
     "type": "multiple_choice",
     "answers": [
         {
             "answer": "TXT, weil es am wenigsten Speicherplatz benötigt",
             "correct": False,
-            "feedback": """× Nicht korrekt. Laut Notebook werden die annotierten Texte nicht als TXT-Dateien gespeichert."""
+            "feedback": """× Nicht korrekt. Laut Notebook wird die Annotationstabelle nicht als TXT-Datei gespeichert."""
         },
         {
             "answer": "CSV, weil es gut für die Speicherung tabellarischer Daten geeignet ist",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook steht explizit: "CSV (comma-separated value) ist das Standardformat um tabellarische Daten im Klartext zu speichern." Außerdem wird erwähnt: "Das Tabellenformat wurde gewählt, da sich darin gut relationale Daten speichern lassen." """
+            "feedback": """✓ Richtig! Im Notebook steht: "Für die Speicherung von relativen Daten (wie ein Wort und die unterschiedlichen Annotationen des Worts) eignet sich das Tabellenformat gut." Die Annotationstabelle (anno_df) wird deshalb als .csv-Datei gespeichert. Beachten Sie: Zusätzlich speichert das Notebook die Annotationen auch im spaCy-eigenen Format (Dateiendung .spacy, mit doc.to_disk()), damit die spaCy-spezifischen Funktionen – etwa die Navigation der Dependenzstruktur – weiter genutzt werden können. Da dieses Format von spaCy abhängig und damit weniger interoperabel ist, wird die Annotation zusätzlich im plattformunabhängigen, textbasierten CSV-Format abgelegt."""
         },
         {
             "answer": "JSON, weil es die hierarchische Struktur der Annotation am besten abbildet",
@@ -477,12 +477,12 @@ multiple_choice_5 = [{
         {
             "answer": "Der tokenisierte Text enthält mehr Elemente, weil Satzzeichen als eigene Token erkannt werden",
             "correct": True,
-            "feedback": """✓ Richtig! Das Notebook zeigt: "Durch die Tokenisierung wurden z. B. Satzzeichen von Wörtern abgetrennt. An der Textlänge lässt sich dies schon erkennen." Die Anzahl steigt von 11.612 auf 15.062 Token."""
+            "feedback": """✓ Richtig! Das Notebook zeigt: "Durch die Tokenisierung wurden z. B. Satzzeichen von Wörtern abgetrennt. An der Textlänge lässt sich dies schon erkennen." Für den Roman "Feldblumen" steigt die Anzahl von rund 38.000 (Aufteilung nach Leerzeichen mit split()) auf rund 47.000 Token (Tokenisierung mit spaCy)."""
         },
         {
             "answer": "Der tokenisierte Text ist unverändert in seiner Länge, nur die Qualität der Tokens ist verbessert",
             "correct": False,
-            "feedback": """× Nicht korrekt. Diese Aussage widerspricht dem im Notebook gezeigten Unterschied in der Tokenanzahl (11.612 vs. 15.062)."""
+            "feedback": """× Nicht korrekt. Diese Aussage widerspricht dem im Notebook gezeigten Unterschied in der Tokenanzahl (rund 38.000 vs. rund 47.000)."""
         },
         {
             "answer": "Der tokenisierte Text ist kürzer, weil zusammengehörige Mehrwortausdrücke als ein Token erkannt werden",
@@ -496,48 +496,135 @@ display_quiz(multiple_choice_5, colors=colors.jupyterquiz)
 ```
 
 ## Frage 12
-Ordnen Sie die Schritte in die richtige Reihenfolge, um einen Text mit spaCy zu annotieren:
+Bringen Sie die Verarbeitungsschritte in die richtige Reihenfolge, um einen Text mit spaCy zu annotieren. Ziehen Sie dazu die Schritte per Drag & Drop an die passende Position.
 
-1. Speichern der Annotation als CSV-Datei
-2. Auswahl der Analysekomponenten
-3. Laden des Sprachmodells
-4. Einlesen des Textes
-5. Durchführung der Annotation mit nlp(text)
+```{code-cell} ipython3
+:tags: [remove-input]
+import sys
+sys.path.append("..")
+from quadriga.assessment import DragDropQuiz
+
+schritte = [
+    "Einlesen des Textes",
+    "Laden des Sprachmodells",
+    "Auswahl der Analysekomponenten",
+    "Durchführung der Annotation mit nlp(text)",
+    "Speichern der Annotationen (als CSV- und .spacy-Datei)",
+]
+
+beschreibungen = [f"Schritt {i}" for i in range(1, len(schritte) + 1)]
+
+# scrambled order of the draggable options
+optionen = [schritte[3], schritte[0], schritte[4], schritte[1], schritte[2]]
+
+quiz = DragDropQuiz()
+quiz.create_matching_quiz(
+    title="Welche Reihenfolge der Verarbeitungsschritte ist korrekt für die Textannotation mit spaCy?",
+    descriptions=beschreibungen,
+    options=optionen,
+    correct_mapping={beschreibung: schritt for beschreibung, schritt in zip(beschreibungen, schritte)},
+)
+```
+
+````{admonition} Lösung
+:class: solution, dropdown
+Die Reihenfolge im Notebook ist: 1. Einlesen des Textes, 2. Laden des Sprachmodells, 3. Auswahl der Analysekomponenten, 4. Durchführung der Annotation mit nlp(text), 5. Speichern der Annotationen – sowohl im spaCy-eigenen Format (.spacy) als auch als Tabelle im CSV-Format.
+````
+
+## Frage 13
+(Wählen Sie alle zutreffenden Antworten aus)
 
 ```{code-cell} ipython3
 :tags: [remove-input]
 from jupyterquiz import display_quiz
 
+"""
+Lernziel: Sie können begründen, welche Annotationsebenen (Lemmatisierung, POS-Tagging, Dependency Parsing) für die Extraktion von Adjektiv-Nomen-Paaren benötigt werden.
+Bloom-Stufe: Analysieren
+Format: Multiple Choice
+"""
+
 import sys
 sys.path.append("..")
 from quadriga import colors
 
-multiple_choice_6 = [{
-    "question": """Welche Reihenfolge der Verarbeitungsschritte ist korrekt für die Textannotation mit spaCy?""",
+multiple_choice_7 = [{
+    "question": """Im Notebook werden die Adjektive extrahiert, die sich auf das Nomen "Luft" beziehen (z.B. "reine Luft"). Welche Annotationsebenen werden dafür benötigt?""",
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "3 → 2 → 4 → 5 → 1",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Diese Reihenfolge ist nicht korrekt. Laut Notebook wird zuerst der Text eingelesen (Schritt 1), bevor weitere Verarbeitungsschritte folgen."""
-        },
-        {
-            "answer": "3 → 4 → 2 → 5 → 1",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Diese Reihenfolge stimmt nicht mit dem Ablauf im Notebook überein, in dem zuerst der Text eingelesen wird."""
-        },
-        {
-            "answer": "4 → 3 → 2 → 5 → 1",
+            "answer": "Part-of-Speech-Tagging (Wortarten)",
             "correct": True,
-            "feedback": """✓ Richtig! Die Reihenfolge im Notebook ist: 1. Einlesen des Texts, 2. Laden des Sprachmodells, 3. Auswahl der Analysekomponenten, 4. Durchführung der Annotation, 5. Speichern der Ergebnisse."""
+            "feedback": """✓ Richtig! Im Code wird mit token.pos_ == "NOUN" geprüft, ob "Luft" als Nomen verwendet wird, und mit child.pos_ == "ADJ" werden die Adjektive identifiziert. Ohne POS-Tags könnte der Computer Wortarten nicht unterscheiden – genau deshalb dürfen die Komponenten, die die POS-Tags erzeugen, auch nicht ausgeschlossen werden."""
         },
         {
-            "answer": "4 → 5 → 3 → 2 → 1",
+            "answer": "Dependency Parsing (syntaktische Beziehungen)",
+            "correct": True,
+            "feedback": """✓ Richtig! Über die Dependenzstruktur des spaCy-Doc (token.children) werden attributive Adjektive gefunden, die direkt vom Nomen "Luft" abhängen. Zusätzlich werden über die Dependenz-Tags "sb" (Subjekt) und "pd" (Prädikat) prädikative Adjektive erfasst, etwa in Sätzen wie "Die Luft ist rein"."""
+        },
+        {
+            "answer": "Lemmatisierung",
+            "correct": True,
+            "feedback": """✓ Richtig! Die Bedingung token.lemma_ == "Luft" nutzt das Lemma, damit auch flektierte Formen des Nomens gefunden werden. Auch die gefundenen Adjektive werden als Lemmata (child.lemma_) gesammelt, sodass z.B. "reine" und "reiner" gemeinsam als "rein" gezählt werden."""
+        },
+        {
+            "answer": "Named Entity Recognition (NER)",
             "correct": False,
-            "feedback": """× Nicht korrekt. Das Sprachmodell muss vor der Annotation geladen werden, wie im Notebook gezeigt."""
+            "feedback": """× Nicht korrekt. NER erkennt Eigennamen wie Personen- oder Ortsnamen. Für die Extraktion von Adjektiv-Nomen-Paaren wird diese Annotationsebene nicht benötigt – im Notebook ist "ner" deshalb sogar in der Liste disable_components enthalten."""
+        },
+        {
+            "answer": "Sentimentanalyse",
+            "correct": False,
+            "feedback": """× Nicht korrekt. Ob Adjektive wie "rein" und "weich" positiv oder Adjektive wie "finster" negativ konnotiert sind, wird in der Fallstudie interpretativ eingeordnet und nicht durch eine automatische Sentimentanalyse bestimmt. Für die Extraktion der Adjektive selbst wird keine Sentimentanalyse benötigt."""
         }
     ]
 }]
 
-display_quiz(multiple_choice_6, colors=colors.jupyterquiz)
+display_quiz(multiple_choice_7, colors=colors.jupyterquiz)
+```
+
+## Frage 14
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+"""
+Lernziel: Sie können erklären, warum die Extraktion von Adjektiv-Nomen-Paaren auf dem Dependency Parsing basiert und nicht auf dem Wortabstand.
+Bloom-Stufe: Verstehen
+Format: Multiple Choice
+"""
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+multiple_choice_8 = [{
+    "question": """Warum werden die Adjektiv-Nomen-Paare über das Dependency Parsing extrahiert und nicht einfach über den geringsten Abstand zwischen Adjektiv und Nomen?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Weil sich ein Adjektiv auch auf ein weiter entferntes Nomen beziehen kann – der geringste Abstand führt daher zu Fehlzuordnungen",
+            "correct": True,
+            "feedback": """✓ Richtig! Das Kapitel zeigt dies am Beispielsatz "Ich roch eine üble, von den Schloten der neuen Fabriken schwer geschwängerte Luft.": Das Nomen mit dem geringsten Abstand zu "üble" ist "Schloten", tatsächlich bezieht sich das Adjektiv aber auf "Luft". Die Dependenzannotation beschreibt die gerichteten grammatikalischen Beziehungen zwischen den Wörtern und ordnet das Adjektiv deshalb dem richtigen Bezugswort zu. Zusätzlich lassen sich über die Dependenzstruktur auch prädikative Konstruktionen wie "Die Luft ist rein" erfassen, bei denen das Adjektiv nicht direkt neben dem Nomen steht."""
+        },
+        {
+            "answer": "Weil spaCy den Abstand zwischen Wörtern nicht berechnen kann",
+            "correct": False,
+            "feedback": """× Nicht korrekt. Der Abstand zwischen Wörtern ließe sich über die Token-Indizes (token.i) leicht berechnen. Das Problem ist nicht technischer, sondern linguistischer Natur: Das nächststehende Nomen ist nicht immer das Bezugswort des Adjektivs."""
+        },
+        {
+            "answer": "Weil das Dependency Parsing schneller ist als ein Abstandsvergleich",
+            "correct": False,
+            "feedback": """× Nicht korrekt. Das Dependency Parsing ist rechenaufwendiger als ein einfacher Abstandsvergleich. Es wird nicht wegen der Geschwindigkeit eingesetzt, sondern weil es die grammatikalischen Beziehungen zwischen den Wörtern abbildet und damit korrektere Zuordnungen ermöglicht."""
+        },
+        {
+            "answer": "Weil Adjektive im Deutschen immer direkt nach dem Nomen stehen",
+            "correct": False,
+            "feedback": """× Nicht korrekt. Attributive Adjektive stehen im Deutschen in der Regel vor dem Nomen ("reine Luft"), prädikative Adjektive können durch mehrere Wörter vom Nomen getrennt sein ("Die Luft ist rein"). Gerade weil die Position variiert, wird die Dependenzstruktur für die Zuordnung genutzt."""
+        }
+    ]
+}]
+
+display_quiz(multiple_choice_8, colors=colors.jupyterquiz)
 ```

@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Ihre Ergebnisse werden weder bewertet noch gespeichert. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: 1h
+**Geschätzte Zeit**: 1h 15min
 
 Viel Erfolg!
 ````
@@ -68,7 +68,7 @@ question1 = [
             {
                 "answer": "Eine Sammlung, die nur digitalisierte Bücher enthält",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten: Zeitungsartikel (wie in unserer Fallstudie), literarische Texte, Dokumente und andere Textformen. Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
+                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten: literarische Texte (wie in unserer Fallstudie), Zeitungsartikel, Dokumente und andere Textformen. Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
             },
             {
                 "answer": "Eine Textsammlung, die spezifischen Forschungszwecken dient",
@@ -192,9 +192,9 @@ display_quiz(statements, colors=colors.jupyterquiz)
 
 ## Frage 3
 
-**Szenario:** Ein Forschungsprojekt möchte ein historisches Zeitungskorpus erstellen, das:
+**Szenario:** Ein Forschungsprojekt möchte ein Korpus digitalisierter Romane des 19. Jahrhunderts erstellen, das:
 - für automatische Textanalysen nutzbar ist
-- die ursprüngliche Seitengestaltung dokumentiert
+- die ursprüngliche Seitengestaltung der historischen Buchausgaben dokumentiert
 - langfristig archiviert werden soll
 
 **Frage:** Welches Format oder Kombination von Formaten würden Sie empfehlen?
@@ -590,28 +590,28 @@ from quadriga import colors
 
 metadata_questions = [
     {
-        "question": """Auf welcher Beschreibungsebene wird das "DC.coverage"-Element typischerweise verwendet?""",
+        "question": """Auf welcher Beschreibungsebene wird das "DC.coverage"-Element in dieser Fallstudie verwendet?""",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "Nur auf Korpus-Level",
                 "correct": True,
-                "feedback": """✓ Richtig. "DC.coverage" beschreibt typischerweise die zeitliche und räumliche Abdeckung einer gesamten Sammlung und wird daher vorwiegend auf Korpus-Level eingesetzt. Es definiert den Rahmen der Sammlung und ist wichtig für die Gesamteinordnung des Korpus."""
+                "feedback": """✓ Richtig. In dieser Fallstudie beschreibt "DC.coverage" die zeitliche und räumliche Abdeckung der gesamten Sammlung – im Beispiel des ELTeC-deu-Korpus etwa "1840-1920, Deutschland". Es definiert damit den Rahmen der Sammlung und ist wichtig für die Gesamteinordnung des Korpus. (Grundsätzlich erlaubt Dublin Core das Element auch auf Dokumentebene – in unserem Metadaten-Set kommt es dort aber nicht vor.)"""
             },
             {
                 "answer": "Nur auf Dokument-Level",
                 "correct": False,
-                "feedback": """× Falsch. Obwohl "DC.coverage" auch auf Dokumentebene verwendet werden kann, ist es in der Praxis besonders relevant für die Korpus-Beschreibung."""
+                "feedback": """× Falsch. In dieser Fallstudie wird "DC.coverage" nicht auf Dokumentebene verwendet: Die Einzeldokumente – wie im Beispiel "Die Geier-Wally" – werden über Elemente wie DC.title, DC.creator, DC.date und DC.identifier beschrieben."""
             },
             {
                 "answer": "Sowohl auf Korpus- als auch auf Dokument-Level",
                 "correct": False,
-                "feedback": """× Falsch. Im Kontext dieser Fallstudie wird "DC.coverage" vorrangig auf Korpus-Level verwendet."""
+                "feedback": """× Falsch. Grundsätzlich ließe sich "DC.coverage" zwar auf beiden Ebenen einsetzen, in dieser Fallstudie wird es aber ausschließlich auf Korpus-Level verwendet, um die zeitliche und räumliche Abdeckung der Gesamtsammlung anzugeben."""
             },
             {
                 "answer": "Auf keiner der genannten Ebenen",
                 "correct": False,
-                "feedback": """× Falsch. "DC.coverage" ist ein wichtiges Element für die Metadatenbeschreibung, insbesondere auf Korpus-Level."""
+                "feedback": """× Falsch. "DC.coverage" wird in dieser Fallstudie durchaus verwendet – und zwar auf Korpus-Level, um die zeitliche und räumliche Abdeckung der Sammlung zu beschreiben."""
             }
         ]
     }
@@ -822,56 +822,53 @@ display_quiz(metadata_schema_questions, colors=colors.jupyterquiz)
 ```
 
 ## Frage 9
+
+Bringen Sie die Schritte des Korpusaufbaus in die richtige Reihenfolge, indem Sie die Schritte per Drag & Drop den Positionen zuordnen.
+
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
-
 import sys
 sys.path.append("..")
-from quadriga import colors
+from quadriga.assessment import DragDropQuiz
 
-sequence_question = [
-    {
-        "question": "In welcher Reihenfolge werden die folgenden Schritte beim Korpusaufbau durchgeführt?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "1. Durchführung der Datensammlung → 2. Dokumention der Auswahlkriterien → 3. Testen der Sammlungsmethodik",
-                "correct": False,
-                "feedback": """× Falsch. Die Datensammlung kann erst durchgeführt werden, wenn ein Korpuskonzept erstellt wurde. Außerdem muss eine Metadatenstruktur festgelegt werden."""
-            },
-            {
-                "answer": "1. Entwicklung des Korpuskonzepts → 2. Dokumentation der Auswahlkriterien → 3. Festlegung des Metadatenstruktur → 4. Test der Sammlungsmethodik → Durchführung der Datensammlung",
-                "correct": True,
-                "feedback": """✓ Richtig! Dies ist die korrekte Reihenfolge: Die Erstellung des Konzept muss an erster Stelle erfolgen. Bevor ein erster Test zur Machbarkeit der Sammlungsmethodik durchgeführt werden kann, müssen die Kriterien zur Auswahl der Daten festgelegt werden sowie eine Struktur, in der die Metadaten gespeichert werden. Wenn erste Tests der Sammlungsmethodik erfolgreich waren, kann die Sammlung der kompletten Daten ausgeführt werden."""
-            },
-            {
-                "answer": "1. Festlegung des Metadatenschemas → 2. Dokumentation der Auswahlkriterien → 3. Test der Sammlungsmethodik → 4. Durchführung der Datensammlung",
-                "correct": False,
-                "feedback": """× Falsch. Es muss zuerst ein Korpuskonzept festgelegt werden, damit eine Metadatenstruktur und die Auswahlkriterien festgelegt werden können."""
-            },
-            {
-                "answer": "1. Entwicklung des Korpuskonzepts → 2. Festlegung des Metadatenschemas → 3. Durchführung der Datensammlung → 4. Test der Sammlungsmethodik → 5. Dokumentation der Auswahlkriterien",
-                "correct": False,
-                "feedback": """× Falsch. Die Datensammlung kann nicht durchgeführt werden, ohne dass die Auswahlkriterien zur Sammlung festgelegt wurden. Auch sollte die Sammlungsmethodik getestet werden, bevor sie auf den gesamten Daten ausgeführt wird."""
-            }
-        ]
-    }
-]
-
-display_quiz(sequence_question, colors=colors.jupyterquiz, max_width=1000)
+quiz = DragDropQuiz()
+quiz.create_matching_quiz(
+    title="In welcher Reihenfolge werden die folgenden Schritte beim Korpusaufbau durchgeführt?",
+    descriptions=["Schritt 1", "Schritt 2", "Schritt 3", "Schritt 4", "Schritt 5"],
+    options=[
+        "Test der Sammlungsmethodik",
+        "Entwicklung des Korpuskonzepts",
+        "Durchführung der Datensammlung",
+        "Dokumentation der Auswahlkriterien",
+        "Festlegung der Metadatenstruktur",
+    ],
+    correct_mapping={
+        "Schritt 1": "Entwicklung des Korpuskonzepts",
+        "Schritt 2": "Dokumentation der Auswahlkriterien",
+        "Schritt 3": "Festlegung der Metadatenstruktur",
+        "Schritt 4": "Test der Sammlungsmethodik",
+        "Schritt 5": "Durchführung der Datensammlung",
+    },
+)
 ```
+
+````{admonition} Lösung mit Erläuterung
+:class: solution, dropdown
+**Korrekte Reihenfolge:** 1. Entwicklung des Korpuskonzepts → 2. Dokumentation der Auswahlkriterien → 3. Festlegung der Metadatenstruktur → 4. Test der Sammlungsmethodik → 5. Durchführung der Datensammlung
+
+**Begründung:** Die Erstellung des Konzepts muss an erster Stelle erfolgen. Bevor ein erster Test zur Machbarkeit der Sammlungsmethodik durchgeführt werden kann, müssen die Kriterien zur Auswahl der Daten festgelegt werden sowie eine Struktur, in der die Metadaten gespeichert werden. Wenn erste Tests der Sammlungsmethodik erfolgreich waren, kann die Sammlung der kompletten Daten ausgeführt werden.
+````
 
 ## Frage 10
 
 Analysieren Sie den folgenden Ausschnitt aus einem Korpusaufbau-Konzept:
 
-"Für das Zeitungskorpus zur Spanischen Grippe werden Ausgaben der Berliner Morgenpost und der Vossischen Zeitung aus den Jahren 1918-1919 gesammelt. Die Zeitungen sind über ZEFYS als PDF verfügbar. Aufgrund der Datenmenge (ca. 2 TB) wird ein balanciertes Korpus mit repräsentativen Stichproben erstellt."
+"Für die Untersuchung literarischer Reaktionen auf die Luftverschmutzung im 19. Jahrhundert wird das *Corpus of German-Language Fiction* (über 2.700 Texte, frei verfügbar als Plain Text) verwendet. Das Korpus wird auf das 19. Jahrhundert eingegrenzt; Jahrzehnte mit weniger als 50 verfügbaren Texten werden ausgeschlossen. Anschließend werden zwei unabhängige, nach Jahrzehnten geschichtete Zufallsstichproben mit je 50 Texten pro Jahrzehnt (1810er bis 1890er, also je 450 Texte) gezogen – Korpus I und Korpus II."
 
 Bewerten Sie die folgenden Aspekte:
 
 1.	Quellenauswahl
-2.	Technische Umsetzbarkeit
+2.	Auswahlstrategie (nach Schöch)
 3.	Praktische Einschränkungen
 4.	Lösungsansatz
 
@@ -891,22 +888,78 @@ create_answer_box('korpus-2')
 **Musterlösung**:
 
 1. Quellenauswahl:
-    - Zwei relevante Berliner Zeitungen
-    - Zeitraum entspricht Pandemieverlauf
-    - Digitale Verfügbarkeit gegeben
+    - Einziges der geprüften Korpora (ELTeC-DEU, d-Prose, Corpus of German-Language Fiction), das das gesamte 19. Jahrhundert abdeckt
+    - Großer Umfang (über 2.700 Texte) und freie Verfügbarkeit
+    - Plain Text ist direkt maschinenlesbar, kein OCR nötig
+    - Einschränkung: Die Metadaten mussten erst per RegEx aus den Dateinamen extrahiert und bereinigt werden
 
-2. Technische Umsetzbarkeit:
-    - Zugang über ZEFYS-Portal möglich
-    - PDF-Format erfordert OCR
-    - Systematischer Download möglich
+2. Auswahlstrategie (nach Schöch):
+    - Das Ausgangskorpus ist opportunistisch zusammengestellt und nicht repräsentativ – spätere Jahrzehnte enthalten deutlich mehr Texte als frühere
+    - Ein vollständiges Korpus ("alle Romane des 19. Jahrhunderts") ist nicht realisierbar
+    - Die geschichtete Zufallsstichprobe kombiniert zwei Strategien: Schichtung nach Jahrzehnten sorgt für zeitliche Balance, die Zufallsauswahl innerhalb jeder Schicht vermeidet subjektive Verzerrungen
 
 3. Praktische Einschränkungen:
-    - Sehr große Datenmenge (2 TB)
-    - Hoher Speicherbedarf
-    - Aufwendige Verarbeitung
+    - Sehr ungleichmäßige Verteilung der Texte über die Jahrzehnte
+    - Das Jahrzehnt 1800–1809 liegt unter dem Schwellenwert von 50 Texten und muss ausgeschlossen werden
+    - Balance nur entlang der Zeitachse: Andere Merkmale (z.B. Geschlecht der Autor:innen, Untergattung) bleiben so verteilt wie im Quellkorpus
 
 4. Lösungsansatz:
-    - Balanciertes Korpus als Alternative
-    - Repräsentative Stichproben
-    - Praktikable Größe bei wissenschaftlicher Qualität
+    - 50 Texte pro Jahrzehnt als pragmatischer Kompromiss zwischen Stichprobengröße und Abdeckung möglichst vieler Jahrzehnte
+    - Zwei unabhängige Stichproben (Korpus I und Korpus II) erlauben es, die Robustheit der Ergebnisse gegenüber der konkreten Zufallsauswahl zu prüfen
+    - Feste Random States machen die Ziehung reproduzierbar
 ````
+
+## Frage 11
+(Wählen Sie alle zutreffenden Antworten aus)
+
+Im Abschnitt [Metadaten](corpus-collection_metadata) wurden zwei Dublin-Core-Beispiele vorgestellt: die Beschreibung des Korpus "German Novel Corpus (ELTeC-deu)" und die Beschreibung des Einzeldokuments "Die Geier-Wally" von Wilhelmine von Hillern.
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+"""
+Lernziel:
+    Sie können die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente beschreiben.
+Bloom-Stufe: Analysieren
+Format: Multiple Choice
+Geschätzte Zeit: 5 Minuten
+Schwerpunkte:
+    - Anwendung von Dublin Core auf konkrete Beispiele
+    - Unterscheidung Korpus- und Dokumentebene
+"""
+
+question11 = [
+    {
+        "question": "Welche der folgenden Aussagen zu diesen beiden Metadaten-Beispielen sind korrekt?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": """"DC.coverage: 1840-1920, Deutschland" beschreibt die zeitliche und räumliche Abdeckung des gesamten ELTeC-deu-Korpus""",
+                "correct": True,
+                "feedback": """✓ Richtig! "DC.coverage" gibt hier auf Korpus-Level an, welchen Zeitraum (1840-1920) und welchen Raum (Deutschland) die Sammlung abdeckt. Solche Angaben helfen bei der Einschätzung, ob ein Korpus für eine Forschungsfrage geeignet ist – etwa im Hinblick auf die zeitliche Abdeckung des 19. Jahrhunderts."""
+            },
+            {
+                "answer": """"DC.identifier: Q1212872" ist ein eindeutiger Identifikator für das Einzeldokument "Die Geier-Wally\"""",
+                "correct": True,
+                "feedback": """✓ Richtig! Der Identifikator ermöglicht es, das Dokument eindeutig zu referenzieren und mit anderen Datenbeständen zu verknüpfen. Eindeutige Identifikatoren sind typische Metadaten auf Dokumentebene."""
+            },
+            {
+                "answer": """"DC.date" bezeichnet in beiden Beispielen das Publikationsjahr eines literarischen Werks""",
+                "correct": False,
+                "feedback": """× Nicht korrekt. Nur auf Dokumentebene bezeichnet "DC.date: 1873" das Publikationsjahr des Romans "Die Geier-Wally". Auf Korpus-Level bezieht sich "DC.date: 2021-04-11" dagegen auf die Veröffentlichung des Korpus selbst – die Bedeutung eines Elements hängt also davon ab, welches Objekt beschrieben wird."""
+            },
+            {
+                "answer": """"DC.creator" nennt in beiden Beispielen die Autor:innen literarischer Werke""",
+                "correct": False,
+                "feedback": """× Nicht korrekt. Auf Dokumentebene nennt "DC.creator" mit Wilhelmine von Hillern tatsächlich die Autorin des Romans. Auf Korpus-Level stehen dort aber die Ersteller:innen des Korpus (Leonard Konle, Fotis Jannidis, Carolin Odebrecht, Lou Burnard) – nicht die Autor:innen der enthaltenen Werke."""
+            }
+        ]
+    }
+]
+display_quiz(question11, colors=colors.jupyterquiz, max_width=1000)
+```
