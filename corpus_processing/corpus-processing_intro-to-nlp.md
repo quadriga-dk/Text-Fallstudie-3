@@ -18,10 +18,19 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ## Was ist NLP und warum benutzen wir es?
 Für den Computer ist ein Text eine Liste von Zeichen, die nicht aus semantischen Einheiten wie z.B. Wörtern oder Sätzen besteht. Sobald die Operationalisierung einer Forschungsfrage von diesen semantischen Einheiten ausgeht, z.B. auf der Häufigkeit eines Wortes aufbaut, ist es sinnvoll Methoden des <a href="https://en.wikipedia.org/wiki/Natural_language_processing" class="external-link" target="_blank">Natural Language Processing (NLP)</a>  anzuwenden, um den Text mit zusätzlichen linguistischen Informationen anzureichern.  
-NLP ist ein interdisziplinäres Feld, das zwischen der Linguistik und der Informatik ansiedelt ist und verschiedene Methoden (regelbasiert, statistisch, <a href="https://en.wikipedia.org/wiki/Machine_learning" class="external-link" target="_blank">maschinelles Lernen</a>) zur automatischen Verarbeitung natürlicher Sprache umfasst. Diese reichen von der Aufteilung eines Texts in Wörter (<a href="https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization" class="external-link" target="_blank">Tokenisierung</a>) über die Analyse von Emotionen in Texten (<a href="https://en.wikipedia.org/wiki/Sentiment_analysis" class="external-link" target="_blank">Emotion / Sentiment Analysis</a>) bis hin zu der Erstellung von Chatbots (<a href="https://en.wikipedia.org/wiki/Dialogue_system" class="external-link" target="_blank">Dialogue Systems</a>). 
+NLP ist ein interdisziplinäres Feld, das zwischen der Linguistik und der Informatik angesiedelt ist und verschiedene Methoden (regelbasiert, statistisch, <a href="https://en.wikipedia.org/wiki/Machine_learning" class="external-link" target="_blank">maschinelles Lernen</a>) zur automatischen Verarbeitung natürlicher Sprache umfasst. Diese reichen von der Aufteilung eines Texts in Wörter (<a href="https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization" class="external-link" target="_blank">Tokenisierung</a>) über die Analyse von Emotionen in Texten (<a href="https://en.wikipedia.org/wiki/Sentiment_analysis" class="external-link" target="_blank">Emotion / Sentiment Analysis</a>) bis hin zu der Erstellung von Chatbots (<a href="https://en.wikipedia.org/wiki/Dialogue_system" class="external-link" target="_blank">Dialogue Systems</a>). 
 
-## Voraussetzungen
-Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind, um die Veränderungen in den Eingenschaften, die Luft zugeschrieben werden, untersuchen zu können.
+## Voraussetzungen aus der Operationalisierung
+Bevor wir die konkreten NLP-Methoden festlegen, lohnt sich ein Rückblick auf unsere [Fragestellung](research-question_research-question) und deren [Operationalisierung](research-question_operationalization): Aus ihnen ergibt sich, welche linguistischen Informationen unser Korpus überhaupt enthalten muss. Unsere Fragestellung lautet:
+
+`````{admonition} Forschungsfrage
+:class: keypoint
+Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
+`````
+
+Gemäß der Operationalisierung ist die Analyse zweigeteilt: Zum einen wird untersucht, *wie häufig* Luft thematisiert wird, zum anderen, *wie* über Luft gesprochen wird. Daraus ergeben sich die folgenden Anforderungen an die Vorverarbeitung des Korpus.
+
+Zur Analyse der Luftqualität soll zum einen das semantische Feld "Luft" untersucht werden, zum anderen sollen Adjektive extrahiert werden, die der Luft attribuiert sind, um die Veränderungen in den Eigenschaften, die Luft zugeschrieben werden, untersuchen zu können.
 
 Um das semantische Feld zu untersuchen, sollen alle Wörter in dem Feld automatisch extrahiert und dann gezählt werden. Die Extraktion der Wörter soll folgende Bedingungen erfüllen:
 1. Es sollen **nur** die Wörter des semantischen Felds gefunden werden. Wenn wir nach "Luft" suchen, wollen wir nicht auch "Luftfahrt" finden. 
