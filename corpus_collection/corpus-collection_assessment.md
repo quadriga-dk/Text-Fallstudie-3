@@ -76,9 +76,9 @@ question1 = [
                 "feedback": """✓ Korrekt! Die Zweckgebundenheit ist ein wichtiges Merkmal: Das Korpus wird für bestimmte Forschungsfragen zusammengestellt, die Forschungszwecke bestimmen die Auswahlkriterien und die Zweckbindung beeinflusst auch die Art der Aufbereitung der Texte."""
             },
             {
-                "answer": "Eine beliebige Sammlung von digitalisierten Texten",
+                "answer": "Eine Sammlung digitalisierter Texte, deren Zusammenstellung weder dokumentiert noch durch einen Forschungszweck motiviert ist",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine beliebige Sammlung erfüllt nicht die wissenschaftlichen Anforderungen an ein Korpus: Es fehlen systematische Auswahlkriterien, die Zusammenstellung ist nicht durch Forschungsfragen motiviert und eine methodisch fundierte Analyse wäre nicht möglich."""
+                "feedback": """× Nicht korrekt. Entscheidend ist nicht, wie streng die Auswahl eingeschränkt wird, sondern dass die Auswahlentscheidungen dokumentiert und auf einen Forschungszweck bezogen sind. Auch ein opportunistisches Korpus (siehe Abschnitt "Korpora als Forschungsobjekte") folgt einem nachvollziehbaren Kriterium – der digitalen Verfügbarkeit – und ist ein wissenschaftliches Korpus. Eine Sammlung ohne jede dokumentierte Auswahlentscheidung lässt sich dagegen nicht methodisch einordnen, weil unklar bleibt, was sie abbildet."""
             },
             {
                 "answer": "Eine Sammlung, die immer alle verfügbaren Texte zu einem Thema enthalten muss",
