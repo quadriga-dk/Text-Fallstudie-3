@@ -22,7 +22,26 @@ Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifi
 ## Repräsentative Stichprobe
 Die <a href="https://de.wikipedia.org/wiki/Grundgesamtheit" class="external-link" target="_blank">**Grundgesamtheit**</a> ist die Menge aller Texte, über die wir eine Aussage treffen wollen (z.B. alle deutschsprachigen Romane des 19. Jahrhunderts); eine **Stichprobe** ist eine daraus gezogene Teilmenge. **Repräsentativ** ist eine Stichprobe dann, wenn sie die **Variabilität** der Grundgesamtheit abbildet – also die ganze Bandbreite der Unterschiede zwischen den Texten, etwa nach Entstehungsjahrzehnt, Untergattung oder Autor:in. Ergebnisse, die an einer repräsentativen Stichprobe gewonnen werden, gelten dann auch für die Grundgesamtheit. Ob das gelingt, ist keine Frage des Fingerspitzengefühls, sondern das Ergebnis statistischer Operationen – allen voran der **Zufallsauswahl**.
 
-Auf den ersten Blick wirkt es widersprüchlich, dass eine *zufällige* Auswahl *repräsentativ* sein soll. Tatsächlich ist die Zufallsauswahl aber gerade der Weg zur Repräsentativität: Würden wir die Texte gezielt "nach Gefühl" auswählen, flössen unweigerlich unsere eigenen Erwartungen und Vorlieben ein und verzerrten die Auswahl. Bei einer echten Zufallsstichprobe hat dagegen jeder Text der Grundgesamtheit dieselbe Chance, gezogen zu werden. Dadurch werden systematische Verzerrungen vermieden, und bei hinreichend großem Stichprobenumfang bildet die Stichprobe die Verteilung und Vielfalt der Grundgesamtheit mit hoher Wahrscheinlichkeit zuverlässig ab. Voraussetzung dafür ist, dass die Grundgesamtheit bekannt und vollständig dokumentiert ist – dass wir also überhaupt eine Liste aller infrage kommenden Texte besitzen, aus der gezogen werden kann. In der Praxis wird die reine Zufallsauswahl zudem oft verfeinert, indem man die Grundgesamtheit zunächst in Gruppen unterteilt (z.B. nach Jahrzehnten) und aus jeder Gruppe zufällig zieht – eine sogenannte *geschichtete Zufallsstichprobe* –, um sicherzustellen, dass alle relevanten Teilbereiche angemessen vertreten sind.
+Auf den ersten Blick wirkt es widersprüchlich, dass eine *zufällige* Auswahl *repräsentativ* sein soll. Tatsächlich ist die Zufallsauswahl aber gerade der Weg zur Repräsentativität: Würden wir die Texte gezielt "nach Gefühl" auswählen, flössen unweigerlich unsere eigenen Erwartungen und Vorlieben ein und verzerrten die Auswahl. Bei einer echten Zufallsstichprobe hat dagegen jeder Text der Grundgesamtheit dieselbe Chance, gezogen zu werden. Dadurch werden systematische Verzerrungen vermieden, und bei hinreichend großem Stichprobenumfang bildet die Stichprobe die Verteilung und Vielfalt der Grundgesamtheit mit hoher Wahrscheinlichkeit zuverlässig ab. Voraussetzung dafür ist, dass die Grundgesamtheit bekannt und vollständig dokumentiert ist – dass wir also überhaupt eine Liste aller infrage kommenden Texte besitzen, aus der gezogen werden kann.
+
+```{figure} ../assets/images/corpus-collection_sampling_random-vs-biased.svg
+---
+name: sampling-random-vs-biased
+alt: Links ein Kasten „Grundgesamtheit“ mit vielen gemischten Symbolen für drei Untergattungen. Zwei Pfeile führen zu zwei kleineren Kästen. Der obere, „Zufallsstichprobe“, enthält die drei Untergattungen im gleichen Verhältnis wie die Grundgesamtheit; der untere, „Auswahl nach Vorlieben“, besteht fast nur aus einer Untergattung.
+---
+Zwei Wege, aus derselben Grundgesamtheit zwölf Romane zu ziehen. Links die Grundgesamtheit, in der drei Untergattungen in einem bestimmten Mischungsverhältnis vorkommen. Oben rechts eine **Zufallsstichprobe**: Sie enthält die drei Untergattungen ungefähr im selben Verhältnis wie die Grundgesamtheit. Unten rechts eine Auswahl "nach Gefühl": Hier dominieren die historischen Romane, weil sie den Auswählenden besser gefallen. Diese Stichprobe ist **verzerrt** – Ergebnisse, die an ihr gewonnen werden, gelten nicht für die Grundgesamtheit.
+```
+
+In der Praxis wird die reine Zufallsauswahl zudem oft verfeinert, indem man die Grundgesamtheit zunächst in Gruppen unterteilt (z.B. nach Jahrzehnten) und aus jeder Gruppe zufällig zieht – eine sogenannte *geschichtete Zufallsstichprobe* –, um sicherzustellen, dass alle relevanten Teilbereiche angemessen vertreten sind.
+
+```{figure} ../assets/images/corpus-collection_sampling_stratified.svg
+---
+name: sampling-stratified
+alt: Oben acht unterschiedlich hohe Punktesäulen für die Jahrzehnte von 1820 bis 1899; die frühen Jahrzehnte enthalten wenige, die späten viele Punkte. In jeder Säule sind drei Punkte hervorgehoben. Unten acht gleich hohe Säulen mit je drei Punkten.
+---
+Die **geschichtete Zufallsstichprobe**. Oben die Grundgesamtheit, nach Jahrzehnten in Schichten aufgeteilt: Aus den späten Jahrzehnten sind sehr viel mehr Texte überliefert als aus den frühen. Aus jeder Schicht wird nun dieselbe Anzahl an Texten zufällig gezogen (dunkelblau). Unten das Ergebnis: eine Stichprobe, in der jedes Jahrzehnt gleich stark vertreten ist. In kleinen Schichten wird dabei ein großer Teil der verfügbaren Texte gezogen – die Schichtgröße begrenzt also, wie groß die Stichprobe insgesamt werden kann.
+```
+
 
 - **Voraussetzung:** Grundgesamtheit muss bekannt und gut dokumentiert sein; Zufällige Auswahl der Datensätze ist erforderlich.
 - **Anwendung:** Ermöglicht gültige Aussagen über die Grundgesamtheit und dient als Referenz für andere Studien.
