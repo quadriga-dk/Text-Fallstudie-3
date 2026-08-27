@@ -10,3 +10,6 @@ venv/
 .claude/
 data/annotations/
 corpus_analysis/results/
+.venv-book
+_build-fast
+_config-noexec.yml
