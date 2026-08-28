@@ -28,6 +28,7 @@ sphinx:
   extra_extensions:
     - sphinx_apa_references
   config:
+    language: de
     bibtex_reference_style: author_year
 
 # Information about where the book exists on the web
