@@ -13,3 +13,5 @@ corpus_analysis/results/
 .venv-book
 _build-fast
 _config-noexec.yml
+# von Sphinx beim Build erzeugt (gettext_auto_build)
+_locale/**/*.mo
