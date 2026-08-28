@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quadriga-dk.github.io/quadriga-schema/v1.0.0/license-entry.json",
+  "title": "license-entry – Lizenzangabe",
+  "description": "Angabe einer Lizenz als URL oder als Kombination aus Lizenzname und URL.",
+  "oneOf": [
+    {
+      "description": "URL zur Lizenz.",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "description": "Lizenzname und URL zur Lizenz.",
+      "type": "object",
+      "required": [
+        "name",
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "name – Name der Lizenz",
+          "description": "Name der Lizenz. Idealerweise nach [SPDX](https://spdx.org/licenses/) oder einem ähnlichen Verzeichnis benannt.",
+          "type": "string"
+        },
+        "url": {
+          "title": "url – URL der Lizenz",
+          "description": "URL zum Lizenztext in der hier genutzten Fassung.",
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  ],
+  "x-mappings": {
+    "dc": {
+      "relation": "skos:broadMatch",
+      "target": "dc:rights"
+    },
+    "dcat": null,
+    "dcterms": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:license"
+    },
+    "hermes": {
+      "$comment": "HERMES Attribut #19: Lizenz",
+      "relation": "skos:exactMatch",
+      "target": "dcterms:license"
+    },
+    "lrmi": {
+      "relation": "skos:closeMatch",
+      "target": "lrmi:useRightsUrl"
+    },
+    "modalia": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:license"
+    },
+    "schema": {
+      "relation": "skos:exactMatch",
+      "target": "schema:license"
+    }
+  }
+}

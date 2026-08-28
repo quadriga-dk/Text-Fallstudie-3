@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quadriga-dk.github.io/quadriga-schema/v1.0.0/date-modified.json",
+  "title": "date-modified – Änderungsdatum",
+  "description": "Datum der letzten (großen, inhaltlich umfangreichen) Änderung. Sollte immer mit einer Versionsänderung einhergehen.",
+  "type": "string",
+  "format": "date",
+  "x-mappings": {
+    "dc": {
+      "relation": "skos:broadMatch",
+      "target": "dc:date"
+    },
+    "dcat": null,
+    "dcterms": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:modified"
+    },
+    "hermes": {
+      "$comment": "HERMES Attribut #18: Modifizierung",
+      "relation": "skos:exactMatch",
+      "target": "dcterms:modified"
+    },
+    "lrmi": null,
+    "modalia": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:modified"
+    },
+    "schema": {
+      "relation": "skos:exactMatch",
+      "target": "schema:dateModified"
+    }
+  }
+}

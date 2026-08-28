@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quadriga-dk.github.io/quadriga-schema/v1.0.0/competency.json",
+  "title": "competency – Kompetenz",
+  "description": "Im Lernziel adressierte Kompetenz nach dem QUADRIGA Datenkompetenzframework (https://doi.org/10.5281/zenodo.14747822). Aktuell in Überarbeitung für Version 4.\n\nenglish translation:\n\n- Orientierungswissen → conceptual knowledge\n- 1.1 Identifikation → 1.1 identification\n- 1.2 Qualitätssicherung → 1.2 quality assurance\n- 1.3 Ethik und Recht → 1.3 ethics and legal aspects\n- 2.1 Erhebung → 2.1 acquisition\n- 2.2 Validierung → 2.2 validation\n- 2.3 Aufbereitung → 2.3 (pre-)processing\n- 3.1 Organisation → 3.1 organisation\n- 3.2 Erschließung → 3.2 metadata\n- 4.1 Datenanalyse → 4.1 data analysis\n- 4.2 Visualisierung → 4.2 visualisation\n- 4.3 Interpretation → 4.3 interpretation\n- 5.1 Aufbewahrung → 5.1 preservation\n- 5.2 Datenpublikation → 5.2 data publication\n- 5.3 Kommunikation → 5.3 communication\n- nicht anwendbar → not applicable",
+  "enum": [
+    "Orientierungswissen",
+    "1.1 Identifikation",
+    "1.2 Qualitätssicherung",
+    "1.3 Ethik und Recht",
+    "2.1 Erhebung",
+    "2.2 Validierung",
+    "2.3 Aufbereitung",
+    "3.1 Organisation",
+    "3.2 Erschließung",
+    "4.1 Datenanalyse",
+    "4.2 Visualisierung",
+    "4.3 Interpretation",
+    "5.1 Aufbewahrung",
+    "5.2 Datenpublikation",
+    "5.3 Kommunikation",
+    "nicht anwendbar"
+  ],
+  "x-mappings": {
+    "$comment": "Die Einordnung in das QUADRIGA DKF kann nicht gemappt werden. Die darüberliegende Beschreibung des Lernziels ist gemappt.",
+    "dc": null,
+    "dcat": null,
+    "dcterms": null,
+    "hermes": null,
+    "lrmi": null,
+    "modalia": null,
+    "schema": null
+  }
+}

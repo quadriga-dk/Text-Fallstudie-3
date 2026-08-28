@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quadriga-dk.github.io/quadriga-schema/v1.0.0/title.json",
+  "title": "title – Titel",
+  "description": "Titel des Buchs.",
+  "type": "string",
+  "x-mappings": {
+    "dc": {
+      "relation": "skos:exactMatch",
+      "target": "dc:title"
+    },
+    "dcat": null,
+    "dcterms": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:title"
+    },
+    "hermes": {
+      "$comment": "HERMES Attribut #1: Titel",
+      "relation": "skos:exactMatch",
+      "target": "dcterms:title"
+    },
+    "lrmi": null,
+    "modalia": {
+      "relation": "skos:exactMatch",
+      "target": "dcterms:title"
+    },
+    "schema": {
+      "relation": "skos:exactMatch",
+      "target": "schema:name"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "modalia": "https://purl.org/ontology/modalia#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "$id": "https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json",
+  "title": "QUADRIGA Fallstudie",
+  "description": "Eine in QUADRIGA entwickelte Fallstudie (ein Buch, eine Sammlung von OERs, als Jupyter Book implementiert), die nach dem QUADRIGA-Metadatenschema beschrieben wird.\n\nDieses Schema ist zu finden unter <https://quadriga-dk.github.io/quadriga-schema/v1.0.0/> (diese Seite) bzw. <https://github.com/quadriga-dk/quadriga-schema>.\n\nEs werden Mappings zu gebräuchlichen Metadatenschemata für mehrere hier definierte (Unter-)Felder definiert. Eine Darstellung dieser in einer Matrix-Ansicht existiert ebenfalls: <https://quadriga-dk.github.io/quadriga-schema/v1.0.0/mapping-matrix.html>\n\n(Unter-)Felder können selbst wieder Entitäten sein (so bspw. eine Person, welche die Rolle Autor:in einnimmt.)",
+  "type": "object",
+  "required": [
+    "title",
+    "authors",
+    "keywords",
+    "description",
+    "table-of-contents",
+    "discipline",
+    "research-object-type",
+    "target-group",
+    "time-required",
+    "language",
+    "contributors",
+    "identifier",
+    "git",
+    "url",
+    "chapters",
+    "date-issued",
+    "date-modified",
+    "version",
+    "context-of-creation",
+    "quality-assurance",
+    "learning-resource-type",
+    "schema-version",
+    "license"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "$ref": "title.json"
+    },
+    "authors": {
+      "$ref": "authors.json"
+    },
+    "keywords": {
+      "$ref": "keywords.json"
+    },
+    "description": {
+      "$ref": "description.json"
+    },
+    "table-of-contents": {
+      "$ref": "table-of-contents.json"
+    },
+    "discipline": {
+      "$ref": "discipline.json"
+    },
+    "research-object-type": {
+      "$ref": "research-object-type.json"
+    },
+    "target-group": {
+      "$ref": "target-group.json"
+    },
+    "time-required": {
+      "$ref": "time-required.json"
+    },
+    "language": {
+      "$ref": "language.json"
+    },
+    "contributors": {
+      "$ref": "contributors.json"
+    },
+    "identifier": {
+      "$ref": "identifier.json"
+    },
+    "git": {
+      "$ref": "git.json"
+    },
+    "url": {
+      "$ref": "url.json"
+    },
+    "prerequisites": {
+      "$ref": "prerequisites.json"
+    },
+    "used-tools": {
+      "$ref": "used-tools.json"
+    },
+    "chapters": {
+      "$ref": "chapters.json"
+    },
+    "date-issued": {
+      "$ref": "date-issued.json"
+    },
+    "date-modified": {
+      "$ref": "date-modified.json"
+    },
+    "version": {
+      "$ref": "version.json"
+    },
+    "context-of-creation": {
+      "$ref": "context-of-creation.json"
+    },
+    "quality-assurance": {
+      "$ref": "quality-assurance.json"
+    },
+    "learning-resource-type": {
+      "$ref": "learning-resource-type.json"
+    },
+    "schema-version": {
+      "$ref": "schema-version.json"
+    },
+    "license": {
+      "$ref": "license.json"
+    }
+  },
+  "x-mappings": {
+    "dc": null,
+    "dcat": {
+      "relation": "skos:closeMatch",
+      "target": "dcat:Dataset"
+    },
+    "dcterms": null,
+    "hermes": null,
+    "lrmi": {
+      "relation": "skos:exactMatch",
+      "target": "lrmi:LearningResource"
+    },
+    "modalia": {
+      "relation": "skos:exactMatch",
+      "target": "https://github.com/tibonto/educor#EducationalResource"
+    },
+    "schema": [
+      {
+        "relation": "skos:exactMatch",
+        "target": "schema:LearningResource"
+      },
+      {
+        "relation": "skos:exactMatch",
+        "target": "schema:Book"
+      }
+    ]
+  }
+}

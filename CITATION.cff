@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: Ecocriticism – Case Study
+title: Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie
 abstract: TODO
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
@@ -32,7 +32,7 @@ references:
 preferred-citation:
   year: '2026'
   authors: *id001
-  title: Ecocriticism – Case Study
+  title: Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie
   type: book
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/
   repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
