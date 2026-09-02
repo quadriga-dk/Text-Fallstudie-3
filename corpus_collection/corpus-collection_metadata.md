@@ -60,7 +60,7 @@ Für einzelne Elemente eines Korpus, wie beispielsweise einzelne Artikel oder Do
 Für ein einzelnes Buch könnten die Metadaten so aussehen:
 
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/" class="external-link" target="_blank">DC.title</a>**: "Die Geier-Wally"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Wilhemine von Hillern"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Wilhelmine von Hillern"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/" class="external-link" target="_blank">DC.date</a>**: "1873"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/" class="external-link" target="_blank">DC.source</a>**: <a href="https://projekt-gutenberg.org/authors/wilhelmine-von-hillern/books/die-geier-wally/" class="external-link" target="_blank">"https://projekt-gutenberg.org/authors/wilhelmine-von-hillern/books/die-geier-wally/"</a>
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/" class="external-link" target="_blank">DC.language</a>**: "Deutsch"
