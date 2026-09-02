@@ -34,7 +34,7 @@ Um eine digitale Analyse auszuführen, in diesem Fall die Analyse von Worthäufi
 height:
 name: Flussdiagramm der Fallstudie
 ---
-Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
+Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hervorgehoben.
 ```
 
 In diesem Kapitel wird konzeptionell in die Methoden der Anreicherung eingeführt (Tokenisierung, Lemmatisierung und POS-Tagging). Dann wird kurz darauf eingegangen, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet. Im nächsten Schritt wird gezeigt, wie das Korpus mit Hilfe der Python-Bibliothek `spaCy` annotiert werden kann. Zum Schluss wird ein Resümee gezogen.
