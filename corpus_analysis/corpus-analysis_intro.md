@@ -39,7 +39,7 @@ Bei diesen beiden Korpora handelt es sich um die zwei Zufallsstichproben, die wi
 height:
 name: Flussdiagramm der Fallstudie
 ---
-Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
+Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hervorgehoben.
 ```
 Wir kehren zur Forschungsfrage zurück und besprechen zuerst [konzeptionelle Grundlagen](corpus-analysis_analysis) zur Erstellung eines semantischen Felds, zur Extraktion von Häufigkeiten sowie zur Visualisierung der Häufigkeiten in Form eines Streudiagramms und die Errechnung und Darstellung einer Trend-Linie. 
 
