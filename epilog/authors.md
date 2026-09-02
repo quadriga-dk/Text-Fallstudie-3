@@ -5,7 +5,7 @@ lang: de-DE
 
 <h2>Autor:innen der Inhalte</h2>
 
-<h3>Daniil Skorinkin <a href="https://orcid.org/0000-0002-1845-9974" class="external-link" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID iD"></a></h3>
+<h3>Daniil Skorinkin <a href="https://orcid.org/0000-0002-1845-9974" class="external-link" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID Logo"></a></h3>
 
 <table style="margin-left: 0">
 <tr>
@@ -76,7 +76,7 @@ lang: de-DE
 </tr>
 </table>
 
-<h3> Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" class="external-link" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID Logo"></a></h3>
+<h3>Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" class="external-link" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID Logo"></a></h3>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -88,7 +88,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd</td>
+<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>

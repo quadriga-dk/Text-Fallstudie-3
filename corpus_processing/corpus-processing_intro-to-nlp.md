@@ -48,23 +48,23 @@ Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token au
 In der Linguistik wird zwischen einem Wort (Type) und der Verwendung eines Wortes (Token) unterschieden. Der Satz "Die Luft ist gut, die Luft ist rein" hat neun Token (das Komma wird auch als Token gezählt) und 6 Types: "die", "Luft", "ist", "gut", ",", "rein".
 ```
 
-Um die Adjektive zu extrahieren, muss jedem Wort die Wortart zugewiesen werden. Dies kann automatisch mittels **Part-of-Speech (POS)-Tagging** durchgeführt werden. Im POS-Tagging werden Tagsets verwendet, in denen jeder Wortart eine Abkürzung zugewiesen wird. Die Tagsets können unterschiedlich granular sein, so finden sich im <a href="https://homepage.ruhr-uni-bochum.de/stephen.berman/Korpuslinguistik/Tagsets-STTS.html" class="external-link" target="_blank">Stuttgart-Tübingen-Tagset (STTS)</a> 54 Tags, in denen z.B. das Tempus und der Modus von Verben unterschieden wird. Das <a href="https://universaldependencies.org/u/pos/" class="external-link" target="_blank"> Universal POS Tagset</a> hingegen besteht nur aus 17 Tags, die keinerlei morphologische Informationen liefern. Für die Extraktion der Adjektive ist das Universal POS Tagset ausreichend. 
+Um die Adjektive zu extrahieren, muss jedem Wort die Wortart zugewiesen werden. Dies kann automatisch mittels **Part-of-Speech (POS)-Tagging** durchgeführt werden. Im POS-Tagging werden Tagsets verwendet, in denen jeder Wortart eine Abkürzung zugewiesen wird. Die Tagsets können unterschiedlich granular sein, so finden sich im <a href="https://homepage.ruhr-uni-bochum.de/stephen.berman/Korpuslinguistik/Tagsets-STTS.html" class="external-link" target="_blank">Stuttgart-Tübingen-Tagset (STTS)</a> 54 Tags, in denen z.B. das Tempus und der Modus von Verben unterschieden werden. Das <a href="https://universaldependencies.org/u/pos/" class="external-link" target="_blank"> Universal POS Tagset</a> hingegen besteht nur aus 17 Tags, die keinerlei morphologische Informationen liefern. Für die Extraktion der Adjektive ist das Universal POS Tagset ausreichend. 
 
 Die einfachste Methode, um die Beziehung von Adjektiven zu Nomen zu extrahieren, besteht darin, diejenigen Adjektiv-Nomen-Paare zu extrahieren, die den geringsten Abstand voneinander haben. Dass diese Methode schnell zu Fehlern führen kann, lässt sich an folgendem Satz zeigen:
 `````{admonition} Beispiel
 :class: hinweis
 Beispielsatz: Ich roch eine üble, von den Schloten der neuen Fabriken schwer geschwängerte Luft. 
 
-Schwierigkeit: Das Nomen, das mit geringsten Abstand zu dem Adjektiv "übel" steht, ist "Schlot". Tatsächlich bezieht sich das Adjektiv allerdings auf das Nomen "Luft".
+Schwierigkeit: Das Nomen, das mit geringstem Abstand zu dem Adjektiv "übel" steht, ist "Schlot". Tatsächlich bezieht sich das Adjektiv allerdings auf das Nomen "Luft".
 `````
 
-Es wird deshalb auf eine **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenen Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {citep}`tiger`, das für Deutsch entwickelt wurde.
+Es wird deshalb auf eine **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenes Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {cite:p}`tiger`, das für Deutsch entwickelt wurde.
 
 ```{admonition} Unterschiede in den linguistischen Ansätzen zu Dependenzgrammatik
 :class: hinweis, dropdown
-In der Linguistik existieren unterschiedliche Ansätze, um die Beziehung zwischen den Wörtern zu strukturen. Zwei Richtungen sind dabei maßgeblich:
+In der Linguistik existieren unterschiedliche Ansätze, um die Beziehung zwischen den Wörtern zu strukturieren. Zwei Richtungen sind dabei maßgeblich:
 * Dependenzgrammatik: Sätze werden in Wörter unterteilt, die Wörter stehen in einer Eins-zu-eins-Beziehung zueinander. 
-* Konstituentengrammatik: Sätze werden in Konstituenten (oder auch Phrasen) unterteilt, die wiederum aus Wörtern bestehen. Sowohl die Wörter in den Konstituenten als auch auch die Konstituenten untereinander sind hierarchisch gegliedert. 
+* Konstituentengrammatik: Sätze werden in Konstituenten (oder auch Phrasen) unterteilt, die wiederum aus Wörtern bestehen. Sowohl die Wörter in den Konstituenten als auch die Konstituenten untereinander sind hierarchisch gegliedert. 
 
 Das Universal Dependencies Annotationsschema folgt der Dependenzgrammatik, während das TIGER-Annotationsschema dem Konstituentenmodell folgt. 
 ```
@@ -80,7 +80,7 @@ name: Dependenzannotation des Satzes "Ich roch eine üble, von den Schloten der 
 Dependenzannotation erstellt mit der Python-Bibliothek spaCy; model: "de_core_news_sm".
 ```
 
-Die Dependenzannotation sind durch die beschrifteten Bögen in der oberen Bildhälfte dargestellt. Die Beschriftungen sind die Dependenz-Tags, die Abkürzungen werden in der Python-Bibliothek <a href="https://spacy.io/" class="external-link" target="_blank">"spaCy"</a> (s.u.) wie folgt aufgelöst:
+Die Dependenzannotationen sind durch die beschrifteten Bögen in der oberen Bildhälfte dargestellt. Die Beschriftungen sind die Dependenz-Tags, die Abkürzungen werden in der Python-Bibliothek <a href="https://spacy.io/" class="external-link" target="_blank">"spaCy"</a> (s.u.) wie folgt aufgelöst:
 * nk: noun kernel element
 * sb: subject
 * cj: conjunction
@@ -91,7 +91,7 @@ Die Dependenzannotation sind durch die beschrifteten Bögen in der oberen Bildh�
 * svp: passivized subject (PP)
 * mo: modifier
 
-Die Pfeile drücken die Übergeordnetheit eines Wortes in Beziehung zu einem anderen aus, z.B. ist das Wort "Luft" dem Wort "üble" übergeordnet und zwar mit der Beziehung "noun kernel element". Das übergeordnete Wort wird **Kopf** genannt. Die Abbildung zeigt unter dem Satz zusätzlich die POS-Tags, also die Wortarten, die die Grundlage für das Depedency Parsing bilden. Die folgende Tabelle gibt eine Übersicht über die Annotationen, auf denen die Textanalyse aufbaut.
+Die Pfeile drücken die Übergeordnetheit eines Wortes in Beziehung zu einem anderen aus, z.B. ist das Wort "Luft" dem Wort "üble" übergeordnet und zwar mit der Beziehung "noun kernel element". Das übergeordnete Wort wird **Kopf** genannt. Die Abbildung zeigt unter dem Satz zusätzlich die POS-Tags, also die Wortarten, die die Grundlage für das Dependency Parsing bilden. Die folgende Tabelle gibt eine Übersicht über die Annotationen, auf denen die Textanalyse aufbaut.
 
 
 `````{admonition} Beispiel der Annotationen im Tabellen-Format
@@ -130,7 +130,7 @@ In dieser automatischen Annotation lässt sich bereits ein Fehler feststellen: D
 
 ### nltk und spaCy 
 In Programmiersprachen gibt es Bibliotheken, die Methoden z.B. zur Textverarbeitung, bündeln. Die Bibliotheken können installiert, in den Programmcode geladen und dann angewendet werden.
-Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten vebreitet sind die Bibliotheken <a href="https://spacy.io" class="external-link" target="_blank">spaCy</a> und <a href="https://www.nltk.org/" class="external-link" target="_blank">nltk</a>, die in der folgenden Tabelle verglichen werden.
+Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten verbreitet sind die Bibliotheken <a href="https://spacy.io" class="external-link" target="_blank">spaCy</a> und <a href="https://www.nltk.org/" class="external-link" target="_blank">nltk</a>, die in der folgenden Tabelle verglichen werden.
 
 ```{table} Vergleich von spaCy und nltk
 :name: cmp-spacy-nltk
@@ -146,9 +146,9 @@ Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird
 
 ### NLP mit spaCy 
 Da die Vorverarbeitung der Texte keinerlei spezialisierter NLP-Methoden bedarf und auf Grund der leichten Benutzbarkeit sowie der Geschwindigkeit benutzen wir spaCy für die Annotation des Textkorpus. spaCy stellt unterschiedliche Methoden für die Vorverarbeitung bereit, die meisten basieren auf maschinellem Lernen. Da die Vorverarbeitung sprachabhängig ist, stellt spaCy für die unterstützten Sprachen (über 20) verschiedene Analyse-Modelle zur Verfügung. Die Modelle unterscheiden sich in der Geschwindigkeit und in der Akkuratheit der Annotation.
-Eine Übersicht über die von spaCy unterstützen Sprachen gibt es <a href="https://spacy.io/models" class="external-link" target="_blank">hier</a>.
+Eine Übersicht über die von spaCy unterstützten Sprachen gibt es <a href="https://spacy.io/models" class="external-link" target="_blank">hier</a>.
 
-Da wir auf einem verhältnismäßig großem Korpus operieren und sich die Leistung der Modelle für die Tokenisierung gar nicht und für die Lemmatisierung, das POS-Tagging und das Dependency Parsing nur wenig (0.01% - 0.04%) unterscheidet, verwenden wir ein Modell, das auf Geschwindigkeit ausgelegt ist (`de_core_news_sm`). Die Akkuratheit der deutschen Modelle wird auf <a href="https://spacy.io/models/de" class="external-link" target="_blank">dieser Website</a> verglichen. 
+Da wir auf einem verhältnismäßig großen Korpus operieren und sich die Leistung der Modelle für die Tokenisierung gar nicht und für die Lemmatisierung, das POS-Tagging und das Dependency Parsing nur wenig (0.01% - 0.04%) unterscheidet, verwenden wir ein Modell, das auf Geschwindigkeit ausgelegt ist (`de_core_news_sm`). Die Akkuratheit der deutschen Modelle wird auf <a href="https://spacy.io/models/de" class="external-link" target="_blank">dieser Website</a> verglichen. 
 
 Die Dokumentation von spaCy gibt leider nicht für jede Annotation Auskunft darüber, welches Tagset benutzt wird. Für die Annotation mit POS-Tags bietet spaCy zwei Möglichkeiten, zum einen die gröbere Annotation mit dem Universal Tagset, zum anderen die Annotation mit dem STTS-Tagset. Für die Dependenz-Annotationen wird nicht das Universal-Dependency Tagset verwendet. Es gibt zwar eine Tagübersicht, allerdings ist für die Tags keine Quelle gelistet. Da die deutschen spaCy-Modelle auf Grundlage der TIGER-Annotationen erstellt wurden und die Tagsets fast deckungsgleich scheinen, ist das <a href="https://www.ims.uni-stuttgart.de/documents/ressourcen/korpora/tiger-corpus/annotation/tiger_scheme-syntax.pdf" class="external-link" target="_blank">TIGER-Tagset</a> ein guter Referenzpunkt. 
 

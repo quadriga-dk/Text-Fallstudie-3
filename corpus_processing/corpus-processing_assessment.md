@@ -397,7 +397,7 @@ multiple_choice_3 = [{
         {
             "answer": "Um die Verarbeitungsgeschwindigkeit zu erhöhen",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook steht explizit: "Es werden einige Analysekomponent wie z. B. das Aufteilen des Texts in Sätze (sentencizer) oder die Named Entity Recognition (ner) ausgeschlossen, da diese für die Tokenisierung und die Lemmatisierung sowie für das POS-Tagging und Dependency Parsing nicht benötigt werden. Der Auschluss der Komponenten erhöht die Annotationsgeschwindikgeit." Wichtig ist dabei: Es werden nur Komponenten ausgeschlossen, deren Annotationen für die Analyse nicht gebraucht werden – die Komponenten für das POS-Tagging und das Dependency Parsing bleiben aktiv."""
+            "feedback": """✓ Richtig! Im Notebook steht explizit: "Es werden einige Analysekomponenten wie z. B. das Aufteilen des Texts in Sätze (sentencizer) oder die Named Entity Recognition (ner) ausgeschlossen, da diese für die Tokenisierung und die Lemmatisierung sowie für das POS-Tagging und Dependency Parsing nicht benötigt werden. Der Ausschluss der Komponenten erhöht die Annotationsgeschwindigkeit." Wichtig ist dabei: Es werden nur Komponenten ausgeschlossen, deren Annotationen für die Analyse nicht gebraucht werden – die Komponenten für das POS-Tagging und das Dependency Parsing bleiben aktiv."""
         },
         {
             "answer": "Um mehr Speicherplatz für die Ergebnisse zu haben",
@@ -437,7 +437,7 @@ multiple_choice_4 = [{
         {
             "answer": "CSV, weil es gut für die Speicherung tabellarischer Daten geeignet ist",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook steht: "Für die Speicherung von relativen Daten (wie ein Wort und die unterschiedlichen Annotationen des Worts) eignet sich das Tabellenformat gut." Die Annotationstabelle (anno_df) wird deshalb als .csv-Datei gespeichert. Beachten Sie: Zusätzlich speichert das Notebook die Annotationen auch im spaCy-eigenen Format (Dateiendung .spacy, mit doc.to_disk()), damit die spaCy-spezifischen Funktionen – etwa die Navigation der Dependenzstruktur – weiter genutzt werden können. Da dieses Format von spaCy abhängig und damit weniger interoperabel ist, wird die Annotation zusätzlich im plattformunabhängigen, textbasierten CSV-Format abgelegt."""
+            "feedback": """✓ Richtig! Im Notebook steht: "Für die Speicherung von relationalen Daten (wie ein Wort und die unterschiedlichen Annotationen des Worts) eignet sich das Tabellenformat gut." Die Annotationstabelle (anno_df) wird deshalb als .csv-Datei gespeichert. Beachten Sie: Zusätzlich speichert das Notebook die Annotationen auch im spaCy-eigenen Format (Dateiendung .spacy, mit doc.to_disk()), damit die spaCy-spezifischen Funktionen – etwa die Navigation der Dependenzstruktur – weiter genutzt werden können. Da dieses Format von spaCy abhängig und damit weniger interoperabel ist, wird die Annotation zusätzlich im plattformunabhängigen, textbasierten CSV-Format abgelegt."""
         },
         {
             "answer": "JSON, weil es die hierarchische Struktur der Annotation am besten abbildet",
