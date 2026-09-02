@@ -68,7 +68,7 @@ Mit welcher Strategie und nach welchen Kriterien ein Korpus aufgebaut wird, ents
 
 `````{admonition} Weiterführende Links
 :class: seealso
-- <a href="https://fortext.net/routinen/methoden/korpusbildung" class="external-link" target="_blank">forTextArtikel "Korpusbildung"</a>,  mit Fokus auf literaturwissenschafliche Korpora. {cite:p}`fortext-2020-id-203`
+- <a href="https://fortext.net/routinen/methoden/korpusbildung" class="external-link" target="_blank">forTextArtikel "Korpusbildung"</a>, mit Fokus auf literaturwissenschaftliche Korpora. {cite:p}`fortext-2020-id-203`
 `````
 
 ## Bibliographie
