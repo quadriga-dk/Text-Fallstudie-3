@@ -19,7 +19,7 @@ Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Se
 Der Code eines "Jupyter Notebooks" ist in einzelne **Code-Zellen** unterteilt, die Sie nacheinander von oben nach unten ausführen. Eine einzelne Zelle starten Sie, indem Sie links neben der Zelle auf das dreieckige **„Play"-Symbol** (▶) klicken. In "Colab" wird dieses Symbol erst sichtbar, wenn Sie die Maus über die Zelle bewegen (oder die Zelle anklicken). Alternativ führen Sie die gerade ausgewählte Zelle mit der Tastenkombination **Umschalt + Eingabe** (`Shift` + `Enter`) aus.
 ```
 
-Weitere Hinweise zur Arbeit mit "Jupter Book", "Jupyter Notebooks" und zur Installation von Anaconda für die Nutzung im "Local Mode" vermitteln die unten verlinkten Tutorials.
+Weitere Hinweise zur Arbeit mit "Jupyter Book", "Jupyter Notebooks" und zur Installation von Anaconda für die Nutzung im "Local Mode" vermitteln die unten verlinkten Tutorials.
 
 ## Ressourcen
 Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der "Jupyter Notebooks" mittels "Colab". Für das lokale Ausführen der "Jupyter Notebooks" auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline (die Abfolge der einzelnen Verarbeitungsschritte) für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.

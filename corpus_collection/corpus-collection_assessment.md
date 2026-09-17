@@ -458,7 +458,7 @@ Lernziel:
     Sie können die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente beschreiben.
 Bloom-Stufe: Verstehen
 Format: Multiple Choice + Selbsteinschätzung
-Zeitaufwand: 25 Minuten
+Geschätzte Zeit: 25 Minuten
 Schwerpunkte:
     - Verständnis verschiedener Metadatenschemata (Dublin Core, TEI, MODS, METS)
     - Kenntnis charakteristischer Elemente 
@@ -867,10 +867,10 @@ Analysieren Sie den folgenden Ausschnitt aus einem Korpusaufbau-Konzept:
 
 Bewerten Sie die folgenden Aspekte:
 
-1.	Quellenauswahl
-2.	Auswahlstrategie (nach Schöch)
-3.	Praktische Einschränkungen
-4.	Lösungsansatz
+1. Quellenauswahl
+2. Auswahlstrategie (nach Schöch)
+3. Praktische Einschränkungen
+4. Lösungsansatz
 
 ```{code-cell} ipython3
 :tags: [remove-input]

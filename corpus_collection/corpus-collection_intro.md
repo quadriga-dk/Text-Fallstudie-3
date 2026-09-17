@@ -32,7 +32,7 @@ Dieses Kapitel verfolgt die folgenden Lernziele:
 ```
 
 
-Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachigen Literatur des 19. Jahrhunderts" untersuchen lässt. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachige Literatur des 19. Jahrhunderts" untersuchen lässt. 
 
 
 ```{figure} ../assets/images/flow-chart_corpus-collection.png
@@ -45,9 +45,9 @@ Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 
 In diesem Kapitel [klären wir zuerst](corpus-collection_corpora-as-research-objects), was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
-In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie pdf, txt, xml oder csv und deren Vor- und Nachteile kennen.
+In einem anschließenden Schritt betrachten wir [unterschiedliche Erscheinungsformen von "Text"](corpus-collection_text_as_digital_objects) im digitalen Raum. Dabei lernen wir unterschiedliche Formate wie PDF, TXT, XML oder CSV und deren Vor- und Nachteile kennen.
 
-Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
+Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemente in unserem Korpus entwickeln.
 
 Darauf aufbauend geht es um die [Auswahl des Forschungskorpus](corpus-collection_choosing-our-corpus-based-on-metadata.ipynb): Anhand der Metadaten prüfen wir, welche der bereits verfügbaren Korpora zu unserer Forschungsfrage passen – etwa im Hinblick auf den abgedeckten Zeitraum und die thematische Breite – und entscheiden uns für ein geeignetes Ausgangskorpus.
 

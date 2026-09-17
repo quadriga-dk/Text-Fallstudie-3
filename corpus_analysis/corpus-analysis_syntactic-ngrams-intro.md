@@ -23,7 +23,7 @@ Eine lineare n-Gramm-Analyse extrahiert daraus benachbarte Sequenzen (2-Gramme) 
 
 Diese Muster spiegeln jeweils nur die unmittelbare lineare Aufeinanderfolge von Wörtern wider. Besonders auffällig ist, dass das Adjektiv *üble* zwar semantisch klar die *Luft* charakterisiert, in der linearen Struktur jedoch durch eine längere attributive Erweiterung (*von den Schloten der neuen Fabriken schwer geschwängerte*) vom Substantiv getrennt ist. Eine lineare n-Gramm-Analyse kann diese übergreifende Einheit nicht als zusammenhängendes Muster erfassen.
 
-Diese Einschränkung ist besonders relevant für das Deutsche {cite:p}`andresen_benefit_2017`, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute (wie in unsere Beispiel oben), Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
+Diese Einschränkung ist besonders relevant für das Deutsche {cite:p}`andresen_benefit_2017`, da hier die Wortstellung vergleichsweise flexibel ist und viele häufige Konstruktionen — etwa Partizipialattribute (wie in unserem Beispiel oben), Verbklammern oder Passivkonstruktionen — auf der Textoberfläche diskontinuierlich realisiert werden. Für eine linguistisch orientierte Analyse bedeutet dies, dass lineare n-Gramme gerade diejenigen Muster fragmentieren, die interpretativ besonders interessant sind.
 
 *Syntaktische n-Gramme* setzen genau hier an. Sie redefinieren, was als Sequenz gilt, indem sie nicht der linearen Tokenfolge folgen, sondern Relationen in einer syntaktischen Analyse, typischerweise in einem <a href="https://de.wikipedia.org/wiki/Dependenzgrammatik"  class="external-link" target="_blank">Dependenzbaum</a>. Wortfolgen werden somit nicht als Oberflächenstrings, sondern als **Pfade in der syntaktischen Struktur** modelliert. In einer syntaktischen n-Gramm-Analyse ist *üble* unmittelbar als Attribut von *Luft* analysiert – unabhängig davon, wie viele weitere Modifikatoren dazwischenstehen. 
 
@@ -32,16 +32,16 @@ Diese Einschränkung ist besonders relevant für das Deutsche {cite:p}`andresen_
 height:
 name: Ngrams Example
 ---
- Teil des syntaktischen Dependenzbaum für dasselbe Beispiel.
+ Teil des syntaktischen Dependenzbaums für dasselbe Beispiel.
 ```
 
 Alle Wortpaare in einem solchen Baum, die eine direkte Abhängigkeitsverbindung aufweisen, können als syntaktische Bigramme behandelt werden: 
 
-* *Ich  ← roch*
-* *roch  → Luft*
-* **übel ← Luft**
-* *ein ← Luft*
-* *übel → geschwängerte* 
+* *Ich ← roch*
+* *roch → Luft*
+* *üble ← Luft*
+* *eine ← Luft*
+* *üble → geschwängerte* 
 * *von ← geschwängerte*
 
 usw.

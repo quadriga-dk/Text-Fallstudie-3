@@ -33,7 +33,7 @@ name: Snippet eines Bilddigitalisats
 **Charakteristika:**
 
 - **Repräsentation:** Plain Text ist eine einfache, unformatierte Textdatei, die nur den reinen Text ohne jegliche Stilelemente oder Metadaten enthält.
-- **Formate:** Das gängigste Dateifoormat ist TXT.
+- **Formate:** Das gängigste Dateiformat ist TXT.
 - **Nutzung:** Plain Text ist ideal für einfache Textanalysen und die Datenverarbeitung, da er leicht zu bearbeiten und in verschiedene Softwareumgebungen zu importieren ist.
 - **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, etwa in Form von Textauszeichnungen (z.B. Fettungen, Kursivierungen oder Überschriften), die für komplexere Analysen oder Darstellungen notwendig sind. 
 
@@ -43,7 +43,7 @@ name: Snippet eines Bilddigitalisats
 In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbrand das passende Brennmaterial abgeben müßte. Eierbriketts, wie sie jetzt in die Haushaltungen kommen, sind im Küchenherd fast unbrauchbar; sie gelangen oft genug halb verbrannt in den Aschkasten. Ein großer Teil geht als Ruß und Qualm in den Schornstein.
 `
 
-*Beispiel für Reinen Text (bzw. Plain Text) ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
+*Beispiel für reinen Text (bzw. Plain Text) ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
 
 
 ## XML/TEI
@@ -53,7 +53,7 @@ In verschiedenen Zuschriften wird darauf hingewiesen, daß man für den Hausbran
 - **Repräsentation:** XML (Extensible Markup Language) ermöglicht eine strukturierte Darstellung von Texten mit verschachtelten Tags, die die semantische Struktur und Metadaten enthalten. **Tags** sind dabei Markierungen in spitzen Klammern, die einen Textabschnitt umschließen und angeben, worum es sich handelt – z.B. kennzeichnet `<title>Die Geier-Wally</title>`, dass der eingeschlossene Text ein Titel ist; „verschachtelt“ bedeutet, dass solche Tags ineinander liegen können (etwa ein Absatz-Tag, das mehrere Satz-Tags enthält). Was mit *Metadaten* gemeint ist, erklären wir im folgenden Kapitel [Metadaten](corpus-collection_metadata). TEI (Text Encoding Initiative) ist ein spezieller XML-Standard für die Kodierung von literarischen und linguistischen Texten.
 - **Formate:** Dateien im XML-Format, oft mit der Endung .xml.
 - **Nutzung:** XML/TEI wird häufig in den Geisteswissenschaften verwendet, um komplexe Textstrukturen und Annotationen zu kodieren, wie z.B. Kapitelüberschriften, Fußnoten, Zitate und sprachliche Besonderheiten.
-- 	**Einschränkungen:** Die Erstellung und Verarbeitung von XML/TEI-Dokumenten erfordert eine genaue Kenntnis der <a href="https://tei-c.org/guidelines/" class="external-link" target="_blank">TEI Guidelines</a>. Zudem ist die Erstellung in den entsprechenden Editoren unterschiedlich, etwa im weit verbreiteten <a href="https://www.oxygenxml.com/" class="external-link" target="_blank">Oxygen XML Editor</a> (lizenzpflichtig), in <a href="https://notepad-plus-plus.org" class="external-link" target="_blank">Notepad++</a> oder in <a href="https://atom-editor.cc/" class="external-link" target="_blank">Atom</a>. Dadurch wird der Einstieg erschwert.
+- **Einschränkungen:** Die Erstellung und Verarbeitung von XML/TEI-Dokumenten erfordert eine genaue Kenntnis der <a href="https://tei-c.org/guidelines/" class="external-link" target="_blank">TEI Guidelines</a>. Zudem ist die Erstellung in den entsprechenden Editoren unterschiedlich, etwa im weit verbreiteten <a href="https://www.oxygenxml.com/" class="external-link" target="_blank">Oxygen XML Editor</a> (lizenzpflichtig), in <a href="https://notepad-plus-plus.org" class="external-link" target="_blank">Notepad++</a> oder in <a href="https://atom-editor.cc/" class="external-link" target="_blank">Atom</a>. Dadurch wird der Einstieg erschwert.
 
 **Beispiel:** 
 
@@ -120,7 +120,7 @@ ID,TOKEN,LEMMA,POS
 17,müßte,müssen,AUX
 ```
 
-*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
+*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
 
 | ID | TOKEN         | LEMMA         | POS   |
 | -- | ------------- | ------------- | ----- |
@@ -141,7 +141,7 @@ ID,TOKEN,LEMMA,POS
 | 16 | abgeben       | abgeben       | VERB  |
 | 17 | müßte         | müssen        | AUX   |
 
-*CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
+*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
 
 
 ## Zusammenfassung
