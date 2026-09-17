@@ -129,7 +129,7 @@ In dieser automatischen Annotation lässt sich bereits ein Fehler feststellen: D
 ## NLP mit Python 
 
 ### nltk und spaCy 
-In Programmiersprachen gibt es Bibliotheken, die Methoden z.B. zur Textverarbeitung, bündeln. Die Bibliotheken können installiert, in den Programmcode geladen und dann angewendet werden.
+In Programmiersprachen gibt es Bibliotheken, die Methoden z.B. zur Textverarbeitung bündeln. Die Bibliotheken können installiert, in den Programmcode geladen und dann angewendet werden.
 Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten verbreitet sind die Bibliotheken <a href="https://spacy.io" class="external-link" target="_blank">spaCy</a> und <a href="https://www.nltk.org/" class="external-link" target="_blank">nltk</a>, die in der folgenden Tabelle verglichen werden.
 
 ```{table} Vergleich von spaCy und nltk
@@ -160,4 +160,4 @@ Die Modelle in spaCy sind auf zeitgenössische Zeitungs- und Medientexte ausgele
 `````
 
 ## Zusammenfassung und nächste Schritte
-Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte unseres Korpus (txt-Dateien), mittels spaCy annotiert und die Annotationen werden in einem spaCy-spezifischen sowie im Tabellen-Format gespeichert.  
+Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte unseres Korpus (txt-Dateien) mittels spaCy annotiert und die Annotationen werden in einem spaCy-spezifischen sowie im Tabellen-Format gespeichert.  

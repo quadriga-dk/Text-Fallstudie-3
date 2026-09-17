@@ -9,7 +9,7 @@ In der Korpusanalyse kehren wir wieder zu unserer Fragestellung und deren Operat
 Lassen sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen?
 `````
 
-Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantischen Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im Speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in Kapitel [Syntaktische N-Gramme](corpus-analysis_syntactic-ngram.ipynb) eingeführt.
+Gemäß der Operationalisierung ist die Analyse zweigeteilt. Zum einen wird untersucht, wie häufig Luft thematisiert wird. Dafür werden die Häufigkeiten des semantischen Felds "Luft" im Korpus errechnet und die Entwicklung wird dargestellt. Zum anderen wird untersucht, auf welche Art und Weise Luft semantisiert wird, indem syntaktische N-Grams (im Speziellen Adjektiv-Substantiv-Paare) extrahiert und die Häufigkeiten errechnet werden. So lässt sich nachvollziehen, ob sich die häufigsten Adjektive über die Zeit verändern. Die zweite Analyse wird in dem Kapitel [Syntaktische N-Gramme](corpus-analysis_syntactic-ngram.ipynb) eingeführt.
 
 
 ## Das semantische Feld "Luft"
@@ -146,7 +146,7 @@ Um die Regressionsgerade zu berechnen, wird für jeden Punkt der vertikale Absta
 
 
 ### Visuelle Darstellung als Liniendiagramm
-Alternativ, wenn es weniger wichtig ist, die Häufigkeiten einzelner Texte abzulesen, ließen sich die Häufigkeiten auch über einen bestimmten Zeitraum zusammenfassen und als Liniendiagramm darstellen. Liniendiagramme eignen sich gut, um zeitliche Verläufe darzustellen, da lokale und globale Minima und Maxima leicht erkennbar sind und sie die Kontinuität der Daten unterstreichen. Ein **Maximum** ist dabei einfach ein Hochpunkt der Linie, ein **Minimum** ein Tiefpunkt. *Lokal* heißt: der höchste bzw. tiefste Punkt in einem Abschnitt der Kurve; *global* heißt: der höchste bzw. tiefste Punkt der gesamten Kurve. Um die Häufigkeiten zusammenzufassen werden sowohl die absoluten Häufigkeiten als auch die Textlängen in dem ausgewählten Zeitraum addiert, sodass auf dieser Basis die relative Häufigkeit für den Zeitraum berechnet werden kann.
+Alternativ, wenn es weniger wichtig ist, die Häufigkeiten einzelner Texte abzulesen, ließen sich die Häufigkeiten auch über einen bestimmten Zeitraum zusammenfassen und als Liniendiagramm darstellen. Liniendiagramme eignen sich gut, um zeitliche Verläufe darzustellen, da lokale und globale Minima und Maxima leicht erkennbar sind und sie die Kontinuität der Daten unterstreichen. Ein **Maximum** ist dabei einfach ein Hochpunkt der Linie, ein **Minimum** ein Tiefpunkt. *Lokal* heißt: der höchste bzw. tiefste Punkt in einem Abschnitt der Kurve; *global* heißt: der höchste bzw. tiefste Punkt der gesamten Kurve. Um die Häufigkeiten zusammenzufassen, werden sowohl die absoluten Häufigkeiten als auch die Textlängen in dem ausgewählten Zeitraum addiert, sodass auf dieser Basis die relative Häufigkeit für den Zeitraum berechnet werden kann.
 
 
 `````{admonition} Durchschnitt von relativen Häufigkeiten
