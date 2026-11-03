@@ -1,4 +1,4 @@
-teachbooks==0.2.3
+teachbooks==0.2.4
 jupyterquiz==2.8.*
 sparqlkernel
 accessible-pygments==0.0.5
@@ -129,7 +129,7 @@ spacy==3.8.11
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 sphinx==7.4.7
-sphinx_apa_references @ git+https://github.com/quadriga-dk/Sphinx-APA-References.git@d80f2b6edb18bb3c4c03507fe3e46e8ed1fd8ec6
+sphinx_apa_references @ git+https://github.com/quadriga-dk/Sphinx-APA-References.git@ecc1f8144c65b8af4f2388d8210750ac0ad805ec
 sphinx-book-theme==1.1.4
 sphinx-comments==0.0.3
 sphinx-copybutton==0.5.2
