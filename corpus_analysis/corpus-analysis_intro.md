@@ -18,15 +18,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Dieses Kapitel verfolgt die folgenden Lernziele:
 
-```{admonition} Frequenzanalysen semantischer Felder
-:class: lernziele
-1. Das Konzept des semantischen Feldes sowie die Berechnung von Häufigkeiten des semantischen Felds auf einem Korpus kann erklärt werden.
-
-2. Der Unterschied zwischen absoluten und relativen Häufigkeiten kann beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms interpretiert werden. 
-
-2. Das Konzept von syntaktischen n-Grams in Bezug auf Adjektiv-Nomen-Paare kann beschrieben und die notwendigen Schritte zur automatischen Extraktion der syntaktischen n-Grams können aufgezählt werden. 
-
-3. Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Korpusanalyse. Semantische Felder und syntaktische N-Gramme -->"
+:end-before: "<!-- END: Korpusanalyse. Semantische Felder und syntaktische N-Gramme -->"
 ```
 
 Nachdem wir im vorherigen Kapitel das Vorgehen der automatischen linguistischen Annotation vorgestellt und unsere beiden Korpora literarischer Texte damit annotiert haben (siehe Kapitel [Korpusverarbeitung – Von Strings zu Token](corpus-processing_intro)), sind alle Vorverarbeitungsschritte durchgeführt und wir wenden uns in diesem Kapitel der Korpusanalyse zu.
