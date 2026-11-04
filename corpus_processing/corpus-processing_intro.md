@@ -19,11 +19,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Dieses Kapitel verfolgt die folgenden Lernziele:
 
-```{admonition} Korpusverarbeitung mit Natural Language Processing
-:class: lernziele
-1. Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing für die Textanalyse beschrieben werden.
-
-2. Die notwendigen Schritte zur automatischen Annotation eines Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren Methoden der Worttrennung genannt werden.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Korpusverarbeitung. Von Strings zu Token -->"
+:end-before: "<!-- END: Korpusverarbeitung. Von Strings zu Token -->"
 ```
 
 Um eine digitale Analyse auszuführen, in diesem Fall die Analyse von Worthäufigkeiten und Kollokationen über Zeit, wird ein über die Zeit gestreutes Korpus benötigt, das im txt-Format (oder einem anderen, computerlesbaren Format) vorliegt. Bevor die Analyse auf dem Korpus ausgeführt werden kann, muss das Korpus mit linguistischen Informationen angereichert werden, etwa um Wörter einer bestimmten Wortart, in diesem Fall Adjektiv-Nomen-Paare, zu identifizieren.  
