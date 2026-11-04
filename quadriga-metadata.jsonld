@@ -13,6 +13,12 @@
   ],
   "name": "Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie",
   "description": "TODO",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23940495",
+    "url": "https://doi.org/10.5281/zenodo.23940495"
+  },
   "version": "1.0.0-beta",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
