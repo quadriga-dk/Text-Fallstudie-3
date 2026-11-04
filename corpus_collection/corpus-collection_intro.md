@@ -19,18 +19,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Dieses Kapitel verfolgt die folgenden Lernziele:
 
-```{admonition} Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
-:class: lernziele
-
-1. Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.
-
-2. Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.
-
-3. Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.
-
-4. Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Korpusaufbau. Auswählen, sammeln, dokumentieren -->"
+:end-before: "<!-- END: Korpusaufbau. Auswählen, sammeln, dokumentieren -->"
 ```
-
 
 Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurden, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) "die deutschsprachige Literatur des 19. Jahrhunderts" untersuchen lässt. 
 

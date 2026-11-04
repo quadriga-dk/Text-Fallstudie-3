@@ -19,11 +19,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Dieses Kapitel verfolgt die folgenden Lernziele:
 
-```{admonition} Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
-:class: lernziele
-1. Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel einer quantitativen Analyse der Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung nachvollzogen und erläutert werden.
-
-2. Der Operationalisierungsprozess kann am Beispiel einer quantitativen Analyse der Reaktion der deutschsprachigen Literatur des 19. Jahrhunderts auf die zunehmende Luftverschmutzung nachvollzogen und auf andere Forschungsfragen übertragen werden.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Fragestellung und Operationalisierung. Einführung in die Fallstudie -->"
+:end-before: "<!-- END: Fragestellung und Operationalisierung. Einführung in die Fallstudie -->"
 ```
 
 Dieses Kapitel bildet den Auftakt der Fallstudie und dient dazu, das Erkenntnisinteresse zu klären, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet. 
