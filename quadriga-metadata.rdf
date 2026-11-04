@@ -2,83 +2,68 @@
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:lrmi="http://purl.org/dcx/lrmi-terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>TODO</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Messung der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und erläutert werden.</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_1">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Der Operationalisierungsprozess kann am Beispiel der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und auf andere Forschungsfragen übertragen werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_2">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_3">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche Forschungsobjekte und kennen Typen von Korpora.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing für die Textanalyse beschrieben werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie sind mit der Idee von Metadaten vertraut und kennen basale Metadatenschemata für Korpora und Korpus-Elemente.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die notwendigen Schritte zur automatischen Annotation eines Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren Methoden der Worttrennung genannt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie kennen unterschiedliche Realisierungsweisen und Formate von Text im Digitalen.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms können interpretiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können die Semantik der textangebenden html-Tags beschreiben und Tags zur Textextraktion auswählen.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Das Konzept von syntaktischen n-Grams in Bezug auf Adjektiv-Nomen-Paare kann beschrieben und die notwendigen Schritte zur automatischen Extraktion der syntaktischen n-Grams können aufgezählt werden.</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_2">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können die Komponenten aufzählen, die an einem HTTP-Request beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500 interpretieren.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die Reichweite der in einer Digital-Humanities-Fallstudie gewonnenen Erkenntnisse für die fachwissenschaftliche Forschung kann eingeschätzt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können verschiedene Methoden der Website-Abfrage aufzählen und Unterschiede identifizieren.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_2">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können Vor- und Nachteile der Methoden erklären und ermitteln, in welchen Szenarien welche Methode geeignet ist.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code zur Extraktion des Website-Texts ausführen.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur Berechnung der Textkomplexität dienen, aufzählen.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität und können die Vor- und Nachteile der Methoden aufzeigen.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_2">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können das Konzept eines Liniendiagramms erklären.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_3">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können die Konzeption der Analyse beschreiben und andere Möglichkeiten des Korpus-Splitting entwerfen.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_4">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Sie können das Konzept eines Balkendiagramms erklären und das erstellte Diagramm interpretieren sowie die Gründe für Ihre Interpretation nennen.</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_0">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.</schema:targetName>
+    <schema:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/">
     <dc:type>Jupyter Book</dc:type>
@@ -187,90 +172,60 @@
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0">
-        <schema:description>TODO</schema:description>
+        <schema:description>Dieses Kapitel bildet den Auftakt der Fallstudie und dient dazu, das Erkenntnisinteresse zu klären, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_0" />
-        <schema:name>Präambel</schema:name>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_1" />
+        <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
         <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/research_question/research-question_intro.html#research-question-intro" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1">
-        <schema:description>TODO</schema:description>
+        <schema:description>Nachdem im vorherigen Kapitel die Fragestellung dieser Fallstudie und deren Operationalisierung erläutert wurden, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein Korpus zusammenstellen müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) „die deutschsprachige Literatur des 19. Jahrhunderts“ untersuchen lässt.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0" />
-        <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
-        <schema:teaches>Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der “Operationalisierung”.</schema:teaches>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_3" />
+        <schema:name>Korpusaufbau. Auswählen, sammeln, dokumentieren</schema:name>
+        <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_collection/corpus-collection_intro.html#corpus-collection-intro" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2">
-        <schema:description>TODO</schema:description>
+        <schema:description>In diesem Kapitel wird konzeptionell in die Methoden der Anreicherung eingeführt (Tokenisierung, Lemmatisierung und POS-Tagging). Dann wird kurz darauf eingegangen, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1" />
-        <schema:name>Korpora als epistemische Objekte</schema:name>
-        <schema:teaches>Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.</schema:teaches>
+        <schema:name>Korpusverarbeitung. Von Strings zu Token</schema:name>
+        <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_processing/corpus-processing_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3">
-        <schema:description>TODO</schema:description>
+        <schema:description>In diesem Kapitel sind wir zu unserer Forschungsfrage und ihrer zweiteiligen Operationalisierung zurückgekehrt und haben zwei Analysen auf unseren beiden Korpora durchgeführt. In der Häufigkeitsanalyse des semantischen Felds „Luft“ haben wir für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme haben wir – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1" />
-        <schema:name>Texte als digitale Objekte. Einführung in HTML</schema:name>
-        <schema:teaches>Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.</schema:teaches>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_2" />
+        <schema:name>Korpusanalyse. Semantische Felder und syntaktische N-Gramme</schema:name>
+        <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_analysis/corpus-analysis_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4">
-        <schema:description>TODO</schema:description>
+        <schema:description>Wir sind in dieser Fallstudie der Frage nachgegangen, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Diese haben wir anhand von zwei quantitativen Analysen untersucht. Erstens haben wir eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“ durchgeführt. Wir haben dabei erwartet, dass Luft über Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Zweitens haben wir untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür haben wir syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Wir sind davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_2" />
-        <schema:name>Scraping als Methode zum Korpusaufbau</schema:name>
-        <schema:teaches>Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und Nachteile benennen.</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html" />
-      </schema:LearningResource>
-    </schema:hasPart>
-    <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5">
-        <schema:description>TODO</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0" />
-        <schema:name>Korpusaufbau</schema:name>
-        <schema:teaches>Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss.</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html" />
-      </schema:LearningResource>
-    </schema:hasPart>
-    <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6">
-        <schema:description>TODO</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_2" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_3" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_4" />
-        <schema:name>Korpusanalyse. Textkomplexität</schema:name>
-        <schema:teaches>Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität erklären und die Ergebnisse interpretieren.</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html" />
-      </schema:LearningResource>
-    </schema:hasPart>
-    <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7">
-        <schema:description>TODO</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_0" />
         <schema:name>Reflexion</schema:name>
         <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/reflection/reflection_reflection.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:identifier>
@@ -299,7 +254,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>2.0.0</schema:schemaVersion>
     <schema:timeRequired>PT10H</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/" />
-    <schema:version>1.0.0-beta</schema:version>
+    <schema:version>1.0.0-beta.1</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Text-Fallstudie-2" />
