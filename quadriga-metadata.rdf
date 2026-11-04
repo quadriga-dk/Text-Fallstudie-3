@@ -179,7 +179,7 @@
         <schema:name>Lamia Islam</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-04</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-17</schema:datePublished>
     <schema:description>TODO</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
@@ -292,7 +292,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>2.0.0</schema:schemaVersion>
     <schema:timeRequired>PT10H</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/" />
-    <schema:version>0.0.1-beta</schema:version>
+    <schema:version>1.0.0-beta</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Text-Fallstudie-2" />
