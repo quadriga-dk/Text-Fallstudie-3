@@ -191,7 +191,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1" />
         <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
-        <schema:teaches>Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der “Operationalisierung”.</schema:teaches>
+        <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/research_question/research-question_intro.html#research-question-intro" />
       </schema:LearningResource>
@@ -204,7 +204,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_3" />
         <schema:name>Korpusaufbau. Auswählen, sammeln, dokumentieren</schema:name>
-        <schema:teaches>Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.</schema:teaches>
+        <schema:teaches>TODO</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_collection/corpus-collection_intro.html#corpus-collection-intro" />
       </schema:LearningResource>
