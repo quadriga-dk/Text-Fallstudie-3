@@ -166,13 +166,13 @@
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-10</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-17</schema:datePublished>
-    <schema:description>Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction wird in dieser Open Educational Resource untersucht, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer N-Gramm-Analysen ausgewertet.</schema:description>
+    <schema:description>Die Open Educational Resource untersucht am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dazu werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mit Frequenz- und syntaktischen N-Gramm-Analysen ausgewertet.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_0">
-        <schema:description>Dieses Kapitel bildet den Auftakt der Fallstudie und dient dazu, das Erkenntnisinteresse zu klären, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.</schema:description>
+        <schema:description>Das Kapitel bildet den Auftakt der Fallstudie und klärt das Erkenntnisinteresse, das die anschließende Vorbereitung und Aufbereitung des Korpus sowie die Analyse leitet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_0_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_0_objective_1" />
         <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
@@ -183,7 +183,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_1">
-        <schema:description>Nachdem im vorherigen Kapitel die Fragestellung dieser Fallstudie und deren Operationalisierung erläutert wurden, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein Korpus zusammenstellen müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) „die deutschsprachige Literatur des 19. Jahrhunderts“ untersuchen lässt.</schema:description>
+        <schema:description>Nachdem im vorherigen Kapitel die Fragestellung und deren Operationalisierung erläutert wurden, wird der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet. Dazu wird ein Korpus zusammengestellt, anhand dessen sich die deutschsprachige Literatur des 19. Jahrhunderts untersuchen lässt.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_1_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_1_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_1_objective_2" />
@@ -196,7 +196,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_2">
-        <schema:description>In diesem Kapitel wird konzeptionell in die Methoden der Anreicherung eingeführt (Tokenisierung, Lemmatisierung und POS-Tagging). Dann wird kurz darauf eingegangen, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.</schema:description>
+        <schema:description>Das Kapitel führt konzeptionell in die Methoden der Anreicherung ein (Tokenisierung, Lemmatisierung und POS-Tagging) und zeigt, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_2_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_2_objective_1" />
         <schema:name>Korpusverarbeitung. Von Strings zu Token</schema:name>
@@ -207,7 +207,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_3">
-        <schema:description>In diesem Kapitel sind wir zu unserer Forschungsfrage und ihrer zweiteiligen Operationalisierung zurückgekehrt und haben zwei Analysen auf unseren beiden Korpora durchgeführt. In der Häufigkeitsanalyse des semantischen Felds „Luft“ haben wir für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme haben wir – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.</schema:description>
+        <schema:description>Das Kapitel greift die Forschungsfrage und ihre zweiteilige Operationalisierung auf. Es werden zwei Analysen auf den beiden Korpora durchgeführt. Die erste Analyse ist eine Häufigkeitsanalyse des semantischen Felds „Luft“, die zweite eine Analyse syntaktischer N-Gramme. In der Häufigkeitsanalyse wird für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme werden – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_3_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_3_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_3_objective_2" />
@@ -219,7 +219,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_4">
-        <schema:description>Wir sind in dieser Fallstudie der Frage nachgegangen, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Diese haben wir anhand von zwei quantitativen Analysen untersucht. Erstens haben wir eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“ durchgeführt. Wir haben dabei erwartet, dass Luft über Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Zweitens haben wir untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür haben wir syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Wir sind davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.</schema:description>
+        <schema:description>Das Kapitel geht der Frage nach, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Dazu werden zwei quantitative Analysen durchgeführt. Zunächst erfolgt eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“. Es wird erwartet, dass Luft über die Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Anschließend wird untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür werden syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Es wird davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_4_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_4_objective_1" />
         <schema:name>Reflexion</schema:name>

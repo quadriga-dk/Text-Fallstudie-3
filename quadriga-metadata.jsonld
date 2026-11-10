@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie",
-  "description": "Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction wird in dieser Open Educational Resource untersucht, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer N-Gramm-Analysen ausgewertet.",
+  "description": "Die Open Educational Resource untersucht am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dazu werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mit Frequenz- und syntaktischen N-Gramm-Analysen ausgewertet.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
@@ -176,7 +176,7 @@
     {
       "@type": "LearningResource",
       "name": "Fragestellung und Operationalisierung. Einführung in die Fallstudie",
-      "description": "Dieses Kapitel bildet den Auftakt der Fallstudie und dient dazu, das Erkenntnisinteresse zu klären, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.",
+      "description": "Das Kapitel bildet den Auftakt der Fallstudie und klärt das Erkenntnisinteresse, das die anschließende Vorbereitung und Aufbereitung des Korpus sowie die Analyse leitet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/research_question/research-question_intro.html#research-question-intro",
       "timeRequired": "PT45M",
       "teaches": "Grundlagen korpusbasierter geisteswissenschaftlicher Forschung",
@@ -198,7 +198,7 @@
     {
       "@type": "LearningResource",
       "name": "Korpusaufbau. Auswählen, sammeln, dokumentieren",
-      "description": "Nachdem im vorherigen Kapitel die Fragestellung dieser Fallstudie und deren Operationalisierung erläutert wurden, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein Korpus zusammenstellen müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) „die deutschsprachige Literatur des 19. Jahrhunderts“ untersuchen lässt.",
+      "description": "Nachdem im vorherigen Kapitel die Fragestellung und deren Operationalisierung erläutert wurden, wird der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet. Dazu wird ein Korpus zusammengestellt, anhand dessen sich die deutschsprachige Literatur des 19. Jahrhunderts untersuchen lässt.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_collection/corpus-collection_intro.html#corpus-collection-intro",
       "timeRequired": "PT3H",
       "teaches": "Ansätze des Korpusaufbaus und Erstellung basaler Metadaten",
@@ -232,7 +232,7 @@
     {
       "@type": "LearningResource",
       "name": "Korpusverarbeitung. Von Strings zu Token",
-      "description": "In diesem Kapitel wird konzeptionell in die Methoden der Anreicherung eingeführt (Tokenisierung, Lemmatisierung und POS-Tagging). Dann wird kurz darauf eingegangen, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.",
+      "description": "Das Kapitel führt konzeptionell in die Methoden der Anreicherung ein (Tokenisierung, Lemmatisierung und POS-Tagging) und zeigt, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_processing/corpus-processing_intro.html",
       "timeRequired": "PT2H",
       "teaches": "Korpusverarbeitung mit Natural Language Processing",
@@ -254,7 +254,7 @@
     {
       "@type": "LearningResource",
       "name": "Korpusanalyse. Semantische Felder und syntaktische N-Gramme",
-      "description": "In diesem Kapitel sind wir zu unserer Forschungsfrage und ihrer zweiteiligen Operationalisierung zurückgekehrt und haben zwei Analysen auf unseren beiden Korpora durchgeführt. In der Häufigkeitsanalyse des semantischen Felds „Luft“ haben wir für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme haben wir – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.",
+      "description": "Das Kapitel greift die Forschungsfrage und ihre zweiteilige Operationalisierung auf. Es werden zwei Analysen auf den beiden Korpora durchgeführt. Die erste Analyse ist eine Häufigkeitsanalyse des semantischen Felds „Luft“, die zweite eine Analyse syntaktischer N-Gramme. In der Häufigkeitsanalyse wird für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme werden – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_analysis/corpus-analysis_intro.html",
       "timeRequired": "PT3H45M",
       "teaches": "Frequenzanalysen semantischer Felder und syntaktischer n-Gramm-Abhängigkeiten",
@@ -282,7 +282,7 @@
     {
       "@type": "LearningResource",
       "name": "Reflexion",
-      "description": "Wir sind in dieser Fallstudie der Frage nachgegangen, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Diese haben wir anhand von zwei quantitativen Analysen untersucht. Erstens haben wir eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“ durchgeführt. Wir haben dabei erwartet, dass Luft über Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Zweitens haben wir untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür haben wir syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Wir sind davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.",
+      "description": "Das Kapitel geht der Frage nach, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Dazu werden zwei quantitative Analysen durchgeführt. Zunächst erfolgt eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“. Es wird erwartet, dass Luft über die Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Anschließend wird untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür werden syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Es wird davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/reflection/reflection_reflection.html",
       "timeRequired": "PT30M",
       "teaches": "Kritische Bewertung der Reichweite und Limitationen",

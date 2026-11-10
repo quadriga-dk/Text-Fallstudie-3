@@ -1,12 +1,11 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie
-abstract: Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus
-  of German-Language Fiction wird in dieser Open Educational Resource untersucht,
-  wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden
-  eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes
-  Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer
-  N-Gramm-Analysen ausgewertet.
+abstract: Die Open Educational Resource untersucht am Beispiel deutschsprachiger Literatur
+  des 19. Jahrhunderts aus dem Corpus of German-Language Fiction, wie literarische
+  Texte die abnehmende Luftqualität diskursivieren. Dazu werden eine Forschungsfrage
+  entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt,
+  mit spaCy annotiert und mit Frequenz- und syntaktischen N-Gramm-Analysen ausgewertet.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
