@@ -1,7 +1,12 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie
-abstract: TODO
+abstract: Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus
+  of German-Language Fiction wird in dieser Open Educational Resource untersucht,
+  wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden
+  eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes
+  Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer
+  N-Gramm-Analysen ausgewertet.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -22,8 +27,8 @@ identifiers:
 - type: doi
   value: 10.5281/zenodo.23940495
   description: Zenodo
-repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
-url: https://quadriga-dk.github.io/Text-Fallstudie-2/
+repository-code: https://github.com/quadriga-dk/Text-Fallstudie-3
+url: https://quadriga-dk.github.io/Text-Fallstudie-3/
 keywords: &id002
 - Open Educational Resources
 license: CC-BY-SA-4.0
@@ -39,8 +44,8 @@ preferred-citation:
   title: Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie
   type: book
   doi: 10.5281/zenodo.23940495
-  url: https://quadriga-dk.github.io/Text-Fallstudie-2/
-  repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
+  url: https://quadriga-dk.github.io/Text-Fallstudie-3/
+  repository-code: https://github.com/quadriga-dk/Text-Fallstudie-3
   license: CC-BY-SA-4.0
   languages:
   - deu

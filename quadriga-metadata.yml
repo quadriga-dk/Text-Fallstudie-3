@@ -15,7 +15,12 @@ authorLIST:
   affiliation: Universität Potsdam
 keywordLIST:
 - Open Educational Resources
-description: Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction wird in dieser Open Educational Resource untersucht, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer N-Gramm-Analysen ausgewertet.
+description: Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem
+  Corpus of German-Language Fiction wird in dieser Open Educational Resource untersucht,
+  wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden
+  eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes
+  Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer
+  N-Gramm-Analysen ausgewertet.
 tableOfContents: '- Einstieg
 
   - Fragestellung und Operationalisierung. Einführung in die Fallstudie
