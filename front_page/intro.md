@@ -17,6 +17,17 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
+`````{margin}
+````{admonition} Zitierhinweis
+:class: citation-information
+```{literalinclude} /CITATION.bib
+:language: bibtex
+```
+Skorinkin, D., Sluyter-Gäthje, H., Trilcke, P. (2026). _Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie. QUADRIGA Open Educational Resources: Text 3._ https://doi.org/10.5281/zenodo.23940495
+
+````
+`````
+
 Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduction_requirements) – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
 
 - wie eine **Forschungsfrage** entwickelt und operationalisiert wird, 
