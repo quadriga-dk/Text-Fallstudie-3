@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "Luftqualität in deutschsprachiger Literatur des 19. Jahrhunderts. Eine Fallstudie",
-  "description": "TODO",
+  "description": "Am Beispiel deutschsprachiger Literatur des 19. Jahrhunderts aus dem Corpus of German-Language Fiction wird in dieser Open Educational Resource untersucht, wie literarische Texte die abnehmende Luftqualität diskursivieren. Dafür werden eine Forschungsfrage entwickelt und operationalisiert, ein zeitlich balanciertes Korpus zusammengestellt, mit spaCy annotiert und mittels Frequenz- sowie syntaktischer N-Gramm-Analysen ausgewertet.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
@@ -21,11 +21,11 @@
   },
   "version": "1.0.0-beta.1",
   "schemaVersion": "2.0.0",
-  "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
+  "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/",
   "workExample": {
     "@type": "SoftwareSourceCode",
     "name": "Source Code Repository",
-    "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-2"
+    "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-3"
   },
   "datePublished": "2024-06-17",
   "dateModified": "2026-11-10",
@@ -178,20 +178,20 @@
       "name": "Fragestellung und Operationalisierung. Einführung in die Fallstudie",
       "description": "Dieses Kapitel bildet den Auftakt der Fallstudie und dient dazu, das Erkenntnisinteresse zu klären, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/research_question/research-question_intro.html#research-question-intro",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
+      "timeRequired": "PT45M",
+      "teaches": "Grundlagen korpusbasierter geisteswissenschaftlicher Forschung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Messung der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Der Operationalisierungsprozess kann am Beispiel der diskursivierten Luftqualität in der Literatur des 19. Jahrhunderts nachvollzogen und auf andere Forschungsfragen übertragen werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         }
       ]
     },
@@ -200,32 +200,32 @@
       "name": "Korpusaufbau. Auswählen, sammeln, dokumentieren",
       "description": "Nachdem im vorherigen Kapitel die Fragestellung dieser Fallstudie und deren Operationalisierung erläutert wurden, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein Korpus zusammenstellen müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) „die deutschsprachige Literatur des 19. Jahrhunderts“ untersuchen lässt.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_collection/corpus-collection_intro.html#corpus-collection-intro",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
+      "timeRequired": "PT3H",
+      "teaches": "Ansätze des Korpusaufbaus und Erstellung basaler Metadaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 4 Analysieren | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
       ]
     },
@@ -234,20 +234,20 @@
       "name": "Korpusverarbeitung. Von Strings zu Token",
       "description": "In diesem Kapitel wird konzeptionell in die Methoden der Anreicherung eingeführt (Tokenisierung, Lemmatisierung und POS-Tagging). Dann wird kurz darauf eingegangen, welche Möglichkeiten die Programmiersprache Python für die Anreicherung bietet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_processing/corpus-processing_intro.html",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
+      "timeRequired": "PT2H",
+      "teaches": "Korpusverarbeitung mit Natural Language Processing",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von Tokenisierung, Lemmatisierung, POS-Tagging und Dependency Parsing für die Textanalyse beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die notwendigen Schritte zur automatischen Annotation eines Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren Methoden der Worttrennung genannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
         }
       ]
     },
@@ -256,26 +256,26 @@
       "name": "Korpusanalyse. Semantische Felder und syntaktische N-Gramme",
       "description": "In diesem Kapitel sind wir zu unserer Forschungsfrage und ihrer zweiteiligen Operationalisierung zurückgekehrt und haben zwei Analysen auf unseren beiden Korpora durchgeführt. In der Häufigkeitsanalyse des semantischen Felds „Luft“ haben wir für jeden Text die relative Häufigkeit luftbezogener Wörter berechnet und ihre Entwicklung als Streudiagramm mit Trend-Linie über die Zeit dargestellt. In der Analyse syntaktischer N-Gramme haben wir – aufbauend auf den Grenzen linearer N-Gramme – mithilfe der Dependenzannotation die Adjektive extrahiert, mit denen „Luft“ näher beschrieben wird, und ihre Entwicklung über die Jahrzehnte betrachtet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/corpus_analysis/corpus-analysis_intro.html",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
+      "timeRequired": "PT3H45M",
+      "teaches": "Frequenzanalysen semantischer Felder und syntaktischer n-Gramm-Abhängigkeiten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Streudiagramms sowie des Liniendiagramms können interpretiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Das Konzept von syntaktischen n-Grams in Bezug auf Adjektiv-Nomen-Paare kann beschrieben und die notwendigen Schritte zur automatischen Extraktion der syntaktischen n-Grams können aufgezählt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Das Konzept einer Trend-Linie kann beschrieben und die aus einem Streudiagramm erzeugte Trend-Linie interpretiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
         }
       ]
     },
@@ -284,25 +284,25 @@
       "name": "Reflexion",
       "description": "Wir sind in dieser Fallstudie der Frage nachgegangen, ob sich in der deutschsprachigen Literatur des 19. Jahrhunderts Reaktionen auf die zunehmende Luftverschmutzung durch die Industrialisierung ausmachen lassen. Diese haben wir anhand von zwei quantitativen Analysen untersucht. Erstens haben wir eine diachrone Häufigkeitsanalyse des semantischen Felds „Luft“ durchgeführt. Wir haben dabei erwartet, dass Luft über Zeit vermehrt thematisiert wird, das heißt, dass die Wörter des semantischen Felds häufiger vorkommen. Zweitens haben wir untersucht, ob sich die Semantisierung von Luft über die Zeit verändert. Dafür haben wir syntaktische N-Grams in Form von Adjektiv-Substantiv-Paaren analysiert, bei denen das Substantiv „Luft“ ist. Wir sind davon ausgegangen, dass sich die Semantisierung verändert und Literatur auf diese Art auf die historischen Gegebenheiten reagiert.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-3/reflection/reflection_reflection.html",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
+      "timeRequired": "PT30M",
+      "teaches": "Kritische Bewertung der Reichweite und Limitationen",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Die Reichweite der in einer Digital-Humanities-Fallstudie gewonnenen Erkenntnisse für die fachwissenschaftliche Forschung kann eingeschätzt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die methodischen Limitationen einer Digital-Humanities-Fallstudie können benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
         }
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpusaufbau. Auswählen, sammeln, dokumentieren\n- Korpusverarbeitung. Von Strings zu Token\n- Korpusanalyse. Semantische Felder und syntaktische N-Gramme\n- Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpusaufbau. Auswählen, sammeln, dokumentieren\n- Korpusverarbeitung. Von Strings zu Token\n- Korpusanalyse. Semantische Felder und syntaktische N-Gramme\n- Reflexion\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",
