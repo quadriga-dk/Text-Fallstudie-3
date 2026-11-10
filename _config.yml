@@ -30,7 +30,6 @@ sphinx:
   config:
     language: de
     locale_dirs: ["_locale/"]
-    bibtex_reference_style: author_year
 
 # Information about where the book exists on the web
 #repository:
