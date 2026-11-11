@@ -224,7 +224,7 @@ Bilddigitalisate (PDF):
 - Bewahren das originale Layout
 - Dienen als Referenz
 - Eignen sich für die Langzeitarchivierung
-- Nachteil: automatische Prozessierung und Verknüpfung zu Plain Text ist nicht möglich
+- Nachteil: automatische Prozessierung und Verknüpfung zu Plain Text sind nicht möglich
 
 Plain Text (nach OCR):
 - Ermöglicht automatische Textanalysen  
@@ -396,7 +396,7 @@ format_questions = [
             {
                 "answer": "CSV",
                 "correct": True,
-                "feedback": "Richtig. Tabellarische Daten in CSV-Format sind sehr speichereffizient für strukturierte Informationen."
+                "feedback": "Richtig. Tabellarische Daten im CSV-Format sind sehr speichereffizient für strukturierte Informationen."
             }
         ]
     }
@@ -856,7 +856,7 @@ quiz.create_matching_quiz(
 :class: solution, dropdown
 **Korrekte Reihenfolge:** 1. Entwicklung des Korpuskonzepts → 2. Dokumentation der Auswahlkriterien → 3. Festlegung der Metadatenstruktur → 4. Test der Sammlungsmethodik → 5. Durchführung der Datensammlung
 
-**Begründung:** Die Erstellung des Konzepts muss an erster Stelle erfolgen. Bevor ein erster Test zur Machbarkeit der Sammlungsmethodik durchgeführt werden kann, müssen die Kriterien zur Auswahl der Daten festgelegt werden sowie eine Struktur, in der die Metadaten gespeichert werden. Wenn erste Tests der Sammlungsmethodik erfolgreich waren, kann die Sammlung der kompletten Daten ausgeführt werden.
+**Begründung:** Die Erstellung des Konzepts muss an erster Stelle erfolgen. Bevor ein erster Test zur Machbarkeit der Sammlungsmethodik durchgeführt werden kann, müssen die Kriterien zur Auswahl der Daten sowie eine Struktur, in der die Metadaten gespeichert werden, festgelegt werden. Wenn erste Tests der Sammlungsmethodik erfolgreich waren, kann die Sammlung der kompletten Daten ausgeführt werden.
 ````
 
 ## Frage 10
