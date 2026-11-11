@@ -43,7 +43,7 @@ Für die Untersuchung der Adjektiv-Nomen-Paare sollen alle Adjektive extrahiert 
 Um diese Analysen durchführen zu können, müssen mehrere Vorverarbeitungsschritte durchgeführt werden:
 Zuerst muss das Korpus mittels **Tokenisierung** in Wörter, sogenannte Token aufgeteilt, werden. Um verschiedene Wortformen auf eine Grundform, ihr Lemma, abzubilden, muss das Korpus **lemmatisiert** werden.
 
-```{admonition} Zum Begriff des Token
+```{admonition} Zum Begriff des Tokens
 :class: hinweis, dropdown
 In der Linguistik wird zwischen einem Wort (Type) und der Verwendung eines Wortes (Token) unterschieden. Der Satz "Die Luft ist gut, die Luft ist rein" hat neun Token (das Komma wird auch als Token gezählt) und 6 Types: "die", "Luft", "ist", "gut", ",", "rein".
 ```
@@ -141,7 +141,7 @@ Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Te
 ```
 `````{admonition} Zum Begriff der Pipeline
 :class: hinweis, dropdown
-Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt PoS-Tagging und die Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird im NLP häufig mit der Metapher einer Pipeline (englisch für „Rohrleitung") beschrieben. Der Begriff ist dabei nicht auf das NLP beschränkt: Auch allgemeine Verarbeitungs-, Analyse- oder Forschungsabläufe werden häufig als Pipeline bezeichnet. 
+Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt PoS-Tagging und die Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird im NLP häufig mit der Metapher einer Pipeline (englisch für „Rohrleitung“) beschrieben. Der Begriff ist dabei nicht auf das NLP beschränkt: Auch allgemeine Verarbeitungs-, Analyse- oder Forschungsabläufe werden häufig als Pipeline bezeichnet. 
 `````
 
 ### NLP mit spaCy 
