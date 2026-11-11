@@ -28,7 +28,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_1_objective_3">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
-    <schema:targetName>Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden.</schema:targetName>
+    <schema:targetName>Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann im Hinblick auf die Forschungsfrage erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-3/#chapter_2_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
