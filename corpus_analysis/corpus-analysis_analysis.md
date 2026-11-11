@@ -28,12 +28,12 @@ Da <a href="https://en.wikipedia.org/wiki/Large_language_model" class="external-
 **Prompt**:
 Du bist eine Digital Humanities-Forscherin mit Expertise im Bereich der Computerlinguistik. Du verfügst über umfassende Kenntnisse im Bereich der Semantik und des Text und Data Mining.
 Bitte erstelle ein semantisches Feld zum Thema "Luft". Die Sprache ist deutsch. 
-Bedingungen für die Wörter des semantischen Feldes sind. 
+Bedingungen für die Wörter des semantischen Feldes sind: 
 * die Wörter sollen Substantive sein;
 * Komposita sind erlaubt;
 * die Wörter sollen sich am historischen Sprachgebrauch des 19. Jahrhunderts orientieren;
 * die Wörter sollen spezifisch für den Kontext "Luft" sein;
-* die Wörter sollen nicht mehrdeutig sein, also nach Möglichkeit nicht in anderen semantischen Kontext vorkommen.
+* die Wörter sollen nicht mehrdeutig sein, also nach Möglichkeit nicht in anderen semantischen Kontexten vorkommen.
 
 Bitte tue dasselbe für "gute Luft" und "schlechte Luft". 
 ```
@@ -121,10 +121,10 @@ Auf einem Streudiagramm lassen sich allerdings nicht sofort Entwicklungen ablese
 :class: hinweis, dropdown
 Das Prinzip lässt sich an einem alltäglichen Beispiel veranschaulichen: Wir befragen mehrere Personen, wie viele Stunden sie für eine Klausur gelernt haben, und tragen für jede Person die Lernzeit (X-Achse) gegen die erreichte Punktzahl (Y-Achse) in ein Streudiagramm ein – jeder Punkt ist eine Person. Die Punkte liegen nicht exakt auf einer Linie (wer gleich lange lernt, erreicht nicht zwingend dieselbe Punktzahl), doch es zeichnet sich ein Muster ab: Mehr Lernzeit geht tendenziell mit einer höheren Punktzahl einher. Die Regressionsgerade ist die eine Linie, die dieses Gesamtmuster am besten zusammenfasst. Ihre Steigung gibt an, wie stark der Zusammenhang ist – hier etwa, um wie viele Punkte das Ergebnis im Schnitt steigt, wenn eine Stunde mehr gelernt wird. Eine steigende Gerade zeigt dabei einen positiven Zusammenhang, eine fallende einen negativen, eine waagerechte keinen.
 
-In unserer Analyse übernimmt das Jahr der Veröffentlichung die Rolle der Lernzeit und die relative Häufigkeit des semantischen Felds „Luft" die Rolle der Punktzahl.
+In unserer Analyse übernimmt das Jahr der Veröffentlichung die Rolle der Lernzeit und die relative Häufigkeit des semantischen Felds „Luft“ die Rolle der Punktzahl.
 `````
 
-In folgendem Beispiel wurden vier Texte aus Korpus I (der ersten unserer beiden Stichproben, siehe [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb)) ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurde.
+In folgendem Beispiel wurden vier Texte aus Korpus I (der ersten unserer beiden Stichproben, siehe [Sampling und Filterung des Korpus](../corpus_collection/corpus-collection_filtering-our-corpus.ipynb)) ausgewählt, für die die relative Häufigkeit und die Trend-Linie errechnet wurden.
 
 `````{admonition} Mindestanzahl an Datenpunkten für eine generalisierbare Interpretation
 :class: caution
