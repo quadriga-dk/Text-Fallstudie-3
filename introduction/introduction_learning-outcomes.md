@@ -24,7 +24,7 @@
 
 3. Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden. <!-- competency: 3.2 Erschließung | bloom: 2 Verstehen -->
 
-4. Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann in Hinblick auf die Forschungsfrage erläutert werden. <!-- competency: 3.2 Erschließung | bloom: 2 Verstehen -->
+4. Der Prozess der Korpusauswahl unter Einbeziehung der Korpusgröße und des abgedeckten Zeitraums kann im Hinblick auf die Forschungsfrage erläutert werden. <!-- competency: 3.2 Erschließung | bloom: 2 Verstehen -->
 
 ```
 <!-- END: Korpusaufbau. Auswählen, sammeln, dokumentieren -->
