@@ -85,10 +85,10 @@ Die Dependenzannotationen sind durch die beschrifteten Bögen in der oberen Bild
 * sb: subject
 * cj: conjunction
 * oa: accusative object
-* sbp: passivized subject 
+* sbp: passivized subject (PP)
 * pd: predicate
 * ag: genitive attribute
-* svp: passivized subject (PP)
+* svp: separable verb prefix
 * mo: modifier
 
 Die Pfeile drücken die Übergeordnetheit eines Wortes in Beziehung zu einem anderen aus, z.B. ist das Wort "Luft" dem Wort "üble" übergeordnet und zwar mit der Beziehung "noun kernel element". Das übergeordnete Wort wird **Kopf** genannt. Die Abbildung zeigt unter dem Satz zusätzlich die POS-Tags, also die Wortarten, die die Grundlage für das Dependency Parsing bilden. Die folgende Tabelle gibt eine Übersicht über die Annotationen, auf denen die Textanalyse aufbaut.
