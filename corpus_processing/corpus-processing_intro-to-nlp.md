@@ -58,7 +58,7 @@ Beispielsatz: Ich roch eine üble, von den Schloten der neuen Fabriken schwer ge
 Schwierigkeit: Das Nomen, das mit geringstem Abstand zu dem Adjektiv "übel" steht, ist "Schlot". Tatsächlich bezieht sich das Adjektiv allerdings auf das Nomen "Luft".
 `````
 
-Es wird deshalb auf eine **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenes Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies`(s.o.), das für die englische Sprache oder das TIGER-Annotationsschema {cite:p}`tiger`, das für Deutsch entwickelt wurde.
+Es wird deshalb auf eine **Dependenzgrammatik** zurückgegriffen, in der "die syntaktische Struktur eines Satzes ausschließlich anhand gerichteter binärer grammatikalischer Beziehungen zwischen den Wörtern beschrieben wird" (vgl. {cite:t}`jurafsky2025`, S. 427). Die grammatikalischen Beziehungen sind durch ein geschlossenes Vokabular beschrieben. In der Linguistik gibt es verschiedene anerkannte Vokabulare, z.B. das Universal Dependencies Annotationsschema {cite:p}`universalDependencies` (s.o.), das für die englische Sprache entwickelt wurde, oder das TIGER-Annotationsschema {cite:p}`tiger`, das für Deutsch entwickelt wurde.
 
 ```{admonition} Unterschiede in den linguistischen Ansätzen zu Dependenzgrammatik
 :class: hinweis, dropdown
