@@ -27,7 +27,7 @@ Auf den ersten Blick wirkt es widersprüchlich, dass eine *zufällige* Auswahl *
 ```{figure} ../assets/images/corpus-collection_sampling_random-vs-biased.svg
 ---
 name: sampling-random-vs-biased
-alt: Links ein Kasten „Grundgesamtheit“ mit vielen gemischten Symbolen für drei Untergattungen. Zwei Pfeile führen zu zwei kleineren Kästen. Der obere, „Zufallsstichprobe“, enthält die drei Untergattungen im gleichen Verhältnis wie die Grundgesamtheit; der untere, „Auswahl nach Vorlieben“, besteht fast nur aus einer Untergattung.
+alt: Links ein Kasten "Grundgesamtheit" mit vielen gemischten Symbolen für drei Untergattungen. Zwei Pfeile führen zu zwei kleineren Kästen. Der obere, "Zufallsstichprobe", enthält die drei Untergattungen im gleichen Verhältnis wie die Grundgesamtheit; der untere, "Auswahl nach Vorlieben", besteht fast nur aus einer Untergattung.
 ---
 Zwei Wege, aus derselben Grundgesamtheit zwölf Romane zu ziehen. Links die Grundgesamtheit, in der drei Untergattungen in einem bestimmten Mischungsverhältnis vorkommen. Oben rechts eine **Zufallsstichprobe**: Sie enthält die drei Untergattungen ungefähr im selben Verhältnis wie die Grundgesamtheit. Unten rechts eine Auswahl "nach Gefühl": Hier dominieren die historischen Romane, weil sie den Auswählenden besser gefallen. Diese Stichprobe ist **verzerrt** – Ergebnisse, die an ihr gewonnen werden, gelten nicht für die Grundgesamtheit.
 ```

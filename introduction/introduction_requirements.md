@@ -5,7 +5,7 @@ Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Se
 
 ```{admonition} "Jupyter Book" und "Jupyter Notebook" – was ist der Unterschied?
 :class: keypoint
-- Ein **"Jupyter Notebook"** ist eine interaktive Seite, die erklärenden Text mit ausführbarem Code und dessen Ergebnissen (z.B. Tabellen oder Grafiken) verbindet – zum Beispiel die Seite [„Korpusverarbeitung – Annotation mit spaCy“](../corpus_processing/corpus-processing_nlp-annotation.ipynb). Solche Notebook-Seiten erkennen Sie in der Menüleiste links an der Rakete (🚀) im Titel.
+- Ein **"Jupyter Notebook"** ist eine interaktive Seite, die erklärenden Text mit ausführbarem Code und dessen Ergebnissen (z.B. Tabellen oder Grafiken) verbindet – zum Beispiel die Seite ["Korpusverarbeitung – Annotation mit spaCy"](../corpus_processing/corpus-processing_nlp-annotation.ipynb). Solche Notebook-Seiten erkennen Sie in der Menüleiste links an der Rakete (🚀) im Titel.
 - Ein **"Jupyter Book"** bündelt alle Notebook-Seiten mit den reinen Textseiten zu einer zusammenhängenden, im Browser lesbaren Website – einer Art Online-Buch. Diese gesamte Fallstudie mit all ihren Kapiteln und Unterkapiteln, die Sie gerade lesen, *ist* ein solches "Jupyter Book".
 ```
 
@@ -16,7 +16,7 @@ Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Se
 
 ```{admonition} Wie führe ich den Code in einem "Jupyter Notebook" aus?
 :class: tip
-Der Code eines "Jupyter Notebooks" ist in einzelne **Code-Zellen** unterteilt, die Sie nacheinander von oben nach unten ausführen. Eine einzelne Zelle starten Sie, indem Sie links neben der Zelle auf das dreieckige **„Play“-Symbol** (▶) klicken. In "Colab" wird dieses Symbol erst sichtbar, wenn Sie die Maus über die Zelle bewegen (oder die Zelle anklicken). Alternativ führen Sie die gerade ausgewählte Zelle mit der Tastenkombination **Umschalt + Eingabe** (`Shift` + `Enter`) aus.
+Der Code eines "Jupyter Notebooks" ist in einzelne **Code-Zellen** unterteilt, die Sie nacheinander von oben nach unten ausführen. Eine einzelne Zelle starten Sie, indem Sie links neben der Zelle auf das dreieckige **"Play"-Symbol** (▶) klicken. In "Colab" wird dieses Symbol erst sichtbar, wenn Sie die Maus über die Zelle bewegen (oder die Zelle anklicken). Alternativ führen Sie die gerade ausgewählte Zelle mit der Tastenkombination **Umschalt + Eingabe** (`Shift` + `Enter`) aus.
 ```
 
 Weitere Hinweise zur Arbeit mit "Jupyter Book", "Jupyter Notebooks" und zur Installation von Anaconda für die Nutzung im "Local Mode" vermitteln die unten verlinkten Tutorials.
