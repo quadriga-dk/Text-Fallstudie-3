@@ -882,6 +882,7 @@ from jupyterquiz import display_quiz
 
 """
 Lernziel: Sie können die Darstellungsmethode Keyword in Context beschreiben und ihre Funktion bei der qualitativen Überprüfung quantitativer Ergebnisse erklären.
+Bloom-Stufe: Verstehen, Analysieren
 Format: Multiple Choice
 """
 

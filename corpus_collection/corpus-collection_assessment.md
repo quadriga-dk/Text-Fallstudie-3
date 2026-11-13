@@ -596,7 +596,7 @@ metadata_questions = [
             {
                 "answer": "Nur auf Korpus-Level",
                 "correct": True,
-                "feedback": """✓ Richtig. In dieser Fallstudie beschreibt "DC.coverage" die zeitliche und räumliche Abdeckung der gesamten Sammlung – im Beispiel des ELTeC-deu-Korpus etwa "1840-1920, Deutschland". Es definiert damit den Rahmen der Sammlung und ist wichtig für die Gesamteinordnung des Korpus. (Grundsätzlich erlaubt Dublin Core das Element auch auf Dokumentebene – in unserem Metadaten-Set kommt es dort aber nicht vor.)"""
+                "feedback": """✓ Richtig. In dieser Fallstudie beschreibt "DC.coverage" die zeitliche und räumliche Abdeckung der gesamten Sammlung – im Beispiel des ELTeC-deu-Korpus etwa "1840–1920, Deutschland". Es definiert damit den Rahmen der Sammlung und ist wichtig für die Gesamteinordnung des Korpus. (Grundsätzlich erlaubt Dublin Core das Element auch auf Dokumentebene – in unserem Metadaten-Set kommt es dort aber nicht vor.)"""
             },
             {
                 "answer": "Nur auf Dokument-Level",
@@ -939,9 +939,9 @@ question11 = [
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": """"DC.coverage: 1840-1920, Deutschland" beschreibt die zeitliche und räumliche Abdeckung des gesamten ELTeC-deu-Korpus""",
+                "answer": """"DC.coverage: 1840–1920, Deutschland" beschreibt die zeitliche und räumliche Abdeckung des gesamten ELTeC-deu-Korpus""",
                 "correct": True,
-                "feedback": """✓ Richtig! "DC.coverage" gibt hier auf Korpus-Level an, welchen Zeitraum (1840-1920) und welchen Raum (Deutschland) die Sammlung abdeckt. Solche Angaben helfen bei der Einschätzung, ob ein Korpus für eine Forschungsfrage geeignet ist – etwa im Hinblick auf die zeitliche Abdeckung des 19. Jahrhunderts."""
+                "feedback": """✓ Richtig! "DC.coverage" gibt hier auf Korpus-Level an, welchen Zeitraum (1840–1920) und welchen Raum (Deutschland) die Sammlung abdeckt. Solche Angaben helfen bei der Einschätzung, ob ein Korpus für eine Forschungsfrage geeignet ist – etwa im Hinblick auf die zeitliche Abdeckung des 19. Jahrhunderts."""
             },
             {
                 "answer": """"DC.identifier: Q1212872" ist ein eindeutiger Identifikator für das Einzeldokument "Die Geier-Wally\"""",

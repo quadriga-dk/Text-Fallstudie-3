@@ -28,7 +28,7 @@ Viel Erfolg!
 
 ## Frage 1
 
-Eine Forschungsfrage im Bereich der Digital Humanities lautet: "Wie entwickelte sich die öffentliche Aufmerksamkeit für Umweltthemen in deutschen Tageszeitungen zwischen 1960-1980?"
+Eine Forschungsfrage im Bereich der Digital Humanities lautet: "Wie entwickelte sich die öffentliche Aufmerksamkeit für Umweltthemen in deutschen Tageszeitungen zwischen 1960–1980?"
 
 (Wählen Sie alle zutreffenden Antworten aus)
 
@@ -42,7 +42,7 @@ from quadriga import colors
 
 question2 = [
     {
-        "question": "Welche der folgenden Operationalisierungen eignen sich, um die öffentliche Aufmerksamkeit für Umweltthemen in deutschen Tageszeitungen zwischen 1960-1980 messbar zu machen? (Mehrere Antworten sind korrekt)",
+        "question": "Welche der folgenden Operationalisierungen eignen sich, um die öffentliche Aufmerksamkeit für Umweltthemen in deutschen Tageszeitungen zwischen 1960–1980 messbar zu machen? (Mehrere Antworten sind korrekt)",
         "type": "multiple_choice",
         "answers": [
             {
@@ -77,7 +77,7 @@ display_quiz(question2, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 2
-Entwickeln Sie eine Operationalisierung für folgende Forschungsfrage: "Wie veränderte sich die Berichterstattung über wissenschaftliche Themen in der Wochenzeitung 'Die Zeit' zwischen 1950-1970?"
+Entwickeln Sie eine Operationalisierung für folgende Forschungsfrage: "Wie veränderte sich die Berichterstattung über wissenschaftliche Themen in der Wochenzeitung 'Die Zeit' zwischen 1950–1970?"
 
 ### Frage 2(a)
 Formulieren Sie zunächst selbst eine mögliche Operationalisierung
@@ -148,7 +148,7 @@ questions = [
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950-1970 konsistent möglich sein. Wichtige Aspekte sind die gleichbleibende Verfügbarkeit der Daten, die Vergleichbarkeit der Messungen über Zeit und die Berücksichtigung möglicher Formatänderungen. Problematisch wären Indikatoren, die nur für Teilzeiträume verfügbar sind, Messungen, die durch Änderungen der Zeitung beeinflusst werden, sowie nicht durchgängig dokumentierte Aspekte."""
+                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950–1970 konsistent möglich sein. Wichtige Aspekte sind die gleichbleibende Verfügbarkeit der Daten, die Vergleichbarkeit der Messungen über Zeit und die Berücksichtigung möglicher Formatänderungen. Problematisch wären Indikatoren, die nur für Teilzeiträume verfügbar sind, Messungen, die durch Änderungen der Zeitung beeinflusst werden, sowie nicht durchgängig dokumentierte Aspekte."""
             }
         ]
     },
