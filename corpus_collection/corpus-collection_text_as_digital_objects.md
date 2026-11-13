@@ -120,7 +120,7 @@ ID,TOKEN,LEMMA,POS
 17,müßte,müssen,AUX
 ```
 
-*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
+*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine fortlaufende ID, dann ein Wort, gefolgt von weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
 
 | ID | TOKEN         | LEMMA         | POS   |
 | -- | ------------- | ------------- | ----- |
@@ -141,7 +141,7 @@ ID,TOKEN,LEMMA,POS
 | 16 | abgeben       | abgeben       | VERB  |
 | 17 | müßte         | müssen        | AUX   |
 
-*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
+*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie OpenOffice oder MS Office auch als Tabellen darstellen*
 
 
 ## Zusammenfassung
