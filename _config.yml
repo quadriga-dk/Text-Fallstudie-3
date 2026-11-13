@@ -28,6 +28,7 @@ sphinx:
   extra_extensions:
     - sphinx_apa_references
   config:
+    smartquotes: true
     language: de
     locale_dirs: ["_locale/"]
 
