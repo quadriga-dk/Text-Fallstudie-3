@@ -38,7 +38,7 @@ In einem ersten Schritt wird in diesem Kapitel die Forschungsfrage formuliert un
 
 
 
-## Bibliographie
+__Bibliographie__
 ```{bibliography}
 :filter: docname in docnames
 ```
